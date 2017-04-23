@@ -14,10 +14,10 @@
     
     <item>
       <title>Raspberry Pi &#43; Arduino &#43; SPI</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-arduino-spi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-arduino-spi/</link>
       <pubDate>Sat, 11 Aug 2012 11:35:53 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-arduino-spi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-arduino-spi/</guid>
       <description>This tutorial will show you how to communicate from your raspberry pi to your arduino using 3-wire SPI.
 Requirements  1 Raspberry pi (running Raspbian)
  1 Arduino

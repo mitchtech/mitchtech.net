@@ -14,10 +14,10 @@
     
     <item>
       <title>MSP430 Launchpad &#43; PWM</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/msp430-launchpad-pwm/</link>
       <pubDate>Mon, 09 Jul 2012 23:06:03 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/msp430-launchpad-pwm/</guid>
       <description>Inspired by this tutorial.
 The following tutorial will describe how perform pulse width modulation using a MSP430g2553 TI Launchpad to control a sparkfun servo motor.
 Prerequisites Please see Cross-Compiling for TI MSP430 Launchpad to setup your development environment.

@@ -14,10 +14,10 @@
     
     <item>
       <title>Easy GUI Install &amp; Re-Partition Raspberry Pi on Ubuntu</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</link>
       <pubDate>Wed, 06 Jun 2012 00:15:42 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</guid>
       <description>Easy Install &amp;amp; Resize the SD Card on the Raspberry Pi on Ubuntu.
 First, open a terminal and install the ImageWriter and GParted utilities with apt-get
 sudo apt-get install usb-imagewriter gparted  Assuming you are starting with a fresh install, download the newest release from the Raspberry Pi download site:

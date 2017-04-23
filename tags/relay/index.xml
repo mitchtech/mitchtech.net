@@ -14,10 +14,10 @@
     
     <item>
       <title>Android &#43; IOIO &#43; Garage Door</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-garage-door/</link>
       <pubDate>Wed, 02 May 2012 04:48:26 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-garage-door/</guid>
       <description>Control your garage door with Android and IOIO.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input

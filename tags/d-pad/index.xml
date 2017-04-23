@@ -14,10 +14,10 @@
     
     <item>
       <title>Android &#43; Arduino &#43; USB Host &#43; D-Pad</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-d-pad/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-d-pad/</link>
       <pubDate>Wed, 02 May 2012 04:34:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-d-pad/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-d-pad/</guid>
       <description>A simple controller for use as an Android directional pad input accessory. The Arduino based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
 Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
@@ -26,10 +26,10 @@ Hardware Parts needed:  Android Device (1.6+)</description>
     
     <item>
       <title>Android &#43; IOIO &#43; D-Pad</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-d-pad/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-d-pad/</link>
       <pubDate>Wed, 02 May 2012 03:50:57 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-d-pad/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-d-pad/</guid>
       <description>A simple controller for use as an Android D-pad (directional pad) input accessory. The IOIO based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>

@@ -14,30 +14,30 @@
     
     <item>
       <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-servo-face-tracker/</link>
       <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-servo-face-tracker/</guid>
       <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
 This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
     </item>
     
     <item>
       <title>Raspberry Pi &#43; PWM RGB LED Strip</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-pwm-rgb-led-strip/</link>
       <pubDate>Tue, 15 Jan 2013 23:29:15 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-pwm-rgb-led-strip/</guid>
       <description>This tutorial demonstrates how to easily use a Raspberry Pi to drive 12V RGB LED strips using Pulse Width Modulation (PWM). Out of the box, the Raspberry Pi has only one GPIO pin that is capable of pulse width modulation (PWM). However, thanks to the efforts of Richard Hirst and his servoblaster kernel module, standard GPIO pins can be used to perform PWM.
 Note: The flashing of the LED strip due to PWM is only noticeable in the uploaded video; in reality, the colors progress smoothly without any visible flashing.</description>
     </item>
     
     <item>
       <title>MSP430 Launchpad &#43; PWM</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/msp430-launchpad-pwm/</link>
       <pubDate>Mon, 09 Jul 2012 23:06:03 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/msp430-launchpad-pwm/</guid>
       <description>Inspired by this tutorial.
 The following tutorial will describe how perform pulse width modulation using a MSP430g2553 TI Launchpad to control a sparkfun servo motor.
 Prerequisites Please see Cross-Compiling for TI MSP430 Launchpad to setup your development environment.
@@ -49,10 +49,10 @@ Hardware  Servo motor
     
     <item>
       <title>Android &#43; IOIO &#43; Window Blinds Control</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-window-blinds-control/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-window-blinds-control/</link>
       <pubDate>Wed, 02 May 2012 04:50:00 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-window-blinds-control/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-window-blinds-control/</guid>
       <description>Demo Android application to control window blinds using IOIO and full rotation servos.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
@@ -62,10 +62,10 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
     
     <item>
       <title>Android &#43; Arduino &#43; USB Host &#43; Pan Tilt LEDs</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-pan-tilt-leds/</link>
       <pubDate>Wed, 02 May 2012 04:40:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-pan-tilt-leds/</guid>
       <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basics for using two servos to achieve basic basic pan and tilt functionality. In addition, digital control is demonstrated using two LEDs.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
 Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
@@ -74,10 +74,10 @@ Hardware Parts needed:  Android Device (1.</description>
     
     <item>
       <title>Android &#43; IOIO &#43; Combination Lock</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-combination-lock/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-combination-lock/</link>
       <pubDate>Wed, 02 May 2012 04:04:15 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-combination-lock/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-combination-lock/</guid>
       <description>A simple combination lock with IOIO and Android. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
@@ -86,10 +86,10 @@ Background on Android development, IOIO, and electronics:</description>
     
     <item>
       <title>Android &#43; IOIO &#43; Software Joystick Servos</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-software-joystick-servos/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-software-joystick-servos/</link>
       <pubDate>Wed, 02 May 2012 04:02:41 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-software-joystick-servos/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-software-joystick-servos/</guid>
       <description>Android and IOIO powered pan and tilt servo bracket controlled by software joystick.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
@@ -99,10 +99,10 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
     
     <item>
       <title>Android &#43; IOIO &#43; Servo Control</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-servo-control/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-servo-control/</link>
       <pubDate>Wed, 02 May 2012 03:52:58 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-servo-control/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-servo-control/</guid>
       <description>A simple dual servo controller for Android. The IOIO based device uses slider bars to control two hobby servos.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
@@ -111,10 +111,10 @@ Background on Android development, IOIO, and electronics:</description>
     
     <item>
       <title>Android &#43; IOIO &#43; Simple Analog Output</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-output/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-output/</link>
       <pubDate>Wed, 02 May 2012 03:37:38 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-output/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-output/</guid>
       <description>Simplest possible analog output with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) analog output device, a controllable RGB LED.
 The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
 Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
@@ -122,10 +122,10 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
     
     <item>
       <title>Android &#43; Arduino &#43; USB Host &#43; Simple Analog Output</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-output/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-output/</link>
       <pubDate>Wed, 02 May 2012 03:09:33 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-output/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-output/</guid>
       <description>Simplest possible analog output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device, a controllable RGB LED. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
 Android Developer’s Guide Getting Started with Arduino Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>

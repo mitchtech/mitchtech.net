@@ -14,10 +14,10 @@
     
     <item>
       <title>Raspberry Pi &#43; PWM RGB LED Strip</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-pwm-rgb-led-strip/</link>
       <pubDate>Tue, 15 Jan 2013 23:29:15 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-pwm-rgb-led-strip/</guid>
       <description>This tutorial demonstrates how to easily use a Raspberry Pi to drive 12V RGB LED strips using Pulse Width Modulation (PWM). Out of the box, the Raspberry Pi has only one GPIO pin that is capable of pulse width modulation (PWM). However, thanks to the efforts of Richard Hirst and his servoblaster kernel module, standard GPIO pins can be used to perform PWM.
 Note: The flashing of the LED strip due to PWM is only noticeable in the uploaded video; in reality, the colors progress smoothly without any visible flashing.</description>
     </item>

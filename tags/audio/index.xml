@@ -14,10 +14,10 @@
     
     <item>
       <title>Raspberry Pi Audio</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-audio/</link>
       <pubDate>Sat, 02 Jun 2012 18:42:33 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-audio/</guid>
       <description>Currently, the audio drivers for the Raspberry Pi are still in beta, and as such come disabled in the standard release (debian6-19-04-2012.zip). Here&amp;rsquo;s a quick way to get it up and running for both the HDMI as well as the analog output. Open up a terminal and install the alsa (Advanced Linux Sound Architecture) utility package:
 sudo apt-get install alsa-utils  Now load the sound driver using modprobe:
 sudo modprobe snd_bcm2835  By default output will be automatic (HDMI if supported, else analog).</description>

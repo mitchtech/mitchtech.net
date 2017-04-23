@@ -14,10 +14,10 @@
     
     <item>
       <title>Raspberry Pi &#43; MSP430 &#43; SPI</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-msp430-spi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-msp430-spi/</link>
       <pubDate>Mon, 13 Aug 2012 15:16:36 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-msp430-spi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-msp430-spi/</guid>
       <description>This tutorial will explain how to communicate from the Raspberry Pi to an MSP430 Launchpad board (M430G2553 chip) using SPI.
 Requirements  1 Raspberry pi (running Raspbian)
  1 MSP430 TI Launchpad

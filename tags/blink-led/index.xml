@@ -14,10 +14,10 @@
     
     <item>
       <title>Cross-Compiling for TI MSP430 Launchpad</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/cross-compiling-for-ti-msp430-launchpad/</link>
       <pubDate>Sat, 23 Jun 2012 13:03:13 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/cross-compiling-for-ti-msp430-launchpad/</guid>
       <description>Inspired by this tutorial.
 We assumes you are running Ubuntu 12.04 and have a TI msp430g2231 but may work for other msp430 devices (see the Other MSP430 Boards section). This tutorial will cover obtaining the dependencies needed to cross-compile a simple light blinking code for your msp430 device, how to flash the cross-compiled binary to your device, and finish with some advice on how-to compile for other msp430 device variations.</description>
     </item>

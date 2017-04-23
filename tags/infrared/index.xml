@@ -14,10 +14,10 @@
     
     <item>
       <title>Android &#43; IOIO &#43; Range Finder</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-range-finder/</link>
       <pubDate>Wed, 02 May 2012 04:25:25 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-range-finder/</guid>
       <description>Ultrasonic and Infrared distance detection with Android and IOIO. This article will demonstrate a basic proximity and ranging accessory for Android over USB (or Bluetooth).
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>

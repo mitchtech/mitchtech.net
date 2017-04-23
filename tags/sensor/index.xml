@@ -14,20 +14,20 @@
     
     <item>
       <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-servo-face-tracker/</link>
       <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-servo-face-tracker/</guid>
       <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
 This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
     </item>
     
     <item>
       <title>Android &#43; IOIO &#43; Garage Door</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-garage-door/</link>
       <pubDate>Wed, 02 May 2012 04:48:26 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-garage-door/</guid>
       <description>Control your garage door with Android and IOIO.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
@@ -37,10 +37,10 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
     
     <item>
       <title>Android &#43; IOIO &#43; Laser Tripwire</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-tripwire/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-laser-tripwire/</link>
       <pubDate>Wed, 02 May 2012 04:44:25 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-tripwire/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-laser-tripwire/</guid>
       <description>Laser tripwire with Android and IOIO. This article will demonstrate a proof of concept laser beam tripwire accessory.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
@@ -49,10 +49,10 @@ Background on Android development, IOIO, and electronics:</description>
     
     <item>
       <title>Android &#43; Arduino &#43; USB Host &#43; Temperature &#43; Light</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-temperature-light/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-temperature-light/</link>
       <pubDate>Wed, 02 May 2012 04:41:37 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-temperature-light/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-temperature-light/</guid>
       <description>Sensing temperature and light with Android and Arduino. This article will demonstrate a basic thermometer / ambient light level detection input accessory.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
 Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
@@ -64,10 +64,10 @@ Hardware Parts needed:  Android Device (1.6+)
     
     <item>
       <title>Android &#43; Arduino &#43; USB Host &#43; Dual Analog Input</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-dual-analog-input/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-dual-analog-input/</link>
       <pubDate>Wed, 02 May 2012 04:32:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-dual-analog-input/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-dual-analog-input/</guid>
       <description>Dual analog input with Android and Arduino. This article will demonstrate a basic dual analog USB input accessory.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
 Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
@@ -80,10 +80,10 @@ Hardware Parts needed:  Android Device (1.6+)
     
     <item>
       <title>Android &#43; Arduino &#43; USB Host &#43; Sensor Graph</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-sensor-graph/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-sensor-graph/</link>
       <pubDate>Wed, 02 May 2012 04:30:29 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-sensor-graph/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-sensor-graph/</guid>
       <description>A simple app to visualize analog sensor input with Android and Arduino.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
 Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
@@ -99,10 +99,10 @@ Hardware Parts needed:  Android Device (1.6+)
     
     <item>
       <title>Android &#43; IOIO &#43; Temperature &#43; Light</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-temperature-light/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-temperature-light/</link>
       <pubDate>Wed, 02 May 2012 04:28:06 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-temperature-light/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-temperature-light/</guid>
       <description>Sensing temperature and light with Android and IOIO. This article will demonstrate a basic thermometer / ambient light level detection input accessory.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
@@ -111,10 +111,10 @@ Background on Android development, IOIO, and electronics:</description>
     
     <item>
       <title>Android &#43; IOIO &#43; Range Finder</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-range-finder/</link>
       <pubDate>Wed, 02 May 2012 04:25:25 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-range-finder/</guid>
       <description>Ultrasonic and Infrared distance detection with Android and IOIO. This article will demonstrate a basic proximity and ranging accessory for Android over USB (or Bluetooth).
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
@@ -122,10 +122,10 @@ Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input And
     
     <item>
       <title>Android &#43; IOIO &#43; Breathalyzer</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-breathalyzer/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-breathalyzer/</link>
       <pubDate>Wed, 02 May 2012 04:12:12 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-breathalyzer/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-breathalyzer/</guid>
       <description>Proof of concept breathalyzer powered by Android and IOIO. This article will demonstrate a basic alcohol gas detection device for Android over USB (or bluetooth).
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
@@ -133,10 +133,10 @@ Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input And
     
     <item>
       <title>Android &#43; IOIO &#43; Sensor Graph</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-sensor-graph/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-sensor-graph/</link>
       <pubDate>Wed, 02 May 2012 03:55:09 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-sensor-graph/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-sensor-graph/</guid>
       <description>A simple app to visualize analog sensor input with Android and IOIO. The example uses a rotary potentiometer, but could easily be used with other sensor inputs such as temperature or ambient light.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
@@ -144,10 +144,10 @@ Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input And
     
     <item>
       <title>Android &#43; IOIO &#43; Dual Analog Input</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-dual-analog-input/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-dual-analog-input/</link>
       <pubDate>Wed, 02 May 2012 03:49:44 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-dual-analog-input/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-dual-analog-input/</guid>
       <description>Dual analog input with Android and IOIO. This article will demonstrate a basic dual analog Android USB (or Bluetooth) analog input device. You guessed it… the Etch-a-Sketch is coming soon!
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
@@ -155,10 +155,10 @@ Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input And
     
     <item>
       <title>Android &#43; IOIO &#43; Simple Analog Input</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-input/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-input/</link>
       <pubDate>Wed, 02 May 2012 03:40:10 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-input/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-input/</guid>
       <description>Simplest possible analog input with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) analog input device.
 The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
 Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
@@ -167,10 +167,10 @@ Hardware Parts needed:  Android Device (1.</description>
     
     <item>
       <title>Android &#43; Arduino &#43; USB Host &#43; Simple Analog Input</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-input/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-input/</link>
       <pubDate>Wed, 02 May 2012 03:13:18 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-input/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-input/</guid>
       <description>Simplest possible analog input with the ADK. This article will discuss the bare minimal requirements for development of a basic USB input accessory. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
 Android Developer’s Guide Getting Started with Arduino Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>

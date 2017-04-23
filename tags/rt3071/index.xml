@@ -14,10 +14,10 @@
     
     <item>
       <title>Ralink/Realtek Wireless Dongle (rt3070) on the Raspberry Pi</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</link>
       <pubDate>Sun, 03 Jun 2012 18:49:22 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</guid>
       <description>[caption id=&amp;ldquo;attachment_608&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;Realtek WiFi dongle&amp;rdquo;][/caption]
 Scenario You have a HAWKING HWUN3 Hi-Gain Wireless Adapter dongle that you want to use on your Raspberry Pi running debian.
 Note: the same set of steps will probably work for other variations of Ralink/Realtek wifi dongles [rt2561,rt2661,rt2860,rt2870,rt3070,rt3071,rt3090].

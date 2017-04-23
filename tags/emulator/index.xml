@@ -14,10 +14,10 @@
     
     <item>
       <title>Raspberry Pi NES Emulator</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-nes-emulator/</link>
       <pubDate>Thu, 14 Jun 2012 23:50:50 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-nes-emulator/</guid>
       <description>This tutorial will demonstrate how to install Nintendo NES/Famicom emulator on the Raspberry Pi running Debian. Begin by installing the necessary dependencies. In a terminal, enter:
 sudo apt-get install scons libsdl1.2-dev libsdl1.2debian-esd subversion libgtk2.0-dev  Checkout the most recent sources using subversion:
 &amp;lt;del&amp;gt;svn checkout https://fceultra.svn.sourceforge.net/svnroot/fceultra/fceu fceultra&amp;lt;/del&amp;gt;  The repo has moved here:

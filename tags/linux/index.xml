@@ -14,97 +14,97 @@
     
     <item>
       <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-servo-face-tracker/</link>
       <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-servo-face-tracker/</guid>
       <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
 This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
     </item>
     
     <item>
       <title>Raspberry Pi Google Talk Robot</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-google-talk-robot/</link>
       <pubDate>Thu, 17 Jan 2013 02:06:48 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-google-talk-robot/</guid>
       <description>Google Talk/Chat/Messenger is normally used by humans to interact with other humans. However, its underlying technology can also be used as a mechanism to implement software robots. Internet bots, also known as web robots, WWW robots or simply &amp;lsquo;bots&amp;rsquo; can also utilize the technology to perform automated functions over the web. There are many such bots in existence, offering a diverse spectrum of services from jokes (jokes@askme.im) to URL Shortening using bit.</description>
     </item>
     
     <item>
       <title>Raspberry Pi &#43; PWM RGB LED Strip</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-pwm-rgb-led-strip/</link>
       <pubDate>Tue, 15 Jan 2013 23:29:15 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-pwm-rgb-led-strip/</guid>
       <description>This tutorial demonstrates how to easily use a Raspberry Pi to drive 12V RGB LED strips using Pulse Width Modulation (PWM). Out of the box, the Raspberry Pi has only one GPIO pin that is capable of pulse width modulation (PWM). However, thanks to the efforts of Richard Hirst and his servoblaster kernel module, standard GPIO pins can be used to perform PWM.
 Note: The flashing of the LED strip due to PWM is only noticeable in the uploaded video; in reality, the colors progress smoothly without any visible flashing.</description>
     </item>
     
     <item>
       <title>Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/connect-raspberry-pi-to-gmail-facebook-twitter-more/</link>
       <pubDate>Fri, 24 Aug 2012 00:20:05 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/connect-raspberry-pi-to-gmail-facebook-twitter-more/</guid>
       <description>Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc.</description>
     </item>
     
     <item>
       <title>Dropbox on Raspberry Pi via SSHFS</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/dropbox-on-raspberry-pi-via-sshfs/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/dropbox-on-raspberry-pi-via-sshfs/</link>
       <pubDate>Tue, 10 Jul 2012 22:54:46 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/dropbox-on-raspberry-pi-via-sshfs/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/dropbox-on-raspberry-pi-via-sshfs/</guid>
       <description>This tutorial will demonstrate how to mount Dropbox (or any filesystem) over the network on the Raspberry Pi using SSHFS (Secure SHell FileSystem). For this procedure to work for your Dropbox share, you will need another machine somewhere that is running Dropbox, and is accessible to the Raspberry Pi via SSH.
 Note: The following is not actually specific to the Raspberry Pi, nor to Dropbox. The tutorial generalizes for other systems and architectures that are not officially supported by Dropbox, as well as for mounting of other non Dropbox shares over the network.</description>
     </item>
     
     <item>
       <title>Peer Guardian on Raspberry Pi</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/peer-guardian-on-raspberry-pi/</link>
       <pubDate>Sun, 08 Jul 2012 22:52:09 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/peer-guardian-on-raspberry-pi/</guid>
       <description>This tutorial will show how to compile and install Peer Guardian on a Raspberry Pi. The process requires the at least the 2012-06-18-wheezy-beta.zip or newer Debian image (or manual kernel re-compilation). This will NOT work with debian6-19-04-2012.zip since the kernel does not have net filtering enabled. Also, you will need a decent sized SD card (4GB at least) &amp;hellip; the dependencies alone require 382 MB.
 First, install the required package dependencies.</description>
     </item>
     
     <item>
       <title>Arduino Physical CPU Gauges</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/arduino-physical-cpu-gauges/</link>
       <pubDate>Tue, 03 Jul 2012 14:46:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/arduino-physical-cpu-gauges/</guid>
       <description>Use Arduino and two hobby servos to control physical servo gauges for cpu activity, memory usage, bandwidth, and more. The script uses the python psutil and pyserial modules. The psutil module provides an interface for retrieving information on all running processes and system utilization (CPU, disk, memory, network) providing service similar to command line tools such as ps, top, iostat, and netstat. The servo control portion of the project is based on Arduino-Python 4-Axis Servo Controlby Brian Wendt, and the Arduino sketch is essentially unmodified from the SerialServoControl Sketch on Sparkfun.</description>
     </item>
     
     <item>
       <title>Raspberry Pi Physical Gmail Notifier</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-physical-gmail-notifier/</link>
       <pubDate>Fri, 29 Jun 2012 04:20:47 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-physical-gmail-notifier/</guid>
       <description>This tutorial will demonstrate how to easily turn your Raspberry Pi into a physical Gmail notifier, in only 10 lines of python! If the configured Gmail account has unread messages, the LED will be illuminated, otherwise dim. The project was inspired by the Arduino/Mac version by J4mie adapted for use on the Raspberry Pi.
 Here is a diagram of the wiring of the LED with a 330 ohm resistor in series (created with Fritzing):</description>
     </item>
     
     <item>
       <title>Arduino USB HID Keyboard</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/arduino-usb-hid-keyboard/</link>
       <pubDate>Sun, 24 Jun 2012 15:09:36 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/arduino-usb-hid-keyboard/</guid>
       <description>Turn your Arduino UNO into a USB HID keyboard, and make buttons that do whatever you want. Make it a useful tool, with new buttons for Cut/Copy/Paste or Volume+/Volume-/Mute, or annoy your friends and colleagues by setting the keyboard to perform random keypress after random delays!
   The USB HID keyboard conforms to the standard USB specification, so is functional on all modern operating systems. All this is made possible by the use of the Arduino Device Firmware Update (DFU) function.</description>
     </item>
     
     <item>
       <title>Arduino on Raspberry Pi</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-on-raspberry-pi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/arduino-on-raspberry-pi/</link>
       <pubDate>Fri, 15 Jun 2012 00:00:55 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-on-raspberry-pi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/arduino-on-raspberry-pi/</guid>
       <description>Connecting an Arduino to a Raspberry Pi is simple. In a terminal, install the Arduino IDE:
 sudo apt-get install arduino  This will take a while to download and install all of the dependencies. Once completed, you can start the IDE from the terminal:
 arduino  Or, from the LXDE menu, Electronics-&amp;gt;Arduino IDE. Note: This is IDE version 0018, and does not seem to recognize boards newer then the Duemilanove.</description>
@@ -112,10 +112,10 @@ arduino  Or, from the LXDE menu, Electronics-&amp;gt;Arduino IDE. Note: This is 
     
     <item>
       <title>Raspberry Pi NES Emulator</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-nes-emulator/</link>
       <pubDate>Thu, 14 Jun 2012 23:50:50 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-nes-emulator/</guid>
       <description>This tutorial will demonstrate how to install Nintendo NES/Famicom emulator on the Raspberry Pi running Debian. Begin by installing the necessary dependencies. In a terminal, enter:
 sudo apt-get install scons libsdl1.2-dev libsdl1.2debian-esd subversion libgtk2.0-dev  Checkout the most recent sources using subversion:
 &amp;lt;del&amp;gt;svn checkout https://fceultra.svn.sourceforge.net/svnroot/fceultra/fceu fceultra&amp;lt;/del&amp;gt;  The repo has moved here:
@@ -125,29 +125,29 @@ cd fceultra/  Compile and install FCEU using the scons build tool:</description>
     
     <item>
       <title>Raspberry Pi &#43; OpenCV</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-opencv/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/</link>
       <pubDate>Thu, 14 Jun 2012 23:41:41 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-opencv/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/</guid>
       <description>OpenCV is a suite of powerful computer vision tools. Here is a quick overview of how I installed OpenCV on my Raspberry Pi with debian6-19-04-2012. The guide is based on the official OpenCV Installation Guide on Debian and Ubuntu. Before you begin, make sure you have expanded your SD card to allow for the install of OpenCV. Its a big package with lots of dependencies. You can follow my instructions here.</description>
     </item>
     
     <item>
       <title>Raspberry Pi Root FS on USB Drive</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-root-fs-on-usb-drive/</link>
       <pubDate>Thu, 14 Jun 2012 00:49:07 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-root-fs-on-usb-drive/</guid>
       <description>This tutorial will demonstrate how to install the Debian root filestem (ie. &amp;lsquo;/&amp;rsquo;) on a USB drive instead of the SD card. The SD card still retains the /boot partion and swap space. This requires a modified kernel to support the USB storage. You can download the minimal modified kernel and modules here or follow my guide on how to compile it for yourself.
 In either case, begin by installing the Debian image as you normally would to an SD card.</description>
     </item>
     
     <item>
       <title>Raspberry Pi Kernel Compile</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-kernel-compile/</link>
       <pubDate>Fri, 08 Jun 2012 04:51:00 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-kernel-compile/</guid>
       <description>This tutorial will demonstrate how to cross compile the kernel for the Raspberry Pi on Ubuntu 12.04 LTS. The kernel is functional with both the Debian and Arch Linux Raspberry Pi images.
 UPDATE: Alternatively, you can use the following Ansible playbook playbook-raspi_kernel_crosscompile. Note that you have to edit host_vars/localhost.yml file with your local sudo password.
  git clone https://github.com/chrismeyersfsu/playbook-raspi_kernel_crosscompile ansible-playbook -i localhost.yml site.yml -vvvv  First, install the package dependencies, git and the cross-compilation toolchain:</description>
@@ -155,10 +155,10 @@ UPDATE: Alternatively, you can use the following Ansible playbook playbook-raspi
     
     <item>
       <title>Wordpress on Raspberry Pi</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/wordpress-on-raspberry-pi/</link>
       <pubDate>Fri, 08 Jun 2012 04:29:14 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/wordpress-on-raspberry-pi/</guid>
       <description>This tutorial will demonstrate how to install and host Wordpress on Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup.
 Install Apache Wordpress runs on the Apache2 web server. To setup Apache, follow the instructions in my previous post, Raspberry Pi and Apache.
 Install MySQL and PHP Begin by installing the required dependencies. From a terminal:</description>
@@ -166,20 +166,20 @@ Install MySQL and PHP Begin by installing the required dependencies. From a term
     
     <item>
       <title>Raspberry Pi &#43; Apache</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-apache/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-apache/</link>
       <pubDate>Fri, 08 Jun 2012 04:03:32 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-apache/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-apache/</guid>
       <description>Its quite easy to install the Apache web server on the Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup. Open a terminal (or login via SSH) and install the package with apt-get:
 sudo apt-get install apache2  UPDATE: 9/18/12: The following group creation error appears to have been corrected in an updated package and should no longer be necessary.</description>
     </item>
     
     <item>
       <title>Easy GUI Install &amp; Re-Partition Raspberry Pi on Ubuntu</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</link>
       <pubDate>Wed, 06 Jun 2012 00:15:42 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</guid>
       <description>Easy Install &amp;amp; Resize the SD Card on the Raspberry Pi on Ubuntu.
 First, open a terminal and install the ImageWriter and GParted utilities with apt-get
 sudo apt-get install usb-imagewriter gparted  Assuming you are starting with a fresh install, download the newest release from the Raspberry Pi download site:
@@ -189,10 +189,10 @@ imagewriter  Select the desired .img file and target device, in this case, debia
     
     <item>
       <title>Ralink/Realtek Wireless Dongle (rt3070) on the Raspberry Pi</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</link>
       <pubDate>Sun, 03 Jun 2012 18:49:22 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</guid>
       <description>[caption id=&amp;ldquo;attachment_608&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;Realtek WiFi dongle&amp;rdquo;][/caption]
 Scenario You have a HAWKING HWUN3 Hi-Gain Wireless Adapter dongle that you want to use on your Raspberry Pi running debian.
 Note: the same set of steps will probably work for other variations of Ralink/Realtek wifi dongles [rt2561,rt2661,rt2860,rt2870,rt3070,rt3071,rt3090].
@@ -201,10 +201,10 @@ The Problem The standard release (debian6-19-04-2012.zip) contains the needed dr
     
     <item>
       <title>Raspberry Pi Audio</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-audio/</link>
       <pubDate>Sat, 02 Jun 2012 18:42:33 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-audio/</guid>
       <description>Currently, the audio drivers for the Raspberry Pi are still in beta, and as such come disabled in the standard release (debian6-19-04-2012.zip). Here&amp;rsquo;s a quick way to get it up and running for both the HDMI as well as the analog output. Open up a terminal and install the alsa (Advanced Linux Sound Architecture) utility package:
 sudo apt-get install alsa-utils  Now load the sound driver using modprobe:
 sudo modprobe snd_bcm2835  By default output will be automatic (HDMI if supported, else analog).</description>
@@ -212,39 +212,39 @@ sudo modprobe snd_bcm2835  By default output will be automatic (HDMI if supporte
     
     <item>
       <title>Install Quake 3 on Raspberry Pi</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/install-quake-3-on-raspberry-pi/</link>
       <pubDate>Sat, 02 Jun 2012 18:17:37 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/install-quake-3-on-raspberry-pi/</guid>
       <description>Here is the easiest possible way to install Quake 3 on the Raspberry Pi with debian6-19-04-2012. Just copy and paste the following in a terminal on the Pi:
 cd ~ wget http://radium.hexxeh.net/quake3.zip wget http://www.andershizzle.com/Q3%20Demo%20Paks.zip unzip quake3.zip unzip Q3\ Demo\ Paks.zip rm quake3.zip rm Q3\ Demo\ Paks.zip mv ./baseq3/pak* ./quake3/baseq3/ rm -rf ./baseq3/ chmod +x /home/pi/quake3/start.sh chmod +x /home/pi/quake3/ioquake3.arm chmod +x /home/pi/quake3/ioq3ded.arm  Note: After reports of connection issues with the downloads, I have hosted mirror versions of the two files here:</description>
     </item>
     
     <item>
       <title>VNC setup on Raspberry Pi from Android</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-android/</link>
       <pubDate>Sat, 02 Jun 2012 18:17:32 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-android/</guid>
       <description>This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Android. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup. It also assumes that you have a display connected to the Raspberry Pi. If you don&amp;rsquo;t have a display available, the steps to configure VNC remotely are outlined in my last tutorial: VNC setup on Raspberry Pi from Ubuntu</description>
     </item>
     
     <item>
       <title>VNC setup on Raspberry Pi from Ubuntu</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-ubuntu/</link>
       <pubDate>Sat, 02 Jun 2012 18:02:48 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-ubuntu/</guid>
       <description>This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Ubuntu. This process is easier if you have a display connected to the Raspberry Pi, but will also show the steps to connect with only Ethernet and power connected. It assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup
 Getting the IP address of the Raspberry Pi The first step is to locate the Raspberry Pi on your network.</description>
     </item>
     
     <item>
       <title>Common Kernel Errors &amp; Debugging Tips</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/common-kernel-errors-debugging-tips/</link>
       <pubDate>Sat, 19 May 2012 17:51:22 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/common-kernel-errors-debugging-tips/</guid>
       <description>Kernel Errors The following are some typical errors. Some of these may be caught at compilation or link time, and some may only cause problems when you call insmod with the module.
  division by zero
  dereferencing a null pointer
@@ -255,58 +255,58 @@ Getting the IP address of the Raspberry Pi The first step is to locate the Raspb
     
     <item>
       <title>Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed)</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</link>
       <pubDate>Sat, 19 May 2012 17:42:20 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</guid>
       <description>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &amp;lsquo;make&amp;rsquo; and &amp;lsquo;make install&amp;rsquo; as well as the Debian method, using &amp;lsquo;make-dpkg&amp;rsquo;. This is the detailed version of this tutorial, see Compile Linux Kernel on Ubuntu 12.04 LTS for the quick overview. In any case, we begin by installing some dependencies:
 sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &amp;lsquo;make xconfig&amp;rsquo; and libncurses5 and libncurses5-dev if you plan to use &amp;lsquo;make menuconfig&amp;rsquo;.</description>
     </item>
     
     <item>
       <title>Compile Linux Kernel on Ubuntu 12.04 LTS</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-ubuntu-12-04-lts/</link>
       <pubDate>Sat, 19 May 2012 17:39:47 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-ubuntu-12-04-lts/</guid>
       <description>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &amp;lsquo;make&amp;rsquo; and &amp;lsquo;make install&amp;rsquo; as well as the Debian method, using &amp;lsquo;make-dpkg&amp;rsquo;. This is a quick overview of the compilation process, for a more thourough walkthrough, see Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed). In both cases, we begin by installing some dependencies:
 sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &amp;lsquo;make xconfig&amp;rsquo; and libncurses5 and libncurses5-dev if you plan to use &amp;lsquo;make menuconfig&amp;rsquo;.</description>
     </item>
     
     <item>
       <title>Compile Cyanogenmod 9 for Galaxy Nexus </title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/compile-cyanogenmod-9-for-galaxy-nexus/</link>
       <pubDate>Wed, 16 May 2012 23:39:35 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/compile-cyanogenmod-9-for-galaxy-nexus/</guid>
       <description>This tutorial will outline the process to compile Cyanogenmod 9 for the Verizon (LTE) Galaxy Nexus (aka toro, a variant of the tuna) on Ubuntu 12.04 LTS. This process has changed a bit over time, notably with new hassles to configure the Oracle Java JDK. While the tutorial is specific to the Galaxy Nexus, it generalizes to most devices supported by Cyanogenmod 9. First, install and configure the Android SDK (more thorough info here):</description>
     </item>
     
     <item>
       <title>OpenCV &#43; Python</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/opencv-python/</link>
       <pubDate>Wed, 02 May 2012 15:58:13 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/opencv-python/</guid>
       <description>Here are some of the more interesting OpenCV demos using the Python wrapper. The installation process on Ubuntu is covered in my previous post, OpenCV + Ubuntu. The demo scripts are located in samples/python within the OpenCV release.
 The cam shift sample below demonstrates the color/object detection capability of OpenCV. To set the object/color to track, click and drag a box on the video using the mouse. The histogram window will display the target for OpenCV to locate and track within the field of view.</description>
     </item>
     
     <item>
       <title>OpenCV &#43; Ubuntu</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/opencv-ubuntu/</link>
       <pubDate>Wed, 02 May 2012 15:52:18 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/opencv-ubuntu/</guid>
       <description>Building OpenCV 2.3.1 from source on Ubuntu 12.04 x64. Here is an overview of the compilation of OpenCV with x264 and ffmpeg builtin. If you have completed my Kinect + OpenNI + PrimeSensetutorial, this will also support the OpenNI and PrimeSense drivers with OpenCV. This is largely based on the wonderful OpenCV tutorials from Sebastian Montabone and Osman Eralp. Before you start, make sure to have removed ffmpeg and x264 (if applicable):</description>
     </item>
     
     <item>
       <title>Google Earth &#43; Mult-axis Controller</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/mult-axis-google-earth-controller/</link>
       <pubDate>Wed, 02 May 2012 15:45:46 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/mult-axis-google-earth-controller/</guid>
       <description>Six degree of freedom control for Google Earth using the 3Dconnexion SpaceNavigator on Ubuntu Linux. Based on directions from here: http://code.google.com/p/liquid-galaxy/wiki/LinuxSpaceNavigator
 First, install the necessary package dependencies:
 sudo apt-get install xinput xserver-xorg-input-joystick  Next we add a udev rule to automatically recognize the Space Navigator based on its vendor/product ids and create a symlink at /dev/input/spacenavigator. Create the following file as root:
@@ -315,10 +315,10 @@ sudo gedit /etc/udev/rules.d/90-spacenavigator.rules  and add the following line
     
     <item>
       <title>Android &#43; BackTrack Chroot</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-backtrack-chroot/</link>
       <pubDate>Wed, 02 May 2012 14:31:40 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-backtrack-chroot/</guid>
       <description>The following tutorial will demonstrate how to run Backtrack Linux in an Android chroot environment. It should work on most Android devices that support at least ARMv7 architecture or newer.
 Download BackTrack ARM edition http://www.backtrack-linux.org/downloads/
 You can download via torrent or direct, the rest of the settings should look like this:
@@ -327,20 +327,20 @@ Image Name: BT5-GNOME-ARM [.torrent | .7z] Size (MB): 1060 Desktop: GNOME Archit
     
     <item>
       <title>Android &#43; Linux Chroot &#43; Common Problems</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/running-linux-on-android-common-problems/</link>
       <pubDate>Wed, 02 May 2012 13:55:10 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/running-linux-on-android-common-problems/</guid>
       <description>Corrupted Filesystem Problem: ext2 Distribution Image Explanation: If you formated the distribution partition as ext2 then chances are you will have a filesystem corruption. The trouble is fsck doesn’t come with busybox and it’s hard to run fsck on your root filesytem while mounted. The solution is to mount the distribution image from another linux machine and run fsck. Solution:
 Disable USB debugging on your phone. Plug your phone into a linux box.</description>
     </item>
     
     <item>
       <title>Android &#43; Linux Chroot &#43; Node.js</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/node-js-on-android-linux/</link>
       <pubDate>Wed, 02 May 2012 13:53:58 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/node-js-on-android-linux/</guid>
       <description>This article will walk you through how to compile, from source, node.js on Android. After installing node.js on about 4 different devices (Thunderbolt, Incredible, two G1’s, Galaxy S) I decided to compile this tutorial.
 Prerequisites  Android running Debian in a chroot(ed) environment.
  Environment contains the necessary path(s)
@@ -349,10 +349,10 @@ Prerequisites  Android running Debian in a chroot(ed) environment.
     
     <item>
       <title>Android &#43; Ubuntu Chroot</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/android-ubuntu-chroot/</link>
       <pubDate>Wed, 02 May 2012 13:52:29 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/android-ubuntu-chroot/</guid>
       <description>Here is a quick overview of the process to create a Ubuntu system image that is bootable with Android chroot. It uses the rootstock utility to setup the initial image, including release version, username/password, image size, as well as to seed the desired packages to be pre-installed with the distro. For complete options with rootstock, consult the man pages.
 Quickstart:
 mkdir ubuntu cd ubuntu sudo rootstock \ --fqdn ubuntu \ --login ubuntu \ --password ubuntu \ --imagesize 4G \ --dist maverick \ --seed linux-image-omap,build-essential,mysql-server,tightvncserver,lxde,\ mysql-server-core-5.</description>
@@ -360,10 +360,10 @@ mkdir ubuntu cd ubuntu sudo rootstock \ --fqdn ubuntu \ --login ubuntu \ --passw
     
     <item>
       <title>Ubuntu &#43; Kinect &#43; OpenNI &#43; PrimeSense</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-kinect-openni-primesense/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/ubuntu-kinect-openni-primesense/</link>
       <pubDate>Wed, 02 May 2012 05:15:31 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-kinect-openni-primesense/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/ubuntu-kinect-openni-primesense/</guid>
       <description>Getting the OpenNI and PrimeSense drivers working on Ubuntu Here’s an overview of the process to get the OpenNI and PrimeSense drivers working with the Kinect and Ubuntu. Begin by installing some dependencies:
 sudo apt-get install git-core cmake freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev libusb-1.0-0-dev doxygen graphviz mono-complete  Make a directory to store the build, then clone the OpenNI source from Github.
 mkdir ~/kinect cd ~/kinect git clone https://github.</description>
@@ -371,20 +371,20 @@ mkdir ~/kinect cd ~/kinect git clone https://github.</description>
     
     <item>
       <title>Ubuntu &#43; OpenKinect &#43; Mouse Control</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect-mouse-control/</link>
       <pubDate>Wed, 02 May 2012 05:12:13 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect-mouse-control/</guid>
       <description>Mouse control with OpenKinect on Ubuntu Linux Here is a quick tutorial to get use your hand as a mouse in a Minority Report-esque interface using the Kinect and Ubuntu. Credit to Ooblik (Tim Flaman) for the awesome project. Before you begin, ensure that you have installed the OpenKinect drivers and they are functioning correctly.
 Quickstart sudo apt-get install libncurses5-dev freeglut3-dev libX11-dev libxtst-dev libxmu-dev cmake git git clone https://github.</description>
     </item>
     
     <item>
       <title>Ubuntu &#43; OpenKinect</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect/</link>
       <pubDate>Wed, 02 May 2012 05:08:22 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect/</guid>
       <description>Getting started with OpenKinect on Ubuntu Linux There are two ways you can get OpenKinect (freenect) working on Ubuntu: either by installing the prebuilt PPA package, or compiling from source. I’ve confirmed at both of these methods are functional, the package based method is slightly more straightforward, and allows updates from the apt package manager. This article will demonstrate installation via this method, for details on the manual compilation method, check out the official OpenKinect Getting Started Guide</description>
     </item>
     

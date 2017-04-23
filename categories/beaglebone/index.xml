@@ -14,10 +14,10 @@
     
     <item>
       <title>Beaglebone &#43; Ubuntu</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/beaglebone-ubuntu/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/beaglebone-ubuntu/</link>
       <pubDate>Sun, 30 Jun 2013 18:15:51 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/beaglebone-ubuntu/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/beaglebone-ubuntu/</guid>
       <description>We can install Ubuntu 2-ways:
  To the external SDCARD To the internal MMC  Installing to the internal MMC requires an SDCARD to install, but the sdcard is not required after that. The process is mostly the same. The MMC setup vs. the SDCARD setup depends on which image you download.
 Installing Ubuntu  MMC: Download the latest file of the form BBB-eMMC-flasher-ubuntu-xx.xx-xxxx-xx-xx.img.xz

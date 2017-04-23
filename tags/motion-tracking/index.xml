@@ -14,29 +14,29 @@
     
     <item>
       <title>Raspberry Pi &#43; OpenCV</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-opencv/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/</link>
       <pubDate>Thu, 14 Jun 2012 23:41:41 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-opencv/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/</guid>
       <description>OpenCV is a suite of powerful computer vision tools. Here is a quick overview of how I installed OpenCV on my Raspberry Pi with debian6-19-04-2012. The guide is based on the official OpenCV Installation Guide on Debian and Ubuntu. Before you begin, make sure you have expanded your SD card to allow for the install of OpenCV. Its a big package with lots of dependencies. You can follow my instructions here.</description>
     </item>
     
     <item>
       <title>OpenCV &#43; Python</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/opencv-python/</link>
       <pubDate>Wed, 02 May 2012 15:58:13 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/opencv-python/</guid>
       <description>Here are some of the more interesting OpenCV demos using the Python wrapper. The installation process on Ubuntu is covered in my previous post, OpenCV + Ubuntu. The demo scripts are located in samples/python within the OpenCV release.
 The cam shift sample below demonstrates the color/object detection capability of OpenCV. To set the object/color to track, click and drag a box on the video using the mouse. The histogram window will display the target for OpenCV to locate and track within the field of view.</description>
     </item>
     
     <item>
       <title>OpenCV &#43; Ubuntu</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/opencv-ubuntu/</link>
       <pubDate>Wed, 02 May 2012 15:52:18 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/opencv-ubuntu/</guid>
       <description>Building OpenCV 2.3.1 from source on Ubuntu 12.04 x64. Here is an overview of the compilation of OpenCV with x264 and ffmpeg builtin. If you have completed my Kinect + OpenNI + PrimeSensetutorial, this will also support the OpenNI and PrimeSense drivers with OpenCV. This is largely based on the wonderful OpenCV tutorials from Sebastian Montabone and Osman Eralp. Before you start, make sure to have removed ffmpeg and x264 (if applicable):</description>
     </item>
     

@@ -14,10 +14,10 @@
     
     <item>
       <title>Raspberry Pi Google Talk Robot</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-google-talk-robot/</link>
       <pubDate>Thu, 17 Jan 2013 02:06:48 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-google-talk-robot/</guid>
       <description>Google Talk/Chat/Messenger is normally used by humans to interact with other humans. However, its underlying technology can also be used as a mechanism to implement software robots. Internet bots, also known as web robots, WWW robots or simply &amp;lsquo;bots&amp;rsquo; can also utilize the technology to perform automated functions over the web. There are many such bots in existence, offering a diverse spectrum of services from jokes (jokes@askme.im) to URL Shortening using bit.</description>
     </item>
     

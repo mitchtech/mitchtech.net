@@ -14,29 +14,29 @@
     
     <item>
       <title>Arduino Physical CPU Gauges</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/arduino-physical-cpu-gauges/</link>
       <pubDate>Tue, 03 Jul 2012 14:46:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/arduino-physical-cpu-gauges/</guid>
       <description>Use Arduino and two hobby servos to control physical servo gauges for cpu activity, memory usage, bandwidth, and more. The script uses the python psutil and pyserial modules. The psutil module provides an interface for retrieving information on all running processes and system utilization (CPU, disk, memory, network) providing service similar to command line tools such as ps, top, iostat, and netstat. The servo control portion of the project is based on Arduino-Python 4-Axis Servo Controlby Brian Wendt, and the Arduino sketch is essentially unmodified from the SerialServoControl Sketch on Sparkfun.</description>
     </item>
     
     <item>
       <title>Arduino USB HID Keyboard</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/arduino-usb-hid-keyboard/</link>
       <pubDate>Sun, 24 Jun 2012 15:09:36 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/arduino-usb-hid-keyboard/</guid>
       <description>Turn your Arduino UNO into a USB HID keyboard, and make buttons that do whatever you want. Make it a useful tool, with new buttons for Cut/Copy/Paste or Volume+/Volume-/Mute, or annoy your friends and colleagues by setting the keyboard to perform random keypress after random delays!
   The USB HID keyboard conforms to the standard USB specification, so is functional on all modern operating systems. All this is made possible by the use of the Arduino Device Firmware Update (DFU) function.</description>
     </item>
     
     <item>
       <title>Raspberry Pi NES Emulator</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-nes-emulator/</link>
       <pubDate>Thu, 14 Jun 2012 23:50:50 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-nes-emulator/</guid>
       <description>This tutorial will demonstrate how to install Nintendo NES/Famicom emulator on the Raspberry Pi running Debian. Begin by installing the necessary dependencies. In a terminal, enter:
 sudo apt-get install scons libsdl1.2-dev libsdl1.2debian-esd subversion libgtk2.0-dev  Checkout the most recent sources using subversion:
 &amp;lt;del&amp;gt;svn checkout https://fceultra.svn.sourceforge.net/svnroot/fceultra/fceu fceultra&amp;lt;/del&amp;gt;  The repo has moved here:
@@ -46,10 +46,10 @@ cd fceultra/  Compile and install FCEU using the scons build tool:</description>
     
     <item>
       <title>Raspberry Pi Root FS on USB Drive</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-root-fs-on-usb-drive/</link>
       <pubDate>Thu, 14 Jun 2012 00:49:07 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-root-fs-on-usb-drive/</guid>
       <description>This tutorial will demonstrate how to install the Debian root filestem (ie. &amp;lsquo;/&amp;rsquo;) on a USB drive instead of the SD card. The SD card still retains the /boot partion and swap space. This requires a modified kernel to support the USB storage. You can download the minimal modified kernel and modules here or follow my guide on how to compile it for yourself.
 In either case, begin by installing the Debian image as you normally would to an SD card.</description>
     </item>

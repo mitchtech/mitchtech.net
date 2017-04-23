@@ -14,10 +14,10 @@
     
     <item>
       <title>Peer Guardian on Raspberry Pi</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/peer-guardian-on-raspberry-pi/</link>
       <pubDate>Sun, 08 Jul 2012 22:52:09 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/peer-guardian-on-raspberry-pi/</guid>
       <description>This tutorial will show how to compile and install Peer Guardian on a Raspberry Pi. The process requires the at least the 2012-06-18-wheezy-beta.zip or newer Debian image (or manual kernel re-compilation). This will NOT work with debian6-19-04-2012.zip since the kernel does not have net filtering enabled. Also, you will need a decent sized SD card (4GB at least) &amp;hellip; the dependencies alone require 382 MB.
 First, install the required package dependencies.</description>
     </item>

@@ -14,20 +14,20 @@
     
     <item>
       <title>Ubuntu &#43; OpenKinect &#43; Mouse Control</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect-mouse-control/</link>
       <pubDate>Wed, 02 May 2012 05:12:13 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect-mouse-control/</guid>
       <description>Mouse control with OpenKinect on Ubuntu Linux Here is a quick tutorial to get use your hand as a mouse in a Minority Report-esque interface using the Kinect and Ubuntu. Credit to Ooblik (Tim Flaman) for the awesome project. Before you begin, ensure that you have installed the OpenKinect drivers and they are functioning correctly.
 Quickstart sudo apt-get install libncurses5-dev freeglut3-dev libX11-dev libxtst-dev libxmu-dev cmake git git clone https://github.</description>
     </item>
     
     <item>
       <title>Ubuntu &#43; OpenKinect</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect/</link>
       <pubDate>Wed, 02 May 2012 05:08:22 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect/</guid>
       <description>Getting started with OpenKinect on Ubuntu Linux There are two ways you can get OpenKinect (freenect) working on Ubuntu: either by installing the prebuilt PPA package, or compiling from source. I’ve confirmed at both of these methods are functional, the package based method is slightly more straightforward, and allows updates from the apt package manager. This article will demonstrate installation via this method, for details on the manual compilation method, check out the official OpenKinect Getting Started Guide</description>
     </item>
     

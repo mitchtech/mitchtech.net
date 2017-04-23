@@ -14,10 +14,10 @@
     
     <item>
       <title>Wordpress on Raspberry Pi</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/wordpress-on-raspberry-pi/</link>
       <pubDate>Fri, 08 Jun 2012 04:29:14 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/wordpress-on-raspberry-pi/</guid>
       <description>This tutorial will demonstrate how to install and host Wordpress on Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup.
 Install Apache Wordpress runs on the Apache2 web server. To setup Apache, follow the instructions in my previous post, Raspberry Pi and Apache.
 Install MySQL and PHP Begin by installing the required dependencies. From a terminal:</description>

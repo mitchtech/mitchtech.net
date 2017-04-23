@@ -3,387 +3,387 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/mongodb-vs-postgres-a-specific-use-case/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/mongodb-vs-postgres-a-specific-use-case/</loc>
     <lastmod>2015-08-02T07:36:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/devstack-on-ec2-via-ansible/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/devstack-on-ec2-via-ansible/</loc>
     <lastmod>2015-02-13T00:58:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/beaglebone-ubuntu/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/beaglebone-ubuntu/</loc>
     <lastmod>2013-06-30T18:15:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-servo-face-tracker/</loc>
     <lastmod>2013-03-15T07:07:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-google-talk-robot/</loc>
     <lastmod>2013-01-17T02:06:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-pwm-rgb-led-strip/</loc>
     <lastmod>2013-01-15T23:29:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/connect-raspberry-pi-to-gmail-facebook-twitter-more/</loc>
     <lastmod>2012-08-24T00:20:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-msp430-spi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-msp430-spi/</loc>
     <lastmod>2012-08-13T15:16:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-arduino-spi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-arduino-spi/</loc>
     <lastmod>2012-08-11T11:35:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/arduino-oscilloscope/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/arduino-oscilloscope/</loc>
     <lastmod>2012-08-06T04:33:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/dropbox-on-raspberry-pi-via-sshfs/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/dropbox-on-raspberry-pi-via-sshfs/</loc>
     <lastmod>2012-07-10T22:54:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/msp430-launchpad-pwm/</loc>
     <lastmod>2012-07-09T23:06:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/peer-guardian-on-raspberry-pi/</loc>
     <lastmod>2012-07-08T22:52:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/arduino-physical-cpu-gauges/</loc>
     <lastmod>2012-07-03T14:46:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-physical-gmail-notifier/</loc>
     <lastmod>2012-06-29T04:20:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/arduino-usb-hid-keyboard/</loc>
     <lastmod>2012-06-24T15:09:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/cross-compiling-for-ti-msp430-launchpad/</loc>
     <lastmod>2012-06-23T13:03:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/arduino-on-raspberry-pi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/arduino-on-raspberry-pi/</loc>
     <lastmod>2012-06-15T00:00:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-nes-emulator/</loc>
     <lastmod>2012-06-14T23:50:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-opencv/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/</loc>
     <lastmod>2012-06-14T23:41:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-root-fs-on-usb-drive/</loc>
     <lastmod>2012-06-14T00:49:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-kernel-compile/</loc>
     <lastmod>2012-06-08T04:51:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/wordpress-on-raspberry-pi/</loc>
     <lastmod>2012-06-08T04:29:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-apache/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-apache/</loc>
     <lastmod>2012-06-08T04:03:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</loc>
     <lastmod>2012-06-06T00:15:42+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</loc>
     <lastmod>2012-06-03T18:49:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-audio/</loc>
     <lastmod>2012-06-02T18:42:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/install-quake-3-on-raspberry-pi/</loc>
     <lastmod>2012-06-02T18:17:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-android/</loc>
     <lastmod>2012-06-02T18:17:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-ubuntu/</loc>
     <lastmod>2012-06-02T18:02:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/common-kernel-errors-debugging-tips/</loc>
     <lastmod>2012-05-19T17:51:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</loc>
     <lastmod>2012-05-19T17:42:20+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-ubuntu-12-04-lts/</loc>
     <lastmod>2012-05-19T17:39:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/compile-cyanogenmod-9-for-galaxy-nexus/</loc>
     <lastmod>2012-05-16T23:39:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/opencv-python/</loc>
     <lastmod>2012-05-02T15:58:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/opencv-ubuntu/</loc>
     <lastmod>2012-05-02T15:52:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/mult-axis-google-earth-controller/</loc>
     <lastmod>2012-05-02T15:45:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-backtrack-chroot/</loc>
     <lastmod>2012-05-02T14:31:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/running-linux-on-android-common-problems/</loc>
     <lastmod>2012-05-02T13:55:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/node-js-on-android-linux/</loc>
     <lastmod>2012-05-02T13:53:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ubuntu-chroot/</loc>
     <lastmod>2012-05-02T13:52:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-kinect-openni-primesense/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/ubuntu-kinect-openni-primesense/</loc>
     <lastmod>2012-05-02T05:15:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect-mouse-control/</loc>
     <lastmod>2012-05-02T05:12:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/ubuntu-openkinect/</loc>
     <lastmod>2012-05-02T05:08:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-remote-outlets/</loc>
     <lastmod>2012-05-02T04:51:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-window-blinds-control/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-window-blinds-control/</loc>
     <lastmod>2012-05-02T04:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-garage-door/</loc>
     <lastmod>2012-05-02T04:48:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-turret/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-laser-turret/</loc>
     <lastmod>2012-05-02T04:45:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-tripwire/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-laser-tripwire/</loc>
     <lastmod>2012-05-02T04:44:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-temperature-light/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-temperature-light/</loc>
     <lastmod>2012-05-02T04:41:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-pan-tilt-leds/</loc>
     <lastmod>2012-05-02T04:40:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-serial-4-digit-led/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-serial-4-digit-led/</loc>
     <lastmod>2012-05-02T04:39:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-swivel-head-android-with-leds/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-swivel-head-android-with-leds/</loc>
     <lastmod>2012-05-02T04:38:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-combination-lock/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-combination-lock/</loc>
     <lastmod>2012-05-02T04:35:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-d-pad/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-d-pad/</loc>
     <lastmod>2012-05-02T04:34:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-dual-analog-input/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-dual-analog-input/</loc>
     <lastmod>2012-05-02T04:32:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-sensor-graph/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-sensor-graph/</loc>
     <lastmod>2012-05-02T04:30:29+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-temperature-light/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-temperature-light/</loc>
     <lastmod>2012-05-02T04:28:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-countdown-timer/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-countdown-timer/</loc>
     <lastmod>2012-05-02T04:26:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-range-finder/</loc>
     <lastmod>2012-05-02T04:25:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-breathalyzer/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-breathalyzer/</loc>
     <lastmod>2012-05-02T04:12:12+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-accelerometer-servos/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-accelerometer-servos/</loc>
     <lastmod>2012-05-02T04:05:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-combination-lock/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-combination-lock/</loc>
     <lastmod>2012-05-02T04:04:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-software-joystick-servos/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-software-joystick-servos/</loc>
     <lastmod>2012-05-02T04:02:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-seven-segment-led/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-seven-segment-led/</loc>
     <lastmod>2012-05-02T04:00:53+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-sensor-graph/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-sensor-graph/</loc>
     <lastmod>2012-05-02T03:55:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-servo-control/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-servo-control/</loc>
     <lastmod>2012-05-02T03:52:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-d-pad/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-d-pad/</loc>
     <lastmod>2012-05-02T03:50:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-dual-analog-input/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-dual-analog-input/</loc>
     <lastmod>2012-05-02T03:49:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-input/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-input/</loc>
     <lastmod>2012-05-02T03:40:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-output/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-output/</loc>
     <lastmod>2012-05-02T03:37:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-input/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-digital-input/</loc>
     <lastmod>2012-05-02T03:33:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-output/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-digital-output/</loc>
     <lastmod>2012-05-02T03:32:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-input/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-input/</loc>
     <lastmod>2012-05-02T03:13:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-output/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-output/</loc>
     <lastmod>2012-05-02T03:09:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-input/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-digital-input/</loc>
     <lastmod>2012-05-02T03:04:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-output/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-digital-output/</loc>
     <lastmod>2012-05-02T03:02:35+00:00</lastmod>
   </url>
   

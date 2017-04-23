@@ -14,10 +14,10 @@
     
     <item>
       <title>MongoDB vs. Postgres; A specific use case</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/mongodb-vs-postgres-a-specific-use-case/</link>
+      <link>https://mitchtech.github.io/hugo-mitchtech/mongodb-vs-postgres-a-specific-use-case/</link>
       <pubDate>Sun, 02 Aug 2015 07:36:27 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/mongodb-vs-postgres-a-specific-use-case/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/mongodb-vs-postgres-a-specific-use-case/</guid>
       <description>I&amp;rsquo;ve recently taken a job at Ansible working on the enterprise offering Tower. In case you don&amp;rsquo;t know, Tower is a front-end for your Ansible playbooks w/ enterprise permission management. I was tasked with evaluating our database needs for a new System Tracking feature that we released. Working remotely at the time forced me to create detailed presentations on my progress and evaluation. I ended up taking the internal presentations and created a blog post about the evaluation process.</description>
     </item>
     
