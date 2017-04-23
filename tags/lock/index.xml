@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lock on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/lock/</link>
+    <description>Recent content in Lock on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 02 May 2012 04:35:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/lock/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Combination Lock</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-combination-lock/</link>
+      <pubDate>Wed, 02 May 2012 04:35:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-combination-lock/</guid>
+      <description>A simple combination lock with Android and Arduino. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)
+ Hobby servo
+ Breadboard
+ Power supply
+ Hook-up wire</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Combination Lock</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-combination-lock/</link>
+      <pubDate>Wed, 02 May 2012 04:04:15 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-combination-lock/</guid>
+      <description>A simple combination lock with IOIO and Android. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:</description>
+    </item>
+    
+  </channel>
+</rss>

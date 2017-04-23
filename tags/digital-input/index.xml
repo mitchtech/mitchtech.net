@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Input on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/digital-input/</link>
+    <description>Recent content in Digital Input on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Fri, 15 Mar 2013 07:07:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/digital-input/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
+This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Google Talk Robot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</link>
+      <pubDate>Thu, 17 Jan 2013 02:06:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</guid>
+      <description>Google Talk/Chat/Messenger is normally used by humans to interact with other humans. However, its underlying technology can also be used as a mechanism to implement software robots. Internet bots, also known as web robots, WWW robots or simply &amp;lsquo;bots&amp;rsquo; can also utilize the technology to perform automated functions over the web. There are many such bots in existence, offering a diverse spectrum of services from jokes (jokes@askme.im) to URL Shortening using bit.</description>
+    </item>
+    
+    <item>
+      <title>Arduino USB HID Keyboard</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</link>
+      <pubDate>Sun, 24 Jun 2012 15:09:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</guid>
+      <description>Turn your Arduino UNO into a USB HID keyboard, and make buttons that do whatever you want. Make it a useful tool, with new buttons for Cut/Copy/Paste or Volume+/Volume-/Mute, or annoy your friends and colleagues by setting the keyboard to perform random keypress after random delays!
+  The USB HID keyboard conforms to the standard USB specification, so is functional on all modern operating systems. All this is made possible by the use of the Arduino Device Firmware Update (DFU) function.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; D-Pad</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-d-pad/</link>
+      <pubDate>Wed, 02 May 2012 04:34:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-d-pad/</guid>
+      <description>A simple controller for use as an Android directional pad input accessory. The Arduino based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Temperature &#43; Light</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-temperature-light/</link>
+      <pubDate>Wed, 02 May 2012 04:28:06 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-temperature-light/</guid>
+      <description>Sensing temperature and light with Android and IOIO. This article will demonstrate a basic thermometer / ambient light level detection input accessory.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; D-Pad</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-d-pad/</link>
+      <pubDate>Wed, 02 May 2012 03:50:57 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-d-pad/</guid>
+      <description>A simple controller for use as an Android D-pad (directional pad) input accessory. The IOIO based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Simple Digital Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-input/</link>
+      <pubDate>Wed, 02 May 2012 03:33:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-input/</guid>
+      <description>Simplest possible digital input with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) digital input device.
+The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Simple Digital Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-input/</link>
+      <pubDate>Wed, 02 May 2012 03:04:45 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-input/</guid>
+      <description>Simplest possible digital input with the ADK. This article will discuss the bare minimal requirements for development of a basic USB digital input accessory. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
+Android Developer’s Guide Getting Started with Arduino Microbridge
+Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
+    </item>
+    
+  </channel>
+</rss>

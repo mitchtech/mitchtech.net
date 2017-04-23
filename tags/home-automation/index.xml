@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home Automation on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/home-automation/</link>
+    <description>Recent content in Home Automation on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Thu, 17 Jan 2013 02:06:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/home-automation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi Google Talk Robot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</link>
+      <pubDate>Thu, 17 Jan 2013 02:06:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</guid>
+      <description>Google Talk/Chat/Messenger is normally used by humans to interact with other humans. However, its underlying technology can also be used as a mechanism to implement software robots. Internet bots, also known as web robots, WWW robots or simply &amp;lsquo;bots&amp;rsquo; can also utilize the technology to perform automated functions over the web. There are many such bots in existence, offering a diverse spectrum of services from jokes (jokes@askme.im) to URL Shortening using bit.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; PWM RGB LED Strip</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</link>
+      <pubDate>Tue, 15 Jan 2013 23:29:15 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</guid>
+      <description>This tutorial demonstrates how to easily use a Raspberry Pi to drive 12V RGB LED strips using Pulse Width Modulation (PWM). Out of the box, the Raspberry Pi has only one GPIO pin that is capable of pulse width modulation (PWM). However, thanks to the efforts of Richard Hirst and his servoblaster kernel module, standard GPIO pins can be used to perform PWM.
+Note: The flashing of the LED strip due to PWM is only noticeable in the uploaded video; in reality, the colors progress smoothly without any visible flashing.</description>
+    </item>
+    
+    <item>
+      <title>Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</link>
+      <pubDate>Fri, 24 Aug 2012 00:20:05 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</guid>
+      <description>Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Remote Outlets</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</link>
+      <pubDate>Wed, 02 May 2012 04:51:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</guid>
+      <description>This tutorial will demonstrate remote control of 3 AC outlets with Android and IOIO. The tutorial uses the 3 Channel Remote AC Outlets from DealExtreme. The cost, less than $25 shipped for the set of three, is quite a savings over alternatives like the PowerSwitch Tail ($25 each), also, they are wireless with a pretty good range as well.
+
+They also have single and dual outlet version.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Window Blinds Control</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-window-blinds-control/</link>
+      <pubDate>Wed, 02 May 2012 04:50:00 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-window-blinds-control/</guid>
+      <description>Demo Android application to control window blinds using IOIO and full rotation servos.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Garage Door</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</link>
+      <pubDate>Wed, 02 May 2012 04:48:26 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</guid>
+      <description>Control your garage door with Android and IOIO.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+  </channel>
+</rss>

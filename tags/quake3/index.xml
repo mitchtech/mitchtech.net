@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quake3 on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/quake3/</link>
+    <description>Recent content in Quake3 on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Sat, 02 Jun 2012 18:17:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/quake3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Quake 3 on Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</link>
+      <pubDate>Sat, 02 Jun 2012 18:17:37 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</guid>
+      <description>Here is the easiest possible way to install Quake 3 on the Raspberry Pi with debian6-19-04-2012. Just copy and paste the following in a terminal on the Pi:
+cd ~ wget http://radium.hexxeh.net/quake3.zip wget http://www.andershizzle.com/Q3%20Demo%20Paks.zip unzip quake3.zip unzip Q3\ Demo\ Paks.zip rm quake3.zip rm Q3\ Demo\ Paks.zip mv ./baseq3/pak* ./quake3/baseq3/ rm -rf ./baseq3/ chmod +x /home/pi/quake3/start.sh chmod +x /home/pi/quake3/ioquake3.arm chmod +x /home/pi/quake3/ioq3ded.arm  Note: After reports of connection issues with the downloads, I have hosted mirror versions of the two files here:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,74 +7,888 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
-    <lastBuildDate>Sat, 10 Oct 2015 16:56:43 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2015 07:36:27 +0000</lastBuildDate>
     
 	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Introducing Icarus and its features</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/introducing-icarus-and-its-features/</link>
-      <pubDate>Sat, 10 Oct 2015 16:56:43 +0200</pubDate>
+      <title>MongoDB vs. Postgres; A specific use case</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/mongodb-vs-postgres-a-specific-use-case/</link>
+      <pubDate>Sun, 02 Aug 2015 07:36:27 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/introducing-icarus-and-its-features/</guid>
-      <description>Icarus is a responsive and customizable theme for bloggers. It&amp;rsquo;s a port of the same-named theme for Hexo made by Ruipeng Zhang. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful shortcodes to make your life easier.
-Get the theme I assume you&amp;rsquo;ve Git installed. Inside the folder of your Hugo site run</description>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/mongodb-vs-postgres-a-specific-use-case/</guid>
+      <description>I&amp;rsquo;ve recently taken a job at Ansible working on the enterprise offering Tower. In case you don&amp;rsquo;t know, Tower is a front-end for your Ansible playbooks w/ enterprise permission management. I was tasked with evaluating our database needs for a new System Tracking feature that we released. Working remotely at the time forced me to create detailed presentations on my progress and evaluation. I ended up taking the internal presentations and created a blog post about the evaluation process.</description>
     </item>
     
     <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/migrate-from-jekyll/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Devstack on EC2 via Ansible</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/devstack-on-ec2-via-ansible/</link>
+      <pubDate>Fri, 13 Feb 2015 00:58:48 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/devstack-on-ec2-via-ansible/</guid>
+      <description>So you want to get an instance of OpenStack running to poke around and see what all the fuss is about without going insane. Welcome to Devstack. Once Devstack is setup you will have access to a web-based control panel with prepopulated data and instances. You will also be able to explore the OpenStack API with v2.0 and v3 authentication (keystone).
+[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] devstack webpanel[/caption]
+Setup git clone https://github.</description>
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Beaglebone &#43; Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/beaglebone-ubuntu/</link>
+      <pubDate>Sun, 30 Jun 2013 18:15:51 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/beaglebone-ubuntu/</guid>
+      <description>We can install Ubuntu 2-ways:
+ To the external SDCARD To the internal MMC  Installing to the internal MMC requires an SDCARD to install, but the sdcard is not required after that. The process is mostly the same. The MMC setup vs. the SDCARD setup depends on which image you download.
+Installing Ubuntu  MMC: Download the latest file of the form BBB-eMMC-flasher-ubuntu-xx.xx-xxxx-xx-xx.img.xz
+ SDCARD: Download the latest file of the form ubuntu-12.</description>
     </item>
     
     <item>
-      <title>Go is for lovers</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
+This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
     </item>
     
     <item>
-      <title>Hugo is for lovers</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      <title>Raspberry Pi Google Talk Robot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</link>
+      <pubDate>Thu, 17 Jan 2013 02:06:48 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/hugo-is-for-lovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</guid>
+      <description>Google Talk/Chat/Messenger is normally used by humans to interact with other humans. However, its underlying technology can also be used as a mechanism to implement software robots. Internet bots, also known as web robots, WWW robots or simply &amp;lsquo;bots&amp;rsquo; can also utilize the technology to perform automated functions over the web. There are many such bots in existence, offering a diverse spectrum of services from jokes (jokes@askme.im) to URL Shortening using bit.</description>
     </item>
     
     <item>
-      <title>Creating a new theme</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/post/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      <title>Raspberry Pi &#43; PWM RGB LED Strip</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</link>
+      <pubDate>Tue, 15 Jan 2013 23:29:15 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</guid>
+      <description>This tutorial demonstrates how to easily use a Raspberry Pi to drive 12V RGB LED strips using Pulse Width Modulation (PWM). Out of the box, the Raspberry Pi has only one GPIO pin that is capable of pulse width modulation (PWM). However, thanks to the efforts of Richard Hirst and his servoblaster kernel module, standard GPIO pins can be used to perform PWM.
+Note: The flashing of the LED strip due to PWM is only noticeable in the uploaded video; in reality, the colors progress smoothly without any visible flashing.</description>
+    </item>
+    
+    <item>
+      <title>Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</link>
+      <pubDate>Fri, 24 Aug 2012 00:20:05 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</guid>
+      <description>Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; MSP430 &#43; SPI</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-msp430-spi/</link>
+      <pubDate>Mon, 13 Aug 2012 15:16:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-msp430-spi/</guid>
+      <description>This tutorial will explain how to communicate from the Raspberry Pi to an MSP430 Launchpad board (M430G2553 chip) using SPI.
+Requirements  1 Raspberry pi (running Raspbian)
+ 1 MSP430 TI Launchpad
+ 3 wires
+  Your raspberry pi should be running the newest version of Raspbian. To ensure your system is up-to-date please download and run rpi-update.
+Wiring 
+MSP430 Flash the below code to your MSP430 chip.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; Arduino &#43; SPI</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-arduino-spi/</link>
+      <pubDate>Sat, 11 Aug 2012 11:35:53 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-arduino-spi/</guid>
+      <description>This tutorial will show you how to communicate from your raspberry pi to your arduino using 3-wire SPI.
+Requirements  1 Raspberry pi (running Raspbian)
+ 1 Arduino
+ 4 wires
+  Your raspberry pi should be running the newest version of Raspbian. To ensure your system is up-to-date please download and run rpi-update.
+Wiring 
+Arduino Open your Arduino ide and flash the below code to your Arduino.</description>
+    </item>
+    
+    <item>
+      <title>Arduino Poor Man&#39;s Oscilloscope</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-oscilloscope/</link>
+      <pubDate>Mon, 06 Aug 2012 04:33:51 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-oscilloscope/</guid>
+      <description>This tutorial will show you how to use your Arduino as an oscilloscope. We end the tutorial with a verification portion that uses the Arduino to generate a square wave, requiring a single wire.
+lxardoscope Lxardoscope is another Arduino + real-time graphing project that has the potential to turn an Arduino into an oscilloscope. Unfortunately, I was unable to get any readings (the visual graph remained static).
+Poor Man&amp;rsquo;s Oscilloscope First, download processing.</description>
+    </item>
+    
+    <item>
+      <title>Dropbox on Raspberry Pi via SSHFS</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/dropbox-on-raspberry-pi-via-sshfs/</link>
+      <pubDate>Tue, 10 Jul 2012 22:54:46 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/dropbox-on-raspberry-pi-via-sshfs/</guid>
+      <description>This tutorial will demonstrate how to mount Dropbox (or any filesystem) over the network on the Raspberry Pi using SSHFS (Secure SHell FileSystem). For this procedure to work for your Dropbox share, you will need another machine somewhere that is running Dropbox, and is accessible to the Raspberry Pi via SSH.
+Note: The following is not actually specific to the Raspberry Pi, nor to Dropbox. The tutorial generalizes for other systems and architectures that are not officially supported by Dropbox, as well as for mounting of other non Dropbox shares over the network.</description>
+    </item>
+    
+    <item>
+      <title>MSP430 Launchpad &#43; PWM</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</link>
+      <pubDate>Mon, 09 Jul 2012 23:06:03 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</guid>
+      <description>Inspired by this tutorial.
+The following tutorial will describe how perform pulse width modulation using a MSP430g2553 TI Launchpad to control a sparkfun servo motor.
+Prerequisites Please see Cross-Compiling for TI MSP430 Launchpad to setup your development environment.
+Hardware  Servo motor
+ MSP430
+ Power
+  I&amp;rsquo;m using the Arduino to power the servo motors. Alternatively you may use USB, a wall plug, or a battery. The MSP430 is being used to generate the PWM for control.</description>
+    </item>
+    
+    <item>
+      <title>Peer Guardian on Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</link>
+      <pubDate>Sun, 08 Jul 2012 22:52:09 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</guid>
+      <description>This tutorial will show how to compile and install Peer Guardian on a Raspberry Pi. The process requires the at least the 2012-06-18-wheezy-beta.zip or newer Debian image (or manual kernel re-compilation). This will NOT work with debian6-19-04-2012.zip since the kernel does not have net filtering enabled. Also, you will need a decent sized SD card (4GB at least) &amp;hellip; the dependencies alone require 382 MB.
+First, install the required package dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Arduino Physical CPU Gauges</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</link>
+      <pubDate>Tue, 03 Jul 2012 14:46:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</guid>
+      <description>Use Arduino and two hobby servos to control physical servo gauges for cpu activity, memory usage, bandwidth, and more. The script uses the python psutil and pyserial modules. The psutil module provides an interface for retrieving information on all running processes and system utilization (CPU, disk, memory, network) providing service similar to command line tools such as ps, top, iostat, and netstat. The servo control portion of the project is based on Arduino-Python 4-Axis Servo Controlby Brian Wendt, and the Arduino sketch is essentially unmodified from the SerialServoControl Sketch on Sparkfun.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Physical Gmail Notifier</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</link>
+      <pubDate>Fri, 29 Jun 2012 04:20:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</guid>
+      <description>This tutorial will demonstrate how to easily turn your Raspberry Pi into a physical Gmail notifier, in only 10 lines of python! If the configured Gmail account has unread messages, the LED will be illuminated, otherwise dim. The project was inspired by the Arduino/Mac version by J4mie adapted for use on the Raspberry Pi.
+Here is a diagram of the wiring of the LED with a 330 ohm resistor in series (created with Fritzing):</description>
+    </item>
+    
+    <item>
+      <title>Arduino USB HID Keyboard</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</link>
+      <pubDate>Sun, 24 Jun 2012 15:09:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</guid>
+      <description>Turn your Arduino UNO into a USB HID keyboard, and make buttons that do whatever you want. Make it a useful tool, with new buttons for Cut/Copy/Paste or Volume+/Volume-/Mute, or annoy your friends and colleagues by setting the keyboard to perform random keypress after random delays!
+  The USB HID keyboard conforms to the standard USB specification, so is functional on all modern operating systems. All this is made possible by the use of the Arduino Device Firmware Update (DFU) function.</description>
+    </item>
+    
+    <item>
+      <title>Cross-Compiling for TI MSP430 Launchpad</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</link>
+      <pubDate>Sat, 23 Jun 2012 13:03:13 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</guid>
+      <description>Inspired by this tutorial.
+We assumes you are running Ubuntu 12.04 and have a TI msp430g2231 but may work for other msp430 devices (see the Other MSP430 Boards section). This tutorial will cover obtaining the dependencies needed to cross-compile a simple light blinking code for your msp430 device, how to flash the cross-compiled binary to your device, and finish with some advice on how-to compile for other msp430 device variations.</description>
+    </item>
+    
+    <item>
+      <title>Arduino on Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-on-raspberry-pi/</link>
+      <pubDate>Fri, 15 Jun 2012 00:00:55 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-on-raspberry-pi/</guid>
+      <description>Connecting an Arduino to a Raspberry Pi is simple. In a terminal, install the Arduino IDE:
+sudo apt-get install arduino  This will take a while to download and install all of the dependencies. Once completed, you can start the IDE from the terminal:
+arduino  Or, from the LXDE menu, Electronics-&amp;gt;Arduino IDE. Note: This is IDE version 0018, and does not seem to recognize boards newer then the Duemilanove.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi NES Emulator</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</link>
+      <pubDate>Thu, 14 Jun 2012 23:50:50 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</guid>
+      <description>This tutorial will demonstrate how to install Nintendo NES/Famicom emulator on the Raspberry Pi running Debian. Begin by installing the necessary dependencies. In a terminal, enter:
+sudo apt-get install scons libsdl1.2-dev libsdl1.2debian-esd subversion libgtk2.0-dev  Checkout the most recent sources using subversion:
+&amp;lt;del&amp;gt;svn checkout https://fceultra.svn.sourceforge.net/svnroot/fceultra/fceu fceultra&amp;lt;/del&amp;gt;  The repo has moved here:
+svn checkout svn://svn.code.sf.net/p/fceultra/code/fceu fceultra  Change directory into the root of the source tree
+cd fceultra/  Compile and install FCEU using the scons build tool:</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; OpenCV</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-opencv/</link>
+      <pubDate>Thu, 14 Jun 2012 23:41:41 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-opencv/</guid>
+      <description>OpenCV is a suite of powerful computer vision tools. Here is a quick overview of how I installed OpenCV on my Raspberry Pi with debian6-19-04-2012. The guide is based on the official OpenCV Installation Guide on Debian and Ubuntu. Before you begin, make sure you have expanded your SD card to allow for the install of OpenCV. Its a big package with lots of dependencies. You can follow my instructions here.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Root FS on USB Drive</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</link>
+      <pubDate>Thu, 14 Jun 2012 00:49:07 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</guid>
+      <description>This tutorial will demonstrate how to install the Debian root filestem (ie. &amp;lsquo;/&amp;rsquo;) on a USB drive instead of the SD card. The SD card still retains the /boot partion and swap space. This requires a modified kernel to support the USB storage. You can download the minimal modified kernel and modules here or follow my guide on how to compile it for yourself.
+In either case, begin by installing the Debian image as you normally would to an SD card.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Kernel Compile</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</link>
+      <pubDate>Fri, 08 Jun 2012 04:51:00 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</guid>
+      <description>This tutorial will demonstrate how to cross compile the kernel for the Raspberry Pi on Ubuntu 12.04 LTS. The kernel is functional with both the Debian and Arch Linux Raspberry Pi images.
+UPDATE: Alternatively, you can use the following Ansible playbook playbook-raspi_kernel_crosscompile. Note that you have to edit host_vars/localhost.yml file with your local sudo password.
+ git clone https://github.com/chrismeyersfsu/playbook-raspi_kernel_crosscompile ansible-playbook -i localhost.yml site.yml -vvvv  First, install the package dependencies, git and the cross-compilation toolchain:</description>
+    </item>
+    
+    <item>
+      <title>Wordpress on Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</link>
+      <pubDate>Fri, 08 Jun 2012 04:29:14 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</guid>
+      <description>This tutorial will demonstrate how to install and host Wordpress on Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup.
+Install Apache Wordpress runs on the Apache2 web server. To setup Apache, follow the instructions in my previous post, Raspberry Pi and Apache.
+Install MySQL and PHP Begin by installing the required dependencies. From a terminal:</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; Apache</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-apache/</link>
+      <pubDate>Fri, 08 Jun 2012 04:03:32 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-apache/</guid>
+      <description>Its quite easy to install the Apache web server on the Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup. Open a terminal (or login via SSH) and install the package with apt-get:
+sudo apt-get install apache2  UPDATE: 9/18/12: The following group creation error appears to have been corrected in an updated package and should no longer be necessary.</description>
+    </item>
+    
+    <item>
+      <title>Easy GUI Install &amp; Re-Partition Raspberry Pi on Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</link>
+      <pubDate>Wed, 06 Jun 2012 00:15:42 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</guid>
+      <description>Easy Install &amp;amp; Resize the SD Card on the Raspberry Pi on Ubuntu.
+First, open a terminal and install the ImageWriter and GParted utilities with apt-get
+sudo apt-get install usb-imagewriter gparted  Assuming you are starting with a fresh install, download the newest release from the Raspberry Pi download site:
+[http://www.raspberrypi.org/downloads](http://www.raspberrypi.org/downloads)  Extract the downloaded archive, and then open ImageWriter:
+imagewriter  Select the desired .img file and target device, in this case, debian6-19-04-2012.</description>
+    </item>
+    
+    <item>
+      <title>Ralink/Realtek Wireless Dongle (rt3070) on the Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</link>
+      <pubDate>Sun, 03 Jun 2012 18:49:22 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</guid>
+      <description>[caption id=&amp;ldquo;attachment_608&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;Realtek WiFi dongle&amp;rdquo;][/caption]
+Scenario You have a HAWKING HWUN3 Hi-Gain Wireless Adapter dongle that you want to use on your Raspberry Pi running debian.
+Note: the same set of steps will probably work for other variations of Ralink/Realtek wifi dongles [rt2561,rt2661,rt2860,rt2870,rt3070,rt3071,rt3090].
+The Problem The standard release (debian6-19-04-2012.zip) contains the needed drivers however, the firmware needed is not included. The following tutorial will describe how to get and &amp;ldquo;install&amp;rdquo; the needed firmware.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Audio</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</link>
+      <pubDate>Sat, 02 Jun 2012 18:42:33 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</guid>
+      <description>Currently, the audio drivers for the Raspberry Pi are still in beta, and as such come disabled in the standard release (debian6-19-04-2012.zip). Here&amp;rsquo;s a quick way to get it up and running for both the HDMI as well as the analog output. Open up a terminal and install the alsa (Advanced Linux Sound Architecture) utility package:
+sudo apt-get install alsa-utils  Now load the sound driver using modprobe:
+sudo modprobe snd_bcm2835  By default output will be automatic (HDMI if supported, else analog).</description>
+    </item>
+    
+    <item>
+      <title>Install Quake 3 on Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</link>
+      <pubDate>Sat, 02 Jun 2012 18:17:37 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</guid>
+      <description>Here is the easiest possible way to install Quake 3 on the Raspberry Pi with debian6-19-04-2012. Just copy and paste the following in a terminal on the Pi:
+cd ~ wget http://radium.hexxeh.net/quake3.zip wget http://www.andershizzle.com/Q3%20Demo%20Paks.zip unzip quake3.zip unzip Q3\ Demo\ Paks.zip rm quake3.zip rm Q3\ Demo\ Paks.zip mv ./baseq3/pak* ./quake3/baseq3/ rm -rf ./baseq3/ chmod +x /home/pi/quake3/start.sh chmod +x /home/pi/quake3/ioquake3.arm chmod +x /home/pi/quake3/ioq3ded.arm  Note: After reports of connection issues with the downloads, I have hosted mirror versions of the two files here:</description>
+    </item>
+    
+    <item>
+      <title>VNC setup on Raspberry Pi from Android</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</link>
+      <pubDate>Sat, 02 Jun 2012 18:17:32 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</guid>
+      <description>This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Android. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup. It also assumes that you have a display connected to the Raspberry Pi. If you don&amp;rsquo;t have a display available, the steps to configure VNC remotely are outlined in my last tutorial: VNC setup on Raspberry Pi from Ubuntu</description>
+    </item>
+    
+    <item>
+      <title>VNC setup on Raspberry Pi from Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</link>
+      <pubDate>Sat, 02 Jun 2012 18:02:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</guid>
+      <description>This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Ubuntu. This process is easier if you have a display connected to the Raspberry Pi, but will also show the steps to connect with only Ethernet and power connected. It assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup
+Getting the IP address of the Raspberry Pi The first step is to locate the Raspberry Pi on your network.</description>
+    </item>
+    
+    <item>
+      <title>Common Kernel Errors &amp; Debugging Tips</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</link>
+      <pubDate>Sat, 19 May 2012 17:51:22 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</guid>
+      <description>Kernel Errors The following are some typical errors. Some of these may be caught at compilation or link time, and some may only cause problems when you call insmod with the module.
+ division by zero
+ dereferencing a null pointer
+ returning no value or a value other than zero from init_mod
+ calling a C library routine (e.g., malloc() or printf()) from inside a kernel module
+  Beware that errors in the kernel sometimes have no immediate visible effect, but they may have a delayed effect that is disastrous.</description>
+    </item>
+    
+    <item>
+      <title>Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed)</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</link>
+      <pubDate>Sat, 19 May 2012 17:42:20 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</guid>
+      <description>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &amp;lsquo;make&amp;rsquo; and &amp;lsquo;make install&amp;rsquo; as well as the Debian method, using &amp;lsquo;make-dpkg&amp;rsquo;. This is the detailed version of this tutorial, see Compile Linux Kernel on Ubuntu 12.04 LTS for the quick overview. In any case, we begin by installing some dependencies:
+sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &amp;lsquo;make xconfig&amp;rsquo; and libncurses5 and libncurses5-dev if you plan to use &amp;lsquo;make menuconfig&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Compile Linux Kernel on Ubuntu 12.04 LTS</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</link>
+      <pubDate>Sat, 19 May 2012 17:39:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</guid>
+      <description>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &amp;lsquo;make&amp;rsquo; and &amp;lsquo;make install&amp;rsquo; as well as the Debian method, using &amp;lsquo;make-dpkg&amp;rsquo;. This is a quick overview of the compilation process, for a more thourough walkthrough, see Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed). In both cases, we begin by installing some dependencies:
+sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &amp;lsquo;make xconfig&amp;rsquo; and libncurses5 and libncurses5-dev if you plan to use &amp;lsquo;make menuconfig&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Compile Cyanogenmod 9 for Galaxy Nexus </title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</link>
+      <pubDate>Wed, 16 May 2012 23:39:35 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</guid>
+      <description>This tutorial will outline the process to compile Cyanogenmod 9 for the Verizon (LTE) Galaxy Nexus (aka toro, a variant of the tuna) on Ubuntu 12.04 LTS. This process has changed a bit over time, notably with new hassles to configure the Oracle Java JDK. While the tutorial is specific to the Galaxy Nexus, it generalizes to most devices supported by Cyanogenmod 9. First, install and configure the Android SDK (more thorough info here):</description>
+    </item>
+    
+    <item>
+      <title>OpenCV &#43; Python</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</link>
+      <pubDate>Wed, 02 May 2012 15:58:13 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</guid>
+      <description>Here are some of the more interesting OpenCV demos using the Python wrapper. The installation process on Ubuntu is covered in my previous post, OpenCV + Ubuntu. The demo scripts are located in samples/python within the OpenCV release.
+The cam shift sample below demonstrates the color/object detection capability of OpenCV. To set the object/color to track, click and drag a box on the video using the mouse. The histogram window will display the target for OpenCV to locate and track within the field of view.</description>
+    </item>
+    
+    <item>
+      <title>OpenCV &#43; Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</link>
+      <pubDate>Wed, 02 May 2012 15:52:18 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</guid>
+      <description>Building OpenCV 2.3.1 from source on Ubuntu 12.04 x64. Here is an overview of the compilation of OpenCV with x264 and ffmpeg builtin. If you have completed my Kinect + OpenNI + PrimeSensetutorial, this will also support the OpenNI and PrimeSense drivers with OpenCV. This is largely based on the wonderful OpenCV tutorials from Sebastian Montabone and Osman Eralp. Before you start, make sure to have removed ffmpeg and x264 (if applicable):</description>
+    </item>
+    
+    <item>
+      <title>Google Earth &#43; Mult-axis Controller</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</link>
+      <pubDate>Wed, 02 May 2012 15:45:46 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</guid>
+      <description>Six degree of freedom control for Google Earth using the 3Dconnexion SpaceNavigator on Ubuntu Linux. Based on directions from here: http://code.google.com/p/liquid-galaxy/wiki/LinuxSpaceNavigator
+First, install the necessary package dependencies:
+sudo apt-get install xinput xserver-xorg-input-joystick  Next we add a udev rule to automatically recognize the Space Navigator based on its vendor/product ids and create a symlink at /dev/input/spacenavigator. Create the following file as root:
+sudo gedit /etc/udev/rules.d/90-spacenavigator.rules  and add the following line:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; BackTrack Chroot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</link>
+      <pubDate>Wed, 02 May 2012 14:31:40 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</guid>
+      <description>The following tutorial will demonstrate how to run Backtrack Linux in an Android chroot environment. It should work on most Android devices that support at least ARMv7 architecture or newer.
+Download BackTrack ARM edition http://www.backtrack-linux.org/downloads/
+You can download via torrent or direct, the rest of the settings should look like this:
+Image Name: BT5-GNOME-ARM [.torrent | .7z] Size (MB): 1060 Desktop: GNOME Architecture: arm Image: IMG Download: [Direct | Torrent] MD5sum: a66bf35409f4458ee7f35a77891951eb  Extract the contents using 7zip (apt-get install p7zip if you don’t have it installed)</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Linux Chroot &#43; Common Problems</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</link>
+      <pubDate>Wed, 02 May 2012 13:55:10 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</guid>
+      <description>Corrupted Filesystem Problem: ext2 Distribution Image Explanation: If you formated the distribution partition as ext2 then chances are you will have a filesystem corruption. The trouble is fsck doesn’t come with busybox and it’s hard to run fsck on your root filesytem while mounted. The solution is to mount the distribution image from another linux machine and run fsck. Solution:
+Disable USB debugging on your phone. Plug your phone into a linux box.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Linux Chroot &#43; Node.js</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</link>
+      <pubDate>Wed, 02 May 2012 13:53:58 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</guid>
+      <description>This article will walk you through how to compile, from source, node.js on Android. After installing node.js on about 4 different devices (Thunderbolt, Incredible, two G1’s, Galaxy S) I decided to compile this tutorial.
+Prerequisites  Android running Debian in a chroot(ed) environment.
+ Environment contains the necessary path(s)
+  vim /etc/bashrc PATH=$PATH:/usr/local/bin  Swap File (G1 only?) The RAM in both the Incredible and Thunderbolt are sufficient to compile node.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Ubuntu Chroot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</link>
+      <pubDate>Wed, 02 May 2012 13:52:29 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</guid>
+      <description>Here is a quick overview of the process to create a Ubuntu system image that is bootable with Android chroot. It uses the rootstock utility to setup the initial image, including release version, username/password, image size, as well as to seed the desired packages to be pre-installed with the distro. For complete options with rootstock, consult the man pages.
+Quickstart:
+mkdir ubuntu cd ubuntu sudo rootstock \ --fqdn ubuntu \ --login ubuntu \ --password ubuntu \ --imagesize 4G \ --dist maverick \ --seed linux-image-omap,build-essential,mysql-server,tightvncserver,lxde,\ mysql-server-core-5.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu &#43; Kinect &#43; OpenNI &#43; PrimeSense</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-kinect-openni-primesense/</link>
+      <pubDate>Wed, 02 May 2012 05:15:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-kinect-openni-primesense/</guid>
+      <description>Getting the OpenNI and PrimeSense drivers working on Ubuntu Here’s an overview of the process to get the OpenNI and PrimeSense drivers working with the Kinect and Ubuntu. Begin by installing some dependencies:
+sudo apt-get install git-core cmake freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev libusb-1.0-0-dev doxygen graphviz mono-complete  Make a directory to store the build, then clone the OpenNI source from Github.
+mkdir ~/kinect cd ~/kinect git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu &#43; OpenKinect &#43; Mouse Control</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</link>
+      <pubDate>Wed, 02 May 2012 05:12:13 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</guid>
+      <description>Mouse control with OpenKinect on Ubuntu Linux Here is a quick tutorial to get use your hand as a mouse in a Minority Report-esque interface using the Kinect and Ubuntu. Credit to Ooblik (Tim Flaman) for the awesome project. Before you begin, ensure that you have installed the OpenKinect drivers and they are functioning correctly.
+Quickstart sudo apt-get install libncurses5-dev freeglut3-dev libX11-dev libxtst-dev libxmu-dev cmake git git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu &#43; OpenKinect</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</link>
+      <pubDate>Wed, 02 May 2012 05:08:22 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</guid>
+      <description>Getting started with OpenKinect on Ubuntu Linux There are two ways you can get OpenKinect (freenect) working on Ubuntu: either by installing the prebuilt PPA package, or compiling from source. I’ve confirmed at both of these methods are functional, the package based method is slightly more straightforward, and allows updates from the apt package manager. This article will demonstrate installation via this method, for details on the manual compilation method, check out the official OpenKinect Getting Started Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Remote Outlets</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</link>
+      <pubDate>Wed, 02 May 2012 04:51:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</guid>
+      <description>This tutorial will demonstrate remote control of 3 AC outlets with Android and IOIO. The tutorial uses the 3 Channel Remote AC Outlets from DealExtreme. The cost, less than $25 shipped for the set of three, is quite a savings over alternatives like the PowerSwitch Tail ($25 each), also, they are wireless with a pretty good range as well.
+
+They also have single and dual outlet version.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Window Blinds Control</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-window-blinds-control/</link>
+      <pubDate>Wed, 02 May 2012 04:50:00 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-window-blinds-control/</guid>
+      <description>Demo Android application to control window blinds using IOIO and full rotation servos.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Garage Door</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</link>
+      <pubDate>Wed, 02 May 2012 04:48:26 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</guid>
+      <description>Control your garage door with Android and IOIO.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Laser Turret</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-turret/</link>
+      <pubDate>Wed, 02 May 2012 04:45:59 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-turret/</guid>
+      <description>Android and IOIO powered pan and tilt bracket with dual lasers. Pew pew!
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Laser Tripwire</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-tripwire/</link>
+      <pubDate>Wed, 02 May 2012 04:44:25 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-tripwire/</guid>
+      <description>Laser tripwire with Android and IOIO. This article will demonstrate a proof of concept laser beam tripwire accessory.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Temperature &#43; Light</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-temperature-light/</link>
+      <pubDate>Wed, 02 May 2012 04:41:37 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-temperature-light/</guid>
+      <description>Sensing temperature and light with Android and Arduino. This article will demonstrate a basic thermometer / ambient light level detection input accessory.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)
+ Photocell
+ 10K ohm resistor
+ TMP36 temperature sensor</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Pan Tilt LEDs</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</link>
+      <pubDate>Wed, 02 May 2012 04:40:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</guid>
+      <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basics for using two servos to achieve basic basic pan and tilt functionality. In addition, digital control is demonstrated using two LEDs.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Serial 4 digit LED</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-serial-4-digit-led/</link>
+      <pubDate>Wed, 02 May 2012 04:39:18 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-serial-4-digit-led/</guid>
+      <description>Interfacing a serial display with Android and Arduino. This article will demonstrate communication of a serial 7 segment display, specifically this one: 7-Segment Serial Display – Blue from Sparkfun electronics. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Swivel Head Android with LEDs</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-swivel-head-android-with-leds/</link>
+      <pubDate>Wed, 02 May 2012 04:38:09 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-swivel-head-android-with-leds/</guid>
+      <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basic use of combined digital and analog outputs. The basic hardware is a hobby servo and two LEDs inside of an Android figure. The servo allows Andy Android to rotate 180 degrees.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Combination Lock</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-combination-lock/</link>
+      <pubDate>Wed, 02 May 2012 04:35:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-combination-lock/</guid>
+      <description>A simple combination lock with Android and Arduino. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)
+ Hobby servo
+ Breadboard
+ Power supply
+ Hook-up wire</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; D-Pad</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-d-pad/</link>
+      <pubDate>Wed, 02 May 2012 04:34:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-d-pad/</guid>
+      <description>A simple controller for use as an Android directional pad input accessory. The Arduino based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Dual Analog Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-dual-analog-input/</link>
+      <pubDate>Wed, 02 May 2012 04:32:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-dual-analog-input/</guid>
+      <description>Dual analog input with Android and Arduino. This article will demonstrate a basic dual analog USB input accessory.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)
+ 2x Potentiometers
+ Hook-up wire
+ Android ADK Board*
+ – OR –</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Sensor Graph</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-sensor-graph/</link>
+      <pubDate>Wed, 02 May 2012 04:30:29 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-sensor-graph/</guid>
+      <description>A simple app to visualize analog sensor input with Android and Arduino.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)
+ Potentiometer
+ Breadboard
+ Power supply
+ Hook-up wire
+ Android ADK Board*
+ – OR –
+ Arduino compatible and USB Host shield</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Temperature &#43; Light</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-temperature-light/</link>
+      <pubDate>Wed, 02 May 2012 04:28:06 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-temperature-light/</guid>
+      <description>Sensing temperature and light with Android and IOIO. This article will demonstrate a basic thermometer / ambient light level detection input accessory.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Countdown Timer</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-countdown-timer/</link>
+      <pubDate>Wed, 02 May 2012 04:26:28 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-countdown-timer/</guid>
+      <description>Countdown timer Android app with IOIO output. When the timer goes off, it pulls the pin high, or low. The article demonstrates a proof of concept usage with a single LED, but this could easily be adapted for other usages: light switches and appliance control, detonators, etc.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Range Finder</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</link>
+      <pubDate>Wed, 02 May 2012 04:25:25 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</guid>
+      <description>Ultrasonic and Infrared distance detection with Android and IOIO. This article will demonstrate a basic proximity and ranging accessory for Android over USB (or Bluetooth).
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Breathalyzer</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-breathalyzer/</link>
+      <pubDate>Wed, 02 May 2012 04:12:12 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-breathalyzer/</guid>
+      <description>Proof of concept breathalyzer powered by Android and IOIO. This article will demonstrate a basic alcohol gas detection device for Android over USB (or bluetooth).
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Accelerometer Servos</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-accelerometer-servos/</link>
+      <pubDate>Wed, 02 May 2012 04:05:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-accelerometer-servos/</guid>
+      <description>A robotic gripper with wrist rotate controlled by Android on-board accelerometer.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Combination Lock</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-combination-lock/</link>
+      <pubDate>Wed, 02 May 2012 04:04:15 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-combination-lock/</guid>
+      <description>A simple combination lock with IOIO and Android. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Software Joystick Servos</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-software-joystick-servos/</link>
+      <pubDate>Wed, 02 May 2012 04:02:41 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-software-joystick-servos/</guid>
+      <description>Android and IOIO powered pan and tilt servo bracket controlled by software joystick.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Seven Segment LED</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-seven-segment-led/</link>
+      <pubDate>Wed, 02 May 2012 04:00:53 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-seven-segment-led/</guid>
+      <description>Basic control of a seven segment LED display with IOIO and Android.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Sensor Graph</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-sensor-graph/</link>
+      <pubDate>Wed, 02 May 2012 03:55:09 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-sensor-graph/</guid>
+      <description>A simple app to visualize analog sensor input with Android and IOIO. The example uses a rotary potentiometer, but could easily be used with other sensor inputs such as temperature or ambient light.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Servo Control</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-servo-control/</link>
+      <pubDate>Wed, 02 May 2012 03:52:58 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-servo-control/</guid>
+      <description>A simple dual servo controller for Android. The IOIO based device uses slider bars to control two hobby servos.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; D-Pad</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-d-pad/</link>
+      <pubDate>Wed, 02 May 2012 03:50:57 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-d-pad/</guid>
+      <description>A simple controller for use as an Android D-pad (directional pad) input accessory. The IOIO based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Dual Analog Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-dual-analog-input/</link>
+      <pubDate>Wed, 02 May 2012 03:49:44 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-dual-analog-input/</guid>
+      <description>Dual analog input with Android and IOIO. This article will demonstrate a basic dual analog Android USB (or Bluetooth) analog input device. You guessed it… the Etch-a-Sketch is coming soon!
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Simple Analog Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-input/</link>
+      <pubDate>Wed, 02 May 2012 03:40:10 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-input/</guid>
+      <description>Simplest possible analog input with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) analog input device.
+The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Simple Analog Output</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-output/</link>
+      <pubDate>Wed, 02 May 2012 03:37:38 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-output/</guid>
+      <description>Simplest possible analog output with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) analog output device, a controllable RGB LED.
+The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Simple Digital Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-input/</link>
+      <pubDate>Wed, 02 May 2012 03:33:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-input/</guid>
+      <description>Simplest possible digital input with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) digital input device.
+The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Simple Digital Output</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-output/</link>
+      <pubDate>Wed, 02 May 2012 03:32:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-output/</guid>
+      <description>Simplest possible digital output with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) digital output device. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Simple Analog Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-input/</link>
+      <pubDate>Wed, 02 May 2012 03:13:18 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-input/</guid>
+      <description>Simplest possible analog input with the ADK. This article will discuss the bare minimal requirements for development of a basic USB input accessory. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
+Android Developer’s Guide Getting Started with Arduino Microbridge
+Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Simple Analog Output</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-output/</link>
+      <pubDate>Wed, 02 May 2012 03:09:33 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-analog-output/</guid>
+      <description>Simplest possible analog output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device, a controllable RGB LED. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
+Android Developer’s Guide Getting Started with Arduino Microbridge
+Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Simple Digital Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-input/</link>
+      <pubDate>Wed, 02 May 2012 03:04:45 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-input/</guid>
+      <description>Simplest possible digital input with the ADK. This article will discuss the bare minimal requirements for development of a basic USB digital input accessory. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
+Android Developer’s Guide Getting Started with Arduino Microbridge
+Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Simple Digital Output</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-output/</link>
+      <pubDate>Wed, 02 May 2012 03:02:35 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-output/</guid>
+      <description>Simplest possible digital output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
+Android Developer’s Guide Getting Started with Arduino Microbridge
+Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
     </item>
     
   </channel>

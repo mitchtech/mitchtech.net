@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seven Segment on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/seven-segment/</link>
+    <description>Recent content in Seven Segment on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 02 May 2012 04:39:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/seven-segment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Serial 4 digit LED</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-serial-4-digit-led/</link>
+      <pubDate>Wed, 02 May 2012 04:39:18 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-serial-4-digit-led/</guid>
+      <description>Interfacing a serial display with Android and Arduino. This article will demonstrate communication of a serial 7 segment display, specifically this one: 7-Segment Serial Display – Blue from Sparkfun electronics. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Seven Segment LED</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-seven-segment-led/</link>
+      <pubDate>Wed, 02 May 2012 04:00:53 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-seven-segment-led/</guid>
+      <description>Basic control of a seven segment LED display with IOIO and Android.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+  </channel>
+</rss>

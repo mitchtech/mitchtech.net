@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Device Driver on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/device-driver/</link>
+    <description>Recent content in Device Driver on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Fri, 15 Mar 2013 07:07:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/device-driver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
+This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; PWM RGB LED Strip</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</link>
+      <pubDate>Tue, 15 Jan 2013 23:29:15 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</guid>
+      <description>This tutorial demonstrates how to easily use a Raspberry Pi to drive 12V RGB LED strips using Pulse Width Modulation (PWM). Out of the box, the Raspberry Pi has only one GPIO pin that is capable of pulse width modulation (PWM). However, thanks to the efforts of Richard Hirst and his servoblaster kernel module, standard GPIO pins can be used to perform PWM.
+Note: The flashing of the LED strip due to PWM is only noticeable in the uploaded video; in reality, the colors progress smoothly without any visible flashing.</description>
+    </item>
+    
+    <item>
+      <title>Arduino USB HID Keyboard</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</link>
+      <pubDate>Sun, 24 Jun 2012 15:09:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</guid>
+      <description>Turn your Arduino UNO into a USB HID keyboard, and make buttons that do whatever you want. Make it a useful tool, with new buttons for Cut/Copy/Paste or Volume+/Volume-/Mute, or annoy your friends and colleagues by setting the keyboard to perform random keypress after random delays!
+  The USB HID keyboard conforms to the standard USB specification, so is functional on all modern operating systems. All this is made possible by the use of the Arduino Device Firmware Update (DFU) function.</description>
+    </item>
+    
+    <item>
+      <title>Ralink/Realtek Wireless Dongle (rt3070) on the Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</link>
+      <pubDate>Sun, 03 Jun 2012 18:49:22 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/</guid>
+      <description>[caption id=&amp;ldquo;attachment_608&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo; caption=&amp;ldquo;Realtek WiFi dongle&amp;rdquo;][/caption]
+Scenario You have a HAWKING HWUN3 Hi-Gain Wireless Adapter dongle that you want to use on your Raspberry Pi running debian.
+Note: the same set of steps will probably work for other variations of Ralink/Realtek wifi dongles [rt2561,rt2661,rt2860,rt2870,rt3070,rt3071,rt3090].
+The Problem The standard release (debian6-19-04-2012.zip) contains the needed drivers however, the firmware needed is not included. The following tutorial will describe how to get and &amp;ldquo;install&amp;rdquo; the needed firmware.</description>
+    </item>
+    
+    <item>
+      <title>OpenCV &#43; Python</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</link>
+      <pubDate>Wed, 02 May 2012 15:58:13 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</guid>
+      <description>Here are some of the more interesting OpenCV demos using the Python wrapper. The installation process on Ubuntu is covered in my previous post, OpenCV + Ubuntu. The demo scripts are located in samples/python within the OpenCV release.
+The cam shift sample below demonstrates the color/object detection capability of OpenCV. To set the object/color to track, click and drag a box on the video using the mouse. The histogram window will display the target for OpenCV to locate and track within the field of view.</description>
+    </item>
+    
+    <item>
+      <title>OpenCV &#43; Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</link>
+      <pubDate>Wed, 02 May 2012 15:52:18 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</guid>
+      <description>Building OpenCV 2.3.1 from source on Ubuntu 12.04 x64. Here is an overview of the compilation of OpenCV with x264 and ffmpeg builtin. If you have completed my Kinect + OpenNI + PrimeSensetutorial, this will also support the OpenNI and PrimeSense drivers with OpenCV. This is largely based on the wonderful OpenCV tutorials from Sebastian Montabone and Osman Eralp. Before you start, make sure to have removed ffmpeg and x264 (if applicable):</description>
+    </item>
+    
+    <item>
+      <title>Google Earth &#43; Mult-axis Controller</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</link>
+      <pubDate>Wed, 02 May 2012 15:45:46 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</guid>
+      <description>Six degree of freedom control for Google Earth using the 3Dconnexion SpaceNavigator on Ubuntu Linux. Based on directions from here: http://code.google.com/p/liquid-galaxy/wiki/LinuxSpaceNavigator
+First, install the necessary package dependencies:
+sudo apt-get install xinput xserver-xorg-input-joystick  Next we add a udev rule to automatically recognize the Space Navigator based on its vendor/product ids and create a symlink at /dev/input/spacenavigator. Create the following file as root:
+sudo gedit /etc/udev/rules.d/90-spacenavigator.rules  and add the following line:</description>
+    </item>
+    
+  </channel>
+</rss>

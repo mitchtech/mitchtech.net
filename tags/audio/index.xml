@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/audio/</link>
+    <description>Recent content in Audio on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Sat, 02 Jun 2012 18:42:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi Audio</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</link>
+      <pubDate>Sat, 02 Jun 2012 18:42:33 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-audio/</guid>
+      <description>Currently, the audio drivers for the Raspberry Pi are still in beta, and as such come disabled in the standard release (debian6-19-04-2012.zip). Here&amp;rsquo;s a quick way to get it up and running for both the HDMI as well as the analog output. Open up a terminal and install the alsa (Advanced Linux Sound Architecture) utility package:
+sudo apt-get install alsa-utils  Now load the sound driver using modprobe:
+sudo modprobe snd_bcm2835  By default output will be automatic (HDMI if supported, else analog).</description>
+    </item>
+    
+  </channel>
+</rss>

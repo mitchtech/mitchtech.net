@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vnc on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/vnc/</link>
+    <description>Recent content in Vnc on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Sat, 02 Jun 2012 18:17:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/vnc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VNC setup on Raspberry Pi from Android</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</link>
+      <pubDate>Sat, 02 Jun 2012 18:17:32 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</guid>
+      <description>This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Android. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup. It also assumes that you have a display connected to the Raspberry Pi. If you don&amp;rsquo;t have a display available, the steps to configure VNC remotely are outlined in my last tutorial: VNC setup on Raspberry Pi from Ubuntu</description>
+    </item>
+    
+    <item>
+      <title>VNC setup on Raspberry Pi from Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</link>
+      <pubDate>Sat, 02 Jun 2012 18:02:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</guid>
+      <description>This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Ubuntu. This process is easier if you have a display connected to the Raspberry Pi, but will also show the steps to connect with only Ethernet and power connected. It assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup
+Getting the IP address of the Raspberry Pi The first step is to locate the Raspberry Pi on your network.</description>
+    </item>
+    
+  </channel>
+</rss>

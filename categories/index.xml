@@ -7,52 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 02 May 2012 04:41:37 +0000</lastBuildDate>
     
 	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Lorem</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/categories/lorem/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Adb Microbridge</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/adb-microbridge/</link>
+      <pubDate>Wed, 02 May 2012 04:41:37 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/lorem/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/adb-microbridge/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Programming</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/categories/programming/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Android</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/android/</link>
+      <pubDate>Sat, 02 Jun 2012 18:17:32 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/programming/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/android/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pseudo</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/categories/pseudo/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      <title>Android Linux Chroot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/android-linux-chroot/</link>
+      <pubDate>Wed, 02 May 2012 14:31:40 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/pseudo/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/android-linux-chroot/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Starting</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/categories/starting/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      <title>Arduino</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/arduino/</link>
+      <pubDate>Sat, 11 Aug 2012 11:35:53 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/starting/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/arduino/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Theme</title>
-      <link>https://mitchtech.github.io/hugo-mitchtech/categories/theme/</link>
-      <pubDate>Sat, 10 Oct 2015 16:56:43 +0200</pubDate>
+      <title>Beaglebone</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/beaglebone/</link>
+      <pubDate>Sun, 30 Jun 2013 18:15:51 +0000</pubDate>
       
-      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/theme/</guid>
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/beaglebone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ioio</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/ioio/</link>
+      <pubDate>Wed, 02 May 2012 04:51:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/ioio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinect</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/kinect/</link>
+      <pubDate>Wed, 02 May 2012 05:15:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/kinect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Msp430 Launchpad</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/msp430-launchpad/</link>
+      <pubDate>Mon, 13 Aug 2012 15:16:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/msp430-launchpad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi/</link>
+      <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/tutorials/</link>
+      <pubDate>Sun, 02 Aug 2015 07:36:27 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/ubuntu/</link>
+      <pubDate>Tue, 03 Jul 2012 14:46:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/ubuntu/</guid>
       <description></description>
     </item>
     

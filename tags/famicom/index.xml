@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Famicom on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/famicom/</link>
+    <description>Recent content in Famicom on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Thu, 14 Jun 2012 23:50:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/famicom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi NES Emulator</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</link>
+      <pubDate>Thu, 14 Jun 2012 23:50:50 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-nes-emulator/</guid>
+      <description>This tutorial will demonstrate how to install Nintendo NES/Famicom emulator on the Raspberry Pi running Debian. Begin by installing the necessary dependencies. In a terminal, enter:
+sudo apt-get install scons libsdl1.2-dev libsdl1.2debian-esd subversion libgtk2.0-dev  Checkout the most recent sources using subversion:
+&amp;lt;del&amp;gt;svn checkout https://fceultra.svn.sourceforge.net/svnroot/fceultra/fceu fceultra&amp;lt;/del&amp;gt;  The repo has moved here:
+svn checkout svn://svn.code.sf.net/p/fceultra/code/fceu fceultra  Change directory into the root of the source tree
+cd fceultra/  Compile and install FCEU using the scons build tool:</description>
+    </item>
+    
+  </channel>
+</rss>

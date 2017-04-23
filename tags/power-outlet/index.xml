@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Power Outlet on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/power-outlet/</link>
+    <description>Recent content in Power Outlet on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 02 May 2012 04:51:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/power-outlet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Remote Outlets</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</link>
+      <pubDate>Wed, 02 May 2012 04:51:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</guid>
+      <description>This tutorial will demonstrate remote control of 3 AC outlets with Android and IOIO. The tutorial uses the 3 Channel Remote AC Outlets from DealExtreme. The cost, less than $25 shipped for the set of three, is quite a savings over alternatives like the PowerSwitch Tail ($25 each), also, they are wireless with a pretty good range as well.
+
+They also have single and dual outlet version.</description>
+    </item>
+    
+  </channel>
+</rss>

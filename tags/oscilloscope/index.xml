@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oscilloscope on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/oscilloscope/</link>
+    <description>Recent content in Oscilloscope on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Mon, 06 Aug 2012 04:33:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/oscilloscope/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arduino Poor Man&#39;s Oscilloscope</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-oscilloscope/</link>
+      <pubDate>Mon, 06 Aug 2012 04:33:51 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-oscilloscope/</guid>
+      <description>This tutorial will show you how to use your Arduino as an oscilloscope. We end the tutorial with a verification portion that uses the Arduino to generate a square wave, requiring a single wire.
+lxardoscope Lxardoscope is another Arduino + real-time graphing project that has the potential to turn an Arduino into an oscilloscope. Unfortunately, I was unable to get any readings (the visual graph remained static).
+Poor Man&amp;rsquo;s Oscilloscope First, download processing.</description>
+    </item>
+    
+  </channel>
+</rss>

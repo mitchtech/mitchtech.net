@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ultrasonic on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/ultrasonic/</link>
+    <description>Recent content in Ultrasonic on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 02 May 2012 04:25:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/ultrasonic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Range Finder</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</link>
+      <pubDate>Wed, 02 May 2012 04:25:25 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-range-finder/</guid>
+      <description>Ultrasonic and Infrared distance detection with Android and IOIO. This article will demonstrate a basic proximity and ranging accessory for Android over USB (or Bluetooth).
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+  </channel>
+</rss>

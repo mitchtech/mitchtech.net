@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gparted on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/gparted/</link>
+    <description>Recent content in Gparted on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 06 Jun 2012 00:15:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/gparted/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Easy GUI Install &amp; Re-Partition Raspberry Pi on Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</link>
+      <pubDate>Wed, 06 Jun 2012 00:15:42 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</guid>
+      <description>Easy Install &amp;amp; Resize the SD Card on the Raspberry Pi on Ubuntu.
+First, open a terminal and install the ImageWriter and GParted utilities with apt-get
+sudo apt-get install usb-imagewriter gparted  Assuming you are starting with a fresh install, download the newest release from the Raspberry Pi download site:
+[http://www.raspberrypi.org/downloads](http://www.raspberrypi.org/downloads)  Extract the downloaded archive, and then open ImageWriter:
+imagewriter  Select the desired .img file and target device, in this case, debian6-19-04-2012.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timer on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/timer/</link>
+    <description>Recent content in Timer on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 02 May 2012 04:26:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/timer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Countdown Timer</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-countdown-timer/</link>
+      <pubDate>Wed, 02 May 2012 04:26:28 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-countdown-timer/</guid>
+      <description>Countdown timer Android app with IOIO output. When the timer goes off, it pulls the pin high, or low. The article demonstrates a proof of concept usage with a single LED, but this could easily be adapted for other usages: light switches and appliance control, detonators, etc.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+  </channel>
+</rss>

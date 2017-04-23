@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kernel on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/kernel/</link>
+    <description>Recent content in Kernel on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Fri, 15 Mar 2013 07:07:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
+This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; PWM RGB LED Strip</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</link>
+      <pubDate>Tue, 15 Jan 2013 23:29:15 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-pwm-rgb-led-strip/</guid>
+      <description>This tutorial demonstrates how to easily use a Raspberry Pi to drive 12V RGB LED strips using Pulse Width Modulation (PWM). Out of the box, the Raspberry Pi has only one GPIO pin that is capable of pulse width modulation (PWM). However, thanks to the efforts of Richard Hirst and his servoblaster kernel module, standard GPIO pins can be used to perform PWM.
+Note: The flashing of the LED strip due to PWM is only noticeable in the uploaded video; in reality, the colors progress smoothly without any visible flashing.</description>
+    </item>
+    
+    <item>
+      <title>Peer Guardian on Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</link>
+      <pubDate>Sun, 08 Jul 2012 22:52:09 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/peer-guardian-on-raspberry-pi/</guid>
+      <description>This tutorial will show how to compile and install Peer Guardian on a Raspberry Pi. The process requires the at least the 2012-06-18-wheezy-beta.zip or newer Debian image (or manual kernel re-compilation). This will NOT work with debian6-19-04-2012.zip since the kernel does not have net filtering enabled. Also, you will need a decent sized SD card (4GB at least) &amp;hellip; the dependencies alone require 382 MB.
+First, install the required package dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Root FS on USB Drive</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</link>
+      <pubDate>Thu, 14 Jun 2012 00:49:07 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-root-fs-on-usb-drive/</guid>
+      <description>This tutorial will demonstrate how to install the Debian root filestem (ie. &amp;lsquo;/&amp;rsquo;) on a USB drive instead of the SD card. The SD card still retains the /boot partion and swap space. This requires a modified kernel to support the USB storage. You can download the minimal modified kernel and modules here or follow my guide on how to compile it for yourself.
+In either case, begin by installing the Debian image as you normally would to an SD card.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Kernel Compile</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</link>
+      <pubDate>Fri, 08 Jun 2012 04:51:00 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</guid>
+      <description>This tutorial will demonstrate how to cross compile the kernel for the Raspberry Pi on Ubuntu 12.04 LTS. The kernel is functional with both the Debian and Arch Linux Raspberry Pi images.
+UPDATE: Alternatively, you can use the following Ansible playbook playbook-raspi_kernel_crosscompile. Note that you have to edit host_vars/localhost.yml file with your local sudo password.
+ git clone https://github.com/chrismeyersfsu/playbook-raspi_kernel_crosscompile ansible-playbook -i localhost.yml site.yml -vvvv  First, install the package dependencies, git and the cross-compilation toolchain:</description>
+    </item>
+    
+    <item>
+      <title>Common Kernel Errors &amp; Debugging Tips</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</link>
+      <pubDate>Sat, 19 May 2012 17:51:22 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</guid>
+      <description>Kernel Errors The following are some typical errors. Some of these may be caught at compilation or link time, and some may only cause problems when you call insmod with the module.
+ division by zero
+ dereferencing a null pointer
+ returning no value or a value other than zero from init_mod
+ calling a C library routine (e.g., malloc() or printf()) from inside a kernel module
+  Beware that errors in the kernel sometimes have no immediate visible effect, but they may have a delayed effect that is disastrous.</description>
+    </item>
+    
+    <item>
+      <title>Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed)</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</link>
+      <pubDate>Sat, 19 May 2012 17:42:20 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</guid>
+      <description>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &amp;lsquo;make&amp;rsquo; and &amp;lsquo;make install&amp;rsquo; as well as the Debian method, using &amp;lsquo;make-dpkg&amp;rsquo;. This is the detailed version of this tutorial, see Compile Linux Kernel on Ubuntu 12.04 LTS for the quick overview. In any case, we begin by installing some dependencies:
+sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &amp;lsquo;make xconfig&amp;rsquo; and libncurses5 and libncurses5-dev if you plan to use &amp;lsquo;make menuconfig&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Compile Linux Kernel on Ubuntu 12.04 LTS</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</link>
+      <pubDate>Sat, 19 May 2012 17:39:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</guid>
+      <description>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &amp;lsquo;make&amp;rsquo; and &amp;lsquo;make install&amp;rsquo; as well as the Debian method, using &amp;lsquo;make-dpkg&amp;rsquo;. This is a quick overview of the compilation process, for a more thourough walkthrough, see Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed). In both cases, we begin by installing some dependencies:
+sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &amp;lsquo;make xconfig&amp;rsquo; and libncurses5 and libncurses5-dev if you plan to use &amp;lsquo;make menuconfig&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Compile Cyanogenmod 9 for Galaxy Nexus </title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</link>
+      <pubDate>Wed, 16 May 2012 23:39:35 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</guid>
+      <description>This tutorial will outline the process to compile Cyanogenmod 9 for the Verizon (LTE) Galaxy Nexus (aka toro, a variant of the tuna) on Ubuntu 12.04 LTS. This process has changed a bit over time, notably with new hassles to configure the Oracle Java JDK. While the tutorial is specific to the Galaxy Nexus, it generalizes to most devices supported by Cyanogenmod 9. First, install and configure the Android SDK (more thorough info here):</description>
+    </item>
+    
+  </channel>
+</rss>

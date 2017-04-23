@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chroot on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/chroot/</link>
+    <description>Recent content in Chroot on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 02 May 2012 14:31:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/chroot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android &#43; BackTrack Chroot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</link>
+      <pubDate>Wed, 02 May 2012 14:31:40 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</guid>
+      <description>The following tutorial will demonstrate how to run Backtrack Linux in an Android chroot environment. It should work on most Android devices that support at least ARMv7 architecture or newer.
+Download BackTrack ARM edition http://www.backtrack-linux.org/downloads/
+You can download via torrent or direct, the rest of the settings should look like this:
+Image Name: BT5-GNOME-ARM [.torrent | .7z] Size (MB): 1060 Desktop: GNOME Architecture: arm Image: IMG Download: [Direct | Torrent] MD5sum: a66bf35409f4458ee7f35a77891951eb  Extract the contents using 7zip (apt-get install p7zip if you don’t have it installed)</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Linux Chroot &#43; Common Problems</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</link>
+      <pubDate>Wed, 02 May 2012 13:55:10 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</guid>
+      <description>Corrupted Filesystem Problem: ext2 Distribution Image Explanation: If you formated the distribution partition as ext2 then chances are you will have a filesystem corruption. The trouble is fsck doesn’t come with busybox and it’s hard to run fsck on your root filesytem while mounted. The solution is to mount the distribution image from another linux machine and run fsck. Solution:
+Disable USB debugging on your phone. Plug your phone into a linux box.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Linux Chroot &#43; Node.js</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</link>
+      <pubDate>Wed, 02 May 2012 13:53:58 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</guid>
+      <description>This article will walk you through how to compile, from source, node.js on Android. After installing node.js on about 4 different devices (Thunderbolt, Incredible, two G1’s, Galaxy S) I decided to compile this tutorial.
+Prerequisites  Android running Debian in a chroot(ed) environment.
+ Environment contains the necessary path(s)
+  vim /etc/bashrc PATH=$PATH:/usr/local/bin  Swap File (G1 only?) The RAM in both the Incredible and Thunderbolt are sufficient to compile node.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Ubuntu Chroot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</link>
+      <pubDate>Wed, 02 May 2012 13:52:29 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</guid>
+      <description>Here is a quick overview of the process to create a Ubuntu system image that is bootable with Android chroot. It uses the rootstock utility to setup the initial image, including release version, username/password, image size, as well as to seed the desired packages to be pre-installed with the distro. For complete options with rootstock, consult the man pages.
+Quickstart:
+mkdir ubuntu cd ubuntu sudo rootstock \ --fqdn ubuntu \ --login ubuntu \ --password ubuntu \ --imagesize 4G \ --dist maverick \ --seed linux-image-omap,build-essential,mysql-server,tightvncserver,lxde,\ mysql-server-core-5.</description>
+    </item>
+    
+  </channel>
+</rss>

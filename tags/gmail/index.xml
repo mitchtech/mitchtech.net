@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gmail on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/gmail/</link>
+    <description>Recent content in Gmail on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Fri, 24 Aug 2012 00:20:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</link>
+      <pubDate>Fri, 24 Aug 2012 00:20:05 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/connect-raspberry-pi-to-gmail-facebook-twitter-more/</guid>
+      <description>Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Physical Gmail Notifier</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</link>
+      <pubDate>Fri, 29 Jun 2012 04:20:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</guid>
+      <description>This tutorial will demonstrate how to easily turn your Raspberry Pi into a physical Gmail notifier, in only 10 lines of python! If the configured Gmail account has unread messages, the LED will be illuminated, otherwise dim. The project was inspired by the Arduino/Mac version by J4mie adapted for use on the Raspberry Pi.
+Here is a diagram of the wiring of the LED with a 330 ohm resistor in series (created with Fritzing):</description>
+    </item>
+    
+  </channel>
+</rss>

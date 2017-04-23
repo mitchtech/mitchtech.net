@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spi on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/spi/</link>
+    <description>Recent content in Spi on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Mon, 13 Aug 2012 15:16:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/spi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi &#43; MSP430 &#43; SPI</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-msp430-spi/</link>
+      <pubDate>Mon, 13 Aug 2012 15:16:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-msp430-spi/</guid>
+      <description>This tutorial will explain how to communicate from the Raspberry Pi to an MSP430 Launchpad board (M430G2553 chip) using SPI.
+Requirements  1 Raspberry pi (running Raspbian)
+ 1 MSP430 TI Launchpad
+ 3 wires
+  Your raspberry pi should be running the newest version of Raspbian. To ensure your system is up-to-date please download and run rpi-update.
+Wiring 
+MSP430 Flash the below code to your MSP430 chip.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; Arduino &#43; SPI</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-arduino-spi/</link>
+      <pubDate>Sat, 11 Aug 2012 11:35:53 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-arduino-spi/</guid>
+      <description>This tutorial will show you how to communicate from your raspberry pi to your arduino using 3-wire SPI.
+Requirements  1 Raspberry pi (running Raspbian)
+ 1 Arduino
+ 4 wires
+  Your raspberry pi should be running the newest version of Raspbian. To ensure your system is up-to-date please download and run rpi-update.
+Wiring 
+Arduino Open your Arduino ide and flash the below code to your Arduino.</description>
+    </item>
+    
+  </channel>
+</rss>

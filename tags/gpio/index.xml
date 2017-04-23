@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gpio on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/gpio/</link>
+    <description>Recent content in Gpio on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Thu, 17 Jan 2013 02:06:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/gpio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi Google Talk Robot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</link>
+      <pubDate>Thu, 17 Jan 2013 02:06:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</guid>
+      <description>Google Talk/Chat/Messenger is normally used by humans to interact with other humans. However, its underlying technology can also be used as a mechanism to implement software robots. Internet bots, also known as web robots, WWW robots or simply &amp;lsquo;bots&amp;rsquo; can also utilize the technology to perform automated functions over the web. There are many such bots in existence, offering a diverse spectrum of services from jokes (jokes@askme.im) to URL Shortening using bit.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Physical Gmail Notifier</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</link>
+      <pubDate>Fri, 29 Jun 2012 04:20:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</guid>
+      <description>This tutorial will demonstrate how to easily turn your Raspberry Pi into a physical Gmail notifier, in only 10 lines of python! If the configured Gmail account has unread messages, the LED will be illuminated, otherwise dim. The project was inspired by the Arduino/Mac version by J4mie adapted for use on the Raspberry Pi.
+Here is a diagram of the wiring of the LED with a 330 ohm resistor in series (created with Fritzing):</description>
+    </item>
+    
+  </channel>
+</rss>

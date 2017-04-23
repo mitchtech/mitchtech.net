@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keyboard on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/keyboard/</link>
+    <description>Recent content in Keyboard on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Sun, 24 Jun 2012 15:09:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arduino USB HID Keyboard</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</link>
+      <pubDate>Sun, 24 Jun 2012 15:09:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</guid>
+      <description>Turn your Arduino UNO into a USB HID keyboard, and make buttons that do whatever you want. Make it a useful tool, with new buttons for Cut/Copy/Paste or Volume+/Volume-/Mute, or annoy your friends and colleagues by setting the keyboard to perform random keypress after random delays!
+  The USB HID keyboard conforms to the standard USB specification, so is functional on all modern operating systems. All this is made possible by the use of the Arduino Device Firmware Update (DFU) function.</description>
+    </item>
+    
+  </channel>
+</rss>

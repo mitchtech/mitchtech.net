@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pan Amp Tilt on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/pan-amp-tilt/</link>
+    <description>Recent content in Pan Amp Tilt on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Fri, 15 Mar 2013 07:07:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/pan-amp-tilt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
+This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Laser Turret</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-turret/</link>
+      <pubDate>Wed, 02 May 2012 04:45:59 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-turret/</guid>
+      <description>Android and IOIO powered pan and tilt bracket with dual lasers. Pew pew!
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Pan Tilt LEDs</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</link>
+      <pubDate>Wed, 02 May 2012 04:40:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</guid>
+      <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basics for using two servos to achieve basic basic pan and tilt functionality. In addition, digital control is demonstrated using two LEDs.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Accelerometer Servos</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-accelerometer-servos/</link>
+      <pubDate>Wed, 02 May 2012 04:05:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-accelerometer-servos/</guid>
+      <description>A robotic gripper with wrist rotate controlled by Android on-board accelerometer.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Software Joystick Servos</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-software-joystick-servos/</link>
+      <pubDate>Wed, 02 May 2012 04:02:41 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-software-joystick-servos/</guid>
+      <description>Android and IOIO powered pan and tilt servo bracket controlled by software joystick.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+  </channel>
+</rss>

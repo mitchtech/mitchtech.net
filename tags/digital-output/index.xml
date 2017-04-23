@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Output on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/digital-output/</link>
+    <description>Recent content in Digital Output on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Fri, 15 Mar 2013 07:07:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/digital-output/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi OpenCV Pan &amp; Tilt Face Tracker</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</link>
+      <pubDate>Fri, 15 Mar 2013 07:07:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-servo-face-tracker/</guid>
+      <description>Create your own face tracking, pan and tilt camera on the Raspberry Pi!
+This tutorial will demonstrate use of the OpenCV (computer vision) library to identify and track faces on the raspberry pi using two servos and a USB webcam. For the interested, I previously covered a more thorough overview of the installation of OpenCV from source here, however, I have found that the apt package is sufficient for all but the most bleeding edge of projects.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Google Talk Robot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</link>
+      <pubDate>Thu, 17 Jan 2013 02:06:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-google-talk-robot/</guid>
+      <description>Google Talk/Chat/Messenger is normally used by humans to interact with other humans. However, its underlying technology can also be used as a mechanism to implement software robots. Internet bots, also known as web robots, WWW robots or simply &amp;lsquo;bots&amp;rsquo; can also utilize the technology to perform automated functions over the web. There are many such bots in existence, offering a diverse spectrum of services from jokes (jokes@askme.im) to URL Shortening using bit.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Physical Gmail Notifier</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</link>
+      <pubDate>Fri, 29 Jun 2012 04:20:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-physical-gmail-notifier/</guid>
+      <description>This tutorial will demonstrate how to easily turn your Raspberry Pi into a physical Gmail notifier, in only 10 lines of python! If the configured Gmail account has unread messages, the LED will be illuminated, otherwise dim. The project was inspired by the Arduino/Mac version by J4mie adapted for use on the Raspberry Pi.
+Here is a diagram of the wiring of the LED with a 330 ohm resistor in series (created with Fritzing):</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Remote Outlets</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</link>
+      <pubDate>Wed, 02 May 2012 04:51:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-remote-outlets/</guid>
+      <description>This tutorial will demonstrate remote control of 3 AC outlets with Android and IOIO. The tutorial uses the 3 Channel Remote AC Outlets from DealExtreme. The cost, less than $25 shipped for the set of three, is quite a savings over alternatives like the PowerSwitch Tail ($25 each), also, they are wireless with a pretty good range as well.
+
+They also have single and dual outlet version.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Garage Door</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</link>
+      <pubDate>Wed, 02 May 2012 04:48:26 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-garage-door/</guid>
+      <description>Control your garage door with Android and IOIO.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Laser Turret</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-turret/</link>
+      <pubDate>Wed, 02 May 2012 04:45:59 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-laser-turret/</guid>
+      <description>Android and IOIO powered pan and tilt bracket with dual lasers. Pew pew!
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Pan Tilt LEDs</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</link>
+      <pubDate>Wed, 02 May 2012 04:40:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-pan-tilt-leds/</guid>
+      <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basics for using two servos to achieve basic basic pan and tilt functionality. In addition, digital control is demonstrated using two LEDs.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Serial 4 digit LED</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-serial-4-digit-led/</link>
+      <pubDate>Wed, 02 May 2012 04:39:18 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-serial-4-digit-led/</guid>
+      <description>Interfacing a serial display with Android and Arduino. This article will demonstrate communication of a serial 7 segment display, specifically this one: 7-Segment Serial Display – Blue from Sparkfun electronics. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Swivel Head Android with LEDs</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-swivel-head-android-with-leds/</link>
+      <pubDate>Wed, 02 May 2012 04:38:09 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-swivel-head-android-with-leds/</guid>
+      <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basic use of combined digital and analog outputs. The basic hardware is a hobby servo and two LEDs inside of an Android figure. The servo allows Andy Android to rotate 180 degrees.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Countdown Timer</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-countdown-timer/</link>
+      <pubDate>Wed, 02 May 2012 04:26:28 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-countdown-timer/</guid>
+      <description>Countdown timer Android app with IOIO output. When the timer goes off, it pulls the pin high, or low. The article demonstrates a proof of concept usage with a single LED, but this could easily be adapted for other usages: light switches and appliance control, detonators, etc.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Seven Segment LED</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-seven-segment-led/</link>
+      <pubDate>Wed, 02 May 2012 04:00:53 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-seven-segment-led/</guid>
+      <description>Basic control of a seven segment LED display with IOIO and Android.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Background on Android development, IOIO, and electronics:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Simple Digital Output</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-output/</link>
+      <pubDate>Wed, 02 May 2012 03:32:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-digital-output/</guid>
+      <description>Simplest possible digital output with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) digital output device. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Simple Digital Output</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-output/</link>
+      <pubDate>Wed, 02 May 2012 03:02:35 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-simple-digital-output/</guid>
+      <description>Simplest possible digital output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
+Android Developer’s Guide Getting Started with Arduino Microbridge
+Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
+    </item>
+    
+  </channel>
+</rss>

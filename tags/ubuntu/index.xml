@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Tue, 03 Jul 2012 14:46:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Arduino Physical CPU Gauges</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</link>
+      <pubDate>Tue, 03 Jul 2012 14:46:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-physical-cpu-gauges/</guid>
+      <description>Use Arduino and two hobby servos to control physical servo gauges for cpu activity, memory usage, bandwidth, and more. The script uses the python psutil and pyserial modules. The psutil module provides an interface for retrieving information on all running processes and system utilization (CPU, disk, memory, network) providing service similar to command line tools such as ps, top, iostat, and netstat. The servo control portion of the project is based on Arduino-Python 4-Axis Servo Controlby Brian Wendt, and the Arduino sketch is essentially unmodified from the SerialServoControl Sketch on Sparkfun.</description>
+    </item>
+    
+    <item>
+      <title>Arduino USB HID Keyboard</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</link>
+      <pubDate>Sun, 24 Jun 2012 15:09:36 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/arduino-usb-hid-keyboard/</guid>
+      <description>Turn your Arduino UNO into a USB HID keyboard, and make buttons that do whatever you want. Make it a useful tool, with new buttons for Cut/Copy/Paste or Volume+/Volume-/Mute, or annoy your friends and colleagues by setting the keyboard to perform random keypress after random delays!
+  The USB HID keyboard conforms to the standard USB specification, so is functional on all modern operating systems. All this is made possible by the use of the Arduino Device Firmware Update (DFU) function.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Kernel Compile</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</link>
+      <pubDate>Fri, 08 Jun 2012 04:51:00 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-kernel-compile/</guid>
+      <description>This tutorial will demonstrate how to cross compile the kernel for the Raspberry Pi on Ubuntu 12.04 LTS. The kernel is functional with both the Debian and Arch Linux Raspberry Pi images.
+UPDATE: Alternatively, you can use the following Ansible playbook playbook-raspi_kernel_crosscompile. Note that you have to edit host_vars/localhost.yml file with your local sudo password.
+ git clone https://github.com/chrismeyersfsu/playbook-raspi_kernel_crosscompile ansible-playbook -i localhost.yml site.yml -vvvv  First, install the package dependencies, git and the cross-compilation toolchain:</description>
+    </item>
+    
+    <item>
+      <title>Easy GUI Install &amp; Re-Partition Raspberry Pi on Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</link>
+      <pubDate>Wed, 06 Jun 2012 00:15:42 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/</guid>
+      <description>Easy Install &amp;amp; Resize the SD Card on the Raspberry Pi on Ubuntu.
+First, open a terminal and install the ImageWriter and GParted utilities with apt-get
+sudo apt-get install usb-imagewriter gparted  Assuming you are starting with a fresh install, download the newest release from the Raspberry Pi download site:
+[http://www.raspberrypi.org/downloads](http://www.raspberrypi.org/downloads)  Extract the downloaded archive, and then open ImageWriter:
+imagewriter  Select the desired .img file and target device, in this case, debian6-19-04-2012.</description>
+    </item>
+    
+    <item>
+      <title>Install Quake 3 on Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</link>
+      <pubDate>Sat, 02 Jun 2012 18:17:37 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/install-quake-3-on-raspberry-pi/</guid>
+      <description>Here is the easiest possible way to install Quake 3 on the Raspberry Pi with debian6-19-04-2012. Just copy and paste the following in a terminal on the Pi:
+cd ~ wget http://radium.hexxeh.net/quake3.zip wget http://www.andershizzle.com/Q3%20Demo%20Paks.zip unzip quake3.zip unzip Q3\ Demo\ Paks.zip rm quake3.zip rm Q3\ Demo\ Paks.zip mv ./baseq3/pak* ./quake3/baseq3/ rm -rf ./baseq3/ chmod +x /home/pi/quake3/start.sh chmod +x /home/pi/quake3/ioquake3.arm chmod +x /home/pi/quake3/ioq3ded.arm  Note: After reports of connection issues with the downloads, I have hosted mirror versions of the two files here:</description>
+    </item>
+    
+    <item>
+      <title>VNC setup on Raspberry Pi from Android</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</link>
+      <pubDate>Sat, 02 Jun 2012 18:17:32 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-android/</guid>
+      <description>This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Android. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup. It also assumes that you have a display connected to the Raspberry Pi. If you don&amp;rsquo;t have a display available, the steps to configure VNC remotely are outlined in my last tutorial: VNC setup on Raspberry Pi from Ubuntu</description>
+    </item>
+    
+    <item>
+      <title>VNC setup on Raspberry Pi from Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</link>
+      <pubDate>Sat, 02 Jun 2012 18:02:48 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/vnc-setup-on-raspberry-pi-from-ubuntu/</guid>
+      <description>This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Ubuntu. This process is easier if you have a display connected to the Raspberry Pi, but will also show the steps to connect with only Ethernet and power connected. It assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup
+Getting the IP address of the Raspberry Pi The first step is to locate the Raspberry Pi on your network.</description>
+    </item>
+    
+    <item>
+      <title>Common Kernel Errors &amp; Debugging Tips</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</link>
+      <pubDate>Sat, 19 May 2012 17:51:22 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/common-kernel-errors-debugging-tips/</guid>
+      <description>Kernel Errors The following are some typical errors. Some of these may be caught at compilation or link time, and some may only cause problems when you call insmod with the module.
+ division by zero
+ dereferencing a null pointer
+ returning no value or a value other than zero from init_mod
+ calling a C library routine (e.g., malloc() or printf()) from inside a kernel module
+  Beware that errors in the kernel sometimes have no immediate visible effect, but they may have a delayed effect that is disastrous.</description>
+    </item>
+    
+    <item>
+      <title>Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed)</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</link>
+      <pubDate>Sat, 19 May 2012 17:42:20 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/</guid>
+      <description>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &amp;lsquo;make&amp;rsquo; and &amp;lsquo;make install&amp;rsquo; as well as the Debian method, using &amp;lsquo;make-dpkg&amp;rsquo;. This is the detailed version of this tutorial, see Compile Linux Kernel on Ubuntu 12.04 LTS for the quick overview. In any case, we begin by installing some dependencies:
+sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &amp;lsquo;make xconfig&amp;rsquo; and libncurses5 and libncurses5-dev if you plan to use &amp;lsquo;make menuconfig&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Compile Linux Kernel on Ubuntu 12.04 LTS</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</link>
+      <pubDate>Sat, 19 May 2012 17:39:47 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-linux-kernel-ubuntu-12-04-lts/</guid>
+      <description>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &amp;lsquo;make&amp;rsquo; and &amp;lsquo;make install&amp;rsquo; as well as the Debian method, using &amp;lsquo;make-dpkg&amp;rsquo;. This is a quick overview of the compilation process, for a more thourough walkthrough, see Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed). In both cases, we begin by installing some dependencies:
+sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &amp;lsquo;make xconfig&amp;rsquo; and libncurses5 and libncurses5-dev if you plan to use &amp;lsquo;make menuconfig&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Compile Cyanogenmod 9 for Galaxy Nexus </title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</link>
+      <pubDate>Wed, 16 May 2012 23:39:35 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/compile-cyanogenmod-9-for-galaxy-nexus/</guid>
+      <description>This tutorial will outline the process to compile Cyanogenmod 9 for the Verizon (LTE) Galaxy Nexus (aka toro, a variant of the tuna) on Ubuntu 12.04 LTS. This process has changed a bit over time, notably with new hassles to configure the Oracle Java JDK. While the tutorial is specific to the Galaxy Nexus, it generalizes to most devices supported by Cyanogenmod 9. First, install and configure the Android SDK (more thorough info here):</description>
+    </item>
+    
+    <item>
+      <title>OpenCV &#43; Python</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</link>
+      <pubDate>Wed, 02 May 2012 15:58:13 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-python/</guid>
+      <description>Here are some of the more interesting OpenCV demos using the Python wrapper. The installation process on Ubuntu is covered in my previous post, OpenCV + Ubuntu. The demo scripts are located in samples/python within the OpenCV release.
+The cam shift sample below demonstrates the color/object detection capability of OpenCV. To set the object/color to track, click and drag a box on the video using the mouse. The histogram window will display the target for OpenCV to locate and track within the field of view.</description>
+    </item>
+    
+    <item>
+      <title>OpenCV &#43; Ubuntu</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</link>
+      <pubDate>Wed, 02 May 2012 15:52:18 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/opencv-ubuntu/</guid>
+      <description>Building OpenCV 2.3.1 from source on Ubuntu 12.04 x64. Here is an overview of the compilation of OpenCV with x264 and ffmpeg builtin. If you have completed my Kinect + OpenNI + PrimeSensetutorial, this will also support the OpenNI and PrimeSense drivers with OpenCV. This is largely based on the wonderful OpenCV tutorials from Sebastian Montabone and Osman Eralp. Before you start, make sure to have removed ffmpeg and x264 (if applicable):</description>
+    </item>
+    
+    <item>
+      <title>Google Earth &#43; Mult-axis Controller</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</link>
+      <pubDate>Wed, 02 May 2012 15:45:46 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/mult-axis-google-earth-controller/</guid>
+      <description>Six degree of freedom control for Google Earth using the 3Dconnexion SpaceNavigator on Ubuntu Linux. Based on directions from here: http://code.google.com/p/liquid-galaxy/wiki/LinuxSpaceNavigator
+First, install the necessary package dependencies:
+sudo apt-get install xinput xserver-xorg-input-joystick  Next we add a udev rule to automatically recognize the Space Navigator based on its vendor/product ids and create a symlink at /dev/input/spacenavigator. Create the following file as root:
+sudo gedit /etc/udev/rules.d/90-spacenavigator.rules  and add the following line:</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; BackTrack Chroot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</link>
+      <pubDate>Wed, 02 May 2012 14:31:40 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-backtrack-chroot/</guid>
+      <description>The following tutorial will demonstrate how to run Backtrack Linux in an Android chroot environment. It should work on most Android devices that support at least ARMv7 architecture or newer.
+Download BackTrack ARM edition http://www.backtrack-linux.org/downloads/
+You can download via torrent or direct, the rest of the settings should look like this:
+Image Name: BT5-GNOME-ARM [.torrent | .7z] Size (MB): 1060 Desktop: GNOME Architecture: arm Image: IMG Download: [Direct | Torrent] MD5sum: a66bf35409f4458ee7f35a77891951eb  Extract the contents using 7zip (apt-get install p7zip if you don’t have it installed)</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Linux Chroot &#43; Common Problems</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</link>
+      <pubDate>Wed, 02 May 2012 13:55:10 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/running-linux-on-android-common-problems/</guid>
+      <description>Corrupted Filesystem Problem: ext2 Distribution Image Explanation: If you formated the distribution partition as ext2 then chances are you will have a filesystem corruption. The trouble is fsck doesn’t come with busybox and it’s hard to run fsck on your root filesytem while mounted. The solution is to mount the distribution image from another linux machine and run fsck. Solution:
+Disable USB debugging on your phone. Plug your phone into a linux box.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Linux Chroot &#43; Node.js</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</link>
+      <pubDate>Wed, 02 May 2012 13:53:58 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/node-js-on-android-linux/</guid>
+      <description>This article will walk you through how to compile, from source, node.js on Android. After installing node.js on about 4 different devices (Thunderbolt, Incredible, two G1’s, Galaxy S) I decided to compile this tutorial.
+Prerequisites  Android running Debian in a chroot(ed) environment.
+ Environment contains the necessary path(s)
+  vim /etc/bashrc PATH=$PATH:/usr/local/bin  Swap File (G1 only?) The RAM in both the Incredible and Thunderbolt are sufficient to compile node.</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Ubuntu Chroot</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</link>
+      <pubDate>Wed, 02 May 2012 13:52:29 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ubuntu-chroot/</guid>
+      <description>Here is a quick overview of the process to create a Ubuntu system image that is bootable with Android chroot. It uses the rootstock utility to setup the initial image, including release version, username/password, image size, as well as to seed the desired packages to be pre-installed with the distro. For complete options with rootstock, consult the man pages.
+Quickstart:
+mkdir ubuntu cd ubuntu sudo rootstock \ --fqdn ubuntu \ --login ubuntu \ --password ubuntu \ --imagesize 4G \ --dist maverick \ --seed linux-image-omap,build-essential,mysql-server,tightvncserver,lxde,\ mysql-server-core-5.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu &#43; Kinect &#43; OpenNI &#43; PrimeSense</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-kinect-openni-primesense/</link>
+      <pubDate>Wed, 02 May 2012 05:15:31 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-kinect-openni-primesense/</guid>
+      <description>Getting the OpenNI and PrimeSense drivers working on Ubuntu Here’s an overview of the process to get the OpenNI and PrimeSense drivers working with the Kinect and Ubuntu. Begin by installing some dependencies:
+sudo apt-get install git-core cmake freeglut3-dev pkg-config build-essential libxmu-dev libxi-dev libusb-1.0-0-dev doxygen graphviz mono-complete  Make a directory to store the build, then clone the OpenNI source from Github.
+mkdir ~/kinect cd ~/kinect git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu &#43; OpenKinect &#43; Mouse Control</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</link>
+      <pubDate>Wed, 02 May 2012 05:12:13 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect-mouse-control/</guid>
+      <description>Mouse control with OpenKinect on Ubuntu Linux Here is a quick tutorial to get use your hand as a mouse in a Minority Report-esque interface using the Kinect and Ubuntu. Credit to Ooblik (Tim Flaman) for the awesome project. Before you begin, ensure that you have installed the OpenKinect drivers and they are functioning correctly.
+Quickstart sudo apt-get install libncurses5-dev freeglut3-dev libX11-dev libxtst-dev libxmu-dev cmake git git clone https://github.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu &#43; OpenKinect</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</link>
+      <pubDate>Wed, 02 May 2012 05:08:22 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/ubuntu-openkinect/</guid>
+      <description>Getting started with OpenKinect on Ubuntu Linux There are two ways you can get OpenKinect (freenect) working on Ubuntu: either by installing the prebuilt PPA package, or compiling from source. I’ve confirmed at both of these methods are functional, the package based method is slightly more straightforward, and allows updates from the apt package manager. This article will demonstrate installation via this method, for details on the manual compilation method, check out the official OpenKinect Getting Started Guide</description>
+    </item>
+    
+  </channel>
+</rss>

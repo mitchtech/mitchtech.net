@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Launchpad on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/launchpad/</link>
+    <description>Recent content in Launchpad on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Mon, 09 Jul 2012 23:06:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/launchpad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MSP430 Launchpad &#43; PWM</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</link>
+      <pubDate>Mon, 09 Jul 2012 23:06:03 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/msp430-launchpad-pwm/</guid>
+      <description>Inspired by this tutorial.
+The following tutorial will describe how perform pulse width modulation using a MSP430g2553 TI Launchpad to control a sparkfun servo motor.
+Prerequisites Please see Cross-Compiling for TI MSP430 Launchpad to setup your development environment.
+Hardware  Servo motor
+ MSP430
+ Power
+  I&amp;rsquo;m using the Arduino to power the servo motors. Alternatively you may use USB, a wall plug, or a battery. The MSP430 is being used to generate the PWM for control.</description>
+    </item>
+    
+    <item>
+      <title>Cross-Compiling for TI MSP430 Launchpad</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</link>
+      <pubDate>Sat, 23 Jun 2012 13:03:13 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</guid>
+      <description>Inspired by this tutorial.
+We assumes you are running Ubuntu 12.04 and have a TI msp430g2231 but may work for other msp430 devices (see the Other MSP430 Boards section). This tutorial will cover obtaining the dependencies needed to cross-compile a simple light blinking code for your msp430 device, how to flash the cross-compiled binary to your device, and finish with some advice on how-to compile for other msp430 device variations.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Potentiometer on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/potentiometer/</link>
+    <description>Recent content in Potentiometer on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Wed, 02 May 2012 04:32:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/potentiometer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Dual Analog Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-dual-analog-input/</link>
+      <pubDate>Wed, 02 May 2012 04:32:30 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-dual-analog-input/</guid>
+      <description>Dual analog input with Android and Arduino. This article will demonstrate a basic dual analog USB input accessory.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)
+ 2x Potentiometers
+ Hook-up wire
+ Android ADK Board*
+ – OR –</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; Arduino &#43; USB Host &#43; Sensor Graph</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-sensor-graph/</link>
+      <pubDate>Wed, 02 May 2012 04:30:29 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-arduino-usb-host-sensor-graph/</guid>
+      <description>A simple app to visualize analog sensor input with Android and Arduino.
+For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
+Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Hardware Parts needed:  Android Device (1.6+)
+ Potentiometer
+ Breadboard
+ Power supply
+ Hook-up wire
+ Android ADK Board*
+ – OR –
+ Arduino compatible and USB Host shield</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Sensor Graph</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-sensor-graph/</link>
+      <pubDate>Wed, 02 May 2012 03:55:09 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-sensor-graph/</guid>
+      <description>A simple app to visualize analog sensor input with Android and IOIO. The example uses a rotary potentiometer, but could easily be used with other sensor inputs such as temperature or ambient light.
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Dual Analog Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-dual-analog-input/</link>
+      <pubDate>Wed, 02 May 2012 03:49:44 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-dual-analog-input/</guid>
+      <description>Dual analog input with Android and IOIO. This article will demonstrate a basic dual analog Android USB (or Bluetooth) analog input device. You guessed it… the Etch-a-Sketch is coming soon!
+For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
+Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+    </item>
+    
+    <item>
+      <title>Android &#43; IOIO &#43; Simple Analog Input</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-input/</link>
+      <pubDate>Wed, 02 May 2012 03:40:10 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/android-ioio-simple-analog-input/</guid>
+      <description>Simplest possible analog input with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) analog input device.
+The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
+Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
+Hardware Parts needed:  Android Device (1.</description>
+    </item>
+    
+  </channel>
+</rss>

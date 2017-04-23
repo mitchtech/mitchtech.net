@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blink Led on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/blink-led/</link>
+    <description>Recent content in Blink Led on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Sat, 23 Jun 2012 13:03:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/blink-led/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cross-Compiling for TI MSP430 Launchpad</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</link>
+      <pubDate>Sat, 23 Jun 2012 13:03:13 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/cross-compiling-for-ti-msp430-launchpad/</guid>
+      <description>Inspired by this tutorial.
+We assumes you are running Ubuntu 12.04 and have a TI msp430g2231 but may work for other msp430 devices (see the Other MSP430 Boards section). This tutorial will cover obtaining the dependencies needed to cross-compile a simple light blinking code for your msp430 device, how to flash the cross-compiled binary to your device, and finish with some advice on how-to compile for other msp430 device variations.</description>
+    </item>
+    
+  </channel>
+</rss>

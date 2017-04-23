@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apache on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/apache/</link>
+    <description>Recent content in Apache on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Fri, 08 Jun 2012 04:29:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wordpress on Raspberry Pi</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</link>
+      <pubDate>Fri, 08 Jun 2012 04:29:14 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/wordpress-on-raspberry-pi/</guid>
+      <description>This tutorial will demonstrate how to install and host Wordpress on Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup.
+Install Apache Wordpress runs on the Apache2 web server. To setup Apache, follow the instructions in my previous post, Raspberry Pi and Apache.
+Install MySQL and PHP Begin by installing the required dependencies. From a terminal:</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi &#43; Apache</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-apache/</link>
+      <pubDate>Fri, 08 Jun 2012 04:03:32 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/raspberry-pi-apache/</guid>
+      <description>Its quite easy to install the Apache web server on the Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup. Open a terminal (or login via SSH) and install the package with apt-get:
+sudo apt-get install apache2  UPDATE: 9/18/12: The following group creation error appears to have been corrected in an updated package and should no longer be necessary.</description>
+    </item>
+    
+  </channel>
+</rss>
