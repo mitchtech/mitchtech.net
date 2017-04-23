@@ -12,13 +12,13 @@ theme = "hugo-icarus-theme"
 
 
 [permalinks]
-    blog = "/:slug"
-    # blog = "/blog/:year/:month/:day/:filename/"
+    post = "/:slug"
+    # post = "/:year/:month/:day/:slug"
 
 
 [params]
-    #author = "John Doe"
-    #bio = "Blogger - Programmer - Gopher"
+    #author = "Mitchtech"
+    #bio = "developer,engineer,scientist,hacker,maker"
     #location = "Earth"
     site_description = "developer,engineer,scientist,hacker,maker"
     copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
@@ -56,14 +56,14 @@ theme = "hugo-icarus-theme"
 
 # Enter a link for the follow button on the left
 [params.profile]
-    follow_button = "https://github.com/digitalcraftsman"
+    follow_button = "https://github.com/mitchtech"
 
 
 [social]
 # Add your social network accounts to the profile section on the left
 # by entering your username. The links to your account will be
 # created automatically.
-    github          = "digitalcraftsman"
+    github          = "mitchtech"
     gitlab          = ""
     bitbucket       = ""
     jsfiddle        = ""
