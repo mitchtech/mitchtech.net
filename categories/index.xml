@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/categories/</link>
+    <description>Recent content in Categories on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lorem</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/lorem/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/lorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/programming/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pseudo</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/pseudo/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/pseudo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Starting</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/starting/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/starting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/categories/theme/</link>
+      <pubDate>Sat, 10 Oct 2015 16:56:43 +0200</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/categories/theme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theme on Mitchtech</title>
+    <link>https://mitchtech.github.io/hugo-mitchtech/tags/theme/</link>
+    <description>Recent content in Theme on Mitchtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice).</copyright>
+    <lastBuildDate>Sat, 10 Oct 2015 16:56:43 +0200</lastBuildDate>
+    
+	<atom:link href="https://mitchtech.github.io/hugo-mitchtech/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing Icarus and its features</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/introducing-icarus-and-its-features/</link>
+      <pubDate>Sat, 10 Oct 2015 16:56:43 +0200</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/introducing-icarus-and-its-features/</guid>
+      <description>Icarus is a responsive and customizable theme for bloggers. It&amp;rsquo;s a port of the same-named theme for Hexo made by Ruipeng Zhang. Noteworthy features of this Hugo theme are the integration of a comment-system powered by Disqus, localization (l10n) support, syntax highlighting for source code, optional widgets for the sidebar and a handful shortcodes to make your life easier.
+Get the theme I assume you&amp;rsquo;ve Git installed. Inside the folder of your Hugo site run</description>
+    </item>
+    
+    <item>
+      <title>Linked post</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/linked-post/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+    </item>
+    
+    <item>
+      <title>Creating a new theme</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/post/creating-a-new-theme/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/post/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+  </channel>
+</rss>

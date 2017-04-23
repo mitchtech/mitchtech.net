@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/post/introducing-icarus-and-its-features/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/post/migrate-from-jekyll/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/post/linked-post/</loc>
+    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/post/go-is-for-lovers/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/post/hugo-is-for-lovers/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/post/creating-a-new-theme/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/go/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/golang/</loc>
+    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/hugo/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/ipsum/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/lorem/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/post/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/programming/</loc>
+    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/programming/</loc>
+    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/pseudo/</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/starting/</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/static-sites/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/theme/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/theme/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
