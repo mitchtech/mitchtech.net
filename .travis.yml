@@ -12,6 +12,7 @@ branches:
 
 install:
   - rm -rf public || exit 0
+  - git clone https://github.com/mitchtech/hugo-icarus-theme.git themes/hugo-icarus-theme
 
 script:
   - binaries/hugo
