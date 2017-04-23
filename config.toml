@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://mitchtech.github.io/hugo-mitchtech/"
 languageCode = "en-us"
 title = "Mitchtech"
 # Enable comments by entering your Disqus shortname
