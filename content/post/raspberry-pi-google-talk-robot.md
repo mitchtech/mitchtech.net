@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2013-01-17 02:06:48+00:00
-layout: post
-link: http://mitchtech.net/raspberry-pi-google-talk-robot/
-slug: raspberry-pi-google-talk-robot
-title: Raspberry Pi Google Talk Robot
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Digital Input
-- Digital Output
-- DIY
-- Electronics
-- Google Talk
-- GPIO
-- Home Automation
-- Linux
-- Microcontroller
-- Raspberry Pi
-- XMPP
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2013-01-17 02:06:48+00:00"
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-google-talk-robot/"
+slug = "raspberry-pi-google-talk-robot"
+tags = ["ARM","Digital Input","Digital Output","DIY","Electronics","Google Talk","GPIO","Home Automation","Linux","Microcontroller","Raspberry Pi","XMPP"]
+title = "Raspberry Pi Google Talk Robot"
+
++++
 
 {{< youtube vd6RlkAXWRs >}}
 

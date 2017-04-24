@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:05:36+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-accelerometer-servos/
-slug: android-ioio-accelerometer-servos
-title: Android + IOIO + Accelerometer Servos
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Accelerometer
-- Analog Input
-- Analog Output
-- Android
-- Bluetooth
-- Electronics
-- IOIO
-- Microcontroller
-- Pan &amp; Tilt
-- PIC
-- Servo
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:05:36+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-accelerometer-servos/"
+slug = "android-ioio-accelerometer-servos"
+tags = ["Accelerometer","Analog Input","Analog Output","Android","Bluetooth","Electronics","IOIO","Microcontroller","Pan &amp; Tilt","PIC","Servo"]
+title = "Android + IOIO + Accelerometer Servos"
+
++++
 
 {{< youtube 482KfXG03cU >}}
 

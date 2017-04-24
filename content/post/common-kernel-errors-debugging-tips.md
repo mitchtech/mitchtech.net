@@ -1,19 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-19 17:51:22+00:00
-layout: post
-link: http://mitchtech.net/common-kernel-errors-debugging-tips/
-slug: common-kernel-errors-debugging-tips
-title: Common Kernel Errors & Debugging Tips
-categories:
-- Tutorials
-- Ubuntu
-tags:
-- Kernel
-- Linux
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Tutorials","Ubuntu"]
+comments = true
+date = "2012-05-19 17:51:22+00:00"
+layout = "post"
+link = "http://mitchtech.net/common-kernel-errors-debugging-tips/"
+slug = "common-kernel-errors-debugging-tips"
+tags = ["Kernel","Linux","Ubuntu"]
+title = "Common Kernel Errors & Debugging Tips"
+
++++
 
 ## Kernel Errors
 

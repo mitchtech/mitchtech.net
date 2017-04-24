@@ -1,26 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:50:57+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-d-pad/
-slug: android-ioio-d-pad
-title: Android + IOIO + D-Pad
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Android
-- Bluetooth
-- Buttons
-- D Pad
-- Digital Input
-- Electronics
-- IOIO
-- Microcontroller
-- PIC
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 03:50:57+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-d-pad/"
+slug = "android-ioio-d-pad"
+tags = ["Android","Bluetooth","Buttons","D Pad","Digital Input","Electronics","IOIO","Microcontroller","PIC"]
+title = "Android + IOIO + D-Pad"
+
++++
 
 {{< youtube lrGkvYAd12c >}}
 

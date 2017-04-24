@@ -1,30 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:44:25+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-laser-tripwire/
-slug: android-ioio-laser-tripwire
-title: Android + IOIO + Laser Tripwire
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Ambient Light
-- Analog Input
-- Android
-- Bluetooth
-- Electronics
-- Graph
-- IOIO
-- Laser
-- LED
-- Microcontroller
-- Photocell
-- Sensor
-- Voltage Divider
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:44:25+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-laser-tripwire/"
+slug = "android-ioio-laser-tripwire"
+tags = ["Ambient Light","Analog Input","Android","Bluetooth","Electronics","Graph","IOIO","Laser","LED","Microcontroller","Photocell","Sensor","Voltage Divider"]
+title = "Android + IOIO + Laser Tripwire"
+
++++
 
 {{< youtube JAU7-_IWMdM >}}
 

@@ -1,24 +1,16 @@
----
-author: meyers
-comments: true
-date: 2012-07-09 23:06:03+00:00
-excerpt: How to perform pulse width modulation using a MSP430g2553 TI Launchpad to
-  control a sparkfun servo motor.
-layout: post
-link: http://mitchtech.net/msp430-launchpad-pwm/
-slug: msp430-launchpad-pwm
-title: MSP430 Launchpad + PWM
-categories:
-- MSP430 Launchpad
-- Tutorials
-tags:
-- Arduino
-- launchpad
-- msp430
-- pulse width modulation
-- PWM
-- Servo
----
++++
+author = "meyers"
+categories = ["MSP430 Launchpad","Tutorials"]
+comments = true
+date = "2012-07-09 23:06:03+00:00"
+excerpt = "How to perform pulse width modulation using a MSP430g2553 TI Launchpad to control a sparkfun servo motor."
+layout = "post"
+link = "http://mitchtech.net/msp430-launchpad-pwm/"
+slug = "msp430-launchpad-pwm"
+tags = ["Arduino","launchpad","msp430","pulse width modulation","PWM","Servo"]
+title = "MSP430 Launchpad + PWM"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/msp430+servo-300x225.jpg)](http://mitchtech.net/msp430-launchpad-pwm/samsung/)
 

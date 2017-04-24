@@ -1,33 +1,16 @@
----
-author: michael
-comments: true
-date: 2012-07-10 22:54:46+00:00
-excerpt: 'This tutorial will demonstrate how to mount Dropbox (or any filesystem)
-  over the network on the Raspberry Pi using SSHFS (Secure SHell FileSystem). '
-layout: post
-link: http://mitchtech.net/dropbox-on-raspberry-pi-via-sshfs/
-slug: dropbox-on-raspberry-pi-via-sshfs
-title: Dropbox on Raspberry Pi via SSHFS
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Boot
-- Cron
-- DIY
-- Dropbox
-- Filesystem
-- FUSE
-- Linux
-- Mount
-- OpenSSH
-- Raspberry Pi
-- Server
-- Share
-- SSH
-- SSHFS
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-07-10 22:54:46+00:00"
+excerpt = "This tutorial will demonstrate how to mount Dropbox (or any filesystem) over the network on the Raspberry Pi using SSHFS (Secure SHell FileSystem). "
+layout = "post"
+link = "http://mitchtech.net/dropbox-on-raspberry-pi-via-sshfs/"
+slug = "dropbox-on-raspberry-pi-via-sshfs"
+tags = ["ARM","Boot","Cron","DIY","Dropbox","Filesystem","FUSE","Linux","Mount","OpenSSH","Raspberry Pi","Server","Share","SSH","SSHFS"]
+title = "Dropbox on Raspberry Pi via SSHFS"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/07/pi-dropbox-300x225.png)](http://mitchtech.net/dropbox-on-raspberry-pi-via-sshfs/pi-dropbox/)
 

@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:02:41+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-software-joystick-servos/
-slug: android-ioio-software-joystick-servos
-title: Android + IOIO + Software Joystick Servos
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Output
-- Android
-- Bluetooth
-- Electronics
-- IOIO
-- Joystick
-- Microcontroller
-- Pan &amp; Tilt
-- PIC
-- PWM
-- Servo
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:02:41+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-software-joystick-servos/"
+slug = "android-ioio-software-joystick-servos"
+tags = ["Analog Output","Android","Bluetooth","Electronics","IOIO","Joystick","Microcontroller","Pan &amp; Tilt","PIC","PWM","Servo"]
+title = "Android + IOIO + Software Joystick Servos"
+
++++
 
 {{< youtube _VN_NNE9rVw >}}
 

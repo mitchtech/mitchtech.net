@@ -1,31 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:28:06+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-temperature-light/
-slug: android-ioio-temperature-light
-title: Android + IOIO + Temperature + Light
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Ambient Light
-- Analog Input
-- Android
-- Bluetooth
-- Digital Input
-- Electronics
-- Graph
-- IOIO
-- Microcontroller
-- Photocell
-- PIC
-- Sensor
-- Temperature
-- Voltage Divider
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:28:06+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-temperature-light/"
+slug = "android-ioio-temperature-light"
+tags = ["Ambient Light","Analog Input","Android","Bluetooth","Digital Input","Electronics","Graph","IOIO","Microcontroller","Photocell","PIC","Sensor","Temperature","Voltage Divider"]
+title = "Android + IOIO + Temperature + Light"
+
++++
 
 {{< youtube BdLr5a__ySc >}}
 

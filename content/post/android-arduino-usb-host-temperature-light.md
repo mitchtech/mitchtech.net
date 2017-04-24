@@ -1,32 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:41:37+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-temperature-light/
-slug: android-arduino-usb-host-temperature-light
-title: Android + Arduino + USB Host + Temperature + Light
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Ambient Light
-- Analog Input
-- Android
-- Arduino
-- Electronics
-- Graph
-- Microbridge
-- Microcontroller
-- Photocell
-- Sensor
-- Temperature
-- USB Host
-- Voltage Divider
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 04:41:37+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-temperature-light/"
+slug = "android-arduino-usb-host-temperature-light"
+tags = ["ADB","Ambient Light","Analog Input","Android","Arduino","Electronics","Graph","Microbridge","Microcontroller","Photocell","Sensor","Temperature","USB Host","Voltage Divider"]
+title = "Android + Arduino + USB Host + Temperature + Light"
+
++++
 
 {{< youtube 0Eu3c4dQP8c >}}
 

@@ -1,27 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:35:48+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-combination-lock/
-slug: android-arduino-usb-host-combination-lock
-title: Android + Arduino + USB Host + Combination Lock
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Analog Output
-- Android
-- Arduino
-- Electronics
-- Lock
-- Microbridge
-- Microcontroller
-- USB Host
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 04:35:48+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-combination-lock/"
+slug = "android-arduino-usb-host-combination-lock"
+tags = ["ADB","Analog Output","Android","Arduino","Electronics","Lock","Microbridge","Microcontroller","USB Host"]
+title = "Android + Arduino + USB Host + Combination Lock"
+
++++
 
 {{< youtube XI2ApLNNc7A >}}
 

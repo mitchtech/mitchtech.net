@@ -1,27 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:25:25+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-range-finder/
-slug: android-ioio-range-finder
-title: Android + IOIO + Range Finder
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Input
-- Android
-- Bluetooth
-- Electronics
-- Infrared
-- IOIO
-- Microcontroller
-- PIC
-- Sensor
-- Ultrasonic
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:25:25+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-range-finder/"
+slug = "android-ioio-range-finder"
+tags = ["Analog Input","Android","Bluetooth","Electronics","Infrared","IOIO","Microcontroller","PIC","Sensor","Ultrasonic"]
+title = "Android + IOIO + Range Finder"
+
++++
 
 {{< youtube iYcQvOKi4HM >}}
 

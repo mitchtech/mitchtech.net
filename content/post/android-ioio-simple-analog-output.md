@@ -1,27 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:37:38+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-simple-analog-output/
-slug: android-ioio-simple-analog-output
-title: Android + IOIO + Simple Analog Output
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Output
-- Android
-- Bluetooth
-- Electronics
-- IOIO
-- LED
-- Microcontroller
-- PIC
-- PWM
-- RGB LED
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 03:37:38+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-simple-analog-output/"
+slug = "android-ioio-simple-analog-output"
+tags = ["Analog Output","Android","Bluetooth","Electronics","IOIO","LED","Microcontroller","PIC","PWM","RGB LED"]
+title = "Android + IOIO + Simple Analog Output"
+
++++
 
 {{< youtube bk2q7ugkMME >}}
 

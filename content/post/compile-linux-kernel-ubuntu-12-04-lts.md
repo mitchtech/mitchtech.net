@@ -1,19 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-19 17:39:47+00:00
-layout: post
-link: http://mitchtech.net/compile-linux-kernel-ubuntu-12-04-lts/
-slug: compile-linux-kernel-ubuntu-12-04-lts
-title: Compile Linux Kernel on Ubuntu 12.04 LTS
-categories:
-- Tutorials
-- Ubuntu
-tags:
-- Kernel
-- Linux
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Tutorials","Ubuntu"]
+comments = true
+date = "2012-05-19 17:39:47+00:00"
+layout = "post"
+link = "http://mitchtech.net/compile-linux-kernel-ubuntu-12-04-lts/"
+slug = "compile-linux-kernel-ubuntu-12-04-lts"
+tags = ["Kernel","Linux","Ubuntu"]
+title = "Compile Linux Kernel on Ubuntu 12.04 LTS"
+
++++
 
 This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using 'make' and 'make install' as well as the Debian method, using 'make-dpkg'. This is a quick overview of the compilation process, for a more thourough walkthrough, see [Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed)](http://mitchtech.net/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/).  In both cases, we begin by installing some dependencies:
 

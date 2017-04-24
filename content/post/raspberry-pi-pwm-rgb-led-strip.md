@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2013-01-15 23:29:15+00:00
-layout: post
-link: http://mitchtech.net/raspberry-pi-pwm-rgb-led-strip/
-slug: raspberry-pi-pwm-rgb-led-strip
-title: Raspberry Pi + PWM RGB LED Strip
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Device Driver
-- DIY
-- Electronics
-- Home Automation
-- Kernel
-- LED
-- Linux
-- Microcontroller
-- PWM
-- Raspberry Pi
-- RGB LED Strip
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2013-01-15 23:29:15+00:00"
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-pwm-rgb-led-strip/"
+slug = "raspberry-pi-pwm-rgb-led-strip"
+tags = ["ARM","Device Driver","DIY","Electronics","Home Automation","Kernel","LED","Linux","Microcontroller","PWM","Raspberry Pi","RGB LED Strip"]
+title = "Raspberry Pi + PWM RGB LED Strip"
+
++++
 
 {{< youtube --d8Sp2yoUU >}}
 

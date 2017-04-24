@@ -1,31 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:40:30+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-pan-tilt-leds/
-slug: android-arduino-usb-host-pan-tilt-leds
-title: Android + Arduino + USB Host + Pan Tilt LEDs
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Analog Output
-- Android
-- Arduino
-- Digital Output
-- Electronics
-- LED
-- Microbridge
-- Microcontroller
-- Pan &amp; Tilt
-- PWM
-- Servo
-- USB Host
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 04:40:30+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-pan-tilt-leds/"
+slug = "android-arduino-usb-host-pan-tilt-leds"
+tags = ["ADB","Analog Output","Android","Arduino","Digital Output","Electronics","LED","Microbridge","Microcontroller","Pan &amp; Tilt","PWM","Servo","USB Host"]
+title = "Android + Arduino + USB Host + Pan Tilt LEDs"
+
++++
 
 {{< youtube oDpVTzXstBc >}}
 

@@ -1,30 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:13:18+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-simple-analog-input/
-slug: android-arduino-usb-host-simple-analog-input
-title: Android + Arduino + USB Host + Simple Analog Input
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Ambient Light
-- Analog Input
-- Android
-- Arduino
-- Electronics
-- Microbridge
-- Microcontroller
-- Photocell
-- Sensor
-- USB Host
-- Voltage Divider
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 03:13:18+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-simple-analog-input/"
+slug = "android-arduino-usb-host-simple-analog-input"
+tags = ["ADB","Ambient Light","Analog Input","Android","Arduino","Electronics","Microbridge","Microcontroller","Photocell","Sensor","USB Host","Voltage Divider"]
+title = "Android + Arduino + USB Host + Simple Analog Input"
+
++++
 
 {{< youtube jwzx1pyMBxI >}}
 

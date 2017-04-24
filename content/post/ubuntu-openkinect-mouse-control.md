@@ -1,22 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 05:12:13+00:00
-layout: post
-link: http://mitchtech.net/ubuntu-openkinect-mouse-control/
-slug: ubuntu-openkinect-mouse-control
-title: Ubuntu + OpenKinect + Mouse Control
-categories:
-- Kinect
-- Tutorials
-- Ubuntu
-tags:
-- Hack
-- Kinect
-- Linux
-- OpenKinect
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Kinect","Tutorials","Ubuntu"]
+comments = true
+date = "2012-05-02 05:12:13+00:00"
+layout = "post"
+link = "http://mitchtech.net/ubuntu-openkinect-mouse-control/"
+slug = "ubuntu-openkinect-mouse-control"
+tags = ["Hack","Kinect","Linux","OpenKinect","Ubuntu"]
+title = "Ubuntu + OpenKinect + Mouse Control"
+
++++
 
 {{< youtube y56YDc65kRo >}}
 

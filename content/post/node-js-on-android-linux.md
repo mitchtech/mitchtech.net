@@ -1,25 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 13:53:58+00:00
-layout: post
-link: http://mitchtech.net/node-js-on-android-linux/
-slug: node-js-on-android-linux
-title: Android + Linux Chroot + Node.js
-categories:
-- Android
-- Android Linux Chroot
-- Tutorials
-tags:
-- Android
-- Chroot
-- Hack
-- Linux
-- Node.js
-- Rootstock
-- Ubuntu
-- Virtual Machine
----
++++
+author = "michael"
+categories = ["Android","Android Linux Chroot","Tutorials"]
+comments = true
+date = "2012-05-02 13:53:58+00:00"
+layout = "post"
+link = "http://mitchtech.net/node-js-on-android-linux/"
+slug = "node-js-on-android-linux"
+tags = ["Android","Chroot","Hack","Linux","Node.js","Rootstock","Ubuntu","Virtual Machine"]
+title = "Android + Linux Chroot + Node.js"
+
++++
 
 This article will walk you through how to compile, from source, node.js on Android.  After installing node.js on about 4 different devices (Thunderbolt, Incredible, two G1’s, Galaxy S) I decided to compile this tutorial.
 

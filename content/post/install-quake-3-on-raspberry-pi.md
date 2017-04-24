@@ -1,22 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-02 18:17:37+00:00
-layout: post
-link: http://mitchtech.net/install-quake-3-on-raspberry-pi/
-slug: install-quake-3-on-raspberry-pi
-title: Install Quake 3 on Raspberry Pi
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Game
-- Linux
-- Quake3
-- Raspberry Pi
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-02 18:17:37+00:00"
+layout = "post"
+link = "http://mitchtech.net/install-quake-3-on-raspberry-pi/"
+slug = "install-quake-3-on-raspberry-pi"
+tags = ["ARM","Game","Linux","Quake3","Raspberry Pi","Ubuntu"]
+title = "Install Quake 3 on Raspberry Pi"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/pi-quake3-intro-300x225.jpg)](http://mitchtech.net/install-quake-3-on-raspberry-pi/pi-quake3-intro/)
 

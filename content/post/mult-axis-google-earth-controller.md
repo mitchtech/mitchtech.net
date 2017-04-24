@@ -1,24 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 15:45:46+00:00
-layout: post
-link: http://mitchtech.net/mult-axis-google-earth-controller/
-slug: mult-axis-google-earth-controller
-title: Google Earth + Mult-axis Controller
-categories:
-- Tutorials
-- Ubuntu
-tags:
-- 3D Connection
-- Device Driver
-- Google Earth
-- Joystick
-- Linux
-- Multi-axis
-- SpaceNavigator
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Tutorials","Ubuntu"]
+comments = true
+date = "2012-05-02 15:45:46+00:00"
+layout = "post"
+link = "http://mitchtech.net/mult-axis-google-earth-controller/"
+slug = "mult-axis-google-earth-controller"
+tags = ["3D Connection","Device Driver","Google Earth","Joystick","Linux","Multi-axis","SpaceNavigator","Ubuntu"]
+title = "Google Earth + Mult-axis Controller"
+
++++
 
 {{< youtube xR3xUYtjg5Y >}}
 

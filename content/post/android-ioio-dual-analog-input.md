@@ -1,26 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:49:44+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-dual-analog-input/
-slug: android-ioio-dual-analog-input
-title: Android + IOIO + Dual Analog Input
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- ADB
-- Analog Input
-- Bluetooth
-- Electronics
-- IOIO
-- Microcontroller
-- PIC
-- Potentiometer
-- Sensor
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 03:49:44+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-dual-analog-input/"
+slug = "android-ioio-dual-analog-input"
+tags = ["ADB","Analog Input","Bluetooth","Electronics","IOIO","Microcontroller","PIC","Potentiometer","Sensor"]
+title = "Android + IOIO + Dual Analog Input"
+
++++
 
 {{< youtube QIEXiqElcE8 >}}
 

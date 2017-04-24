@@ -1,22 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 05:08:22+00:00
-layout: post
-link: http://mitchtech.net/ubuntu-openkinect/
-slug: ubuntu-openkinect
-title: Ubuntu + OpenKinect
-categories:
-- Kinect
-- Tutorials
-- Ubuntu
-tags:
-- Hack
-- Kinect
-- Linux
-- OpenKinect
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Kinect","Tutorials","Ubuntu"]
+comments = true
+date = "2012-05-02 05:08:22+00:00"
+layout = "post"
+link = "http://mitchtech.net/ubuntu-openkinect/"
+slug = "ubuntu-openkinect"
+tags = ["Hack","Kinect","Linux","OpenKinect","Ubuntu"]
+title = "Ubuntu + OpenKinect"
+
++++
 
 {{< youtube gQEAueuF0Ig >}}
 

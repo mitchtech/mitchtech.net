@@ -1,23 +1,16 @@
----
-author: meyers
-comments: true
-date: 2012-08-13 15:16:36+00:00
-excerpt: This tutorial will explain how to communicate from the Raspberry Pi to an
-  MSP430 Launchpad board (M430G2553 chip) using SPI.
-layout: post
-link: http://mitchtech.net/raspberry-pi-msp430-spi/
-slug: raspberry-pi-msp430-spi
-title: Raspberry Pi + MSP430 + SPI
-categories:
-- MSP430 Launchpad
-- Raspberry Pi
-- Tutorials
-tags:
-- M430G2553
-- msp430
-- Raspberry Pi
-- spi
----
++++
+author = "meyers"
+categories = ["MSP430 Launchpad","Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-08-13 15:16:36+00:00"
+excerpt = "This tutorial will explain how to communicate from the Raspberry Pi to an MSP430 Launchpad board (M430G2553 chip) using SPI."
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-msp430-spi/"
+slug = "raspberry-pi-msp430-spi"
+tags = ["M430G2553","msp430","Raspberry Pi","spi"]
+title = "Raspberry Pi + MSP430 + SPI"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/08/raspi-msp-spi-300x225.jpg)](http://mitchtech.net/raspberry-pi-msp430-spi/raspi-msp-spi/)
 

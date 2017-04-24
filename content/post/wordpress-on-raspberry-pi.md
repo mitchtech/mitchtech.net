@@ -1,21 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-08 04:29:14+00:00
-layout: post
-link: http://mitchtech.net/wordpress-on-raspberry-pi/
-slug: wordpress-on-raspberry-pi
-title: Wordpress on Raspberry Pi
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- Apache
-- Linux
-- Raspberry Pi
-- Web Server
-- Wordpress
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-08 04:29:14+00:00"
+layout = "post"
+link = "http://mitchtech.net/wordpress-on-raspberry-pi/"
+slug = "wordpress-on-raspberry-pi"
+tags = ["Apache","Linux","Raspberry Pi","Web Server","Wordpress"]
+title = "Wordpress on Raspberry Pi"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/pi-wordpress-300x183.png)](http://mitchtech.net/wordpress-on-raspberry-pi/pi-wordpress/)
 

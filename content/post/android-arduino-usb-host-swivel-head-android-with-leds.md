@@ -1,29 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:38:09+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-swivel-head-android-with-leds/
-slug: android-arduino-usb-host-swivel-head-android-with-leds
-title: Android + Arduino + USB Host + Swivel Head Android with LEDs
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Analog Output
-- Android
-- Arduino
-- Digital Output
-- Electronics
-- LED
-- Microbridge
-- Microcontroller
-- Servo
-- USB Host
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 04:38:09+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-swivel-head-android-with-leds/"
+slug = "android-arduino-usb-host-swivel-head-android-with-leds"
+tags = ["ADB","Analog Output","Android","Arduino","Digital Output","Electronics","LED","Microbridge","Microcontroller","Servo","USB Host"]
+title = "Android + Arduino + USB Host + Swivel Head Android with LEDs"
+
++++
 
 {{< youtube P5rrO43vgqE >}}
 

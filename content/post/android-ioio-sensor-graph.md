@@ -1,27 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:55:09+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-sensor-graph/
-slug: android-ioio-sensor-graph
-title: Android + IOIO + Sensor Graph
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Input
-- Android
-- Bluetooth
-- Electronics
-- Graph
-- IOIO
-- Microcontroller
-- PIC
-- Potentiometer
-- Sensor
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 03:55:09+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-sensor-graph/"
+slug = "android-ioio-sensor-graph"
+tags = ["Analog Input","Android","Bluetooth","Electronics","Graph","IOIO","Microcontroller","PIC","Potentiometer","Sensor"]
+title = "Android + IOIO + Sensor Graph"
+
++++
 
 {{< youtube 8YTY3gQKqFQ >}}
 

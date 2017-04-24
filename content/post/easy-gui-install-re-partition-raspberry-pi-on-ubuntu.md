@@ -1,20 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-06 00:15:42+00:00
-layout: post
-link: http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/
-slug: easy-gui-install-re-partition-raspberry-pi-on-ubuntu
-title: Easy GUI Install & Re-Partition Raspberry Pi on Ubuntu
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- GParted
-- Linux
-- Raspberry Pi
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-06 00:15:42+00:00"
+layout = "post"
+link = "http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/"
+slug = "easy-gui-install-re-partition-raspberry-pi-on-ubuntu"
+tags = ["GParted","Linux","Raspberry Pi","Ubuntu"]
+title = "Easy GUI Install & Re-Partition Raspberry Pi on Ubuntu"
+
++++
 
 Easy Install & Resize the SD Card on the Raspberry Pi on Ubuntu.
 

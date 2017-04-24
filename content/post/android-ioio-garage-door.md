@@ -1,31 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:48:26+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-garage-door/
-slug: android-ioio-garage-door
-title: Android + IOIO + Garage Door
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Android
-- Bluetooth
-- Buttons
-- Digital Output
-- DIY
-- Electronics
-- Garage Door
-- Hack
-- Home Automation
-- IOIO
-- Microcontroller
-- PIC
-- Relay
-- Sensor
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:48:26+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-garage-door/"
+slug = "android-ioio-garage-door"
+tags = ["Android","Bluetooth","Buttons","Digital Output","DIY","Electronics","Garage Door","Hack","Home Automation","IOIO","Microcontroller","PIC","Relay","Sensor"]
+title = "Android + IOIO + Garage Door"
+
++++
 
 {{< youtube Y6X1-WzvzME >}}
 

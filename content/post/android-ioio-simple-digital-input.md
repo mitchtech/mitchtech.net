@@ -1,25 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:33:47+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-simple-digital-input/
-slug: android-ioio-simple-digital-input
-title: Android + IOIO + Simple Digital Input
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Android
-- Bluetooth
-- Buttons
-- Digital Input
-- Electronics
-- IOIO
-- Microcontroller
-- PIC
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 03:33:47+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-simple-digital-input/"
+slug = "android-ioio-simple-digital-input"
+tags = ["Android","Bluetooth","Buttons","Digital Input","Electronics","IOIO","Microcontroller","PIC"]
+title = "Android + IOIO + Simple Digital Input"
+
++++
 
 {{< youtube Cr2PpNiEDXI >}}
 

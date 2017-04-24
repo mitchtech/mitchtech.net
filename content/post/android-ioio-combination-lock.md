@@ -1,26 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:04:15+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-combination-lock/
-slug: android-ioio-combination-lock
-title: Android + IOIO + Combination Lock
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Output
-- Android
-- Bluetooth
-- Electronics
-- IOIO
-- Lock
-- Microcontroller
-- PWM
-- Servo
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:04:15+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-combination-lock/"
+slug = "android-ioio-combination-lock"
+tags = ["Analog Output","Android","Bluetooth","Electronics","IOIO","Lock","Microcontroller","PWM","Servo"]
+title = "Android + IOIO + Combination Lock"
+
++++
 
 {{< youtube hwj5fidHdHo >}}
 

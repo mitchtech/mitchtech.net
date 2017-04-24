@@ -1,33 +1,15 @@
----
-author: michael
-comments: true
-date: 2013-03-15 07:07:30+00:00
-layout: post
-link: http://mitchtech.net/raspberry-pi-servo-face-tracker/
-slug: raspberry-pi-servo-face-tracker
-title: Raspberry Pi OpenCV Pan & Tilt Face Tracker
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Computer Vision
-- Device Driver
-- Digital Input
-- Digital Output
-- DIY
-- Electronics
-- Kernel
-- LED
-- Linux
-- Microcontroller
-- OpenCV
-- Pan &amp; Tilt
-- PWM
-- Python
-- Raspberry Pi
-- Sensor
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2013-03-15 07:07:30+00:00"
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-servo-face-tracker/"
+slug = "raspberry-pi-servo-face-tracker"
+tags = ["ARM","Computer Vision","Device Driver","Digital Input","Digital Output","DIY","Electronics","Kernel","LED","Linux","Microcontroller","OpenCV","Pan &amp; Tilt","PWM","Python","Raspberry Pi","Sensor"]
+title = "Raspberry Pi OpenCV Pan & Tilt Face Tracker"
+
++++
 
 {{< youtube WlfecyC1J6A >}}
 

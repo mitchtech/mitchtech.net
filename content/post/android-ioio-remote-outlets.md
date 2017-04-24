@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:51:31+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-remote-outlets/
-slug: android-ioio-remote-outlets
-title: Android + IOIO + Remote Outlets
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Android
-- Bluetooth
-- Digital Output
-- DIY
-- Electronics
-- Hack
-- Home Automation
-- IOIO
-- Microcontroller
-- PIC
-- Power Outlet
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:51:31+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-remote-outlets/"
+slug = "android-ioio-remote-outlets"
+tags = ["Android","Bluetooth","Digital Output","DIY","Electronics","Hack","Home Automation","IOIO","Microcontroller","PIC","Power Outlet"]
+title = "Android + IOIO + Remote Outlets"
+
++++
 
 {{< youtube DfsHccXEcDk >}}
 

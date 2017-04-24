@@ -1,26 +1,16 @@
----
-author: michael
-comments: true
-date: 2012-06-14 23:50:50+00:00
-excerpt: This tutorial will demonstrate how to install Nintendo NES/Famicom emulator
-  on the Raspberry Pi running Debian
-layout: post
-link: http://mitchtech.net/raspberry-pi-nes-emulator/
-slug: raspberry-pi-nes-emulator
-title: Raspberry Pi NES Emulator
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Emulator
-- Famicom
-- Linux
-- NES
-- Nintendo
-- Raspberry Pi
-- USB
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-14 23:50:50+00:00"
+excerpt = "This tutorial will demonstrate how to install Nintendo NES/Famicom emulator on the Raspberry Pi running Debian"
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-nes-emulator/"
+slug = "raspberry-pi-nes-emulator"
+tags = ["ARM","Emulator","Famicom","Linux","NES","Nintendo","Raspberry Pi","USB"]
+title = "Raspberry Pi NES Emulator"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/pi-nes-emulator-mario3-300x183.png)](http://mitchtech.net/raspberry-pi-nes-emulator/pi-nes-emulator-mario3/)
 

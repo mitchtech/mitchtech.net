@@ -1,27 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:12:12+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-breathalyzer/
-slug: android-ioio-breathalyzer
-title: Android + IOIO + Breathalyzer
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Input
-- Android
-- Bluetooth
-- Breathalyzer
-- Electronics
-- Graph
-- IOIO
-- Microcontroller
-- PIC
-- Sensor
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:12:12+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-breathalyzer/"
+slug = "android-ioio-breathalyzer"
+tags = ["Analog Input","Android","Bluetooth","Breathalyzer","Electronics","Graph","IOIO","Microcontroller","PIC","Sensor"]
+title = "Android + IOIO + Breathalyzer"
+
++++
 
 {{< youtube RTHdzqqf5ak >}}
 

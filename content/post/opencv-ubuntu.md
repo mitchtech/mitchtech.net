@@ -1,27 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 15:52:18+00:00
-layout: post
-link: http://mitchtech.net/opencv-ubuntu/
-slug: opencv-ubuntu
-title: OpenCV + Ubuntu
-categories:
-- Tutorials
-- Ubuntu
-tags:
-- C
-- Computer Vision
-- Device Driver
-- Face Detection
-- Linux
-- Motion Tracking
-- OpenCV
-- OpenNI
-- PrimeSense
-- Ubuntu
-- Webcam
----
++++
+author = "michael"
+categories = ["Tutorials","Ubuntu"]
+comments = true
+date = "2012-05-02 15:52:18+00:00"
+layout = "post"
+link = "http://mitchtech.net/opencv-ubuntu/"
+slug = "opencv-ubuntu"
+tags = ["C","Computer Vision","Device Driver","Face Detection","Linux","Motion Tracking","OpenCV","OpenNI","PrimeSense","Ubuntu","Webcam"]
+title = "OpenCV + Ubuntu"
+
++++
 
 {{< youtube rIyGrhDYs0A >}}
 

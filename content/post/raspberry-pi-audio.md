@@ -1,20 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-02 18:42:33+00:00
-layout: post
-link: http://mitchtech.net/raspberry-pi-audio/
-slug: raspberry-pi-audio
-title: Raspberry Pi Audio
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Audio
-- Linux
-- Raspberry Pi
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-02 18:42:33+00:00"
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-audio/"
+slug = "raspberry-pi-audio"
+tags = ["ARM","Audio","Linux","Raspberry Pi"]
+title = "Raspberry Pi Audio"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/pi-usb-drive-300x225.jpg)](http://mitchtech.net/raspberry-pi-audio/pi-usb-drive/)
 

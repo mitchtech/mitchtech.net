@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:39:18+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-serial-4-digit-led/
-slug: android-arduino-usb-host-serial-4-digit-led
-title: Android + Arduino + USB Host + Serial 4 digit LED
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Android
-- Arduino
-- Digital Output
-- Electronics
-- LED
-- Microbridge
-- Microcontroller
-- Seven Segment
-- USB Host
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 04:39:18+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-serial-4-digit-led/"
+slug = "android-arduino-usb-host-serial-4-digit-led"
+tags = ["ADB","Android","Arduino","Digital Output","Electronics","LED","Microbridge","Microcontroller","Seven Segment","USB Host"]
+title = "Android + Arduino + USB Host + Serial 4 digit LED"
+
++++
 
 {{< youtube 1wpE_HzTfl0 >}}
 

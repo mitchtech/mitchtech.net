@@ -1,24 +1,16 @@
----
-author: michael
-comments: true
-date: 2012-07-08 22:52:09+00:00
-excerpt: This tutorial will show how to compile and install Peer Guardian on a Raspberry
-  Pi.
-layout: post
-link: http://mitchtech.net/peer-guardian-on-raspberry-pi/
-slug: peer-guardian-on-raspberry-pi
-title: Peer Guardian on Raspberry Pi
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Kernel
-- Linux
-- Microcontroller
-- Peer Guardian
-- Raspberry Pi
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-07-08 22:52:09+00:00"
+excerpt = "This tutorial will show how to compile and install Peer Guardian on a Raspberry Pi."
+layout = "post"
+link = "http://mitchtech.net/peer-guardian-on-raspberry-pi/"
+slug = "peer-guardian-on-raspberry-pi"
+tags = ["ARM","Kernel","Linux","Microcontroller","Peer Guardian","Raspberry Pi"]
+title = "Peer Guardian on Raspberry Pi"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/pi-peer-guardian-300x183.png)](http://mitchtech.net/peer-guardian-on-raspberry-pi/pi-peer-guardian/)
 

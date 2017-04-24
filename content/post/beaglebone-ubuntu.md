@@ -1,15 +1,14 @@
----
-author: meyers
-comments: true
-date: 2013-06-30 18:15:51+00:00
-layout: post
-link: http://mitchtech.net/beaglebone-ubuntu/
-slug: beaglebone-ubuntu
-title: Beaglebone + Ubuntu
-categories:
-- Beaglebone
-- Tutorials
----
++++
+author = "meyers"
+categories = ["Beaglebone","Tutorials"]
+comments = true
+date = "2013-06-30 18:15:51+00:00"
+layout = "post"
+link = "http://mitchtech.net/beaglebone-ubuntu/"
+slug = "beaglebone-ubuntu"
+title = "Beaglebone + Ubuntu"
+
++++
 
 We can install Ubuntu 2-ways:
 

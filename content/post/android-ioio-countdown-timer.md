@@ -1,26 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:26:28+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-countdown-timer/
-slug: android-ioio-countdown-timer
-title: Android + IOIO + Countdown Timer
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Android
-- Bluetooth
-- Digital Output
-- Electronics
-- IOIO
-- LED
-- Microcontroller
-- PIC
-- Timer
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:26:28+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-countdown-timer/"
+slug = "android-ioio-countdown-timer"
+tags = ["Android","Bluetooth","Digital Output","Electronics","IOIO","LED","Microcontroller","PIC","Timer"]
+title = "Android + IOIO + Countdown Timer"
+
++++
 
 {{< youtube jx2uM9pz87o >}}
 

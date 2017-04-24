@@ -1,29 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:09:33+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-simple-analog-output/
-slug: android-arduino-usb-host-simple-analog-output
-title: Android + Arduino + USB Host + Simple Analog Output
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Analog Output
-- Android
-- Arduino
-- Electronics
-- LED
-- Microbridge
-- Microcontroller
-- PWM
-- RGB LED
-- USB Host
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 03:09:33+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-simple-analog-output/"
+slug = "android-arduino-usb-host-simple-analog-output"
+tags = ["ADB","Analog Output","Android","Arduino","Electronics","LED","Microbridge","Microcontroller","PWM","RGB LED","USB Host"]
+title = "Android + Arduino + USB Host + Simple Analog Output"
+
++++
 
 {{< youtube vRzKFiYzxUQ >}}
 

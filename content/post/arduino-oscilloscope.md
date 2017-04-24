@@ -1,23 +1,16 @@
----
-author: meyers
-comments: true
-date: 2012-08-06 04:33:51+00:00
-excerpt: Turn your Arduino into an Oscilloscope using poor man's oscilloscope.
-layout: post
-link: http://mitchtech.net/arduino-oscilloscope/
-slug: arduino-oscilloscope
-title: Arduino Poor Man's Oscilloscope
-categories:
-- Arduino
-- Tutorials
-tags:
-- Arduino
-- arduinoscope
-- lxardoscope
-- oscilloscope
-- poor mans
-- poor mans oscilloscope
----
++++
+author = "meyers"
+categories = ["Arduino","Tutorials"]
+comments = true
+date = "2012-08-06 04:33:51+00:00"
+excerpt = "Turn your Arduino into an Oscilloscope using poor man's oscilloscope."
+layout = "post"
+link = "http://mitchtech.net/arduino-oscilloscope/"
+slug = "arduino-oscilloscope"
+tags = ["Arduino","arduinoscope","lxardoscope","oscilloscope","poor mans","poor mans oscilloscope"]
+title = "Arduino Poor Man's Oscilloscope"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/08/arduino-oscilloscope-300x248.png)](http://mitchtech.net/arduino-oscilloscope/arduino-oscilloscope-2/)
 

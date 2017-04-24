@@ -1,23 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-02 18:17:32+00:00
-layout: post
-link: http://mitchtech.net/vnc-setup-on-raspberry-pi-from-android/
-slug: vnc-setup-on-raspberry-pi-from-android
-title: VNC setup on Raspberry Pi from Android
-categories:
-- Android
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Linux
-- Raspberry Pi
-- SSH
-- Ubuntu
-- VNC
----
++++
+author = "michael"
+categories = ["Android","Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-02 18:17:32+00:00"
+layout = "post"
+link = "http://mitchtech.net/vnc-setup-on-raspberry-pi-from-android/"
+slug = "vnc-setup-on-raspberry-pi-from-android"
+tags = ["ARM","Linux","Raspberry Pi","SSH","Ubuntu","VNC"]
+title = "VNC setup on Raspberry Pi from Android"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/nexus-pi-vnc-300x225.jpg)](http://mitchtech.net/vnc-setup-on-raspberry-pi-from-android/nexus-pi-vnc/)
 

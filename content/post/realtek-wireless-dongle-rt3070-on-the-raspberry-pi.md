@@ -1,27 +1,15 @@
----
-author: meyers
-comments: true
-date: 2012-06-03 18:49:22+00:00
-layout: post
-link: http://mitchtech.net/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/
-slug: realtek-wireless-dongle-rt3070-on-the-raspberry-pi
-title: Ralink/Realtek Wireless Dongle (rt3070) on the Raspberry Pi
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Device Driver
-- Linux
-- Raspberry Pi
-- realtek
-- rt2661
-- rt2860
-- rt2870
-- rt3070
-- rt3071
-- rt3090
----
++++
+author = "meyers"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-03 18:49:22+00:00"
+layout = "post"
+link = "http://mitchtech.net/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/"
+slug = "realtek-wireless-dongle-rt3070-on-the-raspberry-pi"
+tags = ["ARM","Device Driver","Linux","Raspberry Pi","realtek","rt2661","rt2860","rt2870","rt3070","rt3071","rt3090"]
+title = "Ralink/Realtek Wireless Dongle (rt3070) on the Raspberry Pi"
+
++++
 
 [caption id="attachment_608" align="alignnone" width="300" caption="Realtek WiFi dongle"][![Realtek WiFi dongle](http://mitchtech.net/wp-content/uploads/2012/06/2012-06-03-11.37.00-300x225.jpg)](http://mitchtech.net/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/2012-06-03-11-37-00/)[/caption]
 

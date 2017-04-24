@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:34:30+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-d-pad/
-slug: android-arduino-usb-host-d-pad
-title: Android + Arduino + USB Host + D-Pad
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Android
-- Arduino
-- Buttons
-- D Pad
-- Digital Input
-- Electronics
-- Microbridge
-- Microcontroller
-- USB Host
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 04:34:30+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-d-pad/"
+slug = "android-arduino-usb-host-d-pad"
+tags = ["ADB","Android","Arduino","Buttons","D Pad","Digital Input","Electronics","Microbridge","Microcontroller","USB Host"]
+title = "Android + Arduino + USB Host + D-Pad"
+
++++
 
 {{< youtube KL9TNj38lEo >}}
 

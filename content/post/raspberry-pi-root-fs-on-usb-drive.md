@@ -1,22 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-14 00:49:07+00:00
-layout: post
-link: http://mitchtech.net/raspberry-pi-root-fs-on-usb-drive/
-slug: raspberry-pi-root-fs-on-usb-drive
-title: Raspberry Pi Root FS on USB Drive
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Kernel
-- Linux
-- Microcontroller
-- Raspberry Pi
-- USB
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-14 00:49:07+00:00"
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-root-fs-on-usb-drive/"
+slug = "raspberry-pi-root-fs-on-usb-drive"
+tags = ["ARM","Kernel","Linux","Microcontroller","Raspberry Pi","USB"]
+title = "Raspberry Pi Root FS on USB Drive"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/pi-usb-drive-300x225.jpg)](http://mitchtech.net/raspberry-pi-audio/pi-usb-drive/)
 

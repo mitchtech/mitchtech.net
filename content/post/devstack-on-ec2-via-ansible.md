@@ -1,18 +1,15 @@
----
-author: meyers
-comments: true
-date: 2015-02-13 00:58:48+00:00
-layout: post
-link: http://mitchtech.net/devstack-on-ec2-via-ansible/
-slug: devstack-on-ec2-via-ansible
-title: Devstack on EC2 via Ansible
-categories:
-- Tutorials
-tags:
-- ansible
-- devstack
-- openstack
----
++++
+author = "meyers"
+categories = ["Tutorials"]
+comments = true
+date = "2015-02-13 00:58:48+00:00"
+layout = "post"
+link = "http://mitchtech.net/devstack-on-ec2-via-ansible/"
+slug = "devstack-on-ec2-via-ansible"
+tags = ["ansible","devstack","openstack"]
+title = "Devstack on EC2 via Ansible"
+
++++
 
 So you want to get an instance of OpenStack running to poke around and see what all the fuss is about without going insane. Welcome to [Devstack](http://docs.openstack.org/developer/devstack/). Once Devstack is setup you will have access to a web-based control panel with prepopulated data and instances. You will also be able to explore the OpenStack API with v2.0 and v3 authentication (keystone).
 

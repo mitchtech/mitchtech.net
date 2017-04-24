@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 15:58:13+00:00
-layout: post
-link: http://mitchtech.net/opencv-python/
-slug: opencv-python
-title: OpenCV + Python
-categories:
-- Tutorials
-- Ubuntu
-tags:
-- C
-- Computer Vision
-- Device Driver
-- Face Detection
-- Linux
-- Motion Tracking
-- OpenCV
-- OpenNI
-- PrimeSense
-- Python
-- Ubuntu
-- Webcam
----
++++
+author = "michael"
+categories = ["Tutorials","Ubuntu"]
+comments = true
+date = "2012-05-02 15:58:13+00:00"
+layout = "post"
+link = "http://mitchtech.net/opencv-python/"
+slug = "opencv-python"
+tags = ["C","Computer Vision","Device Driver","Face Detection","Linux","Motion Tracking","OpenCV","OpenNI","PrimeSense","Python","Ubuntu","Webcam"]
+title = "OpenCV + Python"
+
++++
 
 Here are some of the more interesting OpenCV demos using the Python wrapper.  The installation process on Ubuntu is covered in my previous post, [OpenCV + Ubuntu.](http://mitchtech.net/opencv-ubuntu/) The demo scripts are located in samples/python within the OpenCV release.
 

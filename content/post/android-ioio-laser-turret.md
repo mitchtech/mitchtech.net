@@ -1,29 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:45:59+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-laser-turret/
-slug: android-ioio-laser-turret
-title: Android + IOIO + Laser Turret
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Output
-- Android
-- Bluetooth
-- Digital Output
-- Electronics
-- IOIO
-- Laser
-- LED
-- Microcontroller
-- Pan &amp; Tilt
-- PIC
-- Servo
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:45:59+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-laser-turret/"
+slug = "android-ioio-laser-turret"
+tags = ["Analog Output","Android","Bluetooth","Digital Output","Electronics","IOIO","Laser","LED","Microcontroller","Pan &amp; Tilt","PIC","Servo"]
+title = "Android + IOIO + Laser Turret"
+
++++
 
 {{< youtube y8anHCh1Tjo >}}
 

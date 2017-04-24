@@ -1,27 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:04:45+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-simple-digital-input/
-slug: android-arduino-usb-host-simple-digital-input
-title: Android + Arduino + USB Host + Simple Digital Input
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Android
-- Arduino
-- Buttons
-- Digital Input
-- Electronics
-- Microbridge
-- Microcontroller
-- USB Host
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 03:04:45+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-simple-digital-input/"
+slug = "android-arduino-usb-host-simple-digital-input"
+tags = ["ADB","Android","Arduino","Buttons","Digital Input","Electronics","Microbridge","Microcontroller","USB Host"]
+title = "Android + Arduino + USB Host + Simple Digital Input"
+
++++
 
 {{< youtube d6E9hd9-_yI >}}
 

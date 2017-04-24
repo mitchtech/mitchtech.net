@@ -1,30 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-24 15:09:36+00:00
-layout: post
-link: http://mitchtech.net/arduino-usb-hid-keyboard/
-slug: arduino-usb-hid-keyboard
-title: Arduino USB HID Keyboard
-categories:
-- Arduino
-- Tutorials
-- Ubuntu
-tags:
-- Arduino
-- Buttons
-- Device Driver
-- Digital Input
-- DIY
-- Electronics
-- Hack
-- Keyboard
-- Linux
-- Microcontroller
-- Ubuntu
-- USB
-- USB HID
----
++++
+author = "michael"
+categories = ["Arduino","Tutorials","Ubuntu"]
+comments = true
+date = "2012-06-24 15:09:36+00:00"
+layout = "post"
+link = "http://mitchtech.net/arduino-usb-hid-keyboard/"
+slug = "arduino-usb-hid-keyboard"
+tags = ["Arduino","Buttons","Device Driver","Digital Input","DIY","Electronics","Hack","Keyboard","Linux","Microcontroller","Ubuntu","USB","USB HID"]
+title = "Arduino USB HID Keyboard"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/arduino-usb-keyboard-300x248.png)](http://mitchtech.net/arduino-usb-hid-keyboard/arduino-usb-keyboard/)
 

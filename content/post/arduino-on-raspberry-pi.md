@@ -1,23 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-15 00:00:55+00:00
-layout: post
-link: http://mitchtech.net/arduino-on-raspberry-pi/
-slug: arduino-on-raspberry-pi
-title: Arduino on Raspberry Pi
-categories:
-- Arduino
-- Raspberry Pi
-- Tutorials
-tags:
-- Arduino
-- ARM
-- Electronics
-- Linux
-- Microcontroller
-- Raspberry Pi
----
++++
+author = "michael"
+categories = ["Arduino","Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-15 00:00:55+00:00"
+layout = "post"
+link = "http://mitchtech.net/arduino-on-raspberry-pi/"
+slug = "arduino-on-raspberry-pi"
+tags = ["Arduino","ARM","Electronics","Linux","Microcontroller","Raspberry Pi"]
+title = "Arduino on Raspberry Pi"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/pi-arduino-upload-300x183.png)](http://mitchtech.net/arduino-on-raspberry-pi/pi-arduino-upload/)
 

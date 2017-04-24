@@ -1,26 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:00:53+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-seven-segment-led/
-slug: android-ioio-seven-segment-led
-title: Android + IOIO + Seven Segment LED
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Android
-- Bluetooth
-- Digital Output
-- Electronics
-- IOIO
-- LED
-- Microcontroller
-- PIC
-- Seven Segment
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:00:53+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-seven-segment-led/"
+slug = "android-ioio-seven-segment-led"
+tags = ["Android","Bluetooth","Digital Output","Electronics","IOIO","LED","Microcontroller","PIC","Seven Segment"]
+title = "Android + IOIO + Seven Segment LED"
+
++++
 
 {{< youtube QoHnJwbX_fQ >}}
 

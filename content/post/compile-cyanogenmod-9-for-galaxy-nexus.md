@@ -1,21 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-16 23:39:35+00:00
-layout: post
-link: http://mitchtech.net/compile-cyanogenmod-9-for-galaxy-nexus/
-slug: compile-cyanogenmod-9-for-galaxy-nexus
-title: 'Compile Cyanogenmod 9 for Galaxy Nexus '
-categories:
-- Android
-- Tutorials
-- Ubuntu
-tags:
-- Android
-- Kernel
-- Linux
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Android","Tutorials","Ubuntu"]
+comments = true
+date = "2012-05-16 23:39:35+00:00"
+layout = "post"
+link = "http://mitchtech.net/compile-cyanogenmod-9-for-galaxy-nexus/"
+slug = "compile-cyanogenmod-9-for-galaxy-nexus"
+tags = ["Android","Kernel","Linux","Ubuntu"]
+title = "Compile Cyanogenmod 9 for Galaxy Nexus "
+
++++
 
 This tutorial will outline the process to compile Cyanogenmod 9 for the Verizon (LTE) Galaxy Nexus (aka toro, a variant of the tuna) on Ubuntu 12.04 LTS.  This process has changed a bit over time, notably with new hassles to configure the Oracle Java JDK.  While the tutorial is specific to the Galaxy Nexus, it generalizes to most devices supported by Cyanogenmod 9.  First, install and configure the Android SDK (more thorough info [here](http://developer.android.com/sdk/installing.html)):
 

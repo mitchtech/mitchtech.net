@@ -1,23 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-02 18:02:48+00:00
-layout: post
-link: http://mitchtech.net/vnc-setup-on-raspberry-pi-from-ubuntu/
-slug: vnc-setup-on-raspberry-pi-from-ubuntu
-title: VNC setup on Raspberry Pi from Ubuntu
-categories:
-- Raspberry Pi
-- Tutorials
-- Ubuntu
-tags:
-- ARM
-- Linux
-- Raspberry Pi
-- SSH
-- Ubuntu
-- VNC
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials","Ubuntu"]
+comments = true
+date = "2012-06-02 18:02:48+00:00"
+layout = "post"
+link = "http://mitchtech.net/vnc-setup-on-raspberry-pi-from-ubuntu/"
+slug = "vnc-setup-on-raspberry-pi-from-ubuntu"
+tags = ["ARM","Linux","Raspberry Pi","SSH","Ubuntu","VNC"]
+title = "VNC setup on Raspberry Pi from Ubuntu"
+
++++
 
 {{< youtube KuICf0nlb-c >}}
 

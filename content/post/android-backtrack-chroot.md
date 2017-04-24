@@ -1,25 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 14:31:40+00:00
-layout: post
-link: http://mitchtech.net/android-backtrack-chroot/
-slug: android-backtrack-chroot
-title: Android + BackTrack Chroot
-categories:
-- Android
-- Android Linux Chroot
-- Tutorials
-tags:
-- Android
-- Chroot
-- Hack
-- Linux
-- Node.js
-- Rootstock
-- Ubuntu
-- Virtual Machine
----
++++
+author = "michael"
+categories = ["Android","Android Linux Chroot","Tutorials"]
+comments = true
+date = "2012-05-02 14:31:40+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-backtrack-chroot/"
+slug = "android-backtrack-chroot"
+tags = ["Android","Chroot","Hack","Linux","Node.js","Rootstock","Ubuntu","Virtual Machine"]
+title = "Android + BackTrack Chroot"
+
++++
 
 The following tutorial will demonstrate how to run Backtrack Linux in an Android chroot environment. It should work on most Android devices that support at least ARMv7 architecture or newer.
 

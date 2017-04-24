@@ -1,21 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-06-08 04:51:00+00:00
-layout: post
-link: http://mitchtech.net/raspberry-pi-kernel-compile/
-slug: raspberry-pi-kernel-compile
-title: Raspberry Pi Kernel Compile
-categories:
-- Raspberry Pi
-- Tutorials
-- Ubuntu
-tags:
-- Kernel
-- Linux
-- Raspberry Pi
-- Ubuntu
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials","Ubuntu"]
+comments = true
+date = "2012-06-08 04:51:00+00:00"
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-kernel-compile/"
+slug = "raspberry-pi-kernel-compile"
+tags = ["Kernel","Linux","Raspberry Pi","Ubuntu"]
+title = "Raspberry Pi Kernel Compile"
+
++++
 
 This tutorial will demonstrate how to cross compile the kernel for the Raspberry Pi on Ubuntu 12.04 LTS. The kernel is functional with both the Debian and Arch Linux Raspberry Pi images.
 

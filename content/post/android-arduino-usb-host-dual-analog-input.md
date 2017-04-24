@@ -1,28 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:32:30+00:00
-layout: post
-link: http://mitchtech.net/android-arduino-usb-host-dual-analog-input/
-slug: android-arduino-usb-host-dual-analog-input
-title: Android + Arduino + USB Host + Dual Analog Input
-categories:
-- ADB Microbridge
-- Android
-- Arduino
-- Tutorials
-tags:
-- ADB
-- Analog Input
-- Android
-- Arduino
-- Electronics
-- Graph
-- Microbridge
-- Potentiometer
-- Sensor
-- USB Host
----
++++
+author = "michael"
+categories = ["ADB Microbridge","Android","Arduino","Tutorials"]
+comments = true
+date = "2012-05-02 04:32:30+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-arduino-usb-host-dual-analog-input/"
+slug = "android-arduino-usb-host-dual-analog-input"
+tags = ["ADB","Analog Input","Android","Arduino","Electronics","Graph","Microbridge","Potentiometer","Sensor","USB Host"]
+title = "Android + Arduino + USB Host + Dual Analog Input"
+
++++
 
 {{< youtube 2w1uQ6mFBy8 >}}
 

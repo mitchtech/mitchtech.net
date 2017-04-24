@@ -1,30 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 04:50:00+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-window-blinds-control/
-slug: android-ioio-window-blinds-control
-title: Android + IOIO + Window Blinds Control
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Output
-- Android
-- Bluetooth
-- DIY
-- Electronics
-- Hack
-- Home Automation
-- IOIO
-- Microcontroller
-- PIC
-- PWM
-- Servo
-- Window Blinds
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 04:50:00+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-window-blinds-control/"
+slug = "android-ioio-window-blinds-control"
+tags = ["Analog Output","Android","Bluetooth","DIY","Electronics","Hack","Home Automation","IOIO","Microcontroller","PIC","PWM","Servo","Window Blinds"]
+title = "Android + IOIO + Window Blinds Control"
+
++++
 
 {{< youtube tXWHtyWXHec >}}
 

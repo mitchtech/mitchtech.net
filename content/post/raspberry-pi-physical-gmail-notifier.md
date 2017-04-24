@@ -1,31 +1,16 @@
----
-author: michael
-comments: true
-date: 2012-06-29 04:20:47+00:00
-excerpt: This tutorial will demonstrate how to easily turn your Raspberry Pi into
-  a physical Gmail notifier, in only 10 lines of python!
-layout: post
-link: http://mitchtech.net/raspberry-pi-physical-gmail-notifier/
-slug: raspberry-pi-physical-gmail-notifier
-title: Raspberry Pi Physical Gmail Notifier
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- Cron
-- Digital Output
-- DIY
-- Electronics
-- Gmail
-- GPIO
-- LED
-- Linux
-- Microcontroller
-- Physical Notifier
-- Python
-- Raspberry Pi
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-29 04:20:47+00:00"
+excerpt = "This tutorial will demonstrate how to easily turn your Raspberry Pi into a physical Gmail notifier, in only 10 lines of python!"
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-physical-gmail-notifier/"
+slug = "raspberry-pi-physical-gmail-notifier"
+tags = ["ARM","Cron","Digital Output","DIY","Electronics","Gmail","GPIO","LED","Linux","Microcontroller","Physical Notifier","Python","Raspberry Pi"]
+title = "Raspberry Pi Physical Gmail Notifier"
+
++++
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/pi-physical-gmail-notifier-300x225.jpg)](http://mitchtech.net/raspberry-pi-physical-gmail-notifier/pi-physical-gmail-notifier/)
 

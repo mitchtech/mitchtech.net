@@ -1,25 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 13:55:10+00:00
-layout: post
-link: http://mitchtech.net/running-linux-on-android-common-problems/
-slug: running-linux-on-android-common-problems
-title: Android + Linux Chroot + Common Problems
-categories:
-- Android
-- Android Linux Chroot
-- Tutorials
-tags:
-- Android
-- Chroot
-- Hack
-- Linux
-- Node.js
-- Rootstock
-- Ubuntu
-- Virtual Machine
----
++++
+author = "michael"
+categories = ["Android","Android Linux Chroot","Tutorials"]
+comments = true
+date = "2012-05-02 13:55:10+00:00"
+layout = "post"
+link = "http://mitchtech.net/running-linux-on-android-common-problems/"
+slug = "running-linux-on-android-common-problems"
+tags = ["Android","Chroot","Hack","Linux","Node.js","Rootstock","Ubuntu","Virtual Machine"]
+title = "Android + Linux Chroot + Common Problems"
+
++++
 
 ## Corrupted Filesystem
 

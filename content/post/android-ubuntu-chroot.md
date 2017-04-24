@@ -1,24 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 13:52:29+00:00
-layout: post
-link: http://mitchtech.net/android-ubuntu-chroot/
-slug: android-ubuntu-chroot
-title: Android + Ubuntu Chroot
-categories:
-- Android
-- Android Linux Chroot
-- Tutorials
-tags:
-- Android
-- Chroot
-- Hack
-- Linux
-- Rootstock
-- Ubuntu
-- Virtual Machine
----
++++
+author = "michael"
+categories = ["Android","Android Linux Chroot","Tutorials"]
+comments = true
+date = "2012-05-02 13:52:29+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ubuntu-chroot/"
+slug = "android-ubuntu-chroot"
+tags = ["Android","Chroot","Hack","Linux","Rootstock","Ubuntu","Virtual Machine"]
+title = "Android + Ubuntu Chroot"
+
++++
 
 Here is a quick overview of the process to create a Ubuntu system image that is bootable with Android chroot. It uses the rootstock utility to setup the initial image, including release version, username/password, image size, as well as to seed the desired packages to be pre-installed with the distro. For complete options with rootstock, consult the man pages.
 

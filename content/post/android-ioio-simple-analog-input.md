@@ -1,26 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:40:10+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-simple-analog-input/
-slug: android-ioio-simple-analog-input
-title: Android + IOIO + Simple Analog Input
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Input
-- Android
-- Bluetooth
-- Electronics
-- IOIO
-- Microcontroller
-- PIC
-- Potentiometer
-- Sensor
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 03:40:10+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-simple-analog-input/"
+slug = "android-ioio-simple-analog-input"
+tags = ["Analog Input","Android","Bluetooth","Electronics","IOIO","Microcontroller","PIC","Potentiometer","Sensor"]
+title = "Android + IOIO + Simple Analog Input"
+
++++
 
 {{< youtube kjUM9aDq1v4 >}}
 

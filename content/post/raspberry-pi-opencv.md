@@ -1,28 +1,16 @@
----
-author: michael
-comments: true
-date: 2012-06-14 23:41:41+00:00
-excerpt: OpenCV is a suite of powerful computer vision tools. Here is a quick overview
-  of how I installed OpenCV on my Raspberry Pi with debian6-19-04-2012.
-layout: post
-link: http://mitchtech.net/raspberry-pi-opencv/
-slug: raspberry-pi-opencv
-title: Raspberry Pi + OpenCV
-categories:
-- Raspberry Pi
-- Tutorials
-tags:
-- ARM
-- C
-- Computer Vision
-- Face Detection
-- Linux
-- Motion Tracking
-- OpenCV
-- Python
-- Raspberry Pi
-- Webcam
----
++++
+author = "michael"
+categories = ["Raspberry Pi","Tutorials"]
+comments = true
+date = "2012-06-14 23:41:41+00:00"
+excerpt = "OpenCV is a suite of powerful computer vision tools. Here is a quick overview of how I installed OpenCV on my Raspberry Pi with debian6-19-04-2012."
+layout = "post"
+link = "http://mitchtech.net/raspberry-pi-opencv/"
+slug = "raspberry-pi-opencv"
+tags = ["ARM","C","Computer Vision","Face Detection","Linux","Motion Tracking","OpenCV","Python","Raspberry Pi","Webcam"]
+title = "Raspberry Pi + OpenCV"
+
++++
 
 {{< youtube 9zgVG_gWeVc >}}
 

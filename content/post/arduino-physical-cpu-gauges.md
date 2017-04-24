@@ -1,33 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-07-03 14:46:30+00:00
-layout: post
-link: http://mitchtech.net/arduino-physical-cpu-gauges/
-slug: arduino-physical-cpu-gauges
-title: Arduino Physical CPU Gauges
-categories:
-- Arduino
-- Tutorials
-- Ubuntu
-tags:
-- Analog Output
-- Arduino
-- CPU
-- DIY
-- Electronics
-- Gauge
-- Linux
-- Memory
-- Meter
-- Microcontroller
-- Physical Notifier
-- Python
-- Serial
-- Servo
-- Ubuntu
-- USB
----
++++
+author = "michael"
+categories = ["Arduino","Tutorials","Ubuntu"]
+comments = true
+date = "2012-07-03 14:46:30+00:00"
+layout = "post"
+link = "http://mitchtech.net/arduino-physical-cpu-gauges/"
+slug = "arduino-physical-cpu-gauges"
+tags = ["Analog Output","Arduino","CPU","DIY","Electronics","Gauge","Linux","Memory","Meter","Microcontroller","Physical Notifier","Python","Serial","Servo","Ubuntu","USB"]
+title = "Arduino Physical CPU Gauges"
+
++++
 
 {{< youtube xQ5s0xv4ies >}}
 

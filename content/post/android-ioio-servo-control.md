@@ -1,26 +1,15 @@
----
-author: michael
-comments: true
-date: 2012-05-02 03:52:58+00:00
-layout: post
-link: http://mitchtech.net/android-ioio-servo-control/
-slug: android-ioio-servo-control
-title: Android + IOIO + Servo Control
-categories:
-- Android
-- IOIO
-- Tutorials
-tags:
-- Analog Output
-- Android
-- Bluetooth
-- Electronics
-- IOIO
-- Microcontroller
-- PIC
-- PWM
-- Servo
----
++++
+author = "michael"
+categories = ["Android","IOIO","Tutorials"]
+comments = true
+date = "2012-05-02 03:52:58+00:00"
+layout = "post"
+link = "http://mitchtech.net/android-ioio-servo-control/"
+slug = "android-ioio-servo-control"
+tags = ["Analog Output","Android","Bluetooth","Electronics","IOIO","Microcontroller","PIC","PWM","Servo"]
+title = "Android + IOIO + Servo Control"
+
++++
 
 {{< youtube bnX6G5ZO4IA >}}
 
