@@ -16,15 +16,21 @@ Sensing temperature and light with Android and IOIO.  This article will demonst
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
 
 [Android + IOIO + Simple Digital Output](http://mitchtech.net/android-ioio-simple-digital-output/)
+
 [Android + IOIO + Simple Digital Input](http://mitchtech.net/android-ioio-simple-digital-input/)
+
 [Android + IOIO + Simple Analog Output](http://mitchtech.net/android-ioio-simple-analog-output/)
+
 [Android + IOIO + Simple Analog Input](http://mitchtech.net/android-ioio-simple-analog-input/)
 
 Background on Android development, IOIO, and electronics:
 
 [Meet IOIO](http://ytai-mer.blogspot.com/2011/04/meet-ioio-io-for-android.html)
+
 [IOIO for Android Beginners Guide](http://www.sparkfun.com/tutorials/280)
+
 [IOIO Wiki](https://github.com/ytai/ioio/wiki)
+
 [Android Developer’s Guide](http://developer.android.com/guide/index.html)
 
 ## Hardware

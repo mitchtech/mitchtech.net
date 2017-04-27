@@ -14,8 +14,11 @@ title = "Android + IOIO + Simple Digital Output"
 Simplest possible digital output with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) digital output device. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
 
 [Meet IOIO](http://ytai-mer.blogspot.com/2011/04/meet-ioio-io-for-android.html)
+
 [IOIO for Android Beginners Guide](http://www.sparkfun.com/tutorials/280)
+
 [IOIO Wiki](https://github.com/ytai/ioio/wiki)
+
 [Android Developer’s Guide](http://developer.android.com/guide/index.html)
 
 ## Hardware

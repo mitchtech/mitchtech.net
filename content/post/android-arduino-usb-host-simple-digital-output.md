@@ -14,7 +14,9 @@ title = "Android + Arduino + USB Host + Simple Digital Output"
 Simplest possible digital output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
 
 [Android Developer’s Guide](http://developer.android.com/guide/index.html)
+
 [Getting Started with Arduino](http://arduino.cc/en/Guide/HomePage)
+
 [Microbridge](http://code.google.com/p/microbridge/)
 
 ## Getting Started
@@ -22,6 +24,7 @@ Simplest possible digital output with Android and Arduino. This article will dis
 First, make sure you have setup the development environments for Arduino and Android:
 
 [Arduino IDE](http://arduino.cc/en/Main/Software)
+
 [Android SDK](http://developer.android.com/sdk/index.html)
 
 ## Hardware

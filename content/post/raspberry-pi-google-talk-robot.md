@@ -57,17 +57,17 @@ sudo python ./raspiBot.py
 
 This basic sample script supports the following commands:
 
-  * [pinon|pon|on|high] [pin] : turns on the specified GPIO pin
+  * `[pinon|pon|on|high] [pin]` : turns on the specified GPIO pin
 
-  * [pinoff|poff|off|low] [pin] : turns off the specified GPIO pin
+  * `[pinoff|poff|off|low] [pin]` : turns off the specified GPIO pin
 
-  * [write|w] [pin] [state] : writes specified state to the specified GPIO pin
+  * `[write|w] [pin] [state]` : writes specified state to the specified GPIO pin
 
-  * [read|r] [pin]: reads the value of the specified GPIO pin
+  * `[read|r] [pin]` : reads the value of the specified GPIO pin
 
-  * [available|online|busy|dnd|away|idle|out|xa] [arg1] : set gtalk state and status message to specified argument
+  * `[available|online|busy|dnd|away|idle|out|xa] [arg1]` : set gtalk state and status message to specified argument
 
-  * [shell|bash] [arg1] : executes the specified shell command argument after 'shell' or 'bash'
+  * `[shell|bash] [arg1]` : executes the specified shell command argument after 'shell' or 'bash'
 
 For example, sending the message "pinon 10" will turn on GPIO pin #10, "read 8" will read the current state of GPIO pin 8, or "bash ps" to execute the shell command 'ps'.
 
@@ -89,17 +89,17 @@ The Raspi Bot can be used essentially as a remote shell.  In this configuration
 
 The following is a small subset of the relatively benign commands possible to be run remotely via the Raspi Bot:
 
-  * vmstat - system activity, hardware and information
+  * `vmstat` : system activity, hardware and information
 
-  * uptime - how long the system has been running
+  * `uptime` : how long the system has been running
 
-  * w - logged in users and their process activity
+  * `w` : logged in users and their process activity
 
-  * ps - reports a snapshot of the current processes
+  * `ps` : reports a snapshot of the current processes
 
-  * free - physical and swap memory usage
+  * `free` : physical and swap memory usage
 
-  * iostat - average CPU load, disk activity
+  * `iostat` : average CPU load, disk activity
 
 Arguably, disclosure of any amount of information about system can be considered a security issue such as that reported by some of the above tools.  For users more concerned about convenience over security exposure, much more elaborate commands can be run, such as executing additional scripts or accessing private data.
 

@@ -16,8 +16,11 @@ Dual analog input with Android and Arduino.  This article will demonstrate a ba
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
 
 [Simple Digital Input](http://mitchtech.net/android-arduino-usb-host-simple-digital-input/)
+
 [Simple Digital Output](http://mitchtech.net/android-arduino-usb-host-simple-digital-output/)
+
 [Simple Analog Input](http://mitchtech.net/android-arduino-usb-host-simple-analog-input/)
+
 [Simple Analog Output](http://mitchtech.net/android-arduino-usb-host-simple-analog-output/)
 
 ## Hardware
