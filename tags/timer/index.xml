@@ -20,7 +20,7 @@
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-countdown-timer/</guid>
       <description>Countdown timer Android app with IOIO output. When the timer goes off, it pulls the pin high, or low. The article demonstrates a proof of concept usage with a single LED, but this could easily be adapted for other usages: light switches and appliance control, detonators, etc.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+Android + IOIO + Simple Digital Output</description>
     </item>
     
   </channel>

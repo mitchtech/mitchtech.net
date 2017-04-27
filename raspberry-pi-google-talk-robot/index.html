@@ -47,7 +47,7 @@
 
 
 <meta itemprop="dateModified" content="2013-01-17T02:06:48&#43;00:00" />
-<meta itemprop="wordCount" content="1021">
+<meta itemprop="wordCount" content="1022">
 
 
 
@@ -336,7 +336,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2013-01-17 02:06:48 &#43;0000 UTC" itemprop="datePublished">2013-01-17</time>
             &middot;
-            1021
+            1022
             words
             &middot;
             5
@@ -441,53 +441,47 @@
 <p>The Raspi Bot requires several additional Python modules for use.  The easiest way to install these is with the python pip package manager. If you don&rsquo;t have it installed, you can install them using apt-get:</p>
 
 <pre><code>sudo apt-get install python-pip git-core python2.7-dev
-
 </code></pre>
 
 <p>Then update the easy_install index:</p>
 
 <pre><code>sudo easy_install -U distribute
-
 </code></pre>
 
 <p>And install the GPIO, xmpppy, and pydns modules:</p>
 
 <pre><code>sudo pip install RPi.GPIO xmpppy pydns
-
 </code></pre>
 
 <p>Then clone my repo for the Raspi Gtalk robot:</p>
 
 <pre><code>git clone https://github.com/mitchtech/raspi_gtalk_robot.git
-
 </code></pre>
 
 <p>Now change into the newly created directory:</p>
 
 <pre><code>cd raspi_gtalk_robot
-
 </code></pre>
 
 <p>Finally, you will need  to configure the Raspi Bot’s Gtalk username and password.  This is done by editing the fields BOT_GTALK_USER, BOT_GTALK_PASS, and BOT_ADMIN, on lines 31-33 in the raspiBot.py file.  It is recommended, though not required, to give the Raspi Bot its own Gmail account. Since access to the Raspberry Pi GPIO pins is restricted, the script needs to be run with sudo:</p>
 
 <pre><code>sudo python ./raspiBot.py
-
 </code></pre>
 
 <p>This basic sample script supports the following commands:</p>
 
 <ul>
-<li><p>[pinon|pon|on|high] [pin] : turns on the specified GPIO pin</p></li>
+<li><p><code>[pinon|pon|on|high] [pin]</code> : turns on the specified GPIO pin</p></li>
 
-<li><p>[pinoff|poff|off|low] [pin] : turns off the specified GPIO pin</p></li>
+<li><p><code>[pinoff|poff|off|low] [pin]</code> : turns off the specified GPIO pin</p></li>
 
-<li><p>[write|w] [pin] [state] : writes specified state to the specified GPIO pin</p></li>
+<li><p><code>[write|w] [pin] [state]</code> : writes specified state to the specified GPIO pin</p></li>
 
-<li><p>[read|r] [pin]: reads the value of the specified GPIO pin</p></li>
+<li><p><code>[read|r] [pin]</code> : reads the value of the specified GPIO pin</p></li>
 
-<li><p>[available|online|busy|dnd|away|idle|out|xa] [arg1] : set gtalk state and status message to specified argument</p></li>
+<li><p><code>[available|online|busy|dnd|away|idle|out|xa] [arg1]</code> : set gtalk state and status message to specified argument</p></li>
 
-<li><p>[shell|bash] [arg1] : executes the specified shell command argument after &lsquo;shell&rsquo; or &lsquo;bash&rsquo;</p></li>
+<li><p><code>[shell|bash] [arg1]</code> : executes the specified shell command argument after &lsquo;shell&rsquo; or &lsquo;bash&rsquo;</p></li>
 </ul>
 
 <p>For example, sending the message &ldquo;pinon 10&rdquo; will turn on GPIO pin #10, &ldquo;read 8&rdquo; will read the current state of GPIO pin 8, or &ldquo;bash ps&rdquo; to execute the shell command &lsquo;ps&rsquo;.</p>
@@ -511,17 +505,17 @@
 <p>The following is a small subset of the relatively benign commands possible to be run remotely via the Raspi Bot:</p>
 
 <ul>
-<li><p>vmstat - system activity, hardware and information</p></li>
+<li><p><code>vmstat</code> : system activity, hardware and information</p></li>
 
-<li><p>uptime - how long the system has been running</p></li>
+<li><p><code>uptime</code> : how long the system has been running</p></li>
 
-<li><p>w - logged in users and their process activity</p></li>
+<li><p><code>w</code> : logged in users and their process activity</p></li>
 
-<li><p>ps - reports a snapshot of the current processes</p></li>
+<li><p><code>ps</code> : reports a snapshot of the current processes</p></li>
 
-<li><p>free - physical and swap memory usage</p></li>
+<li><p><code>free</code> : physical and swap memory usage</p></li>
 
-<li><p>iostat - average CPU load, disk activity</p></li>
+<li><p><code>iostat</code> : average CPU load, disk activity</p></li>
 </ul>
 
 <p>Arguably, disclosure of any amount of information about system can be considered a security issue such as that reported by some of the above tools.  For users more concerned about convenience over security exposure, much more elaborate commands can be run, such as executing additional scripts or accessing private data.</p>

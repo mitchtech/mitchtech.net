@@ -20,9 +20,13 @@
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-accelerometer-servos/</guid>
       <description>A robotic gripper with wrist rotate controlled by Android on-board accelerometer.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input
 Background on Android development, IOIO, and electronics:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+Meet IOIO
+IOIO for Android Beginners Guide</description>
     </item>
     
   </channel>

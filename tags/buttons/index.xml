@@ -30,9 +30,14 @@
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-garage-door/</guid>
       <description>Control your garage door with Android and IOIO.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input
 Background on Android development, IOIO, and electronics:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+Meet IOIO
+IOIO for Android Beginners Guide
+IOIO Wiki</description>
     </item>
     
     <item>
@@ -43,7 +48,10 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-d-pad/</guid>
       <description>A simple controller for use as an Android directional pad input accessory. The Arduino based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.6+)</description>
     </item>
     
@@ -55,7 +63,9 @@ Hardware Parts needed:  Android Device (1.6+)</description>
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-d-pad/</guid>
       <description>A simple controller for use as an Android D-pad (directional pad) input accessory. The IOIO based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output</description>
     </item>
     
     <item>
@@ -66,7 +76,10 @@ Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input And
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-digital-input/</guid>
       <description>Simplest possible digital input with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) digital input device.
 The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
+Meet IOIO
+IOIO for Android Beginners Guide
+IOIO Wiki
+Android Developer’s Guide
 Hardware Parts needed:  Android Device (1.</description>
     </item>
     
@@ -77,7 +90,9 @@ Hardware Parts needed:  Android Device (1.</description>
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-digital-input/</guid>
       <description>Simplest possible digital input with the ADK. This article will discuss the bare minimal requirements for development of a basic USB digital input accessory. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
-Android Developer’s Guide Getting Started with Arduino Microbridge
+Android Developer’s Guide
+Getting Started with Arduino
+Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
     </item>
     

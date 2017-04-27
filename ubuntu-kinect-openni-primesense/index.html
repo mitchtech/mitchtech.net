@@ -426,44 +426,32 @@ mkdir ~/kinect cd ~/kinect git clone https://github."/>
 <p>Make a directory to store the build, then clone the OpenNI source from Github.</p>
 
 <pre><code>mkdir ~/kinect
-
 cd ~/kinect
-
 git clone https://github.com/OpenNI/OpenNI.git
 </code></pre>
 
 <p>Run the RedistMaker script in the Platform/Linux folder and install the output binaries</p>
 
 <pre><code>cd OpenNI/Platform/Linux/CreateRedist/
-
 chmod +x RedistMaker
-
 ./RedistMaker
-
 cd ../Redist/OpenNI-Bin-Dev-Linux-x64-v1.5.2.23/
-
 sudo ./install.sh
 </code></pre>
 
 <p>Next, clone the Avin2 SensorKinect source from Github.</p>
 
 <pre><code>cd ~/kinect/
-
 git clone git://github.com/avin2/SensorKinect.git
 </code></pre>
 
 <p>Run the RedistMaker script in the Platform/Linux folder and install the output binaries.</p>
 
 <pre><code>cd SensorKinect/Platform/Linux/CreateRedist/
-
 chmod +x RedistMaker
-
 ./RedistMaker
-
 cd ../Redist/Sensor-Bin-Linux-x64-v5.1.0.25/
-
 chmod +x install.sh
-
 sudo ./install.sh
 </code></pre>
 
@@ -475,9 +463,7 @@ PrimeSense NITE Unstable Build for Ubuntu 10.10 x64 v 1.5.2.21</p>
 <p>Extract the contents of the archive and switch to the Data directory contained within.</p>
 
 <pre><code>cd ~/kinect
-
 tar -xvjpf nite-bin-linux-x64-v1.5.2.21.tar.bz2
-
 cd NITE-Bin-Dev-Linux-x64-v1.5.2.21/Data
 </code></pre>
 

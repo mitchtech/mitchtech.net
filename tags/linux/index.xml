@@ -150,7 +150,7 @@ In either case, begin by installing the Debian image as you normally would to an
       <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-kernel-compile/</guid>
       <description>This tutorial will demonstrate how to cross compile the kernel for the Raspberry Pi on Ubuntu 12.04 LTS. The kernel is functional with both the Debian and Arch Linux Raspberry Pi images.
 UPDATE: Alternatively, you can use the following Ansible playbook playbook-raspi_kernel_crosscompile. Note that you have to edit host_vars/localhost.yml file with your local sudo password.
- git clone https://github.com/chrismeyersfsu/playbook-raspi_kernel_crosscompile ansible-playbook -i localhost.yml site.yml -vvvv  First, install the package dependencies, git and the cross-compilation toolchain:</description>
+git clone https://github.com/chrismeyersfsu/playbook-raspi_kernel_crosscompile ansible-playbook -i localhost.yml site.yml -vvvv  First, install the package dependencies, git and the cross-compilation toolchain:</description>
     </item>
     
     <item>
@@ -331,8 +331,9 @@ Image Name: BT5-GNOME-ARM [.torrent | .7z] Size (MB): 1060 Desktop: GNOME Archit
       <pubDate>Wed, 02 May 2012 13:55:10 +0000</pubDate>
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/running-linux-on-android-common-problems/</guid>
-      <description>Corrupted Filesystem Problem: ext2 Distribution Image Explanation: If you formated the distribution partition as ext2 then chances are you will have a filesystem corruption. The trouble is fsck doesn’t come with busybox and it’s hard to run fsck on your root filesytem while mounted. The solution is to mount the distribution image from another linux machine and run fsck. Solution:
-Disable USB debugging on your phone. Plug your phone into a linux box.</description>
+      <description>Corrupted Filesystem Problem: ext2 Distribution Image
+Explanation: If you formated the distribution partition as ext2 then chances are you will have a filesystem corruption. The trouble is fsck doesn’t come with busybox and it’s hard to run fsck on your root filesytem while mounted. The solution is to mount the distribution image from another linux machine and run fsck.
+Solution: Disable USB debugging on your phone. Plug your phone into a linux box.</description>
     </item>
     
     <item>

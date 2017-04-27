@@ -442,47 +442,31 @@
 <p>Next, clone, build and install x264:</p>
 
 <pre><code>git clone git://git.videolan.org/x264.git
-
 cd x264
-
 ./configure --enable-static --enable-pic --enable-shared
-
 make
-
 sudo make install
 </code></pre>
 
 <p>The next step is to build and install ffmpeg:</p>
 
 <pre><code>cd ~/opencv
-
 wget http://ffmpeg.org/releases/ffmpeg-0.8.10.tar.bz2
-
 tar -xvjpf ffmpeg-0.8.10.tar.bz2
-
 cd ffmpeg-0.8.10/
-
 ./configure --enable-gpl --enable-version3 --enable-nonfree --enable-postproc --enable-libfaac --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-x11grab --enable-swscale --enable-pic --enable-shared
-
 make
-
 sudo make install
 </code></pre>
 
 <p>NOTE: Do NOT clone the mainline source tree with git. This version is NOT compatible (I tried and failed several times!). I’m sure version 0.7 and 0.8 work, anything newer resulted in compilation errors later in the OpenCV build. Next, build and install OpenCV:</p>
 
 <pre><code>cd ~/opencv
-
 wget http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.3.1/OpenCV-2.3.1a.tar.bz2
-
 tar -xvjpf OpenCV-2.3.1a.tar.bz2
-
 cd OpenCV-2.3.1/
-
 mkdir build
-
 cd build
-
 cmake-gui ..
 </code></pre>
 
@@ -502,7 +486,6 @@ WITH_TBB
 <p>NOTE: you can also enable the CUDA extensisons if you have capable nvidia graphics card(s). Click ‘configure’ again, check the output and ensure that there are not any modules that cmake cannot find. If everything looks good, click ‘generate’ to create the makefiles, then close cmake-gui.</p>
 
 <pre><code>make
-
 sudo make install
 </code></pre>
 

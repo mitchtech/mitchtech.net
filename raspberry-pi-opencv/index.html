@@ -431,7 +431,6 @@ ansible-playbook site.yml -i pis.yml -vvvv
 <p><strong>Note:</strong> The make command will take HOURS to run. Please be patient.</p>
 
 <pre><code>sudo apt-get -y install build-essential cmake cmake-qt-gui pkg-config libpng12-0 libpng12-dev libpng++-dev libpng3 libpnglite-dev zlib1g-dbg zlib1g zlib1g-dev pngtools libtiff4-dev libtiff4 libtiffxx0c2 libtiff-tools
-
 sudo apt-get -y install libjpeg8 libjpeg8-dev libjpeg8-dbg libjpeg-progs ffmpeg libavcodec-dev libavcodec53 libavformat53 libavformat-dev libgstreamer0.10-0-dbg libgstreamer0.10-0 libgstreamer0.10-dev libxine1-ffmpeg libxine-dev libxine1-bin libunicap2 libunicap2-dev libdc1394-22-dev libdc1394-22 libdc1394-utils swig libv4l-0 libv4l-dev python-numpy libpython2.6 python-dev python2.6-dev libgtk2.0-dev pkg-config
 </code></pre>
 
@@ -464,7 +463,6 @@ cd build
 <p>In the cmake GUI, click ‘configure’ to pre-populate the build options. Select or remove any desired features, then click ‘configure’ again, check the output and ensure that there are not any modules that cmake cannot find. If everything looks good, click ‘generate’ to create the makefiles, then close cmake-gui. Now we are ready to start the build! To compile, run make, then install with make install:</p>
 
 <pre><code>make
-
 sudo make install
 </code></pre>
 
@@ -500,7 +498,9 @@ sudo make install
 <p>C demos in build/bin demos worth checking out (that don’t require a webcam):</p>
 
 <pre><code>convexhull
+
 kmeans
+
 drawing
 </code></pre>
 
@@ -512,7 +512,9 @@ drawing
 <p>These demos also don&rsquo;t require a webcam:</p>
 
 <pre><code>python ./minarea.py
+
 python ./delaunay.py
+
 python ./drawing.py
 </code></pre>
 

@@ -20,7 +20,10 @@
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-output/</guid>
       <description>Simplest possible analog output with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) analog output device, a controllable RGB LED.
 The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+Meet IOIO
+IOIO for Android Beginners Guide
+IOIO Wiki
+Android Developer’s Guide</description>
     </item>
     
     <item>
@@ -30,7 +33,9 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-output/</guid>
       <description>Simplest possible analog output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device, a controllable RGB LED. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
-Android Developer’s Guide Getting Started with Arduino Microbridge
+Android Developer’s Guide
+Getting Started with Arduino
+Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
     </item>
     

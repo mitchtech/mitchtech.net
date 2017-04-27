@@ -430,68 +430,44 @@ Image Name: BT5-GNOME-ARM [.torrent | .7z] Size (MB): 1060 Desktop: GNOME Archit
 <p>You can download via torrent or direct, the rest of the settings should look like this:</p>
 
 <pre><code>Image Name: BT5-GNOME-ARM [.torrent | .7z]
-
 Size (MB): 1060
-
 Desktop: GNOME
-
 Architecture: arm
-
 Image: IMG
-
 Download: [Direct | Torrent]
-
 MD5sum: a66bf35409f4458ee7f35a77891951eb
 </code></pre>
 
 <p>Extract the contents using 7zip (apt-get install p7zip if you don’t have it installed)</p>
 
 <pre><code>cd BT5-GNOME-ARM/
-
 7z x BT5-GNOME-ARM.7z
 </code></pre>
 
 <p>The output should look like this:</p>
 
 <pre><code>Processing archive: BT5-GNOME-ARM.7z
-
 Extracting BT5-GNOME-ARM/bootbt
-
 Extracting BT5-GNOME-ARM/busybox
-
 Extracting BT5-GNOME-ARM/fsrw
-
 Extracting BT5-GNOME-ARM/mountonly
-
 Extracting BT5-GNOME-ARM/README
-
 Extracting BT5-GNOME-ARM/unionfs
-
 Extracting BT5-GNOME-ARM/bt5.img.gz
-
 Extracting BT5-GNOME-ARM/installbusybox.sh
-
 Extracting BT5-GNOME-ARM
-
 Everything is Ok
-
 Folders: 1
-
 Files: 8
-
 Size: 1165198387
-
 Compressed: 1142317778
 </code></pre>
 
 <p>Next we will shell into the device and create a directory on the external storage to hold  the image and scripts</p>
 
 <pre><code>cd BT5-GNOME-ARM/
-
 ./adb shell
-
 mkdir /sdcard/bt
-
 exit
 </code></pre>
 
@@ -500,20 +476,15 @@ exit
 <p>If you have a custom ROM like Cyanogenmod installed, its VERY likely you can skip this step. What to know for sure? ADB shell into the device, and type ‘which busybox’ at the terminal prompt. If it shows a path, like ‘/system/xbin/busybox’ its already installed. Otherwise, copy over the busybox install files with ADB:</p>
 
 <pre><code>./adb push busybox /sdcard/
-
 ./adb push installbusybox.sh /sdcard
 </code></pre>
 
 <p>Run the busybox install script on the device:</p>
 
 <pre><code>./adb shell
-
 su
-
 cd /sdcard/
-
 sh installbusybox.sh
-
 exit
 </code></pre>
 
@@ -527,11 +498,8 @@ exit
 <p>Clone the scripts from my github repo:</p>
 
 <pre><code>git clone git://github.com/mitchtech/chroot_android.git -b bt
-
 cd chroot_android
-
 tar -cvf bt.tar *
-
 ./adb push bt.tar /sdcard/bt/
 </code></pre>
 
@@ -545,16 +513,13 @@ tar -cvf bt.tar *
 <p>Get root and change into the BackTrack directory</p>
 
 <pre><code>su
-
 cd /sdcard/bt
 </code></pre>
 
 <p>Uncompress the image and scripts:</p>
 
 <pre><code>gunzip bt5.img.gz
-
 mv bt5.img bt.img
-
 tar -xvf bt.tar
 </code></pre>
 
@@ -566,14 +531,12 @@ tar -xvf bt.tar
 <p>Now, to start BackTrack type ‘startbt’. Once BackTrack started, to gain shell type ‘bt’. To shutdown type ‘stopbt’.</p>
 
 <pre><code>startbt
-
 bt
 </code></pre>
 
 <p>If all goes well, you’ll be in the BackTrack chroot. If you get ‘root@localhost:/#’ then you know it’s working!</p>
 
 <pre><code>root@localhost:/# ls /pentest/
-
 backdoors database exploits passwords scanners stressing voip cisco enumeration forensics python sniffers tunneling web
 </code></pre>
 
@@ -584,21 +547,16 @@ backdoors database exploits passwords scanners stressing voip cisco enumeration 
 <pre><code>/etc/init.d/networking start
 </code></pre>
 
-<p>This will attempt to start all the interfaces in the /etc/network/interfaces file.</p>
-
-<p>Now we can update the system with apt-get</p>
+<p>This will attempt to start all the interfaces in the /etc/network/interfaces file. Now we can update the system with apt-get</p>
 
 <pre><code>apt-get update
-
 apt-get dist-upgrade
 </code></pre>
 
 <p>Finally, add the following to .bashrc. For example, vi ~/.bashrc</p>
 
 <pre><code>cd ~
-
 PATH=$PATH:/root/bin
-
 export USER=root
 </code></pre>
 
@@ -612,15 +570,10 @@ export USER=root
 <p>Then connect to the session with the following settings.</p>
 
 <pre><code>Nick : bt (or whatever you want)
-
 address : localhost
-
 port : 5901
-
 password : 12345678
-
 Touch Mouse; D-Pad Pan;
-
 Mouse pointer control mode: TouchPad
 </code></pre>
 
@@ -636,7 +589,6 @@ subprocess installed post-installation script returned error exit status 1</p>
 <p>Issue these two commands:</p>
 
 <pre><code>dpkg-divert --local --rename --add /sbin/initctl
-
 ln -s /bin/true /sbin/initctl
 </code></pre>
 

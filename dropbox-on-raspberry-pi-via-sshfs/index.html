@@ -458,7 +458,6 @@ Note: The following is not actually specific to the Raspberry Pi, nor to Dropbox
 <p>Next, the remote machine will need to be running OpenSSH server. For Windows and Mac instructions on how to set up OpenSSH server, I recommend this <a href="http://lifehacker.com/205090/geek-to-live--set-up-a-personal-home-ssh-servervvvvvvvvvvv">tutorial on Lifehacker</a>.  For Linux users, OpenSSH server is available in most every package manager. To install on Ubuntu, for example:</p>
 
 <pre><code>sudo apt-get install openssh-server
-
 </code></pre>
 
 <h4 id="installation-raspberry-pi">Installation (Raspberry Pi)</h4>
@@ -466,7 +465,6 @@ Note: The following is not actually specific to the Raspberry Pi, nor to Dropbox
 <p>Now that the remote host is configured, you can setup the mount on the Pi.  This first requires installation of the sshfs package.  Open a terminal on the Pi and install it like this:</p>
 
 <pre><code>sudo apt-get install sshfs
-
 </code></pre>
 
 <p>Then add the user pi to the FUSE users group:</p>
@@ -482,13 +480,11 @@ Note: The following is not actually specific to the Raspberry Pi, nor to Dropbox
 <p>Now use sshfs to mount the remote share on the newly created mountpoint. Be sure to change the user@remote-host and path to Dropbox to match your own settings:</p>
 
 <pre><code>sshfs -o idmap=user user@remote-host:/home/user/Dropbox ~/Dropbox
-
 </code></pre>
 
 <p>For example, connecting to another machine on your local network will look something like this:</p>
 
 <pre><code>sshfs -o idmap=user michael@192.168.1.100:/home/michael/Dropbox ~/Dropbox
-
 </code></pre>
 
 <p>The idmap=user option ensures that files owned by the remote user are owned by the local user. If you don&rsquo;t use idmap=user, files in the mounted directory might appear to be owned by someone else, because your computer and the remote computer have different ideas about the numeric user ID associated with each user name. idmap=user will not translate UIDs for other users.</p>
@@ -496,7 +492,6 @@ Note: The following is not actually specific to the Raspberry Pi, nor to Dropbox
 <p>That&rsquo;s all there is to it! To unmount,</p>
 
 <pre><code>fusermount -u ~/Dropbox
-
 </code></pre>
 
 <h4 id="http-mitchtech-net-wp-content-uploads-2012-07-raspberry-dropbox-300x267-png-http-mitchtech-net-dropbox-on-raspberry-pi-via-sshfs-raspberry-dropbox"><a href="http://mitchtech.net/dropbox-on-raspberry-pi-via-sshfs/raspberry-dropbox/"><img src="http://mitchtech.net/wp-content/uploads/2012/07/raspberry-dropbox-300x267.png" alt="" /></a></h4>

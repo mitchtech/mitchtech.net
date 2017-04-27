@@ -397,13 +397,9 @@
                 <p>This tutorial will outline the process to compile Cyanogenmod 9 for the Verizon (LTE) Galaxy Nexus (aka toro, a variant of the tuna) on Ubuntu 12.04 LTS.  This process has changed a bit over time, notably with new hassles to configure the Oracle Java JDK.  While the tutorial is specific to the Galaxy Nexus, it generalizes to most devices supported by Cyanogenmod 9.  First, install and configure the Android SDK (more thorough info <a href="http://developer.android.com/sdk/installing.html">here</a>):</p>
 
 <pre><code>wget http://dl.google.com/android/android-sdk_r18-linux.tgz
-
 tar -xvzf android-sdk_r18-linux.tgz
-
 rm android-sdk_r18-linux.tgz
-
 cd android-sdk-linux
-
 tools/android update sdk - -no-ui
 </code></pre>
 
@@ -414,23 +410,18 @@ tools/android update sdk - -no-ui
 
 <p>The next step is to download and configure the most recent Java JDK from Oracle.  This part of the tutorial is based on a nice tutorial from <a href="http://johnbokma.com/mexit/2011/06/24/oracle-java-jdk-installation-ubuntu.html">John Bokma</a>.</p>
 
-<pre><code>Download the JDK from Oracle [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u31-download-1501634.html):
+<p>Download the JDK from Oracle <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u31-download-1501634.html">here</a></p>
 
-sudo mkdir -p /usr/local/java
-
+<pre><code>sudo mkdir -p /usr/local/java
 sudo mv ~/Downloads/jdk-6u31-linux-x64.bin /usr/local/java
-
 cd /usr/local/java
-
 sudo chmod +x jdk-6u31-linux-x64.bin
-
 sudo ./jdk-6u31-linux-x64.bin
 </code></pre>
 
 <p>The installer will attempt to open a browser, but will fail. Presumably this is because the browser is unable to start as root, but this doesn&rsquo;t seem to affect the install at all.  Now remove the installer, and create a symlink to /usr/local/java/latest.  This way a new JDK can easily be configured by just moving the /usr/local/java/latest symlink to the most recent version:</p>
 
 <pre><code>sudo rm jdk-6u31-linux-x64.bin
-
 sudo ln -s jdk1.6.0_31 /usr/local/java/latest
 </code></pre>
 
@@ -470,40 +461,34 @@ Then, get the repo tool (a wrapper for git) and make it executable.
 </code></pre>
 
 <p>mkdir -p ~/bin
-mkdir -p ~/cm</p>
-
-<p>curl <a href="https://dl-ssl.google.com/dl/googlesource/git-repo/repo">https://dl-ssl.google.com/dl/googlesource/git-repo/repo</a> &gt; ~/bin/repo</p>
-
-<p>chmod a+x ~/bin/repo</p>
+mkdir -p ~/cm
+curl <a href="https://dl-ssl.google.com/dl/googlesource/git-repo/repo">https://dl-ssl.google.com/dl/googlesource/git-repo/repo</a> &gt; ~/bin/repo
+chmod a+x ~/bin/repo</p>
 
 <pre><code>
 Initialize and sync the repo. Change the -b option to checkout another branch (like -b gingerbread). NOTE: reboot may be required for repo to work!
 
 </code></pre>
 
-<p>cd ~/cm</p>
-
-<p>repo init -u git://github.com/CyanogenMod/android.git -b ics</p>
-
-<p>repo sync -j16</p>
+<p>cd ~/cm
+repo init -u git://github.com/CyanogenMod/android.git -b ics
+repo sync -j16</p>
 
 <pre><code>
 After the source has synched, we need to run a script to get the prebuilt binaries, including ROM Manager and Terminal.
 
 </code></pre>
 
-<p>cd ~/cm/vendor/cm</p>
-
-<p>./get-prebuilts</p>
+<p>cd ~/cm/vendor/cm
+./get-prebuilts</p>
 
 <pre><code>
 Now setup the environment with envsetup
 
 </code></pre>
 
-<p>cd ~/cm</p>
-
-<p>. build/envsetup.sh</p>
+<p>cd ~/cm
+. build/envsetup.sh</p>
 
 <pre><code>
 Execute the 'brunch' command to see the list of build targets, and make your selection.  For the Galaxy Nexus, select cm_toro-userdebug, for Nexus S, select cm_crespo-userdebug, for Xoom, choose cm_wingray-userdebug
@@ -517,9 +502,8 @@ Once a selection is made, the build should start. If it doesn't, try running the
 
 </code></pre>
 
-<p>lunch</p>
-
-<p>mka bacon</p>
+<p>lunch
+mka bacon</p>
 
 <pre><code>
 If that doesn’t work either, explicitly execute 'make bacon'. You can use the -j compiler flag to enable parallel make.  The recommended use is 'processor cores + 1', e.g. 5 if you have a quad core processor:
@@ -533,9 +517,8 @@ Once the build completes, the output will be located in ~/cm/out/target/product/
 
 </code></pre>
 
-<p>adb push ~/cm/out/target/product/toro/update-cm-9.0.0-RC0-toro-UNOFFICIAL-signed.zip /sdcard/</p>
-
-<p>adb reboot recovery
+<p>adb push ~/cm/out/target/product/toro/update-cm-9.0.0-RC0-toro-UNOFFICIAL-signed.zip /sdcard/
+adb reboot recovery
 ```</p>
 
 <p>Once booted into recovery, MAKE A BACKUP, then flash the update.zip.</p>

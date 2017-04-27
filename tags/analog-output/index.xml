@@ -29,9 +29,13 @@
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-window-blinds-control/</guid>
       <description>Demo Android application to control window blinds using IOIO and full rotation servos.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input
 Background on Android development, IOIO, and electronics:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+Meet IOIO
+IOIO for Android Beginners Guide</description>
     </item>
     
     <item>
@@ -42,9 +46,13 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-laser-turret/</guid>
       <description>Android and IOIO powered pan and tilt bracket with dual lasers. Pew pew!
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input
 Background on Android development, IOIO, and electronics:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+Meet IOIO
+IOIO for Android Beginners Guide</description>
     </item>
     
     <item>
@@ -55,7 +63,10 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-pan-tilt-leds/</guid>
       <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basics for using two servos to achieve basic basic pan and tilt functionality. In addition, digital control is demonstrated using two LEDs.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.</description>
     </item>
     
@@ -67,7 +78,8 @@ Hardware Parts needed:  Android Device (1.</description>
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-swivel-head-android-with-leds/</guid>
       <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basic use of combined digital and analog outputs. The basic hardware is a hobby servo and two LEDs inside of an Android figure. The servo allows Andy Android to rotate 180 degrees.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output</description>
+Simple Digital Input
+Simple Digital Output</description>
     </item>
     
     <item>
@@ -78,7 +90,10 @@ Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Ou
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-combination-lock/</guid>
       <description>A simple combination lock with Android and Arduino. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.6+)
  Hobby servo
  Breadboard
@@ -94,9 +109,13 @@ Hardware Parts needed:  Android Device (1.6+)
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-accelerometer-servos/</guid>
       <description>A robotic gripper with wrist rotate controlled by Android on-board accelerometer.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input
 Background on Android development, IOIO, and electronics:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+Meet IOIO
+IOIO for Android Beginners Guide</description>
     </item>
     
     <item>
@@ -107,7 +126,10 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-combination-lock/</guid>
       <description>A simple combination lock with IOIO and Android. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input
 Background on Android development, IOIO, and electronics:</description>
     </item>
     
@@ -119,9 +141,13 @@ Background on Android development, IOIO, and electronics:</description>
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-software-joystick-servos/</guid>
       <description>Android and IOIO powered pan and tilt servo bracket controlled by software joystick.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input
 Background on Android development, IOIO, and electronics:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+Meet IOIO
+IOIO for Android Beginners Guide</description>
     </item>
     
     <item>
@@ -132,7 +158,10 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-servo-control/</guid>
       <description>A simple dual servo controller for Android. The IOIO based device uses slider bars to control two hobby servos.
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input
 Background on Android development, IOIO, and electronics:</description>
     </item>
     
@@ -144,7 +173,10 @@ Background on Android development, IOIO, and electronics:</description>
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-output/</guid>
       <description>Simplest possible analog output with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) analog output device, a controllable RGB LED.
 The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
-Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide</description>
+Meet IOIO
+IOIO for Android Beginners Guide
+IOIO Wiki
+Android Developer’s Guide</description>
     </item>
     
     <item>
@@ -154,7 +186,9 @@ Meet IOIO IOIO for Android Beginners Guide IOIO Wiki Android Developer’s Guide
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-output/</guid>
       <description>Simplest possible analog output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device, a controllable RGB LED. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
-Android Developer’s Guide Getting Started with Arduino Microbridge
+Android Developer’s Guide
+Getting Started with Arduino
+Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
     </item>
     

@@ -20,7 +20,10 @@
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-temperature-light/</guid>
       <description>Sensing temperature and light with Android and Arduino. This article will demonstrate a basic thermometer / ambient light level detection input accessory.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.6+)
  Photocell
  10K ohm resistor
@@ -35,7 +38,10 @@ Hardware Parts needed:  Android Device (1.6+)
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-pan-tilt-leds/</guid>
       <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basics for using two servos to achieve basic basic pan and tilt functionality. In addition, digital control is demonstrated using two LEDs.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.</description>
     </item>
     
@@ -47,7 +53,9 @@ Hardware Parts needed:  Android Device (1.</description>
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-serial-4-digit-led/</guid>
       <description>Interfacing a serial display with Android and Arduino. This article will demonstrate communication of a serial 7 segment display, specifically this one: 7-Segment Serial Display – Blue from Sparkfun electronics. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output</description>
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input</description>
     </item>
     
     <item>
@@ -58,7 +66,8 @@ Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Ou
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-swivel-head-android-with-leds/</guid>
       <description>Combining analog and digital outputs with Android and Arduino. This tutorial will demonstrate the basic use of combined digital and analog outputs. The basic hardware is a hobby servo and two LEDs inside of an Android figure. The servo allows Andy Android to rotate 180 degrees.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output</description>
+Simple Digital Input
+Simple Digital Output</description>
     </item>
     
     <item>
@@ -69,7 +78,10 @@ Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Ou
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-combination-lock/</guid>
       <description>A simple combination lock with Android and Arduino. The fancy wheel scroller is based on the android-wheel widget from yuri kanivets.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.6+)
  Hobby servo
  Breadboard
@@ -85,7 +97,10 @@ Hardware Parts needed:  Android Device (1.6+)
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-d-pad/</guid>
       <description>A simple controller for use as an Android directional pad input accessory. The Arduino based device uses four momentary push buttons to sense digital inputs for up, down, left, and right.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.6+)</description>
     </item>
     
@@ -97,7 +112,10 @@ Hardware Parts needed:  Android Device (1.6+)</description>
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-dual-analog-input/</guid>
       <description>Dual analog input with Android and Arduino. This article will demonstrate a basic dual analog USB input accessory.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.6+)
  2x Potentiometers
  Hook-up wire
@@ -113,7 +131,10 @@ Hardware Parts needed:  Android Device (1.6+)
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-sensor-graph/</guid>
       <description>A simple app to visualize analog sensor input with Android and Arduino.
 For additional background information on interfacing Android with the real world, check out my other introductory tutorials:
-Simple Digital Input Simple Digital Output Simple Analog Input Simple Analog Output
+Simple Digital Input
+Simple Digital Output
+Simple Analog Input
+Simple Analog Output
 Hardware Parts needed:  Android Device (1.6+)
  Potentiometer
  Breadboard
@@ -132,7 +153,10 @@ Hardware Parts needed:  Android Device (1.6+)
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-dual-analog-input/</guid>
       <description>Dual analog input with Android and IOIO. This article will demonstrate a basic dual analog Android USB (or Bluetooth) analog input device. You guessed it… the Etch-a-Sketch is coming soon!
 For additional background information on interfacing Android with IOIO, check out my other introductory tutorials:
-Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input Android + IOIO + Simple Analog Output Android + IOIO + Simple Analog Input</description>
+Android + IOIO + Simple Digital Output
+Android + IOIO + Simple Digital Input
+Android + IOIO + Simple Analog Output
+Android + IOIO + Simple Analog Input</description>
     </item>
     
     <item>
@@ -142,7 +166,9 @@ Android + IOIO + Simple Digital Output Android + IOIO + Simple Digital Input And
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-input/</guid>
       <description>Simplest possible analog input with the ADK. This article will discuss the bare minimal requirements for development of a basic USB input accessory. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
-Android Developer’s Guide Getting Started with Arduino Microbridge
+Android Developer’s Guide
+Getting Started with Arduino
+Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
     </item>
     
@@ -153,7 +179,9 @@ Getting Started First, make sure you have setup the development environments for
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-analog-output/</guid>
       <description>Simplest possible analog output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device, a controllable RGB LED. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
-Android Developer’s Guide Getting Started with Arduino Microbridge
+Android Developer’s Guide
+Getting Started with Arduino
+Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
     </item>
     
@@ -164,7 +192,9 @@ Getting Started First, make sure you have setup the development environments for
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-digital-input/</guid>
       <description>Simplest possible digital input with the ADK. This article will discuss the bare minimal requirements for development of a basic USB digital input accessory. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
-Android Developer’s Guide Getting Started with Arduino Microbridge
+Android Developer’s Guide
+Getting Started with Arduino
+Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
     </item>
     
@@ -175,7 +205,9 @@ Getting Started First, make sure you have setup the development environments for
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-arduino-usb-host-simple-digital-output/</guid>
       <description>Simplest possible digital output with Android and Arduino. This article will discuss the bare minimal requirements for development of an Android USB digital output device. The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, Arduino, and MicroBridge, check out these links:
-Android Developer’s Guide Getting Started with Arduino Microbridge
+Android Developer’s Guide
+Getting Started with Arduino
+Microbridge
 Getting Started First, make sure you have setup the development environments for Arduino and Android:</description>
     </item>
     

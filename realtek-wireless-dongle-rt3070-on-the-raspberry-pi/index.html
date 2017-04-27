@@ -53,7 +53,7 @@ The Problem The standard release (debian6-19-04-2012.zip) contains the needed dr
 
 
 <meta itemprop="dateModified" content="2012-06-03T18:49:22&#43;00:00" />
-<meta itemprop="wordCount" content="454">
+<meta itemprop="wordCount" content="450">
 
 
 
@@ -345,7 +345,7 @@ The Problem The standard release (debian6-19-04-2012.zip) contains the needed dr
             <i class="fa fa-calendar"></i>
             <time datetime="2012-06-03 18:49:22 &#43;0000 UTC" itemprop="datePublished">2012-06-03</time>
             &middot;
-            454
+            450
             words
             &middot;
             3
@@ -443,7 +443,6 @@ The Problem The standard release (debian6-19-04-2012.zip) contains the needed dr
 You will notice the firmware problem if after plugging in your wifi dongle you type dmesg and it complains about not being able to find the firmware.</p>
 
 <pre><code>dmesg
-
 usb 1-1.2: USB disconnect, device number 4
 usb 1-1.2: new high speed USB device number 6 using dwc_otg
 usb 1-1.2: New USB device found, idVendor=0e66, idProduct=0013
@@ -471,7 +470,6 @@ phy0 -&gt; rt2x00lib_request_firmware: Error - Failed to request Firmware.
 <p>Execute lsusb after you have inserted the wireless usb dongle to get more information about your device.</p>
 
 <pre><code>lsusb
-
 Bus 001 Device 006: ID 0e66:0013 Hawking Technologies HWUN3 Hi-Gain Wireless-N Adapter [Ralink RT3070]
 Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp.
 Bus 001 Device 005: ID 413c:2003 Dell Computer Corp. Keyboard
@@ -482,7 +480,6 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 <p>Ensure that the kernel you are running has loaded the required modules.</p>
 
 <pre><code>lsmod
-
 Module Size Used by
 arc4 764 2
 rt2800usb 9148 0
@@ -500,8 +497,6 @@ joydev 7576 0
 <p>Monitoring the status of the firmware fix.</p>
 
 <pre><code>tail -f /var/log/syslog
-or
-tail -f /var/log/messages
 </code></pre>
 
 <p>Acquiring and installing the firmware.</p>
