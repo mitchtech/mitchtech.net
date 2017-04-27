@@ -33,13 +33,9 @@ Next, clone, build and install x264:
 
 ```
 git clone git://git.videolan.org/x264.git
-
 cd x264
-
 ./configure --enable-static --enable-pic --enable-shared
-
 make
-
 sudo make install
 ```
 
@@ -47,17 +43,11 @@ The next step is to build and install ffmpeg:
 
 ```
 cd ~/opencv
-
 wget http://ffmpeg.org/releases/ffmpeg-0.8.10.tar.bz2
-
 tar -xvjpf ffmpeg-0.8.10.tar.bz2
-
 cd ffmpeg-0.8.10/
-
 ./configure --enable-gpl --enable-version3 --enable-nonfree --enable-postproc --enable-libfaac --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libtheora --enable-libvorbis --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-x11grab --enable-swscale --enable-pic --enable-shared
-
 make
-
 sudo make install
 ```
 
@@ -65,17 +55,11 @@ NOTE: Do NOT clone the mainline source tree with git. This version is NOT compat
 
 ```
 cd ~/opencv
-
 wget http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.3.1/OpenCV-2.3.1a.tar.bz2
-
 tar -xvjpf OpenCV-2.3.1a.tar.bz2
-
 cd OpenCV-2.3.1/
-
 mkdir build
-
 cd build
-
 cmake-gui ..
 ```
 
@@ -97,7 +81,6 @@ NOTE: you can also enable the CUDA extensisons if you have capable nvidia graphi
 
 ```
 make
-
 sudo make install
 ```
 

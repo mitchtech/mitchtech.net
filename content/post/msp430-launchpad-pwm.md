@@ -35,6 +35,7 @@ Connect your servo control wire to MSP430 pin P1.2.
 ## Software
 
 Save the below code as pwm.c
+
 {{< gist mitchtech 3024004 >}}
 
 Compile install and run the code!

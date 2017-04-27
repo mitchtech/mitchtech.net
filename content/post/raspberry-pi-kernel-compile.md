@@ -14,10 +14,8 @@ This tutorial will demonstrate how to cross compile the kernel for the Raspberry
 **UPDATE:** Alternatively, you can use the following Ansible playbook [playbook-raspi_kernel_crosscompile](https://github.com/chrismeyersfsu/playbook-raspi_kernel_crosscompile). Note that you have to edit `host_vars/localhost.yml` file with your local sudo password.
 
 ```
-
 git clone https://github.com/chrismeyersfsu/playbook-raspi_kernel_crosscompile
 ansible-playbook -i localhost.yml site.yml -vvvv
-
 ```
 
 First, install the package dependencies, git and the cross-compilation toolchain:

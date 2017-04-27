@@ -23,9 +23,7 @@ Make a directory to store the build, then clone the OpenNI source from Github.
 
 ```
 mkdir ~/kinect
-
 cd ~/kinect
-
 git clone https://github.com/OpenNI/OpenNI.git
 ```
 
@@ -33,13 +31,9 @@ Run the RedistMaker script in the Platform/Linux folder and install the output b
 
 ```
 cd OpenNI/Platform/Linux/CreateRedist/
-
 chmod +x RedistMaker
-
 ./RedistMaker
-
 cd ../Redist/OpenNI-Bin-Dev-Linux-x64-v1.5.2.23/
-
 sudo ./install.sh
 ```
 
@@ -47,7 +41,6 @@ Next, clone the Avin2 SensorKinect source from Github.
 
 ```
 cd ~/kinect/
-
 git clone git://github.com/avin2/SensorKinect.git
 ```
 
@@ -55,15 +48,10 @@ Run the RedistMaker script in the Platform/Linux folder and install the output b
 
 ```
 cd SensorKinect/Platform/Linux/CreateRedist/
-
 chmod +x RedistMaker
-
 ./RedistMaker
-
 cd ../Redist/Sensor-Bin-Linux-x64-v5.1.0.25/
-
 chmod +x install.sh
-
 sudo ./install.sh
 ```
 
@@ -76,9 +64,7 @@ Extract the contents of the archive and switch to the Data directory contained w
 
 ```
 cd ~/kinect
-
 tar -xvjpf nite-bin-linux-x64-v1.5.2.21.tar.bz2
-
 cd NITE-Bin-Dev-Linux-x64-v1.5.2.21/Data
 ```
 

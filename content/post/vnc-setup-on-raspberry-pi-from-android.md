@@ -34,11 +34,9 @@ sudo apt-get install tightvncserver
 Now, start the VNC server on the Raspberry Pi. Adjust the geometry paramater to your desired display size. 1200x720 works well for the Galaxy Nexus (image above) and the Xoom (image below):
 
 ```
-
 vncserver :1 -geometry 1200x720 -depth 16 -pixelformat rgb565
 >
 >
-
 ```
 
 You will be prompted to create a password for VNC login. Once you do, you should see a line looking something like this:
@@ -63,4 +61,3 @@ control mode: TouchPad
 Be sure to replace your_ip_address and your_password with your own settings.
 
 [![](http://mitchtech.net/wp-content/uploads/2012/06/xoom-pi-vnc-300x225.jpg)](http://mitchtech.net/vnc-setup-on-raspberry-pi-from-android/xoom-pi-vnc/)
-

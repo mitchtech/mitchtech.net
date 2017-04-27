@@ -31,14 +31,12 @@ Independent of whether you are using one or multiple Gmail or ifttt accounts, yo
 
 ```
 sudo apt-get install python-pip python2.7-dev
-
 ```
 
 Once that completes, install the feedparser module with the pip package manager:
 
 ```
 sudo pip install feedparser
-
 ```
 
 Now that all of the prerequisites are installed, we can move on to the actual code!

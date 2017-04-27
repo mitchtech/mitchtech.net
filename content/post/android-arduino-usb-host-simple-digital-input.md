@@ -62,6 +62,8 @@ Next, upload the Arduino sketch to the microcontroller. The sketch uses the [Mi
 
 The next step is to install the Android Demo application onto the device. You can either [download the pre-built .apk](http://mitch-tech.appspot.com/adb/AdbSimpleDigitalInput.apk) or checkout the source from [Github](https://github.com/mitchtech/android_adb_simple_digital_input):
 
-    git clone git://github.com/mitchtech/android_adb_simple_digital_input.git
+```
+git clone git://github.com/mitchtech/android_adb_simple_digital_input.git
+```
 
 Finally upload the app to the device (or browse to this page on the device and download the apk above).  Connect the Android device to the USB Host board/shield, and start up the app.

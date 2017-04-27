@@ -19,19 +19,12 @@ Here is a quick tutorial to get use your hand as a mouse in a Minority Report-e
 
 ```
 sudo apt-get install libncurses5-dev freeglut3-dev libX11-dev libxtst-dev libxmu-dev cmake git
-
 git clone https://github.com/Ooblik/Kinect-Mouse.git
-
 cd Kinect-Mouse
-
 mkdir build
-
 cd build
-
 cmake ..
-
 make
-
 sudo ./kmouse
 ```
 
@@ -53,13 +46,9 @@ Then make yourself a build directory within the repo, use cmake to configure, an
 
 ```
 cd Kinect-Mouse
-
 mkdir build
-
 cd build
-
 cmake ..
-
 make
 ```
 

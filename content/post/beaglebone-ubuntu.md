@@ -55,7 +55,6 @@ Flash the image to the sdcard. Substitute _<mmc_or_sdcard>.img_ and _/dev/sdX_ a
 
 ```
 sudo dd if=<mmc_or_sdcard>.img of=/dev/sdX bs=1M
-
 ```
 
 Upon completion remove the sdcard and perform the following:

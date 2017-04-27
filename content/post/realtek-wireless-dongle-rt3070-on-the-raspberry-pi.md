@@ -24,7 +24,6 @@ You will notice the firmware problem if after plugging in your wifi dongle you t
 
 ```
 dmesg
-
 usb 1-1.2: USB disconnect, device number 4
 usb 1-1.2: new high speed USB device number 6 using dwc_otg
 usb 1-1.2: New USB device found, idVendor=0e66, idProduct=0013
@@ -53,7 +52,6 @@ Execute lsusb after you have inserted the wireless usb dongle to get more inform
 
 ```
 lsusb
-
 Bus 001 Device 006: ID 0e66:0013 Hawking Technologies HWUN3 Hi-Gain Wireless-N Adapter [Ralink RT3070]
 Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp.
 Bus 001 Device 005: ID 413c:2003 Dell Computer Corp. Keyboard
@@ -65,7 +63,6 @@ Ensure that the kernel you are running has loaded the required modules.
 
 ```
 lsmod
-
 Module Size Used by
 arc4 764 2
 rt2800usb 9148 0
@@ -84,8 +81,6 @@ Monitoring the status of the firmware fix.
 
 ```
 tail -f /var/log/syslog
-or
-tail -f /var/log/messages
 ```
 
 Acquiring and installing the firmware.

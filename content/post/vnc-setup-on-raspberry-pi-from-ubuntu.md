@@ -76,11 +76,9 @@ sudo apt-get install tightvncserver
 Next, start the VNC server on the Raspberry Pi. Adjust the geometry paramater to your desired display size.
 
 ```
-
 vncserver :1 -geometry 1024x600 -depth 16 -pixelformat rgb565
 >
 >
-
 ```
 
 You will be prompted to create a password for VNC login. Once you do, you should see a line looking something like this:

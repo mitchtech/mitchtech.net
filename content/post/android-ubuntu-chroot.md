@@ -15,45 +15,25 @@ Quickstart:
 
 ```
 mkdir ubuntu
-
 cd ubuntu
-
 sudo rootstock \
-
 --fqdn ubuntu \
-
 --login ubuntu \
-
 --password ubuntu \
-
 --imagesize 4G \
-
 --dist maverick \
-
 --seed linux-image-omap,build-essential,mysql-server,tightvncserver,lxde,\
-
 mysql-server-core-5.5,mysql-server-5.5,libmysqlclient16,mysql-common,\
-
 mysql-client-core-5.5
-
 dd if=/dev/zero of=ubuntu.img bs=1MB count=0 seek=4096
-
 mke2fs -F ubuntu.img
-
 mkdir ubuntumnt
-
 sudo mount -o loop ubuntu.img ubuntumnt
-
 sudo tar -C ubuntumnt -zxf armel-rootfs-XXXXXXXXXXXX.tgz
-
 sudo umount ubuntumnt
-
 sudo rm armel-rootfs-XXXXXXXXXXXX.tgz
-
 sudo rm -rf ubuntumnt
-
 cd ..
-
 adb push ubuntu/ /sdcard/ubuntu
 ```
 
@@ -65,7 +45,6 @@ First, make a directory to store the ubuntu image and scripts
 
 ```
 mkdir ubuntu
-
 cd ubuntu
 ```
 
@@ -73,21 +52,13 @@ Next, execute rootstock as root. The options can be configured to create the ima
 
 ```
 sudo rootstock \
-
 --fqdn ubuntu \
-
 --login ubuntu \
-
 --password ubuntu \
-
 --imagesize 4G \
-
 --dist oneiric \
-
 --seed linux-image-omap,build-essential,mysql-server,tightvncserver,lxde,\
-
 mysql-server-core-5.5,mysql-server-5.5,libmysqlclient16,mysql-common,\
-
 mysql-client-core-5.5
 ```
 
@@ -131,7 +102,6 @@ Were now finished with the desktop portion of the install, so can safely remove 
 
 ```
 sudo rm armel-rootfs-XXXXXXXXXXXX.tgz
-
 sudo rm -rf ubuntumnt
 ```
 
@@ -139,7 +109,6 @@ Switch to the parent directory, then use ADB to push the contents of the chroot 
 
 ```
 cd ..
-
 adb push ubuntu/ /sdcard/ubuntu
 ```
 
@@ -147,11 +116,8 @@ Clone the scripts from my github repo:
 
 ```
 git clone git://github.com/mitchtech/chroot_android.git -b ubuntu
-
 cd chroot_android
-
 tar -cvf ubuntu.tar *
-
 ./adb push ubuntu.tar /sdcard/ubuntu/
 ```
 
@@ -165,7 +131,6 @@ Get root and change into the Ubuntu directory
 
 ```
 su
-
 cd /sdcard/ubuntu
 ```
 
@@ -185,10 +150,13 @@ Now, to start Ubuntu type ‘startubuntu’. Once Ubuntu started, to gain shell 
 
 ```
 startubuntu
-
 ubuntu
 ```
 
-If all goes well, you’ll be in the Ubuntu chroot:
+If all goes well, you’ll be in the Ubuntu chroot. If you get
 
-If you get ‘root@localhost:/#’ then you know it’s working!
+```
+root@localhost:
+```
+
+then you know it’s working!

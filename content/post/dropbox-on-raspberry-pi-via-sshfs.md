@@ -30,7 +30,6 @@ Next, the remote machine will need to be running OpenSSH server. For Windows an
 
 ```
 sudo apt-get install openssh-server
-
 ```
 
 #### Installation (Raspberry Pi)
@@ -39,7 +38,6 @@ Now that the remote host is configured, you can setup the mount on the Pi.  Thi
 
 ```
 sudo apt-get install sshfs
-
 ```
 
 Then add the user pi to the FUSE users group:
@@ -58,14 +56,12 @@ Now use sshfs to mount the remote share on the newly created mountpoint. Be sure
 
 ```
 sshfs -o idmap=user user@remote-host:/home/user/Dropbox ~/Dropbox
-
 ```
 
 For example, connecting to another machine on your local network will look something like this:
 
 ```
 sshfs -o idmap=user michael@192.168.1.100:/home/michael/Dropbox ~/Dropbox
-
 ```
 
 The idmap=user option ensures that files owned by the remote user are owned by the local user. If you don't use idmap=user, files in the mounted directory might appear to be owned by someone else, because your computer and the remote computer have different ideas about the numeric user ID associated with each user name. idmap=user will not translate UIDs for other users.
@@ -74,7 +70,6 @@ That's all there is to it! To unmount,
 
 ```
 fusermount -u ~/Dropbox
-
 ```
 
 #### [![](http://mitchtech.net/wp-content/uploads/2012/07/raspberry-dropbox-300x267.png)](http://mitchtech.net/dropbox-on-raspberry-pi-via-sshfs/raspberry-dropbox/)

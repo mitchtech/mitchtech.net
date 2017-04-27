@@ -23,42 +23,36 @@ The Raspi Bot requires several additional Python modules for use.  The easiest 
 
 ```
 sudo apt-get install python-pip git-core python2.7-dev
-
 ```
 
 Then update the easy_install index:
 
 ```
 sudo easy_install -U distribute
-
 ```
 
 And install the GPIO, xmpppy, and pydns modules:
 
 ```
 sudo pip install RPi.GPIO xmpppy pydns
-
 ```
 
 Then clone my repo for the Raspi Gtalk robot:
 
 ```
 git clone https://github.com/mitchtech/raspi_gtalk_robot.git
-
 ```
 
 Now change into the newly created directory:
 
 ```
 cd raspi_gtalk_robot
-
 ```
 
 Finally, you will need  to configure the Raspi Bot’s Gtalk username and password.  This is done by editing the fields BOT_GTALK_USER, BOT_GTALK_PASS, and BOT_ADMIN, on lines 31-33 in the raspiBot.py file.  It is recommended, though not required, to give the Raspi Bot its own Gmail account. Since access to the Raspberry Pi GPIO pins is restricted, the script needs to be run with sudo:
 
 ```
 sudo python ./raspiBot.py
-
 ```
 
 This basic sample script supports the following commands:

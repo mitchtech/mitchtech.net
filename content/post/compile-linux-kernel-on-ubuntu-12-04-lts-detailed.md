@@ -139,7 +139,6 @@ Once the compilation has completed, you can install the kernel and kernel header
 
 ```
 sudo dpkg -i linux-image-3.2.14-mm_3.2.14-mm-10.00.Custom_amd64.deb
-
 sudo dpkg -i linux-headers-3.2.14-mm_3.2.14-mm-10.00.Custom_amd64.deb
 ```
 

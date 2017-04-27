@@ -19,17 +19,11 @@ You can download via torrent or direct, the rest of the settings should look lik
 
 ```
 Image Name: BT5-GNOME-ARM [.torrent | .7z]
-
 Size (MB): 1060
-
 Desktop: GNOME
-
 Architecture: arm
-
 Image: IMG
-
 Download: [Direct | Torrent]
-
 MD5sum: a66bf35409f4458ee7f35a77891951eb
 ```
 
@@ -37,7 +31,6 @@ Extract the contents using 7zip (apt-get install p7zip if you don’t have it in
 
 ```
 cd BT5-GNOME-ARM/
-
 7z x BT5-GNOME-ARM.7z
 ```
 
@@ -45,33 +38,19 @@ The output should look like this:
 
 ```
 Processing archive: BT5-GNOME-ARM.7z
-
 Extracting BT5-GNOME-ARM/bootbt
-
 Extracting BT5-GNOME-ARM/busybox
-
 Extracting BT5-GNOME-ARM/fsrw
-
 Extracting BT5-GNOME-ARM/mountonly
-
 Extracting BT5-GNOME-ARM/README
-
 Extracting BT5-GNOME-ARM/unionfs
-
 Extracting BT5-GNOME-ARM/bt5.img.gz
-
 Extracting BT5-GNOME-ARM/installbusybox.sh
-
 Extracting BT5-GNOME-ARM
-
 Everything is Ok
-
 Folders: 1
-
 Files: 8
-
 Size: 1165198387
-
 Compressed: 1142317778
 ```
 
@@ -79,11 +58,8 @@ Next we will shell into the device and create a directory on the external storag
 
 ```
 cd BT5-GNOME-ARM/
-
 ./adb shell
-
 mkdir /sdcard/bt
-
 exit
 ```
 
@@ -92,7 +68,6 @@ If you have a custom ROM like Cyanogenmod installed, its VERY likely you can ski
 
 ```
 ./adb push busybox /sdcard/
-
 ./adb push installbusybox.sh /sdcard
 ```
 
@@ -100,13 +75,9 @@ Run the busybox install script on the device:
 
 ```
 ./adb shell
-
 su
-
 cd /sdcard/
-
 sh installbusybox.sh
-
 exit
 ```
 
@@ -122,11 +93,8 @@ Clone the scripts from my github repo:
 
 ```
 git clone git://github.com/mitchtech/chroot_android.git -b bt
-
 cd chroot_android
-
 tar -cvf bt.tar *
-
 ./adb push bt.tar /sdcard/bt/
 ```
 
@@ -142,7 +110,6 @@ Get root and change into the BackTrack directory
 
 ```
 su
-
 cd /sdcard/bt
 ```
 
@@ -150,9 +117,7 @@ Uncompress the image and scripts:
 
 ```
 gunzip bt5.img.gz
-
 mv bt5.img bt.img
-
 tar -xvf bt.tar
 ```
 
@@ -166,7 +131,6 @@ Now, to start BackTrack type ‘startbt’. Once BackTrack started, to gain shel
 
 ```
 startbt
-
 bt
 ```
 
@@ -174,7 +138,6 @@ If all goes well, you’ll be in the BackTrack chroot. If you get ‘root@local
 
 ```
 root@localhost:/# ls /pentest/
-
 backdoors database exploits passwords scanners stressing voip cisco enumeration forensics python sniffers tunneling web
 ```
 
@@ -186,13 +149,10 @@ To start networking in Backtrack 4 final issue the following command:
 /etc/init.d/networking start
 ```
 
-This will attempt to start all the interfaces in the /etc/network/interfaces file.
-
-Now we can update the system with apt-get
+This will attempt to start all the interfaces in the /etc/network/interfaces file. Now we can update the system with apt-get
 
 ```
 apt-get update
-
 apt-get dist-upgrade
 ```
 
@@ -200,9 +160,7 @@ Finally, add the following to .bashrc. For example, vi ~/.bashrc
 
 ```
 cd ~
-
 PATH=$PATH:/root/bin
-
 export USER=root
 ```
 
@@ -218,15 +176,10 @@ Then connect to the session with the following settings.
 
 ```
 Nick : bt (or whatever you want)
-
 address : localhost
-
 port : 5901
-
 password : 12345678
-
 Touch Mouse; D-Pad Pan;
-
 Mouse pointer control mode: TouchPad
 ```
 
@@ -243,7 +196,6 @@ Issue these two commands:
 
 ```
 dpkg-divert --local --rename --add /sbin/initctl
-
 ln -s /bin/true /sbin/initctl
 ```
 

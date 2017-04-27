@@ -49,33 +49,19 @@ Add the following lines to the SETTINGS stanza of the drivers.ini. Note: these p
 
 ```
 ; Settings for multi-axis controllers
-
 SpaceNavigator/sensitivityX = 0.125
-
 SpaceNavigator/sensitivityY = 0.125
-
 SpaceNavigator/sensitivityZ = 0.030
-
 SpaceNavigator/sensitivityPitch = 0.01
-
 SpaceNavigator/sensitivityYaw = 0.004
-
 SpaceNavigator/sensitivityRoll = 0.007
-
 SpaceNavigator/device = /dev/input/spacenavigator
-
 SpaceNavigator/zeroX = 0.0
-
 SpaceNavigator/zeroY = 0.0
-
 SpaceNavigator/zeroZ = 0.0
-
 SpaceNavigator/zeroPitch = 0.0
-
 SpaceNavigator/zeroYaw = 0.0
-
 SpaceNavigator/zeroRoll = 0.0
-
 SpaceNavigator/gutterValue = 0.1
 ```
 

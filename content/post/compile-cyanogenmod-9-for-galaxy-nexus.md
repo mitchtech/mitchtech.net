@@ -13,13 +13,9 @@ This tutorial will outline the process to compile Cyanogenmod 9 for the Verizon 
 
 ```
 wget http://dl.google.com/android/android-sdk_r18-linux.tgz
-
 tar -xvzf android-sdk_r18-linux.tgz
-
 rm android-sdk_r18-linux.tgz
-
 cd android-sdk-linux
-
 tools/android update sdk - -no-ui
 ```
 
@@ -31,17 +27,13 @@ sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev l
 
 The next step is to download and configure the most recent Java JDK from Oracle.  This part of the tutorial is based on a nice tutorial from [John Bokma](http://johnbokma.com/mexit/2011/06/24/oracle-java-jdk-installation-ubuntu.html).
 
+Download the JDK from Oracle [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u31-download-1501634.html)
+
 ```
-Download the JDK from Oracle [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u31-download-1501634.html):
-
 sudo mkdir -p /usr/local/java
-
 sudo mv ~/Downloads/jdk-6u31-linux-x64.bin /usr/local/java
-
 cd /usr/local/java
-
 sudo chmod +x jdk-6u31-linux-x64.bin
-
 sudo ./jdk-6u31-linux-x64.bin
 ```
 
@@ -49,7 +41,6 @@ The installer will attempt to open a browser, but will fail. Presumably this is 
 
 ```
 sudo rm jdk-6u31-linux-x64.bin
-
 sudo ln -s jdk1.6.0_31 /usr/local/java/latest
 ```
 
@@ -88,9 +79,7 @@ Then, get the repo tool (a wrapper for git) and make it executable.
 ```
 mkdir -p ~/bin
 mkdir -p ~/cm
-
 curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
-
 chmod a+x ~/bin/repo
 ```
 
@@ -98,9 +87,7 @@ Initialize and sync the repo. Change the -b option to checkout another branch (l
 
 ```
 cd ~/cm
-
 repo init -u git://github.com/CyanogenMod/android.git -b ics
-
 repo sync -j16
 ```
 
@@ -108,7 +95,6 @@ After the source has synched, we need to run a script to get the prebuilt binari
 
 ```
 cd ~/cm/vendor/cm
-
 ./get-prebuilts
 ```
 
@@ -116,7 +102,6 @@ Now setup the environment with envsetup
 
 ```
 cd ~/cm
-
 . build/envsetup.sh
 ```
 
@@ -130,7 +115,6 @@ Once a selection is made, the build should start. If it doesn't, try running the
 
 ```
 lunch
-
 mka bacon
 ```
 
@@ -144,7 +128,6 @@ Once the build completes, the output will be located in ~/cm/out/target/product/
 
 ```
 adb push ~/cm/out/target/product/toro/update-cm-9.0.0-RC0-toro-UNOFFICIAL-signed.zip /sdcard/
-
 adb reboot recovery
 ```
 

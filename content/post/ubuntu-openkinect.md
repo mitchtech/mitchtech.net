@@ -19,11 +19,8 @@ There are two ways you can get OpenKinect (freenect) working on Ubuntu: either b
 
 ```
 sudo add-apt-repository ppa:floe/libtisch
-
 sudo apt-get update
-
 sudo apt-get install libfreenect libfreenect-dev libfreenect-demos
-
 sudo freenect-glview
 ```
 
@@ -65,7 +62,6 @@ Then log out and back in. Reboot is not necessary, just plug cycle the Kinect (i
 freenect-glview
 ```
 
-How the Kinect is actually working
 Here’s another video, this one taken under infrared of my IP camera. It demonstrates how the infrared projector of the Kinect works.
 
 {{< youtube C-Xlkb1MU4I >}}

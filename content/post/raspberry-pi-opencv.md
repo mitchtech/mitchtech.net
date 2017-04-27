@@ -25,7 +25,6 @@ ansible-playbook site.yml -i pis.yml -vvvv
 
 ```
 sudo apt-get -y install build-essential cmake cmake-qt-gui pkg-config libpng12-0 libpng12-dev libpng++-dev libpng3 libpnglite-dev zlib1g-dbg zlib1g zlib1g-dev pngtools libtiff4-dev libtiff4 libtiffxx0c2 libtiff-tools
-
 sudo apt-get -y install libjpeg8 libjpeg8-dev libjpeg8-dbg libjpeg-progs ffmpeg libavcodec-dev libavcodec53 libavformat53 libavformat-dev libgstreamer0.10-0-dbg libgstreamer0.10-0 libgstreamer0.10-dev libxine1-ffmpeg libxine-dev libxine1-bin libunicap2 libunicap2-dev libdc1394-22-dev libdc1394-22 libdc1394-utils swig libv4l-0 libv4l-dev python-numpy libpython2.6 python-dev python2.6-dev libgtk2.0-dev pkg-config
 ```
 
@@ -63,7 +62,6 @@ In the cmake GUI, click ‘configure’ to pre-populate the build options. Selec
 
 ```
 make
-
 sudo make install
 ```
 
@@ -105,7 +103,9 @@ C demos in build/bin demos worth checking out (that don’t require a webcam):
 
 ```
 convexhull
+
 kmeans
+
 drawing
 ```
 
@@ -119,7 +119,9 @@ These demos also don't require a webcam:
 
 ```
 python ./minarea.py
+
 python ./delaunay.py
+
 python ./drawing.py
 ```
 
