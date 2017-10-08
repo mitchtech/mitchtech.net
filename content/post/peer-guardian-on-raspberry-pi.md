@@ -10,7 +10,7 @@ title = "Peer Guardian on Raspberry Pi"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-peer-guardian-300x183.png)](http://mitchtech.net/peer-guardian-on-raspberry-pi/pi-peer-guardian/)
+![](/img/pi-peer-guardian.png)
 
 This tutorial will show how to compile and install Peer Guardian on a Raspberry Pi.  The process requires the at least the 2012-06-18-wheezy-beta.zip or newer Debian image (or manual kernel re-compilation).  This will NOT work with debian6-19-04-2012.zip since the kernel does not have net filtering enabled. Also, you will need a decent sized SD card (4GB at least) ... the dependencies alone require 382 MB.
 
@@ -57,7 +57,7 @@ Note: this takes much longer than usual for the first boot, be patient!
 
 To start the GUI from the LXDE menu, select Internet -> pgl-gui
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-pgl-300x183.png)](http://mitchtech.net/peer-guardian-on-raspberry-pi/pi-pgl/)
+![](/img/pi-pgl.png)
 
 The default settings are very strict and you will likely want to change them.  It even blocks access to the apt sources, so until you changes the settings, even 'apt-get update' will fail.
 

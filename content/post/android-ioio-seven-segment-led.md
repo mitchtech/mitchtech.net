@@ -55,7 +55,7 @@ Background on Android development, IOIO, and electronics:
 
 The LED display is common anode with pins 3 and 8 (top center and bottom center) to ground with a current limiting 330 ohm resistor in series.  Connect the seven segment pins as shown below to IOIO pins 34 -40. The code can be modified for use with any other IO pins (all IOIO pins are GPIO pins). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_seven_segment_led.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_seven_segment_led.png)
+![](/img/ioio_seven_segment_led.png)
 
 ## Software
 

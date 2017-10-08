@@ -47,7 +47,7 @@ For additional background information on interfacing Android with the real world
 
 Connect one terminal on each pot to ground and the opposite to +5v.  Connect the wipers of each to an analog input pin, pins A0 and A1 in the example.  Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_dual_analog_input.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_dual_analog_input.png)
+![adb_dual_analog_input](/img/adb_dual_analog_input.png)
 
 ## Software
 

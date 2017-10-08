@@ -75,7 +75,7 @@ For example, sending the message "pinon 10" will turn on GPIO pin #10, "read 8" 
 
 The video demonstration uses a slide switch connected to GPIO pin 8 and an LED connected to GPIO pin 10.  Here is a diagram of how this is wired   (created with [Fritzing](http://fritzing.org/)):
 
-[![raspi_gtalk_robot](http://mitchtech.net/wp-content/uploads/2013/01/raspi_gtalk_robot-300x277.png)](http://mitchtech.net/raspberry-pi-google-talk-robot/raspi_gtalk_robot/)
+![raspi_gtalk_robot](/img/raspi_gtalk_robot.png)
 
 #### Use case #1: Home automation
 
@@ -107,5 +107,5 @@ Arguably, disclosure of any amount of information about system can be considered
 
 Another problem that can be solved by the Raspi Bot is frozen remote machines. We've all been there before, attempting to access a remote machine only to find it to be completely non-responsive to any form of remote login.  These cases, we (or maybe a system administrator somewhere) would usually have to make a trip to the physical location of the server and push ‘the big red button’ to reboot the affected machine.  The situation can be eliminated completely by deputizing a Raspi Bot as a remote reboot agent. This can be done by adding bot controlled relay(s) to the power supplies of the machines.  In the event any of the machines controlled by the Raspi Bot becomes non-responsive, simply send the appropriate Google talk message to flip the respective relay, and reboot the affected machine.  Here's a diagram of how this would look:
 
-[![raspi_remote_reboot](http://mitchtech.net/wp-content/uploads/2013/01/raspi_remote_reboot-300x181.png)](http://mitchtech.net/raspberry-pi-google-talk-robot/raspi_remote_reboot/)
+![raspi_remote_reboot](/img/raspi_remote_reboot.png)
 

@@ -10,7 +10,7 @@ title = "Cross-Compiling for TI MSP430 Launchpad"
 
 +++
 
-[![TI MSP430](http://mitchtech.net/wp-content/uploads/2012/06/IMG_20120623_0916071-300x225.jpg)](http://mitchtech.net/cross-compiling-for-ti-msp430-launchpad/samsung-2/)
+![msp430_launchpad](/img/msp430_launchpad.jpg)
 
 Inspired by [this](http://blog.wikifotos.org/2010/11/15/msp430-launchpad-in-ubuntu/) tutorial.
 

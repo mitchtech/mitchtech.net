@@ -17,7 +17,7 @@ Use Arduino and two hobby servos to control physical servo gauges for cpu activi
 
 Connect the red, power lines of the servos to +5v, the black ground lines to GND, and the yellow signal lines to the desired output pins, 5 and 6 in the example (others can be used, but must be PWM capable
 
-[![](http://mitchtech.net/wp-content/uploads/2012/07/arduino_dual_servo.png)](http://mitchtech.net/arduino-physical-cpu-gauges/arduino_dual_servo/)
+![](/img//arduino_dual_servo.png)
 
 You can download my cheesy gauge overlay from here:
 

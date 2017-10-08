@@ -45,7 +45,7 @@ The goal is to demonstrate the easiest possible use of the technology. For addit
 
 The RGB LED has four leads: the three short ones are anodes that correspond to each of the three colors (red, green, and blue) and the fourth, longer lead is the common cathode.  Connect the 330 ohm resistors in series with the anodes of the LED and the common cathode to ground. The example uses pins 34, 35, and 36, but can be used with other pins that support PWM output (pins 3-7, 10-14, 27-32, 34-40, 45-48… marked with the letter ‘p’ on the back of the IOIO).  The resistors, in this case, are being used to prevent current overdraw to the LED. Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_simple_analog_output.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_simple_analog_output.png)
+![](/img/ioio_simple_analog_output.png)
 
 ## Software
 

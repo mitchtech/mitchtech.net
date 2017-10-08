@@ -51,7 +51,7 @@ First, make sure you have setup the development environments for Arduino and And
 
 Connect one side of each button to ground and the other side to digital pins 2 and 3 respectively.  Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_simple_digital_input.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_simple_digital_input.png)
+![adb_simple_digital_input](/img/adb_simple_digital_input.png)
 
 ## Software
 

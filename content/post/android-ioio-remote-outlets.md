@@ -13,7 +13,7 @@ title = "Android + IOIO + Remote Outlets"
 
 This tutorial will demonstrate remote control of 3 AC outlets with Android and IOIO.  The tutorial uses the [3 Channel Remote AC Outlets ](http://dx.com/p/3-channel-wireless-remote-controlled-ac-power-adapters-set-110v-us-plug-82399?Utm_rid=33954493&Utm_source=affiliate)from DealExtreme.  The cost, less than $25 shipped for the set of three, is quite a savings over alternatives like the [PowerSwitch Tail ](http://www.powerswitchtail.com/)($25 each), also, they are wireless with a pretty good range as well.
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/3pk-outlet-dx-300x225.jpg)](http://mitchtech.net/android-ioio-remote-outlets/3pk-outlet-dx/)
+![](/img/3pk-outlet-dx.jpg)
 
 They also have [single](http://dx.com/p/wireless-remote-controlled-ac-power-adapter-set-110v-us-plug-59269?Utm_rid=33954493&Utm_source=affiliate) and [dual](http://dx.com/p/2-channel-wireless-remote-controlled-ac-power-adapters-set-110v-us-plug-82400?Utm_rid=33954493&Utm_source=affiliate) outlet version. Note: all three of these models are 110V/US plugs.
 
@@ -61,15 +61,15 @@ Background on Android development, IOIO, and electronics:
 
 First, remove the outer plastic case from the remote controller. Looking at the board with the button side facing up, locate the seven solderable holes in the circuit board.  Six correspond to each button (on/off for each outlet) and the seventh is the common line.  Connecting any of the button lines to the common line will activate the connection, turning on or off the respective switch.  Solder a wire to each of the switches and the common line:
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/remote-solder-300x225.jpg)](http://mitchtech.net/android-ioio-remote-outlets/remote-solder/)
+![](/img/remote-solder.jpg)
 
 Connect each button line to the collector of a transistor and the emitter to the common line.  Connect the base of the transistor to the desired IOIO pin with a 10k ohm resistor in series. Finally, connect the former terminals for the battery of the remote to +3.3v and GND on the IOIO. Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_remote_ac_outlets.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_remote_ac_outlets.png)
+![](/img/ioio_remote_ac_outlets.png)
 
 And here is a picture of the completed circuit:
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/power-outlet-breadboard-300x225.jpg)](http://mitchtech.net/android-ioio-remote-outlets/power-outlet-breadboard/)
+![](/img/power-outlet-breadboard.jpg)
 
 ## Software
 

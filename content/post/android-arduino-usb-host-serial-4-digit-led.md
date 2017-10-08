@@ -47,7 +47,7 @@ For additional background information on interfacing Android with the real world
 
 This display can be controlled with either SPI or serial TTL communication.  However, since the SPI pins are required for communication with the USB Host, TTL serial must be used (this also requires fewer pins, one instead of three).   So, connect the RX pin on the serial display to the serial TX pin on the Arduino (determined by the firmware sketch) and connect GND and VCC on the serial display to ground and+5v respectively.  Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_serial_4_digit_led.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_serial_4_digit_led.png)
+![adb_serial_4_digit_led](/img/adb_serial_4_digit_led.png)
 
 ## Software
 

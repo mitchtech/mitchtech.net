@@ -53,7 +53,7 @@ First, make sure you have setup the development environments for Arduino and And
 
 Connect one of the photocell leads to 5v and the other to analog input pin A0. Also connect the same lead through a 10K resistor to ground.  In hardware, this concept is known as a [voltage divider](http://en.wikipedia.org/wiki/Voltage_divider).  Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_simple_analog_input.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_simple_analog_input.png)
+![adb_simple_analog_input](/img/adb_simple_analog_input.png)
 
 ## Software
 

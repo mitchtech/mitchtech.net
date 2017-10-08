@@ -51,7 +51,7 @@ For additional background information on interfacing Android with the real world
 
 Connect one side of each button to ground and the other side to the desired digital input pins. Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_d_pad.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_d_pad.png)
+![adb_d_pad](/img/adb_d_pad.png)
 
 ## Software
 

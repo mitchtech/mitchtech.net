@@ -10,7 +10,7 @@ title = "MSP430 Launchpad + PWM"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/msp430+servo-300x225.jpg)](http://mitchtech.net/msp430-launchpad-pwm/samsung/)
+![](/img/msp430+servo.jpg)
 
 Inspired by [this](http://gushh.net/blog/?cat=361) tutorial.
 

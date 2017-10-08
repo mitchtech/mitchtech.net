@@ -51,7 +51,7 @@ For additional background information on interfacing Android with the real world
 
 Connect one of the photocell leads to 5v and the other to analog input pin A0. Also connect the same lead through a 10K resistor to ground.  In hardware, this concept is known as a [voltage divider](http://en.wikipedia.org/wiki/Voltage_divider).  Then connect the ground and power leads of the TMP36 to, you guessed it, ground and 5V.  Finally, connect the signal lead of the TMP36 to analog input pin A1. Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_temp_light.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_temp_light.png)
+![adb_temp_light](/img/adb_temp_light.png)
 
 ## Software
 

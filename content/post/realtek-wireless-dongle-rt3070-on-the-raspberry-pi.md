@@ -9,7 +9,7 @@ title = "Ralink/Realtek Wireless Dongle (rt3070) on the Raspberry Pi"
 
 +++
 
-[caption id="attachment_608" align="alignnone" width="300" caption="Realtek WiFi dongle"][![Realtek WiFi dongle](http://mitchtech.net/wp-content/uploads/2012/06/2012-06-03-11.37.00-300x225.jpg)](http://mitchtech.net/realtek-wireless-dongle-rt3070-on-the-raspberry-pi/2012-06-03-11-37-00/)[/caption]
+![](/img/raspi-realtek.jpg)
 
 ## Scenario
 

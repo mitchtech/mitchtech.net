@@ -10,7 +10,7 @@ title = "Raspberry Pi + Arduino + SPI"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/08/raspi-arduino-spi-300x225.jpg)](http://mitchtech.net/raspberry-pi-arduino-spi/raspi-arduino-spi/)
+![](/img/raspi-arduino-spi.jpg)
 
 This tutorial will show you how to communicate from your raspberry pi to your arduino using 3-wire SPI.
 
@@ -26,7 +26,7 @@ Your raspberry pi should be running the newest version of [Raspbian](http://www.
 
 ## Wiring
 
-[![](http://mitchtech.net/wp-content/uploads/2012/08/raspi_arduino_spi-225x300.png)](http://mitchtech.net/raspberry-pi-arduino-spi/raspi_arduino_spi/)
+![](/img/raspi_arduino_spi.png)
 
 ## Arduino
 
@@ -81,7 +81,8 @@ sudo ./spidev_test
 ```
 
 You should see HELLO WORLD print in the Arduino IDE Serial Monitor.
-[![](http://mitchtech.net/wp-content/uploads/2012/08/Screenshot-from-2012-08-10-181653-300x167.png)](http://mitchtech.net/raspberry-pi-arduino-spi/screenshot-from-2012-08-10-181653/)
+
+![](/img/screenshot_serial_monitor.png)
 
 ### Debugging
 

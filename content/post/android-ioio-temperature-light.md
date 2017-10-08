@@ -57,7 +57,7 @@ Background on Android development, IOIO, and electronics:
 
 Connect the ground and power leads of the TMP36 to GND and +3.3V respectively, and connect the center signal lead of the TMP36 to the desired input pin (34 below).  Then connect one lead of the photocell to +3.3V and the other to the desired analog input pin (pin 35 below). Also connect the same lead through a 10K resistor to ground creating a [voltage divider](http://en.wikipedia.org/wiki/Voltage_divider).   Other IOIO pins can be used, as long as they support analog input (pins 31 – 46 on the IOIO). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_temp_light.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_temp_light.png)
+![](/img/ioio_temp_light.png)
 
 ## Software
 

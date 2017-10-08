@@ -9,7 +9,7 @@ title = "Install Quake 3 on Raspberry Pi"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-quake3-intro-300x225.jpg)](http://mitchtech.net/install-quake-3-on-raspberry-pi/pi-quake3-intro/)
+![](/img/pi-quake3-intro.jpg)
 
 Here is the easiest possible way to install Quake 3 on the Raspberry Pi with [debian6-19-04-2012.](http://downloads.raspberrypi.org/images/debian/6/debian6-19-04-2012/debian6-19-04-2012.zip)  Just copy and paste the following in a terminal on the Pi:
 
@@ -42,5 +42,5 @@ cd ~/quake3/
 ./start.sh
 ```
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-quake3-gameplay-300x225.jpg)](http://mitchtech.net/install-quake-3-on-raspberry-pi/pi-quake3-gameplay/)
+![](/img/pi-quake3-gameplay.jpg)
 

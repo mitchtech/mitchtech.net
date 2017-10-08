@@ -57,7 +57,7 @@ Background on Android development, IOIO, and electronics:
 
 Connect one lead of the photocell to +3.3V and the other to the desired analog input pin (pin 35 below). Also connect that same lead through a 10K resistor to GND creating a [voltage divider](http://en.wikipedia.org/wiki/Voltage_divider).   Other IOIO pins can be used, as long as they support analog input (pins 31 – 46 on the IOIO). Connect the red leads of the laser to +3.3V and the black lead to GND (or use a battery powered laser). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_laser_tripwire.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_laser_tripwire.png)
+![](/img/ioio_laser_tripwire.png)
 
 ## Software
 

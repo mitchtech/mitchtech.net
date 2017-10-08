@@ -55,7 +55,7 @@ For additional background information on interfacing Android with the real world
 
 Connect the two LEDs to digital output pins 3 and 4, using a 330 ohm resistor for each in series to limit current. Connect the signal line of the servo to pin 5.  Other pins can be used, as long as the servo signal line is capable of PWM (usually has a ~ symbol next to it on the Arduino board) and none interfere with the SPI lines connecting to the USB Host (10 -14 on most).  Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_swivel_head_leds.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_swivel_head_leds.png)
+![adb_swivel_head_leds](/img/adb_swivel_head_leds.png)
 
 ## Software
 

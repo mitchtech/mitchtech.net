@@ -61,7 +61,7 @@ First, remove the outer plastic case from the garage door controller.  Locate t
 
 Then connect the base of the transistor to the desired IOIO pin with a 10k ohm resistor in series. Connect the collector to +5v and the emitter to the one side of the relay coil.  Finally, connect the opposite side of the relay coil to GND. Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)). Note: the button on the right side represents the remote garage door controller:
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_garage_door.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_garage_door.png)
+![](/img/ioio_garage_door.png)
 
 ## Software
 

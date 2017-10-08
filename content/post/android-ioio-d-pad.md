@@ -53,7 +53,7 @@ Background on Android development, IOIO, and electronics:
 
 Connect one side of each button to ground and the other side to the desired digital input pins on the IOIO. The example uses pins 34-37, but can be used with any IO pins (all IOIO pins are GPIO pins). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_d_pad.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_d_pad.png)
+![ioio_d_pad](/img/ioio_d_pad.png)
 
 ## Software
 

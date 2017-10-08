@@ -9,7 +9,7 @@ title = "Raspberry Pi Audio"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-usb-drive-300x225.jpg)](http://mitchtech.net/raspberry-pi-audio/pi-usb-drive/)
+![](/img/pi-usb-drive.jpg)
 
 Currently, the audio drivers for the Raspberry Pi are still in beta, and as such come disabled in the standard release (debian6-19-04-2012.zip). Here's a quick way to get it up and running for both the HDMI as well as the analog output. Open up a terminal and install the alsa (Advanced Linux Sound Architecture) utility package:
 

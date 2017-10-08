@@ -57,7 +57,7 @@ First, make sure you have setup the development environments for Arduino and And
 
 The RGB LED has four leads: the three short ones are anodes that correspond to each of the three colors (red, green, and blue) and the fourth, longer lead is the common cathode.  Connect the 330 ohm resistors in series with the anodes of the LED and the common cathode to ground. The example uses pins 3, 5, and 6, but can be used with any PWM pin (usually denoted with a ~ symbol) that doesn’t interfere with the SPI communication with the USB Host Board (usually pins 10 – 14).  The resistors, in this case, are being used to prevent current overdraw to the LEDs. Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_simple_analog_output.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_simple_analog_output.png)
+![adb_simple_analog_output](/img/adb_simple_analog_output.png)
 
 ## Software
 

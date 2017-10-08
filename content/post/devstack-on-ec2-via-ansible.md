@@ -11,7 +11,7 @@ title = "Devstack on EC2 via Ansible"
 
 So you want to get an instance of OpenStack running to poke around and see what all the fuss is about without going insane. Welcome to [Devstack](http://docs.openstack.org/developer/devstack/). Once Devstack is setup you will have access to a web-based control panel with prepopulated data and instances. You will also be able to explore the OpenStack API with v2.0 and v3 authentication (keystone).
 
-[![devstack webpanel](http://i.imgur.com/iq37M8F.png)](http://i.imgur.com/iq37M8F.png)
+![devstack webpanel](http://i.imgur.com/iq37M8F.png)
 
 ### Setup
 

@@ -43,7 +43,7 @@ The goal is to demonstrate the easiest possible use of the technology. For addit
 
 Connect one side of each button to ground and the other side to the digital input pins. The example uses pins 34 and 35 but can be used with any IO pin (all IOIO pins are GPIO pins). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_simple_digital_input.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_simple_digital_input.png)
+![](/img/ioio_simple_digital_input.png)
 
 ## Software
 

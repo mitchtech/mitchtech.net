@@ -51,7 +51,7 @@ For additional background information on interfacing Android with the real world
 
 Simply connect the black line to ground, the red line to +5v, and the yellow signal line to Arduino pin 5 (or other PWM capable pin, usually marked with a ~ symbol). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_combination_lock.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_combination_lock.png)
+![adb_combination_lock](/img/adb_combination_lock.png)
 
 ## Software
 

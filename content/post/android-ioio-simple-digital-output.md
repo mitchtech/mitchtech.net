@@ -43,7 +43,7 @@ Simplest possible digital output with Android and IOIO. This article will discus
 
 Connect the 330 ohm resistors in series with the anodes of the LEDs to the desired digital output pins, and the cathodes of the LEDs to ground. The example uses digital pins 34, 35, and 36, but can be used with any IO pin (all IOIO pins are GPIO pins). The resistors, in this case, are being used to prevent current overdraw to the LEDs. Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_simple_digital_output.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_simple_digital_output.png)
+![](/img/ioio_simple_digital_output.png)
 
 ## Software
 

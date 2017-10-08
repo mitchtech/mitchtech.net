@@ -10,7 +10,7 @@ title = "Raspberry Pi NES Emulator"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-nes-emulator-mario3-300x183.png)](http://mitchtech.net/raspberry-pi-nes-emulator/pi-nes-emulator-mario3/)
+![](/img/pi-nes-emulator-mario3.png)
 
 This tutorial will demonstrate how to install Nintendo NES/Famicom emulator on the Raspberry Pi running Debian.  Begin by installing the necessary dependencies. In a terminal, enter:
 
@@ -50,7 +50,7 @@ fceux
 
 Then select the ROM with from the title bar menu, File->Open ROM, or with Ctrl+O.
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-nes-emulator-mario3-full-300x183.png)](http://mitchtech.net/raspberry-pi-nes-emulator/pi-nes-emulator-mario3-full/)
+![](/img/pi-nes-emulator-mario3-full.png)
 
 You can easily setup a gamepad too, like the [USB NES RetroPort](http://www.retrousb.com/product_info.php?cPath=21&products_id=28). This adapter converts an authentic NES controller to USB.   To configure, run fceux using the inputcfg flag to setup configure.  Press the corresponding buttons in series as they are prompted. Note: There are two dashes ( - - ) together in the command below:
 
@@ -58,5 +58,5 @@ You can easily setup a gamepad too, like the [USB NES RetroPort](http://www.ret
 fceux --inputcfg gamepad1
 ```
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-nes-controller-300x225.jpg)](http://mitchtech.net/raspberry-pi-nes-emulator/pi-nes-controller/)
+![](/img/pi-nes-controller.jpg)
 

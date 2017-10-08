@@ -9,7 +9,7 @@ title = "Arduino USB HID Keyboard"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/arduino-usb-keyboard-300x248.png)](http://mitchtech.net/arduino-usb-hid-keyboard/arduino-usb-keyboard/)
+![](/img/arduino-usb-keyboard.png)
 
 Turn your Arduino UNO into a USB HID keyboard, and make buttons that do whatever you want. Make it a useful tool, with new buttons for Cut/Copy/Paste or Volume+/Volume-/Mute, or annoy your friends and colleagues by setting the keyboard to perform random keypress after random delays!
 
@@ -75,7 +75,7 @@ Now that you understand how the process works, you can try out some of these key
 
 The following two examples both use three buttons connected to the Arduino. The code can easily be changed to make the buttons perform other actions, by consulting the mapping tables in the [USB HID documentation](http://www.usb.org/developers/devclass_docs/Hut1_11.pdf).  Here is a diagram of the circuit, (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/arduino_3button.png)](http://mitchtech.net/arduino-usb-hid-keyboard/arduino_3button/)
+![](/img/arduino_3button.png)
 
 #### Volume+/Volume-/Mute
 

@@ -41,13 +41,13 @@ Using the coordinates of the rectangle vertices, my script calculates the (X,Y) 
 
 Connect the red, power lines of the servos to +5v, the black ground lines to GND, and the yellow signal lines to the desired output pins, GPIO pins 22 and 23 in the example. Here is a diagram of the completed circuit  (created with [Fritzing](http://fritzing.org/)):
 
-[![raspi_servo_facetracker](http://mitchtech.net/wp-content/uploads/2013/01/raspi_servo_facetracker-270x300.png)](http://mitchtech.net/raspberry-pi-servo-face-tracker/raspi_servo_facetracker/)
+![](/img/raspi_servo_facetracker.png)
 
 And here is how it looks all put together:
 
-[![raspi-facetracker-side](http://mitchtech.net/wp-content/uploads/2013/03/raspi-facetracker-side-300x225.jpg)](http://mitchtech.net/raspberry-pi-servo-face-tracker/raspi-facetracker-side/)
+![](/img/raspi-facetracker-side.jpg)
 
-[![raspi-facetracker-front](http://mitchtech.net/wp-content/uploads/2013/03/raspi-facetracker-front-225x300.jpg)](http://mitchtech.net/raspberry-pi-servo-face-tracker/raspi-facetracker-front/)
+![](/img/raspi-facetracker-front.jpg)
 
 ## Software
 

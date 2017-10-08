@@ -55,7 +55,7 @@ Background on Android development, IOIO, and electronics:
 
 Connect the red, power lines of the MQ-3 to +5v, the black ground line to GND, and the analog signal lines to the desired input pin. The example uses pins 34 but can be used with other pins that support analog input (pins 31 – 46 on the IOIO). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_breathalyzer.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_breathalyzer.png)
+![ioio_breathalyzer](/img/ioio_breathalyzer.png)
 
 ## Software
 

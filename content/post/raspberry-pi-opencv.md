@@ -65,9 +65,7 @@ make
 sudo make install
 ```
 
-As you can see from the image, this will take a LONG time... over four and a half hours to compile!
-
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-opencv-compile-300x225.jpg)](http://mitchtech.net/raspberry-pi-opencv/pi-opencv-compile/)
+This will take a LONG time... over four and a half hours to compile natively!
 
 Finally, we need to make a few configurations for OpenCV. First, open the opencv.conf file with the following code:
 

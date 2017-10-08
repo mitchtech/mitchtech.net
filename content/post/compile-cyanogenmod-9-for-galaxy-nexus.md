@@ -54,7 +54,7 @@ Then replace the contents with the following:
 
 ```
 `JAVA_HOME="/usr/local/java/latest"` `JRE_HOME="/usr/local/java/latest/jre"` `PATH="/usr/local/java/latest/bin:\` `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
-````
+```
 
 If you don't want to log out and log back in to have the updated /etc/environment parsed by the system, you can use the 'source' command:
 

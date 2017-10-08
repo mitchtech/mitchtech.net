@@ -9,7 +9,7 @@ title = "Raspberry Pi Root FS on USB Drive"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-usb-drive-300x225.jpg)](http://mitchtech.net/raspberry-pi-audio/pi-usb-drive/)
+![](/img/pi-usb-drive.jpg)
 
 This tutorial will demonstrate how to install the Debian root filestem (ie. '/') on a USB drive instead of the SD card. The SD card still retains the /boot partion and swap space. This requires a modified kernel to support the USB storage. You can [download the minimal modified kernel and modules here](http://dl.dropbox.com/u/1816557/bcmrpi_defconfig.tar)  or follow my [guide on how to compile it for yourself](http://mitchtech.net/raspberry-pi-kernel-compile/).
 

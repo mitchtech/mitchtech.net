@@ -55,7 +55,7 @@ Background on Android development, IOIO, and electronics:
 
 Connect the red, power lines of the sensors to +3.3v, the black ground line to GND, and the yellow signal lines to the desired desired analog input pin on the IOIO. The example uses pins 34 and 35, but can be used with other pins that support analog input (pins 31 – 46 on the IOIO). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_range_finder.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_range_finder.png)
+![](/img/ioio_range_finder.png)
 
 ## Software
 

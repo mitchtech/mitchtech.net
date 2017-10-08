@@ -10,13 +10,13 @@ title = "Raspberry Pi Physical Gmail Notifier"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-physical-gmail-notifier-300x225.jpg)](http://mitchtech.net/raspberry-pi-physical-gmail-notifier/pi-physical-gmail-notifier/)
+![](/img/pi-physical-gmail-notifier.jpg)
 
 This tutorial will demonstrate how to easily turn your Raspberry Pi into a physical Gmail notifier, in only 10 lines of python! If the configured Gmail account has unread messages, the LED will be illuminated, otherwise dim.  The project was inspired by the [Arduino/Mac version by J4mie](http://j4mie.org/blog/how-to-make-a-physical-gmail-notifier/) adapted for use on the Raspberry Pi.
 
 Here is a diagram of the wiring of the LED with a 330 ohm resistor in series (created with [Fritzing](http://fritzing.org/)):
 
-[![raspi_gmail_led](http://mitchtech.net/wp-content/uploads/2012/06/raspi_gmail_led-300x270.png)](http://mitchtech.net/raspberry-pi-physical-gmail-notifier/raspi_gmail_led/)
+![raspi_gmail_led](/img/raspi_gmail_led.png)
 
 The python script uses the [feedparser module](http://code.google.com/p/feedparser/) to simplify interaction with Gmail and the RPi.GPIO module to control the GPIO pins. The easiest way to install these is using the python pip package manager. If you don't have it installed, you can install the pip package manager using apt-get. In a terminal on the Pi:
 

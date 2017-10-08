@@ -33,7 +33,7 @@ Note: The flashing of the LED strip due to PWM is only noticeable in the uplo
 
 Connect a 12V power supply to the 12V pad on the RGB LED strip, connect the base of each TIP120 power transistor to its respective GPIO pin (pins 18, 23, and 24 in this example), connect the collector of each to its matching pad on the LED strip, and finally, connect the emitters to common ground for both the Raspberry Pi and the 12V power supply. Here is a diagram of the circuit  (created with [Fritzing](http://fritzing.org/)):
 
-[![raspi_rgb_led](http://mitchtech.net/wp-content/uploads/2013/01/raspi_rgb_led-300x194.png)](http://mitchtech.net/raspberry-pi-pwm-rgb-led-strip/raspi_rgb_led/)
+![](/img/raspi_rgb_led.png)
 
 ## Software
 

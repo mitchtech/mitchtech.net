@@ -53,7 +53,7 @@ Background on Android development, IOIO, and electronics:
 
 Connect one side of the potentiometer to +3.3V, the opposite side to GND, and the center wiper to the desired analog input pin on the IOIO. The example uses pin 34, but can be used with any other pin that supports analog input (pins 31 – 46 on the IOIO). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_simple_analog_input.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_simple_analog_input.png)
+![](/img/ioio_simple_analog_input.png)
 
 ## Software
 

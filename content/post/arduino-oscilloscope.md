@@ -10,7 +10,7 @@ title = "Arduino Poor Man's Oscilloscope"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/08/arduino-oscilloscope-300x248.png)](http://mitchtech.net/arduino-oscilloscope/arduino-oscilloscope-2/)
+![](/img/arduino-oscilloscope.png)
 
 This tutorial will show you how to use your Arduino as an oscilloscope.  We end the tutorial with a verification portion that uses the Arduino to generate a square wave, requiring a single wire.
 
@@ -48,7 +48,7 @@ cd processing-1.5.1
 Running the processing command should result in a GUI application launching that looks a lot like the Arduino idea.  Download and open the below code in processing and click play.
 {{< gist mitchtech 3270419 >}}
 
-[![](http://mitchtech.net/wp-content/uploads/2012/08/screenshot_processing_oscilloscope_zoom-250x300.png)](http://mitchtech.net/arduino-poor-mans-oscilloscope/screenshot_processing_oscilloscope_zoom/)
+![](/img/screenshot_processing_oscilloscope_zoom.png)
 
 ### Arduino Code
 
@@ -64,7 +64,7 @@ To test the oscilloscope we will generate data using the Arduino and feed it in 
 
 Connect pin digital pin 13 on the Arduino to analog pin A0.  The above code will turn on and off the digital pin to produce a square wave.
 
-[![](http://mitchtech.net/wp-content/uploads/2012/08/screenshot_poormans_oscilloscope_zoom-300x118.png)](http://mitchtech.net/arduino-poor-mans-oscilloscope/screenshot_poormans_oscilloscope_zoom/)
+![](/img/screenshot_poormans_oscilloscope_zoom.png)
 
 ### Extras
 

@@ -9,7 +9,8 @@ title = "Raspberry Pi + Apache"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-apache-300x183.png)](http://mitchtech.net/raspberry-pi-apache/pi-apache/)
+![](/img/pi-apache.png)
+
 Its quite easy to install the Apache web server on the Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see [RPi Easy SD card setup](http://elinux.org/RPi_Easy_SD_Card_Setup). Open a terminal (or login via SSH) and install the package with apt-get:
 
 ```

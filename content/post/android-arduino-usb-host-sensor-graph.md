@@ -51,7 +51,7 @@ For additional background information on interfacing Android with the real world
 
 Connect the two sides of the potentiometer to 5v and ground, and the center wiper to analog input pin A0. Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_sensor_graph.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_sensor_graph.png)
+![adb_sensor_graph](/img/adb_sensor_graph.png)
 
 ## Software
 

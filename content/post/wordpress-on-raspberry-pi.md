@@ -9,7 +9,7 @@ title = "Wordpress on Raspberry Pi"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/pi-wordpress-300x183.png)](http://mitchtech.net/wordpress-on-raspberry-pi/pi-wordpress/)
+![](/img/pi-wordpress.png)
 
 This tutorial will demonstrate how to install and host Wordpress on Raspberry Pi. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see [RPi Easy SD card setup](http://elinux.org/RPi_Easy_SD_Card_Setup).
 

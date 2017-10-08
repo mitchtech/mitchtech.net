@@ -10,7 +10,7 @@ title = "Dropbox on Raspberry Pi via SSHFS"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/07/pi-dropbox-300x225.png)](http://mitchtech.net/dropbox-on-raspberry-pi-via-sshfs/pi-dropbox/)
+![](/img/pi-dropbox.png)
 
 This tutorial will demonstrate how to mount Dropbox (or any filesystem) over the network on the Raspberry Pi using SSHFS (Secure SHell FileSystem). For this procedure to work for your Dropbox share, you will need another machine somewhere that is running Dropbox, and is accessible to the Raspberry Pi via SSH.
 
@@ -72,7 +72,7 @@ That's all there is to it! To unmount,
 fusermount -u ~/Dropbox
 ```
 
-#### [![](http://mitchtech.net/wp-content/uploads/2012/07/raspberry-dropbox-300x267.png)](http://mitchtech.net/dropbox-on-raspberry-pi-via-sshfs/raspberry-dropbox/)
+![](/img/raspberry-dropbox.png)
 
 #### Automount Dropbox on boot
 

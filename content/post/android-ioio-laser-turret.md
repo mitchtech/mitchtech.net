@@ -57,7 +57,7 @@ Background on Android development, IOIO, and electronics:
 
 Connect the red, power lines of the servos to +5v, the black ground lines to GND, and the yellow signal lines to the desired output pins, number 3 and 6 in the example below.  Other pins can be used as long as they support peripheral output (for PWM, marked with the letter ‘p’ on the back of the IOIO) AND are 5V tolerant (marked with a black circle around the pin). This leaves pins 3-7, and 10-14 as the only potentials.  Also, connect the same signal lines to +5V, with a 10k ohm resistor in series.  This allows use of the pins in 5V open drain mode, required since the IOIO operates with 3.3V. Also connect the red leads of the lasers to +3.3V and the black leads to pins 34 and 35 (any GPIO pins can be used). Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/ioio_laser_turret.png)](http://mitchtech.net/wp-content/uploads/2012/05/ioio_laser_turret.png)
+![](/img/ioio_laser_turret.png)
 
 ## Software
 

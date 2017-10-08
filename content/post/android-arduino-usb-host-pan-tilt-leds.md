@@ -57,7 +57,7 @@ For additional background information on interfacing Android with the real world
 
 Connect the red, power lines of the servos to +5v, the black ground lines to GND, and the yellow signal lines to the desired output pins, 5 and 6 in the example (others can be used, but must be PWM capable).  Also, connect the 330 ohm resistors in series with the anodes of the LEDs to the desired digital output pins, and the cathodes of the LEDs to ground.  Here is a diagram of the completed circuit (created with [Fritzing](http://fritzing.org/)):
 
-[![](http://mitchtech.net/wp-content/uploads/2012/05/adb_pan_tilt_leds.png)](http://mitchtech.net/wp-content/uploads/2012/05/adb_pan_tilt_leds.png)
+![adb_pan_tilt_leds](/img/adb_pan_tilt_leds.png)
 
 ## Software
 

@@ -9,7 +9,7 @@ title = "VNC setup on Raspberry Pi from Android"
 
 +++
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/nexus-pi-vnc-300x225.jpg)](http://mitchtech.net/vnc-setup-on-raspberry-pi-from-android/nexus-pi-vnc/)
+![](/img/nexus-pi-vnc.jpg)
 
 This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Android. This process assumes you have Debian for Raspberry Pi installed on an SD card. If not, see [RPi Easy SD card setup](http://elinux.org/RPi_Easy_SD_Card_Setup). It also assumes that you have a display connected to the Raspberry Pi. If you don't have a display available, the steps to configure VNC remotely are outlined in my last tutorial: [VNC setup on Raspberry Pi from Ubuntu](http://mitchtech.net/vnc-setup-on-raspberry-pi-from-ubuntu/)
 
@@ -35,8 +35,6 @@ Now, start the VNC server on the Raspberry Pi. Adjust the geometry paramater to 
 
 ```
 vncserver :1 -geometry 1200x720 -depth 16 -pixelformat rgb565
->
->
 ```
 
 You will be prompted to create a password for VNC login. Once you do, you should see a line looking something like this:
@@ -60,4 +58,5 @@ control mode: TouchPad
 
 Be sure to replace your_ip_address and your_password with your own settings.
 
-[![](http://mitchtech.net/wp-content/uploads/2012/06/xoom-pi-vnc-300x225.jpg)](http://mitchtech.net/vnc-setup-on-raspberry-pi-from-android/xoom-pi-vnc/)
+![](/img/xoom-pi-vnc.jpg)
+
