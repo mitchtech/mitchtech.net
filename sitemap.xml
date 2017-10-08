@@ -33,11 +33,6 @@
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/connect-raspberry-pi-to-gmail-facebook-twitter-more/</loc>
-    <lastmod>2012-08-24T00:20:05+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-connect-gmail-facebook-twitter-more/</loc>
     <lastmod>2012-08-24T00:20:05+00:00</lastmod>
   </url>
@@ -441,14 +436,14 @@
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/android/</loc>
-    <lastmod>2012-06-02T18:17:32+00:00</lastmod>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/android/</loc>
+    <lastmod>2012-05-16T23:39:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/android/</loc>
-    <lastmod>2012-05-16T23:39:35+00:00</lastmod>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/android/</loc>
+    <lastmod>2012-06-02T18:17:32+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -471,13 +466,13 @@
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/arduino/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/arduino/</loc>
     <lastmod>2012-08-11T11:35:53+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/arduino/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/arduino/</loc>
     <lastmod>2012-08-11T11:35:53+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -741,13 +736,13 @@
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/ioio/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/ioio/</loc>
     <lastmod>2012-05-02T04:51:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/ioio/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/ioio/</loc>
     <lastmod>2012-05-02T04:51:31+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -771,13 +766,13 @@
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/kinect/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/kinect/</loc>
     <lastmod>2012-05-02T05:15:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/kinect/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/kinect/</loc>
     <lastmod>2012-05-02T05:15:31+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1053,13 +1048,13 @@
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/raspberry-pi/</loc>
     <lastmod>2013-03-15T07:07:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/raspberry-pi/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi/</loc>
     <lastmod>2013-03-15T07:07:30+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1233,13 +1228,13 @@
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/ubuntu/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/ubuntu/</loc>
     <lastmod>2012-07-03T14:46:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mitchtech.github.io/hugo-mitchtech/tags/ubuntu/</loc>
+    <loc>https://mitchtech.github.io/hugo-mitchtech/categories/ubuntu/</loc>
     <lastmod>2012-07-03T14:46:30+00:00</lastmod>
     <priority>0</priority>
   </url>
