@@ -83,8 +83,7 @@ mkdir ubuntu cd ubuntu sudo rootstock \ --fqdn ubuntu \ --login ubuntu \ --passw
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-remote-outlets/</guid>
       <description>This tutorial will demonstrate remote control of 3 AC outlets with Android and IOIO. The tutorial uses the 3 Channel Remote AC Outlets from DealExtreme. The cost, less than $25 shipped for the set of three, is quite a savings over alternatives like the PowerSwitch Tail ($25 each), also, they are wireless with a pretty good range as well.
-
-They also have single and dual outlet version.</description>
+They also have single and dual outlet version. Note: all three of these models are 110V/US plugs.</description>
     </item>
     
     <item>

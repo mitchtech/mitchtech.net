@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!</title>
+      <link>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-connect-gmail-facebook-twitter-more/</link>
+      <pubDate>Fri, 24 Aug 2012 00:20:05 +0000</pubDate>
+      
+      <guid>https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-connect-gmail-facebook-twitter-more/</guid>
+      <description>Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc.</description>
+    </item>
+    
+    <item>
       <title>Arduino USB HID Keyboard</title>
       <link>https://mitchtech.github.io/hugo-mitchtech/arduino-usb-hid-keyboard/</link>
       <pubDate>Sun, 24 Jun 2012 15:09:36 +0000</pubDate>
@@ -114,8 +123,7 @@ Quickstart sudo apt-get install libncurses5-dev freeglut3-dev libX11-dev libxtst
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-remote-outlets/</guid>
       <description>This tutorial will demonstrate remote control of 3 AC outlets with Android and IOIO. The tutorial uses the 3 Channel Remote AC Outlets from DealExtreme. The cost, less than $25 shipped for the set of three, is quite a savings over alternatives like the PowerSwitch Tail ($25 each), also, they are wireless with a pretty good range as well.
-
-They also have single and dual outlet version.</description>
+They also have single and dual outlet version. Note: all three of these models are 110V/US plugs.</description>
     </item>
     
     <item>

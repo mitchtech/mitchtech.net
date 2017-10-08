@@ -30,7 +30,7 @@
 
 
 
-<meta property="og:updated_time" content="2012-06-14T00:49:07&#43;00:00"/>
+<meta property="og:updated_time" content="2012-06-14T23:41:41&#43;00:00"/>
 
 
 
@@ -213,7 +213,7 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        77
+        78
         <span>Posts</span>
       </div>
       <div class="article-info-block">
@@ -299,6 +299,192 @@
 
     <section id="main">
     
+    
+    <article class="article article-type-post" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+            </a>
+
+            <header class="article-header">
+    <a href="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/">
+    <h1 class="article-title" itemprop="name">
+        Raspberry Pi &#43; OpenCV
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2012-06-14 23:41:41 &#43;0000 UTC" itemprop="datePublished">2012-06-14</time>
+            &middot;
+            578
+            words
+            &middot;
+            3
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi">Raspberry Pi</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">Tutorials</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/arm">ARM</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/c">C</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/computer-vision">Computer Vision</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/face-detection">Face Detection</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/linux">Linux</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/motion-tracking">Motion Tracking</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/opencv">OpenCV</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/python">Python</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/raspberry-pi">Raspberry Pi</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/webcam">Webcam</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                <p>
+                    OpenCV is a suite of powerful computer vision tools. Here is a quick overview of how I installed OpenCV on my Raspberry Pi with debian6-19-04-2012. The guide is based on the official OpenCV Installation Guide on Debian and Ubuntu. Before you begin, make sure you have expanded your SD card to allow for the install of OpenCV. Its a big package with lots of dependencies. You can follow my instructions here.
+                    <br>
+                </p>
+                <p class="article-more-link">
+                    <a href="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/">
+                        Read more
+                    </a>
+                </p>
+            </div>
+            <footer class="article-footer">
+    <a data-url="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/" data-id="96826f27607e90020e06219b18a01299" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-opencv/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+        </div>
+    </article>
     
     <article class="article article-type-post" itemscope="" itemprop="blogPost">
         <div class="article-inner">
@@ -1154,7 +1340,7 @@ imagewriter  Select the desired .img file and target device, in this case, debia
             <i class="fa fa-calendar"></i>
             <time datetime="2012-06-03 18:49:22 &#43;0000 UTC" itemprop="datePublished">2012-06-03</time>
             &middot;
-            450
+            443
             words
             &middot;
             3
@@ -1237,10 +1423,9 @@ imagewriter  Select the desired .img file and target device, in this case, debia
 
             <div class="article-entry" itemprop="articleBody">
                 <p>
-                    [caption id=&ldquo;attachment_608&rdquo; align=&ldquo;alignnone&rdquo; width=&ldquo;300&rdquo; caption=&ldquo;Realtek WiFi dongle&rdquo;][/caption]
-Scenario You have a HAWKING HWUN3 Hi-Gain Wireless Adapter dongle that you want to use on your Raspberry Pi running debian.
+                    Scenario You have a HAWKING HWUN3 Hi-Gain Wireless Adapter dongle that you want to use on your Raspberry Pi running debian.
 Note: the same set of steps will probably work for other variations of Ralink/Realtek wifi dongles [rt2561,rt2661,rt2860,rt2870,rt3070,rt3071,rt3090].
-The Problem The standard release (debian6-19-04-2012.zip) contains the needed drivers however, the firmware needed is not included. The following tutorial will describe how to get and &ldquo;install&rdquo; the needed firmware.
+The Problem The standard release (debian6-19-04-2012.zip) contains the needed drivers however, the firmware needed is not included. The following tutorial will describe how to get and &ldquo;install&rdquo; the needed firmware. You will notice the firmware problem if after plugging in your wifi dongle you type dmesg and it complains about not being able to find the firmware.
                     <br>
                 </p>
                 <p class="article-more-link">
@@ -1682,7 +1867,7 @@ cd ~ wget <a href="http://radium.hexxeh.net/quake3.zip">http://radium.hexxeh.net
             <i class="fa fa-calendar"></i>
             <time datetime="2012-06-02 18:17:32 &#43;0000 UTC" itemprop="datePublished">2012-06-02</time>
             &middot;
-            293
+            291
             words
             &middot;
             2
@@ -1765,181 +1950,6 @@ cd ~ wget <a href="http://radium.hexxeh.net/quake3.zip">http://radium.hexxeh.net
     </a>
     
     <a href="https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-android/#disqus_thread" class="article-comment-link">
-        Comments
-    </a>
-    
-
-    <script>
-    (function ($) {
-        
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-    </script>
-</footer>
-
-        </div>
-    </article>
-    
-    <article class="article article-type-post" itemscope="" itemprop="blogPost">
-        <div class="article-inner">
-            
-            </a>
-
-            <header class="article-header">
-    <a href="https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-ubuntu/">
-    <h1 class="article-title" itemprop="name">
-        VNC setup on Raspberry Pi from Ubuntu
-    </h1>
-    </a>
-    <div class="article-meta">
-
-        
-        <div class="article-date">
-            <i class="fa fa-calendar"></i>
-            <time datetime="2012-06-02 18:02:48 &#43;0000 UTC" itemprop="datePublished">2012-06-02</time>
-            &middot;
-            445
-            words
-            &middot;
-            3
-            minute read
-        </div>
-        
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-folder"></i>
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi">Raspberry Pi</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">Tutorials</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/ubuntu">Ubuntu</a>
-                
-                
-            </div>
-            
-        
-
-        
-            
-            
-            <div class="article-category">
-                <i class="fa fa-tags"></i>
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/arm">ARM</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/linux">Linux</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/raspberry-pi">Raspberry Pi</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/ssh">SSH</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/ubuntu">Ubuntu</a>
-                &middot;
-                
-                
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/vnc">VNC</a>
-                
-                
-            </div>
-            
-        
-    </div>
-</header>
-
-            <div class="article-entry" itemprop="articleBody">
-                <p>
-                    This tutorial will demonstrate how to setup and connect to a Raspberry Pi over VNC from Ubuntu. This process is easier if you have a display connected to the Raspberry Pi, but will also show the steps to connect with only Ethernet and power connected. It assumes you have Debian for Raspberry Pi installed on an SD card. If not, see RPi Easy SD card setup
-Getting the IP address of the Raspberry Pi The first step is to locate the Raspberry Pi on your network.
-                    <br>
-                </p>
-                <p class="article-more-link">
-                    <a href="https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-ubuntu/">
-                        Read more
-                    </a>
-                </p>
-            </div>
-            <footer class="article-footer">
-    <a data-url="https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-ubuntu/" data-id="b6719464009cb024bbae54f0aaf5fca8" class="article-share-link">
-        <i class="fa fa-share"></i>
-        Share
-    </a>
-    
-    <a href="https://mitchtech.github.io/hugo-mitchtech/vnc-setup-on-raspberry-pi-from-ubuntu/#disqus_thread" class="article-comment-link">
         Comments
     </a>
     
@@ -2253,7 +2263,7 @@ Getting the IP address of the Raspberry Pi The first step is to locate the Raspb
                 <a class="category-list-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi">
                     raspberry-pi
                 </a>
-                <span class="category-list-count">22</span>
+                <span class="category-list-count">23</span>
             </li>
             
             <li class="category-list-item">
@@ -2261,7 +2271,7 @@ Getting the IP address of the Raspberry Pi The first step is to locate the Raspb
                 <a class="category-list-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">
                     tutorials
                 </a>
-                <span class="category-list-count">77</span>
+                <span class="category-list-count">78</span>
             </li>
             
             <li class="category-list-item">

@@ -47,7 +47,7 @@
 
 
 <meta itemprop="dateModified" content="2012-05-16T23:39:35&#43;00:00" />
-<meta itemprop="wordCount" content="613">
+<meta itemprop="wordCount" content="611">
 
 
 
@@ -230,7 +230,7 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        77
+        78
         <span>Posts</span>
       </div>
       <div class="article-info-block">
@@ -336,7 +336,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2012-05-16 23:39:35 &#43;0000 UTC" itemprop="datePublished">2012-05-16</time>
             &middot;
-            613
+            611
             words
             &middot;
             3
@@ -433,93 +433,71 @@ sudo ln -s jdk1.6.0_31 /usr/local/java/latest
 <p>Then replace the contents with the following:</p>
 
 <pre><code>`JAVA_HOME=&quot;/usr/local/java/latest&quot;` `JRE_HOME=&quot;/usr/local/java/latest/jre&quot;` `PATH=&quot;/usr/local/java/latest/bin:\` `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games&quot;
-````
-
-If you don't want to log out and log back in to have the updated /etc/environment parsed by the system, you can use the 'source' command:
-
 </code></pre>
 
-<p>source /etc/environment</p>
+<p>If you don&rsquo;t want to log out and log back in to have the updated /etc/environment parsed by the system, you can use the &lsquo;source&rsquo; command:</p>
 
-<pre><code>
-You can test if it is working correctly using
-
+<pre><code>source /etc/environment
 </code></pre>
 
-<p>java -version  #  and  javac -version</p>
+<p>You can test if it is working correctly using</p>
 
-<pre><code>
-The output should look something like this:
-
+<pre><code>java -version  #  and  javac -version
 </code></pre>
 
-<p>java version &ldquo;1.6.0_31&rdquo; Java&trade; SE Runtime Environment (build 1.6.0_31-b04) Java HotSpot&trade; 64-Bit Server VM (build 20.6-b01, mixed mode)</p>
+<p>The output should look something like this:</p>
 
-<pre><code>
-Then, get the repo tool (a wrapper for git) and make it executable.
-
+<pre><code>java version &quot;1.6.0_31&quot; Java(TM) SE Runtime Environment (build 1.6.0_31-b04) Java HotSpot(TM) 64-Bit Server VM (build 20.6-b01, mixed mode)
 </code></pre>
 
-<p>mkdir -p ~/bin
+<p>Then, get the repo tool (a wrapper for git) and make it executable.</p>
+
+<pre><code>mkdir -p ~/bin
 mkdir -p ~/cm
-curl <a href="https://dl-ssl.google.com/dl/googlesource/git-repo/repo">https://dl-ssl.google.com/dl/googlesource/git-repo/repo</a> &gt; ~/bin/repo
-chmod a+x ~/bin/repo</p>
-
-<pre><code>
-Initialize and sync the repo. Change the -b option to checkout another branch (like -b gingerbread). NOTE: reboot may be required for repo to work!
-
+curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo &gt; ~/bin/repo
+chmod a+x ~/bin/repo
 </code></pre>
 
-<p>cd ~/cm
+<p>Initialize and sync the repo. Change the -b option to checkout another branch (like -b gingerbread). NOTE: reboot may be required for repo to work!</p>
+
+<pre><code>cd ~/cm
 repo init -u git://github.com/CyanogenMod/android.git -b ics
-repo sync -j16</p>
-
-<pre><code>
-After the source has synched, we need to run a script to get the prebuilt binaries, including ROM Manager and Terminal.
-
+repo sync -j16
 </code></pre>
 
-<p>cd ~/cm/vendor/cm
-./get-prebuilts</p>
+<p>After the source has synched, we need to run a script to get the prebuilt binaries, including ROM Manager and Terminal.</p>
 
-<pre><code>
-Now setup the environment with envsetup
-
+<pre><code>cd ~/cm/vendor/cm
+./get-prebuilts
 </code></pre>
 
-<p>cd ~/cm
-. build/envsetup.sh</p>
+<p>Now setup the environment with envsetup</p>
 
-<pre><code>
-Execute the 'brunch' command to see the list of build targets, and make your selection.  For the Galaxy Nexus, select cm_toro-userdebug, for Nexus S, select cm_crespo-userdebug, for Xoom, choose cm_wingray-userdebug
-
+<pre><code>cd ~/cm
+. build/envsetup.sh
 </code></pre>
 
-<p>brunch</p>
+<p>Execute the &lsquo;brunch&rsquo; command to see the list of build targets, and make your selection.  For the Galaxy Nexus, select cm_toro-userdebug, for Nexus S, select cm_crespo-userdebug, for Xoom, choose cm_wingray-userdebug</p>
 
-<pre><code>
-Once a selection is made, the build should start. If it doesn't, try running the 'lunch' instead. Make your selection, then run 'mka bacon'
-
+<pre><code>brunch
 </code></pre>
 
-<p>lunch
-mka bacon</p>
+<p>Once a selection is made, the build should start. If it doesn&rsquo;t, try running the &lsquo;lunch&rsquo; instead. Make your selection, then run &lsquo;mka bacon&rsquo;</p>
 
-<pre><code>
-If that doesn’t work either, explicitly execute 'make bacon'. You can use the -j compiler flag to enable parallel make.  The recommended use is 'processor cores + 1', e.g. 5 if you have a quad core processor:
-
+<pre><code>lunch
+mka bacon
 </code></pre>
 
-<p>make -j[#ofcpus] bacon</p>
+<p>If that doesn’t work either, explicitly execute &lsquo;make bacon&rsquo;. You can use the -j compiler flag to enable parallel make.  The recommended use is &lsquo;processor cores + 1&rsquo;, e.g. 5 if you have a quad core processor:</p>
 
-<pre><code>
-Once the build completes, the output will be located in ~/cm/out/target/product/toro/.  This folder contains the system and boot images, as well as a compressed and signed update.zip. Push the file to the sdcard of the device, and reboot into recovery:
-
+<pre><code>make -j[#ofcpus] bacon
 </code></pre>
 
-<p>adb push ~/cm/out/target/product/toro/update-cm-9.0.0-RC0-toro-UNOFFICIAL-signed.zip /sdcard/
+<p>Once the build completes, the output will be located in ~/cm/out/target/product/toro/.  This folder contains the system and boot images, as well as a compressed and signed update.zip. Push the file to the sdcard of the device, and reboot into recovery:</p>
+
+<pre><code>adb push ~/cm/out/target/product/toro/update-cm-9.0.0-RC0-toro-UNOFFICIAL-signed.zip /sdcard/
 adb reboot recovery
-```</p>
+</code></pre>
 
 <p>Once booted into recovery, MAKE A BACKUP, then flash the update.zip.</p>
 
@@ -873,7 +851,7 @@ adb reboot recovery
                 <a class="category-list-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi">
                     raspberry-pi
                 </a>
-                <span class="category-list-count">22</span>
+                <span class="category-list-count">23</span>
             </li>
             
             <li class="category-list-item">
@@ -881,7 +859,7 @@ adb reboot recovery
                 <a class="category-list-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">
                     tutorials
                 </a>
-                <span class="category-list-count">77</span>
+                <span class="category-list-count">78</span>
             </li>
             
             <li class="category-list-item">

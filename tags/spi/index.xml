@@ -23,8 +23,7 @@ Requirements  1 Raspberry pi (running Raspbian)
  1 MSP430 TI Launchpad
  3 wires
   Your raspberry pi should be running the newest version of Raspbian. To ensure your system is up-to-date please download and run rpi-update.
-Wiring 
-MSP430 Flash the below code to your MSP430 chip.</description>
+Wiring MSP430 Flash the below code to your MSP430 chip. Please see this tutorial for information on compiling and programming your MSP430.</description>
     </item>
     
     <item>
@@ -38,8 +37,7 @@ Requirements  1 Raspberry pi (running Raspbian)
  1 Arduino
  4 wires
   Your raspberry pi should be running the newest version of Raspbian. To ensure your system is up-to-date please download and run rpi-update.
-Wiring 
-Arduino Open your Arduino ide and flash the below code to your Arduino.</description>
+Wiring Arduino Open your Arduino ide and flash the below code to your Arduino.</description>
     </item>
     
   </channel>

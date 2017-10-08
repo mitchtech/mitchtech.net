@@ -242,7 +242,7 @@ imagewriter  Select the desired .img file and target device, in this case, debia
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        77
+        78
         <span>Posts</span>
       </div>
       <div class="article-info-block">
@@ -421,7 +421,7 @@ imagewriter  Select the desired .img file and target device, in this case, debia
 
 <p>Select the desired .img file and target device, in this case, debian6-19-04-2012.img, and /dev/mmcblk0</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/imagewriter/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/imagewriter-300x146.png" alt="" /></a></p>
+<p><img src="/img/imagewriter.png" alt="" /></p>
 
 <p>Once the image write has completed, the next task is to repartition the SD card.  Note: this process can be done at any later as well, it is not limited to only during initial setup!  In any case, open a terminal, and start Gparted:</p>
 
@@ -430,37 +430,37 @@ imagewriter  Select the desired .img file and target device, in this case, debia
 
 <p>The screen will display the current partition layout on the SD card, notably how much extra space is currently unused, in this case, almost 2GB.</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/gparted-default/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/gparted-default-300x204.png" alt="" /></a></p>
+<p><img src="/img/gparted-default.png" alt="" /></p>
 
 <p>The first step is to delete the swap partition at the bottom of the table  To do this, right click partition 3 (/dev/mmcblkp03) and select delete.  Notice that the operations pending section now displays this change.</p>
 
 <p>Note: If the partitions are locked, they will need to first be unmounted before they can be modified.  To do so, right click on the partition, and select &lsquo;unmount&rsquo; (Thanks Anand).</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/gparted-delete-partition3/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/gparted-delete-partition3-300x204.png" alt="" /></a></p>
+<p><img src="/img/gparted-delete-partition3.png" alt="" /></p>
 
 <p>Now, right click partition 2 (/dev/mmcblkp02) and select resize/move.  A pop-up will allow you to configure the partition:</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/gparted-resize-pre/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/gparted-resize-pre-300x160.png" alt="" /></a></p>
+<p><img src="/img/gparted-resize-pre.png" alt="" /></p>
 
 <p>Expand the partition, leaving free space at the end to be used for swap (512 MB below).  Make sure the 1 MB free space preceding doesn&rsquo;t change, and select None in the Align to box:</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/gparted-resize-post/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/gparted-resize-post-300x160.png" alt="" /></a></p>
+<p><img src="/img/gparted-resize-post.png" alt="" /></p>
 
 <p>Click the Resize/Move button, and you will return to the main screen.  Notice that the operations pending now also shows the grow operation.  Note:  If this displays move and grow, instead of just grow, cancel the operation and try again.</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/gparted-resize-done/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/gparted-resize-done-300x204.png" alt="" /></a></p>
+<p><img src="/img/gparted-resize-done.png" alt="" /></p>
 
 <p>Now we create the swap partition at the end. Right click on the remining unallocated space, and click new.  Expand the partition to fill the maximum available space, and set the file system type to linux-swap:</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/gparted-new-swap/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/gparted-new-swap-300x150.png" alt="" /></a></p>
+<p><img src="/img/gparted-new-swap.png" alt="" /></p>
 
 <p>Click add, and return again to the main screen, which now displays all three pending operations:</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/gparted-everything-ready/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/gparted-everything-ready-300x204.png" alt="" /></a></p>
+<p><img src="/img/gparted-everything-ready.png" alt="" /></p>
 
 <p>If everything looks good, click the checkmark in the header bar to apply the changes, and confirm the pop-up warnings.  Once finished, you will see the final result:</p>
 
-<p><a href="http://mitchtech.net/easy-gui-install-re-partition-raspberry-pi-on-ubuntu/gparted-everything-complete/"><img src="http://mitchtech.net/wp-content/uploads/2012/06/gparted-everything-complete-300x204.png" alt="" /></a></p>
+<p><img src="/img/gparted-everything-complete.png" alt="" /></p>
 
 <p>Close out of GParted, and eject the SD card.  It is already unmounted from the partitioning operation. Enjoy the extra space on your Raspberry Pi!</p>
 
@@ -814,7 +814,7 @@ imagewriter  Select the desired .img file and target device, in this case, debia
                 <a class="category-list-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi">
                     raspberry-pi
                 </a>
-                <span class="category-list-count">22</span>
+                <span class="category-list-count">23</span>
             </li>
             
             <li class="category-list-item">
@@ -822,7 +822,7 @@ imagewriter  Select the desired .img file and target device, in this case, debia
                 <a class="category-list-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">
                     tutorials
                 </a>
-                <span class="category-list-count">77</span>
+                <span class="category-list-count">78</span>
             </li>
             
             <li class="category-list-item">

@@ -30,7 +30,7 @@
 
 
 
-<meta property="og:updated_time" content="2012-05-02T03:37:38&#43;00:00"/>
+<meta property="og:updated_time" content="2012-05-02T03:40:10&#43;00:00"/>
 
 
 
@@ -213,7 +213,7 @@
     </div>
     <div class="article-info profile-block">
       <div class="article-info-block">
-        77
+        78
         <span>Posts</span>
       </div>
       <div class="article-info-block">
@@ -299,6 +299,198 @@
 
     <section id="main">
     
+    
+    <article class="article article-type-post" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+            </a>
+
+            <header class="article-header">
+    <a href="https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-input/">
+    <h1 class="article-title" itemprop="name">
+        Android &#43; IOIO &#43; Simple Analog Input
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2012-05-02 03:40:10 &#43;0000 UTC" itemprop="datePublished">2012-05-02</time>
+            &middot;
+            247
+            words
+            &middot;
+            2
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/android">Android</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/ioio">IOIO</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">Tutorials</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/analog-input">Analog Input</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/android">Android</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/bluetooth">Bluetooth</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/electronics">Electronics</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/ioio">IOIO</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/microcontroller">Microcontroller</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/pic">PIC</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/potentiometer">Potentiometer</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/sensor">Sensor</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                <p>
+                    Simplest possible analog input with Android and IOIO. This article will discuss the bare minimal requirements for development of an Android USB (or Bluetooth) analog input device.
+The goal is to demonstrate the easiest possible use of the technology. For additional background information on Android development, IOIO, and electronics, check out these links:
+Meet IOIO
+IOIO for Android Beginners Guide
+IOIO Wiki
+Android Developer’s Guide
+Hardware Parts needed:  Android Device (1.
+                    <br>
+                </p>
+                <p class="article-more-link">
+                    <a href="https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-input/">
+                        Read more
+                    </a>
+                </p>
+            </div>
+            <footer class="article-footer">
+    <a data-url="https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-input/" data-id="4f8f4ceed2261fc6084d4f584358d189" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="https://mitchtech.github.io/hugo-mitchtech/android-ioio-simple-analog-input/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+        </div>
+    </article>
     
     <article class="article article-type-post" itemscope="" itemprop="blogPost">
         <div class="article-inner">
@@ -1902,7 +2094,7 @@ Getting Started First, make sure you have setup the development environments for
                 <a class="category-list-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi">
                     raspberry-pi
                 </a>
-                <span class="category-list-count">22</span>
+                <span class="category-list-count">23</span>
             </li>
             
             <li class="category-list-item">
@@ -1910,7 +2102,7 @@ Getting Started First, make sure you have setup the development environments for
                 <a class="category-list-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">
                     tutorials
                 </a>
-                <span class="category-list-count">77</span>
+                <span class="category-list-count">78</span>
             </li>
             
             <li class="category-list-item">

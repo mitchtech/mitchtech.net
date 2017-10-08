@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <title>Compile Linux Kernel on Ubuntu 12.04 LTS &middot; Mitchtech</title>
+    <title>Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more! &middot; Mitchtech</title>
     <meta name="generator" content="Hugo 0.21-DEV" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,7 +10,7 @@
       <meta name="description" content="developer,engineer,scientist,hacker,maker">
     
     
-    <link rel="canonical" href="https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-ubuntu-12-04-lts/"/>
+    <link rel="canonical" href="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-connect-gmail-facebook-twitter-more/"/>
     <link rel="icon" href="https://mitchtech.github.io/hugo-mitchtech/favicon.ico">
     <link rel="apple-touch-icon" href="https://mitchtech.github.io/hugo-mitchtech/apple-touch-icon.png"/>
     <link rel="stylesheet" href="https://mitchtech.github.io/hugo-mitchtech/css/style.css">
@@ -20,16 +20,15 @@
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="Compile Linux Kernel on Ubuntu 12.04 LTS" />
-<meta property="og:description" content="This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &lsquo;make&rsquo; and &lsquo;make install&rsquo; as well as the Debian method, using &lsquo;make-dpkg&rsquo;. This is a quick overview of the compilation process, for a more thourough walkthrough, see Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed). In both cases, we begin by installing some dependencies:
-sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &lsquo;make xconfig&rsquo; and libncurses5 and libncurses5-dev if you plan to use &lsquo;make menuconfig&rsquo;." />
+    <meta property="og:title" content="Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!" />
+<meta property="og:description" content="Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-ubuntu-12-04-lts/" />
+<meta property="og:url" content="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-connect-gmail-facebook-twitter-more/" />
 
 
 
-<meta property="article:published_time" content="2012-05-19T17:39:47&#43;00:00"/>
-<meta property="article:modified_time" content="2012-05-19T17:39:47&#43;00:00"/>
+<meta property="article:published_time" content="2012-08-24T00:20:05&#43;00:00"/>
+<meta property="article:modified_time" content="2012-08-24T00:20:05&#43;00:00"/>
 
 
 
@@ -43,13 +42,12 @@ sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc bi
 
     
     
-<meta itemprop="name" content="Compile Linux Kernel on Ubuntu 12.04 LTS">
-<meta itemprop="description" content="This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &lsquo;make&rsquo; and &lsquo;make install&rsquo; as well as the Debian method, using &lsquo;make-dpkg&rsquo;. This is a quick overview of the compilation process, for a more thourough walkthrough, see Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed). In both cases, we begin by installing some dependencies:
-sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &lsquo;make xconfig&rsquo; and libncurses5 and libncurses5-dev if you plan to use &lsquo;make menuconfig&rsquo;.">
+<meta itemprop="name" content="Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!">
+<meta itemprop="description" content="Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc.">
 
 
-<meta itemprop="dateModified" content="2012-05-19T17:39:47&#43;00:00" />
-<meta itemprop="wordCount" content="448">
+<meta itemprop="dateModified" content="2012-08-24T00:20:05&#43;00:00" />
+<meta itemprop="wordCount" content="1126">
 
 
 
@@ -61,10 +59,9 @@ sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc bi
 
 
 
-<meta name="twitter:text:title" content="Compile Linux Kernel on Ubuntu 12.04 LTS"/>
-<meta name="twitter:title" content="Compile Linux Kernel on Ubuntu 12.04 LTS"/>
-<meta name="twitter:description" content="This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &lsquo;make&rsquo; and &lsquo;make install&rsquo; as well as the Debian method, using &lsquo;make-dpkg&rsquo;. This is a quick overview of the compilation process, for a more thourough walkthrough, see Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed). In both cases, we begin by installing some dependencies:
-sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package  Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &lsquo;make xconfig&rsquo; and libncurses5 and libncurses5-dev if you plan to use &lsquo;make menuconfig&rsquo;."/>
+<meta name="twitter:text:title" content="Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!"/>
+<meta name="twitter:title" content="Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!"/>
+<meta name="twitter:description" content="Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc."/>
 <meta name="twitter:site" content="@michaeljmitchel"/>
 
     
@@ -327,9 +324,9 @@ sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc bi
             
 
             <header class="article-header">
-    <a href="https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-ubuntu-12-04-lts/">
+    <a href="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-connect-gmail-facebook-twitter-more/">
     <h1 class="article-title" itemprop="name">
-        Compile Linux Kernel on Ubuntu 12.04 LTS
+        Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!
     </h1>
     </a>
     <div class="article-meta">
@@ -337,12 +334,12 @@ sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc bi
         
         <div class="article-date">
             <i class="fa fa-calendar"></i>
-            <time datetime="2012-05-19 17:39:47 &#43;0000 UTC" itemprop="datePublished">2012-05-19</time>
+            <time datetime="2012-08-24 00:20:05 &#43;0000 UTC" itemprop="datePublished">2012-08-24</time>
             &middot;
-            448
+            1126
             words
             &middot;
-            3
+            6
             minute read
         </div>
         
@@ -353,11 +350,11 @@ sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc bi
                 <i class="fa fa-folder"></i>
                 
                 
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">Tutorials</a>
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/raspberry-pi">Raspberry Pi</a>
                 &middot;
                 
                 
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/ubuntu">Ubuntu</a>
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/categories/tutorials">Tutorials</a>
                 
                 
             </div>
@@ -371,7 +368,35 @@ sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc bi
                 <i class="fa fa-tags"></i>
                 
                 
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/kernel">Kernel</a>
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/arm">ARM</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/diy">DIY</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/electronics">Electronics</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/facebook">Facebook</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/gmail">Gmail</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/hack">Hack</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/home-automation">Home Automation</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/ifttt">Ifttt</a>
                 &middot;
                 
                 
@@ -379,7 +404,19 @@ sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc bi
                 &middot;
                 
                 
-                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/ubuntu">Ubuntu</a>
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/python">Python</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/raspberry-pi">Raspberry Pi</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/twitter">Twitter</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://mitchtech.github.io/hugo-mitchtech/tags/web-server">Web Server</a>
                 
                 
             </div>
@@ -391,87 +428,127 @@ sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc bi
             <div class="article-entry" itemprop="articleBody">
                 
 
-<p>This tutorial will outline the process to compile your own kernel for Ubuntu. It will demonstrate both the traditional process using &lsquo;make&rsquo; and &lsquo;make install&rsquo; as well as the Debian method, using &lsquo;make-dpkg&rsquo;. This is a quick overview of the compilation process, for a more thourough walkthrough, see <a href="http://mitchtech.net/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/">Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed)</a>.  In both cases, we begin by installing some dependencies:</p>
+<p><img src="/img/ifttt.png" alt="" /></p>
 
-<pre><code>sudo apt-get install git-core libncurses5 libncurses5-dev libelf-dev asciidoc binutils-dev linux-source qt3-dev-tools libqt3-mt-dev libncurses5 libncurses5-dev fakeroot build-essential crash kexec-tools makedumpfile kernel-wedge kernel-package
+<p>Easily connect your Raspberry Pi to web services and social networks! This tutorial demonstrates how to painlessly send and receive Gmail on the Raspberry Pi from Python, which in turn, allows you to easily connect it to web services and social networks like Facebook, Twitter, and more! This would normally be well beyond the abilities of most users due to the inherent complexities of programming through social media APis, client/server authentication, etc. However, with the easy-to-use web service Swiss Army knife <a href="http://ifttt.com">ifttt (if this then that)</a> anyone with even the most basic programming skills can dramatically expand the capabilities of their Raspberry Pi.</p>
+
+<h4 id="how-does-this-work">How does this work?</h4>
+
+<p>If you are not yet aware, <a href="http://ifttt.com">ifttt</a> is a great tool to simplify interaction with many social networks and other web services. It operates with the premise that when some specific action occurs it should perform some other predefined action. The interface is intuitive and very easy to quicky understand. The bridge then is connecting the Raspberry Pi to any of these supported services, which in turn, enables the use of all other services that can respond to that respective trigger. In an earlier  tutorial, I  previously demonstrated how to <a href="http://mitchtech.net/dropbox-on-raspberry-pi-via-sshfs/">connect your Raspberry Pi to your Dropbox account using SSHFS</a>. This is another perfectly viable option to establish two way communication with ifttt. However, instead of using email as the primary communication medium, it relies on Dropbox and the filesystem itself. Depending on your application, this may or may not be a better option.</p>
+
+<h4 id="getting-started">Getting Started</h4>
+
+<p>The tutorial uses the most recent Raspbian wheezy image, <a href="http://www.raspberrypi.org/downloads">(2012-08-16-wheezy-raspbian)</a>but should largely generalize for not only other Raspberry Pi distributions, but most other linux distributions as well (especially those derived from Debian, such as Ubuntu and Mint). The majority of the complexity and functionality comes from the feedparser Python module, which should be available essentially anywhere with Python support, even including Windows and OSX distributions too. In any case, begin by setting up the necessary accounts.</p>
+
+<h4 id="account-setup">Account Setup</h4>
+
+<p>As you would undoubtedly expect, the ability to send and receive Gmail is predicated upon having a <a href="http://gmail.com">Gmail</a> account. You are welcome to use your personal Gmail account if you wish, however, I recommend creating a separate account for the Raspberry Pi as it provides the most flexibility. If you would like to expand beyond the capabilities of Gmail on the Raspberry Pi, you will also need an account on <a href="http://ifttt.com">ifttt</a>. As with Gmail, you can either share your accounts with the Raspberry Pi, or create a separate account specifically for this purpose. Your decision here might be dependent on which services will be necessary for your own specific application.</p>
+
+<h4 id="install-packages">Install Packages</h4>
+
+<p>Independent of whether you are using one or multiple Gmail or ifttt accounts, you will first need to install some required packages. Open up a terminal on the Raspberry Pi and install the Python development headers and the pip package manager:</p>
+
+<pre><code>sudo apt-get install python-pip python2.7-dev
 </code></pre>
 
-<p>Note: qt3-dev-tools and libqt3-mt-dev is necessary if you plan to use &lsquo;make xconfig&rsquo; and libncurses5 and libncurses5-dev  if you plan to use &lsquo;make menuconfig&rsquo;.  Next, copy the kernel sources with wget:</p>
+<p>Once that completes, install the feedparser module with the pip package manager:</p>
 
-<pre><code>wget http://www.kernel.org/pub/linux/kernel/v3.0/linux-3.2.17.tar.bz2
+<pre><code>sudo pip install feedparser
 </code></pre>
 
-<p>Extract the archive and change into the kernel directory:</p>
+<p>Now that all of the prerequisites are installed, we can move on to the actual code!</p>
 
-<pre><code>tar -xjvf linux-3.2.17.tar.bz2 cd linux-3.2.17/
+<h4 id="checking-gmail-by-the-raspberry-pi">Checking Gmail by the Raspberry Pi</h4>
+
+<p>This is an example script that will check the Gmail of the specified user, and display the subject line of all unread e-mails.</p>
+
+<script src="//gist.github.com/mitchtech/3481728.js"></script>
+
+<h4 id="sending-gmail-from-the-raspberry-pi">Sending Gmail from the Raspberry Pi</h4>
+
+<p>This is an example script that can be used to send plain text e-mails with Gmail to the specified mail to e-mail address.</p>
+
+<script src="//gist.github.com/mitchtech/3481745.js"></script>
+
+<h4 id="sending-attachments-through-gmail-from-the-raspberry-pi">Sending Attachments through Gmail from the Raspberry Pi</h4>
+
+<p>This is a more complex example script that can be used to attach files to emails sent from Gmail. It sends an array of attached files to an array of recipients.</p>
+
+<script src="//gist.github.com/mitchtech/3481781.js"></script>
+
+<h4 id="scheduling-tasks-with-cron">Scheduling tasks with cron</h4>
+
+<p>Often, we want to run tasks at periodic intervals, like to poll Gmail for example. Cron, the UNIX time-based job scheduler, is an easy way to run regular tasks on the Raspberry Pi (or other *nix). Cron is a daemon (like a Web server) that is used to execute commands or scripts automatically at a specified time and date interval. To use it, open the global crontab (cron table) for editing:</p>
+
+<pre><code>sudo crontab -e
 </code></pre>
 
-<p>Now you are in the top directory of a kernel source tree. Before building the kernel, you must configure it. If you wish to re-use the configuration of your currently running kernel, start by copying the current config contained in /boot:</p>
+<p>In the text editor, you&rsquo;ll see a commented out section of text describing how to configure tasks with cron. To add your own task, simply add a line to the end of the file. For example, to run the check_gmail.py script above every minute:</p>
 
-<pre><code>cp -vi /boot/config-`uname -r` .config
+<pre><code>* * * * * python /home/pi/check_gmail.py
 </code></pre>
 
-<p>Parse the .config file using make with the oldconfig flag.  If there are new options available in the downloaded kernel tree, you may be prompted to make a selection to include them or not.  If unsure, press enter to accept the defaults.</p>
+<p>Here is a breakdown of what that line actually means, and how you can use to create your own periodic tasks at the desired frequency:</p>
 
-<pre><code>make oldconfig
+<pre><code>* * * * * command to be executed
+- - - - -
+| | | | |
+| | | | |
+| | | | +----- day of week (0 - 6) (0 is Sunday, or use names)
+| | | +---------- month (1 - 12)
+| | +--------------- day of month (1 - 31)
+| +-------------------- hour (0 - 23)
++------------------------- min (0 - 59)
 </code></pre>
 
-<p>Since the 2.6.32 kernel, a new feature allows you to update the configuration to only compile modules that are actually used in your system. As above, make selections if prompted, otherwise hit enter for the defaults.</p>
+<h4 id="expanding-functionality-with-ifttt">Expanding functionality with ifttt</h4>
 
-<pre><code>make localmodconfig
-</code></pre>
+<p>Now that the Raspberry Pi is capable of both sending and receiving e-mails and running scripts at regular intervals we can move on to fun things! The following are some quick examples of the types of things this interface enables. This list is FAR from inclusive, there are literally thousands of possible combinations!</p>
 
-<p>Now you can configure the build with ncurses using the &lsquo;menuconfig&rsquo; flag:</p>
+<h4 id="facebook-and-twitter">Facebook and Twitter</h4>
 
-<pre><code>make menuconfig
-</code></pre>
+<p>Update your Facebook status, or post tweets based on raspberry pi events.</p>
 
-<p>or, using a GUI with the &lsquo;xconfig&rsquo; flag:</p>
+<p><img src="/img/ifttt-gmail-fb.png" alt="" /></p>
 
-<pre><code>make xconfig
-</code></pre>
+<p>Alternatively, create a Facebook or Twitter account specifically for the Raspberry Pi, and have it update its own status messages and post its own tweets.</p>
 
-<p>Now we are ready to start the build. You can speed up the compilation process by enabling parallel make with the -j flag. The recommended use is &lsquo;processor cores + 1&rsquo;, e.g. 5 if you have a quad core processor:</p>
+<p><img src="/img/ifttt-gmail-twitter.png" alt="" /></p>
 
-<pre><code>make -j5
-</code></pre>
+<h4 id="google-calendar">Google Calendar</h4>
 
-<p>Once the initial compilation has completed, install the dynamically loadable kernel modules:</p>
+<p>Automatically send alerts for events that match certain criteria within your Google calendar to the Raspberry Pi. Use this to make things like physical notifiers for holidays or other calendar events.</p>
 
-<pre><code>sudo make modules_install
-</code></pre>
+<p><img src="/img/ifttt-calendar-gmail.png" alt="" /></p>
 
-<p>Finally, install the kernel:</p>
+<h4 id="sms-and-phone">SMS and Phone</h4>
 
-<pre><code>sudo make install
-</code></pre>
+<p>Receive SMS notifications or phone calls based on events from the Raspberry Pi. Notify based on certain sensor values, or create your own DIY security system, for example.</p>
 
-<h2 id="debian-method">Debian Method:</h2>
+<p><img src="/img/ifttt-gmail-sms.png" alt="" /></p>
 
-<p>Instead of the compilation process of above, you can alternatively compile the kernel as installable .deb packages. This improves the portability of the kernel, since installation on a different machine is as simple as installing the packages. Rather than using &lsquo;make&rsquo; and &lsquo;make install&rsquo;, we use &lsquo;make-kpkg&rsquo;:</p>
+<h4 id="weather-and-stocks">Weather and Stocks</h4>
 
-<pre><code>fakeroot make-kpkg --initrd --append-to-version=-some-string-here kernel-image kernel-headers
-</code></pre>
+<p>It&rsquo;s also easy to control the Raspberry Pi based on the weather forecast. For example, send notifications of impending severe weather or extreme temperatures.</p>
 
-<p>Unlike above, you cannot enable parallel compilation with make-kpkg using the -j flag. Instead, define the CONCURRENCY_LEVEL environment variable.</p>
+<p><img src="/img/ifttt-weather-gmail.png" alt="" /></p>
 
-<pre><code>export CONCURRENCY_LEVEL=3
-</code></pre>
+<p>Or create physical notifiers that perform actions whenever a specified stock price exceeds or falls below a specified threshold.</p>
 
-<p>Once the compilation has completed, you can install the kernel and kernel headers using dpkg:</p>
+<p><img src="/img/ifttt-stock-gmail.png" alt="" /></p>
 
-<pre><code>sudo dpkg -i linux-image-3.2.14-mm_3.2.14-mm-10.00.Custom_amd64.deb
-sudo dpkg -i linux-headers-3.2.14-mm_3.2.14-mm-10.00.Custom_amd64.deb
-</code></pre>
+<h4 id="limitations">Limitations</h4>
+
+<p>There are, of course, a few limitations from using Gmail and cron as the primary basis for communication to the cloud. Cron jobs can only be scheduled at minute granularity, that is, they can be scheduled to occur at maximum frequency of one minute intervals. This is acceptable for most tasks, though it does however leave a bit to be desired for the more &lsquo;real time&rsquo; applications like turning on and off lights, or remotely operated robotics.</p>
 
             </div>
             <footer class="article-footer">
-    <a data-url="https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-ubuntu-12-04-lts/" data-id="0f98bafb5ebf0d08e71b61cea3f7d881" class="article-share-link">
+    <a data-url="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-connect-gmail-facebook-twitter-more/" data-id="c9d50c9d5fabd6f6d5dfbe55dc29c0c7" class="article-share-link">
         <i class="fa fa-share"></i>
         Share
     </a>
     
-    <a href="https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-ubuntu-12-04-lts/#disqus_thread" class="article-comment-link">
+    <a href="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-connect-gmail-facebook-twitter-more/#disqus_thread" class="article-comment-link">
         Comments
     </a>
     
@@ -547,20 +624,20 @@ sudo dpkg -i linux-headers-3.2.14-mm_3.2.14-mm-10.00.Custom_amd64.deb
         
 <nav id="article-nav">
     
-    <a href="https://mitchtech.github.io/hugo-mitchtech/compile-cyanogenmod-9-for-galaxy-nexus/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="https://mitchtech.github.io/hugo-mitchtech/raspberry-pi-msp430-spi/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Older
       </strong>
-      <div class="article-nav-title">Compile Cyanogenmod 9 for Galaxy Nexus </div>
+      <div class="article-nav-title">Raspberry Pi &#43; MSP430 &#43; SPI</div>
     </a>
     
 
     
-    <a href="https://mitchtech.github.io/hugo-mitchtech/compile-linux-kernel-on-ubuntu-12-04-lts-detailed/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="https://mitchtech.github.io/hugo-mitchtech/connect-raspberry-pi-to-gmail-facebook-twitter-more/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           Newer
       </strong>
-      <div class="article-nav-title">Compile Linux Kernel on Ubuntu 12.04 LTS (Detailed)</div>
+      <div class="article-nav-title">Easily connect Raspberry Pi to Gmail, Facebook, Twitter &amp; more!</div>
     </a>
     
 </nav>
@@ -574,9 +651,9 @@ sudo dpkg -i linux-headers-3.2.14-mm_3.2.14-mm-10.00.Custom_amd64.deb
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'mitchtech';
-    var disqus_identifier = 'https:\/\/mitchtech.github.io\/hugo-mitchtech\/compile-linux-kernel-ubuntu-12-04-lts\/';
-    var disqus_title = 'Compile Linux Kernel on Ubuntu 12.04 LTS';
-    var disqus_url = 'https:\/\/mitchtech.github.io\/hugo-mitchtech\/compile-linux-kernel-ubuntu-12-04-lts\/';
+    var disqus_identifier = 'https:\/\/mitchtech.github.io\/hugo-mitchtech\/raspberry-pi-connect-gmail-facebook-twitter-more\/';
+    var disqus_title = 'Easily connect Raspberry Pi to Gmail, Facebook, Twitter \x26 more!';
+    var disqus_url = 'https:\/\/mitchtech.github.io\/hugo-mitchtech\/raspberry-pi-connect-gmail-facebook-twitter-more\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

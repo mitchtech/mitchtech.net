@@ -88,7 +88,7 @@ Here is a diagram of the wiring of the LED with a 330 ohm resistor in series (c
       <guid>https://mitchtech.github.io/hugo-mitchtech/arduino-on-raspberry-pi/</guid>
       <description>Connecting an Arduino to a Raspberry Pi is simple. In a terminal, install the Arduino IDE:
 sudo apt-get install arduino  This will take a while to download and install all of the dependencies. Once completed, you can start the IDE from the terminal:
-arduino  Or, from the LXDE menu, Electronics-&amp;gt;Arduino IDE. Note: This is IDE version 0018, and does not seem to recognize boards newer then the Duemilanove.</description>
+arduino  Or, from the LXDE menu, Electronics-&amp;gt;Arduino IDE. Note: This is IDE version 0018, and does not seem to recognize boards newer then the Duemilanove. Update: The IDE version in the package manager has been updated to version 1.</description>
     </item>
     
     <item>
@@ -108,8 +108,7 @@ In either case, begin by installing the Debian image as you normally would to an
       
       <guid>https://mitchtech.github.io/hugo-mitchtech/android-ioio-remote-outlets/</guid>
       <description>This tutorial will demonstrate remote control of 3 AC outlets with Android and IOIO. The tutorial uses the 3 Channel Remote AC Outlets from DealExtreme. The cost, less than $25 shipped for the set of three, is quite a savings over alternatives like the PowerSwitch Tail ($25 each), also, they are wireless with a pretty good range as well.
-
-They also have single and dual outlet version.</description>
+They also have single and dual outlet version. Note: all three of these models are 110V/US plugs.</description>
     </item>
     
     <item>
