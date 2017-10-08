@@ -6,6 +6,7 @@ date = "2015-02-13 00:58:48+00:00"
 slug = "devstack-on-ec2-via-ansible"
 tags = ["ansible","devstack","openstack"]
 title = "Devstack on EC2 via Ansible"
+banner = "http://i.imgur.com/iq37M8F.png"
 
 +++
 

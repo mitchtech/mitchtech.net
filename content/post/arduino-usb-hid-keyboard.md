@@ -6,6 +6,7 @@ date = "2012-06-24 15:09:36+00:00"
 slug = "arduino-usb-hid-keyboard"
 tags = ["Arduino","Buttons","Device Driver","Digital Input","DIY","Electronics","Hack","Keyboard","Linux","Microcontroller","Ubuntu","USB","USB HID"]
 title = "Arduino USB HID Keyboard"
+banner = "https://img.youtube.com/vi/ZKObxbaJgKI/0.jpg"
 
 +++
 

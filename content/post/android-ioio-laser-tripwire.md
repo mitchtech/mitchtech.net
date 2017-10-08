@@ -6,6 +6,7 @@ date = "2012-05-02 04:44:25+00:00"
 slug = "android-ioio-laser-tripwire"
 tags = ["Ambient Light","Analog Input","Android","Bluetooth","Electronics","Graph","IOIO","Laser","LED","Microcontroller","Photocell","Sensor","Voltage Divider"]
 title = "Android + IOIO + Laser Tripwire"
+banner = "https://img.youtube.com/vi/JAU7-_IWMdM/0.jpg"
 
 +++
 

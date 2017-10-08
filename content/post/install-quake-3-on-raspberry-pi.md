@@ -6,6 +6,7 @@ date = "2012-06-02 18:17:37+00:00"
 slug = "install-quake-3-on-raspberry-pi"
 tags = ["ARM","Game","Linux","Quake3","Raspberry Pi","Ubuntu"]
 title = "Install Quake 3 on Raspberry Pi"
+banner = "img/pi-quake3-intro.jpg"
 
 +++
 

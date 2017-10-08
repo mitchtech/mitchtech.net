@@ -7,6 +7,7 @@ excerpt = "We assumes you are running Ubuntu 12.04 and have a TI msp430g2231 but
 slug = "cross-compiling-for-ti-msp430-launchpad"
 tags = ["blink led","cross-compile","launchpad","msp430","msp430g2231","TI"]
 title = "Cross-Compiling for TI MSP430 Launchpad"
+banner = "img/msp430_launchpad.jpg"
 
 +++
 

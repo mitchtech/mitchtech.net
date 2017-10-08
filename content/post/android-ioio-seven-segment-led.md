@@ -6,6 +6,7 @@ date = "2012-05-02 04:00:53+00:00"
 slug = "android-ioio-seven-segment-led"
 tags = ["Android","Bluetooth","Digital Output","Electronics","IOIO","LED","Microcontroller","PIC","Seven Segment"]
 title = "Android + IOIO + Seven Segment LED"
+banner = "https://img.youtube.com/vi/QoHnJwbX_fQ/0.jpg"
 
 +++
 

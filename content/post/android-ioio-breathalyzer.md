@@ -6,6 +6,7 @@ date = "2012-05-02 04:12:12+00:00"
 slug = "android-ioio-breathalyzer"
 tags = ["Analog Input","Android","Bluetooth","Breathalyzer","Electronics","Graph","IOIO","Microcontroller","PIC","Sensor"]
 title = "Android + IOIO + Breathalyzer"
+banner = "https://img.youtube.com/vi/RTHdzqqf5ak/0.jpg"
 
 +++
 

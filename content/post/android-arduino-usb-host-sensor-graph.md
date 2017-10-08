@@ -6,6 +6,7 @@ date = "2012-05-02 04:30:29+00:00"
 slug = "android-arduino-usb-host-sensor-graph"
 tags = ["ADB","Analog Input","Android","Arduino","Electronics","Graph","Microbridge","Microcontroller","Potentiometer","Sensor","USB Host"]
 title = "Android + Arduino + USB Host + Sensor Graph"
+banner = "https://img.youtube.com/vi/EQ4ZctuXgxE/0.jpg"
 
 +++
 

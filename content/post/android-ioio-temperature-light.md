@@ -6,6 +6,7 @@ date = "2012-05-02 04:28:06+00:00"
 slug = "android-ioio-temperature-light"
 tags = ["Ambient Light","Analog Input","Android","Bluetooth","Digital Input","Electronics","Graph","IOIO","Microcontroller","Photocell","PIC","Sensor","Temperature","Voltage Divider"]
 title = "Android + IOIO + Temperature + Light"
+banner = "https://img.youtube.com/vi/BdLr5a__ySc/0.jpg"
 
 +++
 

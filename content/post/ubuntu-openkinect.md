@@ -6,6 +6,7 @@ date = "2012-05-02 05:08:22+00:00"
 slug = "ubuntu-openkinect"
 tags = ["Hack","Kinect","Linux","OpenKinect","Ubuntu"]
 title = "Ubuntu + OpenKinect"
+banner = "https://img.youtube.com/vi/gQEAueuF0Ig/0.jpg"
 
 +++
 

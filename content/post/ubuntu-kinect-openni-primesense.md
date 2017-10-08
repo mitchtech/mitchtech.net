@@ -6,6 +6,7 @@ date = "2012-05-02 05:15:31+00:00"
 slug = "ubuntu-kinect-openni-primesense"
 tags = ["Hack","Kinect","Linux","OpenNI","PrimeSense","Ubuntu"]
 title = "Ubuntu + Kinect + OpenNI + PrimeSense"
+banner = "https://img.youtube.com/vi/BL_EPfP7T50/0.jpg"
 
 +++
 

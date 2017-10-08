@@ -6,6 +6,7 @@ date = "2012-05-02 15:52:18+00:00"
 slug = "opencv-ubuntu"
 tags = ["C","Computer Vision","Device Driver","Face Detection","Linux","Motion Tracking","OpenCV","OpenNI","PrimeSense","Ubuntu","Webcam"]
 title = "OpenCV + Ubuntu"
+banner = "https://img.youtube.com/vi/rIyGrhDYs0A/0.jpg"
 
 +++
 

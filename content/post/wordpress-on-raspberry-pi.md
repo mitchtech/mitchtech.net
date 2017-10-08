@@ -6,6 +6,7 @@ date = "2012-06-08 04:29:14+00:00"
 slug = "wordpress-on-raspberry-pi"
 tags = ["Apache","Linux","Raspberry Pi","Web Server","Wordpress"]
 title = "Wordpress on Raspberry Pi"
+banner = "img/pi-wordpress.png"
 
 +++
 

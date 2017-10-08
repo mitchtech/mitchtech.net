@@ -6,6 +6,7 @@ date = "2012-06-08 04:03:32+00:00"
 slug = "raspberry-pi-apache"
 tags = ["Apache","Linux","Raspberry Pi","Web Server"]
 title = "Raspberry Pi + Apache"
+banner = "img/pi-apache.png"
 
 +++
 

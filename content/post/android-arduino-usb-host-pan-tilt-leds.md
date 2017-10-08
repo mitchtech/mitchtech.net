@@ -6,6 +6,7 @@ date = "2012-05-02 04:40:30+00:00"
 slug = "android-arduino-usb-host-pan-tilt-leds"
 tags = ["ADB","Analog Output","Android","Arduino","Digital Output","Electronics","LED","Microbridge","Microcontroller","Pan &amp; Tilt","PWM","Servo","USB Host"]
 title = "Android + Arduino + USB Host + Pan Tilt LEDs"
+banner = "https://img.youtube.com/vi/oDpVTzXstBc/0.jpg"
 
 +++
 

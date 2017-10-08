@@ -6,6 +6,7 @@ date = "2013-01-17 02:06:48+00:00"
 slug = "raspberry-pi-google-talk-robot"
 tags = ["ARM","Digital Input","Digital Output","DIY","Electronics","Google Talk","GPIO","Home Automation","Linux","Microcontroller","Raspberry Pi","XMPP"]
 title = "Raspberry Pi Google Talk Robot"
+banner = "https://img.youtube.com/vi/vd6RlkAXWRs/0.jpg"
 
 +++
 

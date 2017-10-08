@@ -6,6 +6,7 @@ date = "2012-05-02 04:05:36+00:00"
 slug = "android-ioio-accelerometer-servos"
 tags = ["Accelerometer","Analog Input","Analog Output","Android","Bluetooth","Electronics","IOIO","Microcontroller","Pan &amp; Tilt","PIC","Servo"]
 title = "Android + IOIO + Accelerometer Servos"
+banner = "https://img.youtube.com/vi/482KfXG03cU/0.jpg"
 
 +++
 

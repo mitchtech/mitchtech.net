@@ -6,6 +6,7 @@ date = "2012-06-02 18:42:33+00:00"
 slug = "raspberry-pi-audio"
 tags = ["ARM","Audio","Linux","Raspberry Pi"]
 title = "Raspberry Pi Audio"
+banner = "img/pi-usb-drive.jpg"
 
 +++
 

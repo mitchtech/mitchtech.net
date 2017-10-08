@@ -6,6 +6,7 @@ date = "2012-05-02 04:02:41+00:00"
 slug = "android-ioio-software-joystick-servos"
 tags = ["Analog Output","Android","Bluetooth","Electronics","IOIO","Joystick","Microcontroller","Pan &amp; Tilt","PIC","PWM","Servo"]
 title = "Android + IOIO + Software Joystick Servos"
+banner = "https://img.youtube.com/vi/_VN_NNE9rVw/0.jpg"
 
 +++
 

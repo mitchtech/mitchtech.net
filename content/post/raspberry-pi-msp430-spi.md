@@ -7,6 +7,7 @@ excerpt = "This tutorial will explain how to communicate from the Raspberry Pi t
 slug = "raspberry-pi-msp430-spi"
 tags = ["M430G2553","msp430","Raspberry Pi","spi"]
 title = "Raspberry Pi + MSP430 + SPI"
+banner = "img/raspi-msp-spi.jpg"
 
 +++
 

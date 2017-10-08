@@ -7,6 +7,7 @@ excerpt = "This tutorial will demonstrate how to mount Dropbox (or any filesyste
 slug = "dropbox-on-raspberry-pi-via-sshfs"
 tags = ["ARM","Boot","Cron","DIY","Dropbox","Filesystem","FUSE","Linux","Mount","OpenSSH","Raspberry Pi","Server","Share","SSH","SSHFS"]
 title = "Dropbox on Raspberry Pi via SSHFS"
+banner = "img/pi-dropbox.png"
 
 +++
 

@@ -6,6 +6,7 @@ date = "2012-05-02 15:58:13+00:00"
 slug = "opencv-python"
 tags = ["C","Computer Vision","Device Driver","Face Detection","Linux","Motion Tracking","OpenCV","OpenNI","PrimeSense","Python","Ubuntu","Webcam"]
 title = "OpenCV + Python"
+banner = "https://img.youtube.com/vi/AqXaGPEAkRA/0.jpg"
 
 +++
 

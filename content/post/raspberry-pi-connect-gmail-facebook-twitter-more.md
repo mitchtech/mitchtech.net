@@ -6,6 +6,7 @@ date = "2012-08-24 00:20:05+00:00"
 slug = "raspberry-pi-connect-gmail-facebook-twitter-more"
 tags = ["ARM","DIY","Electronics","Facebook","Gmail","Hack","Home Automation","Ifttt","Linux","Python","Raspberry Pi","Twitter","Web Server"]
 title = "Easily connect Raspberry Pi to Gmail, Facebook, Twitter & more!"
+banner = "img/ifttt.png"
 
 +++
 

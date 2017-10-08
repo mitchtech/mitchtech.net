@@ -6,6 +6,7 @@ date = "2012-05-02 04:48:26+00:00"
 slug = "android-ioio-garage-door"
 tags = ["Android","Bluetooth","Buttons","Digital Output","DIY","Electronics","Garage Door","Hack","Home Automation","IOIO","Microcontroller","PIC","Relay","Sensor"]
 title = "Android + IOIO + Garage Door"
+banner = "https://img.youtube.com/vi/Y6X1-WzvzME/0.jpg"
 
 +++
 

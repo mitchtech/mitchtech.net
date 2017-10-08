@@ -6,6 +6,7 @@ date = "2012-05-02 03:52:58+00:00"
 slug = "android-ioio-servo-control"
 tags = ["Analog Output","Android","Bluetooth","Electronics","IOIO","Microcontroller","PIC","PWM","Servo"]
 title = "Android + IOIO + Servo Control"
+banner = "https://img.youtube.com/vi/bnX6G5ZO4IA/0.jpg"
 
 +++
 

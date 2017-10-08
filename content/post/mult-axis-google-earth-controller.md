@@ -6,6 +6,7 @@ date = "2012-05-02 15:45:46+00:00"
 slug = "mult-axis-google-earth-controller"
 tags = ["3D Connection","Device Driver","Google Earth","Joystick","Linux","Multi-axis","SpaceNavigator","Ubuntu"]
 title = "Google Earth + Mult-axis Controller"
+banner = "https://img.youtube.com/vi/xR3xUYtjg5Y/0.jpg"
 
 +++
 

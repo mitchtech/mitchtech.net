@@ -6,6 +6,7 @@ date = "2012-05-02 03:33:47+00:00"
 slug = "android-ioio-simple-digital-input"
 tags = ["Android","Bluetooth","Buttons","Digital Input","Electronics","IOIO","Microcontroller","PIC"]
 title = "Android + IOIO + Simple Digital Input"
+banner = "https://img.youtube.com/vi/Cr2PpNiEDXI/0.jpg"
 
 +++
 

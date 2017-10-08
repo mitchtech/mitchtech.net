@@ -6,6 +6,7 @@ date = "2012-05-02 04:39:18+00:00"
 slug = "android-arduino-usb-host-serial-4-digit-led"
 tags = ["ADB","Android","Arduino","Digital Output","Electronics","LED","Microbridge","Microcontroller","Seven Segment","USB Host"]
 title = "Android + Arduino + USB Host + Serial 4 digit LED"
+banner = "https://img.youtube.com/vi/1wpE_HzTfl0/0.jpg"
 
 +++
 

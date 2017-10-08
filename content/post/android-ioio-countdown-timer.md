@@ -6,6 +6,7 @@ date = "2012-05-02 04:26:28+00:00"
 slug = "android-ioio-countdown-timer"
 tags = ["Android","Bluetooth","Digital Output","Electronics","IOIO","LED","Microcontroller","PIC","Timer"]
 title = "Android + IOIO + Countdown Timer"
+banner = "https://img.youtube.com/vi/jx2uM9pz87o/0.jpg"
 
 +++
 

@@ -6,6 +6,7 @@ date = "2012-05-02 05:12:13+00:00"
 slug = "ubuntu-openkinect-mouse-control"
 tags = ["Hack","Kinect","Linux","OpenKinect","Ubuntu"]
 title = "Ubuntu + OpenKinect + Mouse Control"
+banner = "https://img.youtube.com/vi/y56YDc65kRo/0.jpg"
 
 +++
 

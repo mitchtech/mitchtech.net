@@ -6,6 +6,7 @@ date = "2012-06-14 00:49:07+00:00"
 slug = "raspberry-pi-root-fs-on-usb-drive"
 tags = ["ARM","Kernel","Linux","Microcontroller","Raspberry Pi","USB"]
 title = "Raspberry Pi Root FS on USB Drive"
+banner = "img/pi-usb-drive.jpg"
 
 +++
 

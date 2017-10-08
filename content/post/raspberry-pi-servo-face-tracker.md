@@ -6,6 +6,7 @@ date = "2013-03-15 07:07:30+00:00"
 slug = "raspberry-pi-servo-face-tracker"
 tags = ["ARM","Computer Vision","Device Driver","Digital Input","Digital Output","DIY","Electronics","Kernel","LED","Linux","Microcontroller","OpenCV","Pan &amp; Tilt","PWM","Python","Raspberry Pi","Sensor"]
 title = "Raspberry Pi OpenCV Pan & Tilt Face Tracker"
+banner = "https://img.youtube.com/vi/WlfecyC1J6A/0.jpg"
 
 +++
 

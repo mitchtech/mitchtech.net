@@ -6,6 +6,7 @@ date = "2012-05-02 04:50:00+00:00"
 slug = "android-ioio-window-blinds-control"
 tags = ["Analog Output","Android","Bluetooth","DIY","Electronics","Hack","Home Automation","IOIO","Microcontroller","PIC","PWM","Servo","Window Blinds"]
 title = "Android + IOIO + Window Blinds Control"
+banner = "https://img.youtube.com/vi/tXWHtyWXHec/0.jpg"
 
 +++
 

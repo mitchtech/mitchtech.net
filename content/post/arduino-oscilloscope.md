@@ -7,6 +7,7 @@ excerpt = "Turn your Arduino into an Oscilloscope using poor man's oscilloscope.
 slug = "arduino-oscilloscope"
 tags = ["Arduino","arduinoscope","lxardoscope","oscilloscope","poor mans","poor mans oscilloscope"]
 title = "Arduino Poor Man's Oscilloscope"
+banner = "img/arduino-oscilloscope.png"
 
 +++
 

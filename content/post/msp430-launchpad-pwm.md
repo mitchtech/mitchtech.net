@@ -7,6 +7,7 @@ excerpt = "How to perform pulse width modulation using a MSP430g2553 TI Launchpa
 slug = "msp430-launchpad-pwm"
 tags = ["Arduino","launchpad","msp430","pulse width modulation","PWM","Servo"]
 title = "MSP430 Launchpad + PWM"
+banner = "https://img.youtube.com/vi/BPEImNC2fT0/0.jpg"
 
 +++
 

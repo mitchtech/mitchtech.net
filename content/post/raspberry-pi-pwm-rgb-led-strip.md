@@ -6,6 +6,7 @@ date = "2013-01-15 23:29:15+00:00"
 slug = "raspberry-pi-pwm-rgb-led-strip"
 tags = ["ARM","Device Driver","DIY","Electronics","Home Automation","Kernel","LED","Linux","Microcontroller","PWM","Raspberry Pi","RGB LED Strip"]
 title = "Raspberry Pi + PWM RGB LED Strip"
+banner = "https://img.youtube.com/vi/--d8Sp2yoUU/0.jpg"
 
 +++
 

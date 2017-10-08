@@ -7,6 +7,7 @@ excerpt = "OpenCV is a suite of powerful computer vision tools. Here is a quick 
 slug = "raspberry-pi-opencv"
 tags = ["ARM","C","Computer Vision","Face Detection","Linux","Motion Tracking","OpenCV","Python","Raspberry Pi","Webcam"]
 title = "Raspberry Pi + OpenCV"
+banner = "https://img.youtube.com/vi/9zgVG_gWeVc/0.jpg"
 
 +++
 

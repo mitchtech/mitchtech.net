@@ -7,6 +7,7 @@ excerpt = "This tutorial will show you how to communicate from your raspberry pi
 slug = "raspberry-pi-arduino-spi"
 tags = ["3 wire spi","Arduino","Raspberry Pi","spi"]
 title = "Raspberry Pi + Arduino + SPI"
+banner = "img/raspi-arduino-spi.jpg"
 
 +++
 

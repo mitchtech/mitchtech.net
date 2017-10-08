@@ -6,6 +6,7 @@ date = "2012-05-02 03:55:09+00:00"
 slug = "android-ioio-sensor-graph"
 tags = ["Analog Input","Android","Bluetooth","Electronics","Graph","IOIO","Microcontroller","PIC","Potentiometer","Sensor"]
 title = "Android + IOIO + Sensor Graph"
+banner = "https://img.youtube.com/vi/8YTY3gQKqFQ/0.jpg"
 
 +++
 

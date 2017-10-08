@@ -6,6 +6,7 @@ date = "2012-05-02 04:25:25+00:00"
 slug = "android-ioio-range-finder"
 tags = ["Analog Input","Android","Bluetooth","Electronics","Infrared","IOIO","Microcontroller","PIC","Sensor","Ultrasonic"]
 title = "Android + IOIO + Range Finder"
+banner = "https://img.youtube.com/vi/iYcQvOKi4HM/0.jpg"
 
 +++
 

@@ -6,6 +6,7 @@ date = "2012-05-02 04:45:59+00:00"
 slug = "android-ioio-laser-turret"
 tags = ["Analog Output","Android","Bluetooth","Digital Output","Electronics","IOIO","Laser","LED","Microcontroller","Pan &amp; Tilt","PIC","Servo"]
 title = "Android + IOIO + Laser Turret"
+banner = "https://img.youtube.com/vi/y8anHCh1Tjo/0.jpg"
 
 +++
 

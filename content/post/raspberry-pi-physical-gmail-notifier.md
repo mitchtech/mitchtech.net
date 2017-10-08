@@ -7,6 +7,7 @@ excerpt = "This tutorial will demonstrate how to easily turn your Raspberry Pi i
 slug = "raspberry-pi-physical-gmail-notifier"
 tags = ["ARM","Cron","Digital Output","DIY","Electronics","Gmail","GPIO","LED","Linux","Microcontroller","Physical Notifier","Python","Raspberry Pi"]
 title = "Raspberry Pi Physical Gmail Notifier"
+banner = "img/pi-physical-gmail-notifier.jpg"
 
 +++
 

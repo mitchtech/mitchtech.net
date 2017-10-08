@@ -6,6 +6,7 @@ date = "2012-05-02 04:51:31+00:00"
 slug = "android-ioio-remote-outlets"
 tags = ["Android","Bluetooth","Digital Output","DIY","Electronics","Hack","Home Automation","IOIO","Microcontroller","PIC","Power Outlet"]
 title = "Android + IOIO + Remote Outlets"
+banner = "https://img.youtube.com/vi/DfsHccXEcDk/0.jpg"
 
 +++
 

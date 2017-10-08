@@ -6,6 +6,7 @@ date = "2012-05-02 03:50:57+00:00"
 slug = "android-ioio-d-pad"
 tags = ["Android","Bluetooth","Buttons","D Pad","Digital Input","Electronics","IOIO","Microcontroller","PIC"]
 title = "Android + IOIO + D-Pad"
+banner = "https://img.youtube.com/vi/lrGkvYAd12c/0.jpg"
 
 +++
 

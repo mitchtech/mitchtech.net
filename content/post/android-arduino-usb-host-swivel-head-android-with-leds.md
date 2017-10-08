@@ -6,6 +6,7 @@ date = "2012-05-02 04:38:09+00:00"
 slug = "android-arduino-usb-host-swivel-head-android-with-leds"
 tags = ["ADB","Analog Output","Android","Arduino","Digital Output","Electronics","LED","Microbridge","Microcontroller","Servo","USB Host"]
 title = "Android + Arduino + USB Host + Swivel Head Android with LEDs"
+banner = "https://img.youtube.com/vi/P5rrO43vgqE/0.jpg"
 
 +++
 

@@ -6,6 +6,7 @@ date = "2012-06-02 18:02:48+00:00"
 slug = "vnc-setup-on-raspberry-pi-from-ubuntu"
 tags = ["ARM","Linux","Raspberry Pi","SSH","Ubuntu","VNC"]
 title = "VNC setup on Raspberry Pi from Ubuntu"
+banner = "https://img.youtube.com/vi/KuICf0nlb-c/0.jpg"
 
 +++
 

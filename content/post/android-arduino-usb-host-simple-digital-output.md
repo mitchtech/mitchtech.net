@@ -6,6 +6,7 @@ date = "2012-05-02 03:02:35+00:00"
 slug = "android-arduino-usb-host-simple-digital-output"
 tags = ["ADB","Android","Arduino","Digital Output","Electronics","LED","Microbridge","Microcontroller","USB Host"]
 title = "Android + Arduino + USB Host + Simple Digital Output"
+banner = "https://img.youtube.com/vi/wCRXu34qVNo/0.jpg"
 
 +++
 

@@ -7,6 +7,7 @@ excerpt = "This tutorial will show how to compile and install Peer Guardian on a
 slug = "peer-guardian-on-raspberry-pi"
 tags = ["ARM","Kernel","Linux","Microcontroller","Peer Guardian","Raspberry Pi"]
 title = "Peer Guardian on Raspberry Pi"
+banner = "img/pi-peer-guardian.png"
 
 +++
 

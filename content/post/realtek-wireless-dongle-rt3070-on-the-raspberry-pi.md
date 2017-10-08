@@ -6,6 +6,7 @@ date = "2012-06-03 18:49:22+00:00"
 slug = "realtek-wireless-dongle-rt3070-on-the-raspberry-pi"
 tags = ["ARM","Device Driver","Linux","Raspberry Pi","realtek","rt2661","rt2860","rt2870","rt3070","rt3071","rt3090"]
 title = "Ralink/Realtek Wireless Dongle (rt3070) on the Raspberry Pi"
+banner = "img/raspi-realtek.jpg"
 
 +++
 

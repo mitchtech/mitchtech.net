@@ -6,6 +6,7 @@ date = "2012-05-02 03:37:38+00:00"
 slug = "android-ioio-simple-analog-output"
 tags = ["Analog Output","Android","Bluetooth","Electronics","IOIO","LED","Microcontroller","PIC","PWM","RGB LED"]
 title = "Android + IOIO + Simple Analog Output"
+banner = "https://img.youtube.com/vi/bk2q7ugkMME/0.jpg"
 
 +++
 

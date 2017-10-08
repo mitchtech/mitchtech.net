@@ -7,6 +7,7 @@ excerpt = "This tutorial will demonstrate how to install Nintendo NES/Famicom em
 slug = "raspberry-pi-nes-emulator"
 tags = ["ARM","Emulator","Famicom","Linux","NES","Nintendo","Raspberry Pi","USB"]
 title = "Raspberry Pi NES Emulator"
+banner = "img/pi-nes-emulator-mario3.png"
 
 +++
 

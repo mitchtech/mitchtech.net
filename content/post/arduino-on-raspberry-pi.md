@@ -6,6 +6,7 @@ date = "2012-06-15 00:00:55+00:00"
 slug = "arduino-on-raspberry-pi"
 tags = ["Arduino","ARM","Electronics","Linux","Microcontroller","Raspberry Pi"]
 title = "Arduino on Raspberry Pi"
+banner = "img/pi-arduino-upload.png"
 
 +++
 

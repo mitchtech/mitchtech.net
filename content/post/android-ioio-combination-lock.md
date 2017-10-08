@@ -6,6 +6,7 @@ date = "2012-05-02 04:04:15+00:00"
 slug = "android-ioio-combination-lock"
 tags = ["Analog Output","Android","Bluetooth","Electronics","IOIO","Lock","Microcontroller","PWM","Servo"]
 title = "Android + IOIO + Combination Lock"
+banner = "https://img.youtube.com/vi/hwj5fidHdHo/0.jpg"
 
 +++
 

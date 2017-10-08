@@ -6,6 +6,7 @@ date = "2012-05-02 04:41:37+00:00"
 slug = "android-arduino-usb-host-temperature-light"
 tags = ["ADB","Ambient Light","Analog Input","Android","Arduino","Electronics","Graph","Microbridge","Microcontroller","Photocell","Sensor","Temperature","USB Host","Voltage Divider"]
 title = "Android + Arduino + USB Host + Temperature + Light"
+banner = "https://img.youtube.com/vi/0Eu3c4dQP8c/0.jpg"
 
 +++
 

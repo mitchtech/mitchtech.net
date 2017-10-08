@@ -6,6 +6,7 @@ date = "2012-07-03 14:46:30+00:00"
 slug = "arduino-physical-cpu-gauges"
 tags = ["Analog Output","Arduino","CPU","DIY","Electronics","Gauge","Linux","Memory","Meter","Microcontroller","Physical Notifier","Python","Serial","Servo","Ubuntu","USB"]
 title = "Arduino Physical CPU Gauges"
+banner = "https://img.youtube.com/vi/xQ5s0xv4ies/0.jpg"
 
 +++
 

@@ -6,6 +6,7 @@ date = "2012-06-06 00:15:42+00:00"
 slug = "easy-gui-install-re-partition-raspberry-pi-on-ubuntu"
 tags = ["GParted","Linux","Raspberry Pi","Ubuntu"]
 title = "Easy GUI Install & Re-Partition Raspberry Pi on Ubuntu"
+banner = "img/imagewriter.png"
 
 +++
 
