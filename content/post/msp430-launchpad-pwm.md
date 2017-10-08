@@ -11,7 +11,7 @@ banner = "https://img.youtube.com/vi/BPEImNC2fT0/0.jpg"
 
 +++
 
-![](/img/msp430+servo.jpg)
+![](/img/msp430_servo.jpg)
 
 Inspired by [this](http://gushh.net/blog/?cat=361) tutorial.
 
